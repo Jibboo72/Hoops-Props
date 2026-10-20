@@ -1,0 +1,19 @@
+{
+ "min_recent_weight": 0.3,
+ "min_prior_games": 16,
+ "recent_weight": 0.45,
+ "recent_prior_games": 1.0,
+ "prior_games": 10,
+ "pct_prior_att": 100,
+ "opp_pct_prior_att": 1800,
+ "recent_weight_reb": 0.15,
+ "reb_prior_games": 20,
+ "team_k": 10,
+ "team_prior_keep": 0.6,
+ "home_edge": 0.0,
+ "b2b_drop": 0.0,
+ "nb_r": {
+  "thr": 8,
+  "reb": 12
+ }
+}
