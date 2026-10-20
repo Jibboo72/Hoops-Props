@@ -8,12 +8,15 @@
  "opp_pct_prior_att": 1800,
  "recent_weight_reb": 0.15,
  "reb_prior_games": 20,
- "team_k": 10,
- "team_prior_keep": 0.6,
- "home_edge": 0.0,
+ "recent_weight_ast": 0.15,
+ "ast_prior_games": 10,
+ "team_k": 6,
+ "team_prior_keep": 0.9,
+ "home_edge": 0.01,
  "b2b_drop": 0.0,
  "nb_r": {
   "thr": 8,
-  "reb": 12
+  "reb": 12,
+  "ast": 12
  }
 }
