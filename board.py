@@ -276,4 +276,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    finally:
+        import credits
+        credits.update()   # free call; records what is left after tonight's pulls

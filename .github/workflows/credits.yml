@@ -1,0 +1,31 @@
+name: Credits
+
+# Checks how many Odds API credits are left (free, uses none) and updates the number on the Tonight page.
+on:
+  schedule:
+    - cron: 0 12 * * *
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  credits:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+      - run: pip install requests
+      - run: python credits.py
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      - run: |
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add docs/data/credits.json
+          git diff --cached --quiet || git commit -m credits
+          git pull --rebase
+          git push

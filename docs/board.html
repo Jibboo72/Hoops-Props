@@ -23,6 +23,24 @@
     <p><span id="when">Tonight</span></p>
   </header>
   <div id="app" hidden>
+    <div class="switch two" role="group" aria-label="View" id="views">
+      <button data-view="straight" aria-pressed="true">Straights</button>
+      <button data-view="parlay" aria-pressed="false">2-pick parlays</button>
+    </div>
+    <p class="status" id="credits"></p>
+    <section id="parlays" hidden>
+      <section class="block">
+        <h2>Best value parlays</h2>
+        <p class="muted" id="parlayNote"></p>
+        <ol class="plays" id="parlayEv"></ol>
+      </section>
+      <section class="block">
+        <h2>Most likely to hit</h2>
+        <p class="muted">Highest chance both legs win, among pairs that aren’t overpriced.</p>
+        <ol class="plays" id="parlaySafe"></ol>
+      </section>
+    </section>
+    <div id="straights">
     <div class="switch two" role="group" aria-label="Market">
       <button data-market="thr" aria-pressed="true">3-pointers</button>
       <button data-market="reb" aria-pressed="false">Rebounds</button>
@@ -54,6 +72,7 @@
         </table>
       </div>
     </section>
+    </div>
   </div>
   <div class="empty" id="empty" hidden>
     <h2 id="emptyTitle">No board yet</h2>

@@ -19,3 +19,6 @@ Same setup as Scoresheet (NHL), switched to basketball. Model first, paper-bet s
 
 ## Local checks
 `python selftest.py --quick` runs the whole loop on made-up league data.
+
+## Odds credits
+The Tonight page shows how many Odds API credits are left and when they reset (the 28th). The **Credits** workflow (daily, or run by hand) checks the balance for free and updates that line.

@@ -1,5 +1,5 @@
 (function(){
-  var DATA=null, market="thr", game="all";
+  var DATA=null, market="thr", game="all", view="straight";
   var BEST=0.05, FLAG=0.30;
   var $=function(id){return document.getElementById(id)};
   var pct=function(v){return (v*100).toFixed(0)+"%"};
@@ -43,9 +43,71 @@
       ? "Threes or rebounds, over or under, at "+pct(r.min.thr||0.55)+"+ to hit, priced between "+(r.min_price||-250)+" and +"+r.max_price+", never more than "+Math.round(-r.price_check*100)+"% over fair. Ranked by price edge, best first."
       : "Nothing passes the hit-chance and price checks right now.";
   }
+
+  // ---- 2-pick parlays: two legs from different games, priced at one book. Same-game legs are skipped
+  // because their results move together and books reprice or block them.
+  var dec=function(a){return a>0?1+a/100:1+100/-a};
+  var toAm=function(d){return d>=2?Math.round((d-1)*100):Math.round(-100/(d-1))};
+  function legName(l){return l.p.name+" "+lab(l.k)}
+  function parlays(){
+    var pool=[];
+    DATA.players.forEach(function(p){
+      (DATA.markets||[]).forEach(function(k){
+        var m=p[k];
+        if(!m||!m.prices||m.price==null) return;
+        if(m.p<0.5||m.ev<-0.02||m.ev>=0.30||m.price<-300||m.price>250) return;   // sensible legs only
+        pool.push({p:p,k:k,m:m});
+      });
+    });
+    pool.sort(function(a,b){return b.m.ev-a.m.ev}); pool=pool.slice(0,45);
+    var out=[];
+    for(var i=0;i<pool.length;i++) for(var j=i+1;j<pool.length;j++){
+      var a=pool[i], b=pool[j];
+      if(a.p.game_id===b.p.game_id) continue;
+      var best=null;
+      Object.keys(a.m.prices).forEach(function(bk){
+        if(b.m.prices[bk]==null) return;
+        var d=dec(a.m.prices[bk])*dec(b.m.prices[bk]), ev=a.m.p*b.m.p*d-1;
+        if(!best||ev>best.ev) best={book:bk,dec:d,ev:ev};
+      });
+      if(best) out.push({a:a,b:b,book:best.book,dec:best.dec,ev:best.ev,p:a.m.p*b.m.p});
+    }
+    return out;
+  }
+  function parlayItem(x){
+    var li=document.createElement("li"); li.className="play";
+    li.innerHTML="<span class='who'>"+esc(legName(x.a))+"</span>"+
+      "<span class='game'>+ "+esc(legName(x.b))+"</span>"+
+      "<span class='nums'>Both hit <b>"+pct(x.p)+"</b>, pays <b>"+am(toAm(x.dec))+"</b> at "+esc(x.book)+"</span>"+
+      "<span class='ev'><b>"+ev(x.ev)+"</b><span>EV</span></span>";
+    return li;
+  }
+  function renderParlays(){
+    var all=parlays();
+    var byEv=all.slice().sort(function(a,b){return b.ev-a.ev}).slice(0,8);
+    var safe=all.filter(function(x){return x.ev>=-0.03}).sort(function(a,b){return b.p-a.p}).slice(0,8);
+    var o1=$("parlayEv"); o1.innerHTML=""; byEv.forEach(function(x){o1.appendChild(parlayItem(x))});
+    var o2=$("parlaySafe"); o2.innerHTML=""; safe.forEach(function(x){o2.appendChild(parlayItem(x))});
+    $("parlayNote").textContent = all.length
+      ? "Pairs from different games, priced at a single book. A parlay multiplies the book’s cut, so only pairs where both legs are fairly priced show up. Straights are still the cleaner bet while the model is unproven."
+      : "No pairs to show yet. Parlays need posted prices on at least two games.";
+  }
+  function renderCredits(c){
+    var el=$("credits");
+    if(!c){ el.textContent=""; return; }
+    var now=new Date(), reset=new Date(now.getFullYear(), now.getMonth()+(now.getDate()>=(c.reset_day||28)?1:0), c.reset_day||28);
+    var days=Math.max(1,Math.ceil((reset-now)/86400000));
+    var total=c.used!=null?c.remaining+c.used:null;
+    el.textContent="Odds credits: "+c.remaining.toLocaleString()+" left"+(total?" of "+total.toLocaleString():"")+
+      ". Resets "+reset.toLocaleDateString(undefined,{month:"short",day:"numeric"})+" ("+days+" day"+(days===1?"":"s")+")."+
+      (c.remaining<150?" Running low: game lines are skipped to save prop prices.":"");
+  }
   function render(){
+    $("straights").hidden=view!=="straight"; $("parlays").hidden=view!=="parlay";
+    document.querySelectorAll("#views button").forEach(function(b){b.setAttribute("aria-pressed", b.dataset.view===view?"true":"false")});
+    if(view==="parlay"){ renderParlays(); return; }
     renderLikely();
-    document.querySelectorAll(".switch button").forEach(function(b){
+    document.querySelectorAll("[data-market]").forEach(function(b){
       b.setAttribute("aria-pressed", b.dataset.market===market?"true":"false");
     });
     var chips=$("games"); chips.innerHTML="";
@@ -86,9 +148,13 @@
       tb.appendChild(tr);
     });
   }
-  document.querySelectorAll(".switch button").forEach(function(b){
+  document.querySelectorAll("[data-market]").forEach(function(b){
     b.onclick=function(){market=b.dataset.market; render();};
   });
+  document.querySelectorAll("[data-view]").forEach(function(b){
+    b.onclick=function(){view=b.dataset.view; render();};
+  });
+  fetch("data/credits.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(renderCredits).catch(function(){});
   fetch("data/board.json",{cache:"no-store"})
     .then(function(r){if(!r.ok) throw 0; return r.json();})
     .then(function(d){
