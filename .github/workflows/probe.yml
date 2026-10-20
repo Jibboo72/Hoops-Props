@@ -1,0 +1,22 @@
+name: Probe
+
+# Run this FIRST. It checks that GitHub's servers can reach the NBA data feeds the app depends on.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check NBA feeds
+        run: |
+          check() {
+            echo "--- $1"
+            code=$(curl -s -m 30 -o /tmp/body -w "%{http_code}" -A "Mozilla/5.0" "$1")
+            echo "status $code"; head -c 300 /tmp/body; echo
+          }
+          check "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json"
+          check "https://cdn.nba.com/static/json/liveData/boxscore/boxscore_0022500001.json"
+          check "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
+          check "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/lal/roster"
