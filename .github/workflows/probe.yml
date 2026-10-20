@@ -31,3 +31,23 @@ jobs:
               print("  most minutes:", {k: top[k] for k in ("name", "pos", "team", "min", "fg3m", "fg3a", "reb", "date")})
           print("PROBE OK")
           PY
+      - name: What does ESPN say before tip-off? (injuries, starters, lineups)
+        run: |
+          python - <<'PY'
+          import nba_data as d, json
+          games = d.fetch_schedule()
+          print("games today:", [(g["away"], g["home"], g["status"]) for g in games])
+          if games:
+              js = d.get_json(d.BOX_URL.format(gid=games[0]["id"]))
+              print("top-level keys:", sorted(js))
+              inj = js.get("injuries") or []
+              print("injuries blocks:", len(inj))
+              for blk in inj[:2]:
+                  print(" team:", (blk.get("team") or {}).get("abbreviation"), "n =", len(blk.get("injuries", [])))
+                  for i in blk.get("injuries", [])[:4]:
+                      print("   ", (i.get("athlete") or {}).get("displayName"), "|", i.get("status"), "|", (i.get("details") or {}).get("type") or i.get("type"))
+              print("rosters key:", "rosters" in js, "| boxscore players blocks:", len((js.get("boxscore") or {}).get("players", [])))
+              for k in ("rosters", "leaders", "predictor", "againstTheSpread", "odds"):
+                  print(k, "->", type(js.get(k)).__name__, (str(js.get(k))[:160] if js.get(k) else ""))
+          PY
+
