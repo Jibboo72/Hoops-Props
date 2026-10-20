@@ -4,19 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Boxscore">
-<title>Boxscore — Tonight</title>
+<meta name="apple-mobile-web-app-title" content="Buckets">
+<title>Buckets — Tonight</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#14110E">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="board.css">
 </head>
 <body>
 <main>
   <header class="masthead">
-    <h1 class="wordmark">Boxscore</h1>
-    <p><span id="when">Tonight</span><br><a href="sim.html">Sim</a> <a href="app.html">Backtest</a></p>
+    <h1 class="wordmark">Buckets</h1>
+    <p><span id="when">Tonight</span></p>
   </header>
   <div id="app" hidden>
     <div class="switch two" role="group" aria-label="Market">
@@ -55,8 +59,9 @@
     <h2 id="emptyTitle">No board yet</h2>
     <p id="emptyText">Run the Tonight workflow from the repo’s Actions tab, then refresh in about 5 minutes.</p>
   </div>
-  <footer>Projections from the Boxscore model. Odds via The Odds API. Injuries, minutes limits and lineups are not in the model, so check the injury report before betting.</footer>
+  <footer>Projections from the Buckets model. Odds via The Odds API. Injuries, minutes limits and lineups are not in the model, so check the injury report before betting.</footer>
 </main>
 <script src="board.js"></script>
+<script src="nav.js"></script>
 </body>
 </html>

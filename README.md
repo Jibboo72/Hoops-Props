@@ -1,4 +1,4 @@
-# Boxscore (working name): NBA 3-pointer and rebound props
+# Buckets: NBA 3-pointer and rebound props
 
 Same setup as Scoresheet (NHL), switched to basketball. Model first, paper-bet sim, nightly board.
 

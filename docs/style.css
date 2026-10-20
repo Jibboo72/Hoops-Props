@@ -93,3 +93,11 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
   .fact:first-child{padding-left:0} .fact:last-child{border-right:0}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* bottom tab bar shared by every page */
+body{padding-bottom:64px}
+.tabbar{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--board);border-top:1px solid var(--rule);
+  padding-bottom:env(safe-area-inset-bottom,0px);z-index:10}
+.tabbar a{flex:1;text-align:center;padding:14px 0;font:600 16px/1 var(--display);letter-spacing:.5px;text-transform:uppercase;
+  color:var(--muted);text-decoration:none}
+.tabbar a[aria-current="page"]{color:var(--goal);box-shadow:inset 0 3px 0 var(--goal)}
