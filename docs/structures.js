@@ -10,7 +10,7 @@
   var money=function(v){return (v<0?"-$":"+$")+Math.abs(v).toFixed(0)};
   var am=function(p){return p>0?"+"+p:""+p};
   var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
-  var lab=function(k){var f=k.split("_")[0], s=k.split("_")[1][0], pt=k.split("_")[1].slice(1); return (s==="o"?"o":"u")+pt+(f==="thr"?" threes":" reb")}; // "thr_o2.5" -> "o2.5 threes"
+  var lab=function(k){var f=k.split("_")[0], s=k.split("_")[1][0], pt=k.split("_")[1].slice(1); return (s==="o"?"o":"u")+pt+({thr:" threes",reb:" reb",ast:" ast"}[f])}; // "thr_o2.5" -> "o2.5 threes"
   function dec(p){return p>0?1+p/100:1+100/Math.abs(p)}
   function toAm(d){return d>=2?Math.round((d-1)*100):-Math.round(100/(d-1))}
   function books(b){ // this prop's prices at your books (board.py only pulls your books)

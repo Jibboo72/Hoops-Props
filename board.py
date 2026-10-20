@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tonight's NBA board: model odds for 3-pointers made and rebounds vs. sportsbook prices.
+"""Tonight's NBA board: model odds for 3-pointers made, rebounds and assists vs. sportsbook prices.
 
 Usage: python board.py [YYYY-MM-DD]     (default: today, Eastern time)
 Needs ODDS_API_KEY in the environment for prices; without it the board shows fair odds only.
@@ -23,14 +23,16 @@ from nba_model import position_map
 
 TUNED = m.ROOT / "data" / "tuned_config.json"
 if TUNED.exists():  # settings chosen by tune.py
-    m.CONFIG.update(json.loads(TUNED.read_text()))
+    _tuned = json.loads(TUNED.read_text())
+    _tuned["nb_r"] = {**m.CONFIG["nb_r"], **_tuned.get("nb_r", {})}   # keep defaults for markets added since the last tune
+    m.CONFIG.update(_tuned)
 ALIASES_FILE = m.ROOT / "data" / "name_aliases.json"   # {"nic claxton": "nicolas claxton"} for names books spell differently
 
 SEASON, PRIOR = "20262027", "20252026"
 OUT = m.ROOT / "docs" / "data" / "board.json"
 ODDS_KEY = os.environ.get("ODDS_API_KEY", "").strip()
 ODDS_BASE = "https://api.the-odds-api.com/v4/sports/basketball_nba"
-MARKETS = {"thr": "player_threes", "reb": "player_rebounds"}   # two prop markets per game = 2 odds credits per game
+MARKETS = {"thr": "player_threes", "reb": "player_rebounds", "ast": "player_assists"}   # one odds credit per market per game
 BOOKS = "draftkings,fanduel,betmgm,hardrockbet,espnbet,betrivers,betparx"
 # Odds cost: 2 credits per game for props + 2 for game lines. When the month's credits run low,
 # skip game lines so prop prices last until the plan resets.
@@ -229,11 +231,12 @@ def main():
         if bd > 0 and gl and r["proj_min"] >= 26:   # lopsided games cost starters minutes
             bm = 1 - bd * float(np.clip((abs(gl["spread"]) - 8) / 10, 0, 1))
         lam = {"thr": float(r["lam_thr"]) * ratio ** exp_env["thr"] * bm,
-               "reb": float(r["lam_reb"]) * ratio ** exp_env["reb"] * bm}
+               "reb": float(r["lam_reb"]) * ratio ** exp_env["reb"] * bm,
+               "ast": float(r["lam_ast"]) * ratio ** exp_env["ast"] * bm}
         row = {"id": int(r["player_id"]), "name": r["name"], "team": r["team"], "opp": r["opp"], "pos": r["pg"],
                "game_id": str(r["game_id"]), "min": round(float(r["proj_min"]), 1),
-               "exp_thr": round(lam["thr"], 2), "exp_reb": round(lam["reb"], 2), "env": round(ratio, 3)}
-        for fam in ("thr", "reb"):
+               "exp_thr": round(lam["thr"], 2), "exp_reb": round(lam["reb"], 2), "exp_ast": round(lam["ast"], 2), "env": round(ratio, 3)}
+        for fam in ("thr", "reb", "ast"):
             posted = odds.get((fam, norm(r["name"], alias), event_of.get(int(r["player_id"]))), {}) if odds else {}
             if not odds:  # fair odds only: one book-like line
                 pts = NO_ODDS_THR if fam == "thr" else (math.floor(lam[fam]) + 0.5,)

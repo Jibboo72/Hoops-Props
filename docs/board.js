@@ -9,7 +9,7 @@
 
   // "thr_o2.5" is over 2.5 threes made; "reb_u8.5" is under 8.5 rebounds. Each tab shows every line and side of its market.
   var part=function(k){var a=k.split("_"); return {fam:a[0], side:a[1][0], pt:a[1].slice(1)}};
-  var lab=function(k){var p=part(k); return (p.side==="o"?"over ":"under ")+p.pt+(p.fam==="thr"?" threes":" rebounds")};
+  var lab=function(k){var p=part(k); return (p.side==="o"?"over ":"under ")+p.pt+({thr:" threes",reb:" rebounds",ast:" assists"}[p.fam])};
   function keys(){
     return (DATA.markets||[]).filter(function(k){return part(k).fam===market});
   }
@@ -40,7 +40,7 @@
     list.forEach(function(x){ol.appendChild(playItem(x))});
     $("likelyBlock").hidden=!r;
     if(r) $("likelyNote").textContent = list.length
-      ? "Threes or rebounds, over or under, at "+pct(r.min.thr||0.55)+"+ to hit, priced between "+(r.min_price||-250)+" and +"+r.max_price+", never more than "+Math.round(-r.price_check*100)+"% over fair. Ranked by price edge, best first."
+      ? "Threes, rebounds or assists, over or under, at "+pct(r.min.thr||0.55)+"+ to hit, priced between "+(r.min_price||-250)+" and +"+r.max_price+", never more than "+Math.round(-r.price_check*100)+"% over fair. Ranked by price edge, best first."
       : "Nothing passes the hit-chance and price checks right now.";
   }
 

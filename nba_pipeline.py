@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-NBA prop model: threes made and rebounds.
+NBA prop model: threes made, rebounds and assists.
 
 The data pull lives in nba_data.py and the model in nba_model.py. This file scores the model: it
 projects every 2025-26 game using only earlier games and writes docs/data/backtest.json.
@@ -24,7 +24,8 @@ TEST_SEASON = "20252026"
 OUT_FILE = ROOT / "docs" / "data" / "backtest.json"
 EPS = 1e-6
 FAMILIES = {"thr": ("threes", "lam_thr", "fg3m", "naive_thr", "thr_lines"),
-            "reb": ("reb", "lam_reb", "reb", "naive_reb", "reb_lines")}
+            "reb": ("reb", "lam_reb", "reb", "naive_reb", "reb_lines"),
+            "ast": ("assists", "lam_ast", "ast", "naive_ast", "ast_lines")}
 
 
 def dist_sf(k, mu, r):
@@ -110,7 +111,7 @@ def backtest(proj, cfg=CONFIG):
             fits.append({"name": "Poisson" if r is None else f"Neg. binomial (r={r})", "r": r, "loglik": round(ll, 5)})
         best = max(fits, key=lambda f: f["loglik"])
         r = best["r"]
-        m = {"label": "3-pointers made" if fam == "thr" else "Rebounds", "fits": fits, "chosen": best["name"],
+        m = {"label": {"thr": "3-pointers made", "reb": "Rebounds", "ast": "Assists"}[fam], "fits": fits, "chosen": best["name"],
              "avg_proj": round(float(lam.mean()), 3), "avg_actual": round(float(actual.mean()), 3), "lines": {}}
         for line in cfg[lines_key]:
             k = int(np.floor(line))

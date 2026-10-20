@@ -15,10 +15,10 @@ ENV_WEIGHT = 0.7     # how far the game environment moves toward the market's to
 ENV_CLAMP = (0.90, 1.10)
 # Final chance = this much model + the rest market. The model is unproven in the NBA until the sim has graded
 # a few thousand props, so the market gets the larger share. The sim logs both chances to keep tuning this.
-MODEL_WEIGHT = {"thr": 0.35, "reb": 0.35}
+MODEL_WEIGHT = {"thr": 0.35, "reb": 0.35, "ast": 0.35}
 MAX_PRICE = 500      # main bets stop here; longer prices are still logged
 # "Most likely to hit" strategy: pick by chance first, then let price decide.
-LIKELY_MIN = {"thr": 0.55, "reb": 0.55}   # final chance needed to make the pool
+LIKELY_MIN = {"thr": 0.55, "reb": 0.55, "ast": 0.55}   # final chance needed to make the pool
 LIKELY_MAX_PRICE = 200                    # nothing longer than +200
 LIKELY_MIN_PRICE = -250                   # nothing shorter than -250
 PRICE_CHECK = -0.03                       # never pay more than 3% over our fair price

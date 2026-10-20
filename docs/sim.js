@@ -5,7 +5,7 @@
   var u=function(v){return (v>0?"+":"")+v.toFixed(2)};
   var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
   var part=function(k){var a=k.split("_"); return {fam:a[0], side:a[1][0], pt:a[1].slice(1)}};
-  var label=function(k){var p=part(k); return (p.side==="o"?"Over ":"Under ")+p.pt+(p.fam==="thr"?" threes":" rebounds")};
+  var label=function(k){var p=part(k); return (p.side==="o"?"Over ":"Under ")+p.pt+({thr:" threes",reb:" rebounds",ast:" assists"}[p.fam])};
   var famOf=function(b){return part(b.market).fam}, sideOf=function(b){return part(b.market).side};
 
   function sum(a,f){return a.reduce(function(t,x){return t+f(x)},0)}
@@ -34,6 +34,7 @@
     var tb=$("splits"); tb.innerHTML="";
     [group("All picks",log), group("3-pointers",log.filter(function(b){return famOf(b)==="thr"})),
      group("Rebounds",log.filter(function(b){return famOf(b)==="reb"})),
+     group("Assists",log.filter(function(b){return famOf(b)==="ast"})),
      group("Overs",log.filter(function(b){return sideOf(b)==="o"})),
      group("Unders",log.filter(function(b){return sideOf(b)==="u"})),
      group("Value picks, 5%+ edge",log.filter(function(b){return b.kind==="bet"})),

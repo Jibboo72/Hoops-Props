@@ -25,7 +25,7 @@ MIN_EV = 0.05      # same bar as "Best plays" on the board (the value strategy)
 FLAG_EV = 0.30     # logged, but tagged so we can see if these lose (usually news the model missed)
 WATCH_N = 8        # with no prices, track the model's top picks per market instead
 STALE_DAYS = 3     # postponed games void after this long
-STAT = {"thr": "fg3m", "reb": "reb"}
+STAT = {"thr": "fg3m", "reb": "reb", "ast": "ast"}
 
 
 def decimal(price):
@@ -40,12 +40,12 @@ def load(path, default):
 
 
 def boxscore_stats(game_id):
-    """Returns (is_final, {player_id: {"fg3m": n, "reb": n, "min": n}}). Players who did not play are absent."""
+    """Returns (is_final, {player_id: {"fg3m": n, "reb": n, "ast": n, "min": n}}). Players who did not play are absent."""
     js = d.get_json(d.BOX_URL.format(gid=game_id), quiet=True)
     if not js:
         return False, {}
     rows, final = d.parse_boxscore(js, "")
-    return final, {int(r["player_id"]): {"fg3m": r["fg3m"], "reb": r["reb"], "min": r["min"]} for r in rows}
+    return final, {int(r["player_id"]): {"fg3m": r["fg3m"], "reb": r["reb"], "ast": r["ast"], "min": r["min"]} for r in rows}
 
 
 def hit(line, market):
