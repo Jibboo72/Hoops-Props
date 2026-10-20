@@ -37,6 +37,29 @@ BOOKS = "draftkings,fanduel,betmgm,hardrockbet,espnbet,betrivers,betparx"
 # Odds cost: 2 credits per game for props + 2 for game lines. When the month's credits run low,
 # skip game lines so prop prices last until the plan resets.
 LINES_MIN_CREDITS = 150
+NBA_SHARE = 0.6      # the NHL app draws on the same monthly credits; the NBA aims to use about this share
+RESERVE = 25         # credits never touched
+
+
+def credit_plan(n_games, now=None):
+    """How many prop markets per game the credit balance can pay for tonight, spread over the days until the
+    28th reset. Returns (markets, note). Priority order: threes, rebounds, assists."""
+    from datetime import date as _d
+    try:
+        left = int(json.loads((m.ROOT / "docs" / "data" / "credits.json").read_text())["remaining"])
+    except Exception:
+        return dict(MARKETS), ""
+    today = now or datetime.now(ET).date()
+    reset = _d(today.year + (today.month == 12 and today.day >= 28), (today.month % 12) + 1 if today.day >= 28 else today.month, 28)
+    days = max((reset - today).days, 1)
+    allowance = max(left - RESERVE, 0) * NBA_SHARE / days          # credits for tonight
+    k = int(min(len(MARKETS), allowance // max(n_games, 1)))
+    use = dict(list(MARKETS.items())[:k])
+    note = ""
+    if k < len(MARKETS):
+        dropped = [x for x in MARKETS if x not in use]
+        note = f" Credit budget ({left} left, {days} days to reset): skipped {', '.join(dropped) or 'everything'}."
+    return use, note
 ET = d.ET
 NO_ODDS_THR = (1.5, 2.5)
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba"
@@ -99,6 +122,9 @@ def fetch_odds(date, games):
     """
     if not ODDS_KEY:
         return {}, {}, "No odds key set. Showing fair odds only.", None
+    use, plan_note = credit_plan(len(games))
+    if not use:
+        return {}, {}, "Odds skipped: not enough credits left before the reset." + plan_note, None
     try:
         events = requests.get(f"{ODDS_BASE}/events", params={"apiKey": ODDS_KEY}, timeout=30).json()
         todays = [e for e in events if datetime.fromisoformat(e["commence_time"].replace("Z", "+00:00"))
@@ -112,11 +138,11 @@ def fetch_odds(date, games):
                 continue
             evs[e["id"]] = {"home": home, "away": away, "game_id": game["id"]}
             r = requests.get(f"{ODDS_BASE}/events/{e['id']}/odds", timeout=30, params={
-                "apiKey": ODDS_KEY, "bookmakers": BOOKS, "markets": ",".join(MARKETS.values()), "oddsFormat": "american"})
+                "apiKey": ODDS_KEY, "bookmakers": BOOKS, "markets": ",".join(use.values()), "oddsFormat": "american"})
             left = r.headers.get("x-requests-remaining", left)
             for book in r.json().get("bookmakers", []):
                 for mk in book.get("markets", []):
-                    fam = next((k for k, v in MARKETS.items() if v == mk["key"]), None)
+                    fam = next((k for k, v in use.items() if v == mk["key"]), None)
                     for o in mk.get("outcomes", []) if fam else []:
                         pt = o.get("point")
                         if pt is None or abs(pt * 2 % 2 - 1) > 1e-9:   # half-point lines only (no pushes)
@@ -128,7 +154,7 @@ def fetch_odds(date, games):
                         odds.setdefault(key, {}).setdefault(float(pt), {"o": {}, "u": {}})[side][
                             book.get("title", book.get("key"))] = o["price"]
         n = len(evs)
-        return odds, evs, f"Odds from {n} game{'' if n == 1 else 's'}. {left} odds credits left this month.", left
+        return odds, evs, f"Odds from {n} game{'' if n == 1 else 's'}. {left} odds credits left this month." + plan_note, left
     except Exception as exc:  # the board still works without odds
         return {}, {}, f"Odds pull failed ({exc.__class__.__name__}). Showing fair odds only.", None
 
