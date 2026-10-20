@@ -5,6 +5,9 @@ name: Probe
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -33,7 +36,7 @@ jobs:
           PY
       - name: What does ESPN say before tip-off? (injuries, starters, lineups)
         run: |
-          python - <<'PY'
+          python - <<'PY' | tee probe_output.txt
           import nba_data as d, json
           games = d.fetch_schedule()
           print("games today:", [(g["away"], g["home"], g["status"]) for g in games])
@@ -50,4 +53,12 @@ jobs:
               for k in ("rosters", "leaders", "predictor", "againstTheSpread", "odds"):
                   print(k, "->", type(js.get(k)).__name__, (str(js.get(k))[:160] if js.get(k) else ""))
           PY
-
+      - name: Save the result where Claude can read it
+        run: |
+          mkdir -p data && mv probe_output.txt data/probe_output.txt
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add data/probe_output.txt
+          git diff --cached --quiet || git commit -m probe-output
+          git pull --rebase
+          git push
