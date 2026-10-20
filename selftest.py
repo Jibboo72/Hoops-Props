@@ -316,6 +316,15 @@ def stage_model(cdn, truth):
     if not QUICK:
         check("finished season is not re-walked", cdn.calls - calls <= 2, f"{cdn.calls - calls} calls")
 
+    # Opening night: the new season has no finished games yet, so its table is empty (text columns)
+    import pandas as pd
+    tonight = test.tail(10).copy()
+    tonight[["min", "fg3m", "fg3a", "reb", "oreb", "fga", "fta", "tov", "pts", "ast"]] = 0.0
+    tonight["date"], tonight["game_id"] = "2099-01-01", "future1"
+    opening = m.build_projections(pd.concat([pd.DataFrame(columns=nba_data.COLS), tonight], ignore_index=True), prior)
+    check("opening night works with an empty current season", len(opening) > 0 and not opening["lam_thr"].isna().any(),
+          f"{len(opening)} rows")
+
     print("\n== Model vs. ground truth (2025-26, prior = 2024-25) ==")
     proj = m.build_projections(test, prior)
     check("no NaN projections", not proj[["lam_thr", "lam_reb", "proj_min"]].isna().any().any())

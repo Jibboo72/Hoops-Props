@@ -77,6 +77,9 @@ def team_games(df):
 def prep(df, posmap):
     """Adds each player's share of available rebounds (rebounds up for grabs while he was on the floor)."""
     df = df.copy()
+    for c in ("min", "fg3m", "fg3a", "reb", "oreb", "fga", "fta", "tov", "pts", "ast", "home", "started"):
+        if c in df:   # an empty or half-empty season arrives with text columns; make them numbers
+            df[c] = pd.to_numeric(df[c], errors="coerce").fillna(0.0)
     tg = team_games(df)
     df = df.merge(tg[["game_id", "team", "tmin", "g_reb"]], on=["game_id", "team"], how="left")
     safe = df["tmin"].where(df["tmin"] > 0, 1.0)
