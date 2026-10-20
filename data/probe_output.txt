@@ -1,0 +1,13 @@
+games today: [('BOS', 'DET', 1), ('PHI', 'NYK', 1), ('OKC', 'SAS', 1)]
+top-level keys: ['againstTheSpread', 'article', 'boxscore', 'broadcasts', 'format', 'gameInfo', 'header', 'injuries', 'lastFiveGames', 'leaders', 'meta', 'news', 'odds', 'pickcenter', 'predictor', 'seasonseries', 'standings', 'ticketsInfo', 'videos', 'wallclockAvailable', 'winprobability']
+injuries blocks: 2
+ team: DET n = 1
+    Taurean Prince | Out | Personal
+ team: BOS n = 1
+    Devin Carter | Out | Illness
+rosters key: False | boxscore players blocks: 0
+rosters -> NoneType 
+leaders -> list [{'team': {'id': '8', 'uid': 's:40~l:46~t:8', 'displayName': 'Detroit Pistons', 'abbreviation': 'DET', 'links': [{'href': 'https://www.espn.com/nba/team/_/name/
+predictor -> dict {'header': 'Matchup Predictor', 'homeTeam': {'id': '8', 'gameProjection': '52.1', 'teamChanceLoss': '47.9'}, 'awayTeam': {'id': '2', 'gameProjection': '47.9', '
+againstTheSpread -> list [{'team': {'id': '2', 'uid': 's:40~l:46~t:2', 'displayName': 'Boston Celtics', 'abbreviation': 'BOS', 'links': [{'href': 'https://www.espn.com/nba/team/_/name/b
+odds -> list 
