@@ -151,9 +151,9 @@ def data_candidates(frames, games, idx):
 def main():
     date = sys.argv[1] if len(sys.argv) > 1 else datetime.now(ET).strftime("%Y-%m-%d")
     cfg = m.CONFIG
-    sched = d.fetch_schedule()
+    sched = d.fetch_schedule(date)
     games = [{"id": g["id"], "start": g["start"], "away": g["away"], "home": g["home"]}
-             for g in sched if g["date"] == date and g["id"][:3] in d.BOARD_TYPES]
+             for g in sched if g["date"] == date and g["type"] in d.BOARD_TYPES]
     out = {"date": date, "generated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
            "games": games, "players": [], "odds_status": ""}
     if not games:

@@ -1,7 +1,7 @@
 name: Probe
 
-# Run this FIRST. It checks which NBA data feeds GitHub's servers can actually reach.
-# Look at each "status" line: 200 means reachable, 403/404 means blocked or missing.
+# Run this first. It checks that GitHub's servers can reach ESPN (the data source) and that the
+# parser reads a real game correctly. Look for "PROBE OK" at the end of the log.
 on:
   workflow_dispatch:
 
@@ -10,20 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Check NBA feeds
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+      - run: pip install requests pandas numpy scipy
+      - name: Read a real 2024-25 game and a real 2025-26 game from ESPN
         run: |
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-          check() {
-            code=$(curl -s -m 30 -o /tmp/body -w "%{http_code}" -A "$UA" -H "Referer: https://www.nba.com/" -H "Origin: https://www.nba.com" "$1")
-            echo "status $code  $1"
-            head -c 150 /tmp/body | tr '\n' ' '; echo; echo
-          }
-          B=https://cdn.nba.com/static/json/liveData/boxscore
-          check "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json"
-          check "$B/boxscore_0022400001.json"
-          check "$B/boxscore_0022400500.json"
-          check "$B/boxscore_0022500001.json"
-          check "$B/boxscore_0022500400.json"
-          check "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
-          check "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20241022"
-          check "https://stats.nba.com/stats/boxscoretraditionalv3?GameID=0022400001"
+          python - <<'PY'
+          import nba_data as d
+          for day, season in (("2024-10-22", "20242025"), ("2025-10-21", "20252026")):
+              games = d.fetch_schedule(day)
+              print(day, "->", len(games), "games on the scoreboard")
+              final = [g for g in games if g["status"] == 3 and g["type"] == 2]
+              assert final, f"no finished regular-season games found for {day}"
+              rows, ok = d.parse_boxscore(d.get_json(d.BOX_URL.format(gid=final[0]["id"])), season)
+              print("  game", final[0]["away"], "@", final[0]["home"], "final:", ok, "players:", len(rows))
+              assert ok and len(rows) >= 14, "boxscore did not parse"
+              top = max(rows, key=lambda r: r["min"])
+              print("  most minutes:", {k: top[k] for k in ("name", "pos", "team", "min", "fg3m", "fg3a", "reb", "date")})
+          print("PROBE OK")
+          PY

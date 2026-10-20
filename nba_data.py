@@ -1,28 +1,30 @@
-"""NBA data: every player-game of a season, from the NBA's public CDN boxscore files.
+"""NBA data: every player-game of a season, from ESPN's public JSON feeds.
 
-Why the CDN and not stats.nba.com: stats.nba.com stalls requests that come from cloud servers
-(Colab, GitHub Actions), which is what timed out in the first backtest attempt. cdn.nba.com serves
-plain static JSON files and is built to be fetched by anyone, so it is the first thing to try.
+Why ESPN: stats.nba.com stalls requests from cloud servers, and cdn.nba.com answers GitHub's servers
+with "Access Denied" (the Probe workflow showed it). ESPN's site API answers GitHub fine.
 
-  schedule : cdn.nba.com/static/json/staticData/scheduleLeagueV2.json   (current season only)
-  boxscore : cdn.nba.com/static/json/liveData/boxscore/boxscore_<gameId>.json
+  scoreboard : site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=YYYYMMDD
+               -> every game on one day: id, start time, teams, final or not, season type
+  boxscore   : site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=<id>
+               -> every player's minutes, threes, rebounds and so on
 
-Regular-season game ids are 002 + 2-digit season start year + 5-digit number (1..1230), so a finished
-season can be walked id by id without a schedule file.
+A finished season is built by reading its scoreboard day by day (Oct 1 to Apr 20), then downloading the
+boxscore of every regular-season game. Results are cached in data/games_<season>.csv.
 """
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import pandas as pd
 import requests
 
-CDN = "https://cdn.nba.com/static/json"
-SCHEDULE_URL = f"{CDN}/staticData/scheduleLeagueV2.json"
-BOX_URL = CDN + "/liveData/boxscore/boxscore_{gid}.json"
+ESPN = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba"
+SCOREBOARD_URL = f"{ESPN}/scoreboard"
+BOX_URL = ESPN + "/summary?event={gid}"
+SCHEDULE_URL = SCOREBOARD_URL   # kept so older code that imports the name still works
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 ET = ZoneInfo("America/New_York")
@@ -31,23 +33,25 @@ TEAMS = [
     "HOU", "IND", "LAC", "LAL", "MEM", "MIA", "MIL", "MIN", "NOP", "NYK",
     "OKC", "ORL", "PHI", "PHX", "POR", "SAC", "SAS", "TOR", "UTA", "WAS",
 ]
+# ESPN's short codes that differ from the usual three-letter ones
+ESPN_ABBR = {"GS": "GSW", "NY": "NYK", "NO": "NOP", "SA": "SAS", "UTAH": "UTA", "WSH": "WAS", "PHO": "PHX", "CHO": "CHA"}
 COLS = ["season", "player_id", "name", "pos", "game_id", "date", "team", "opp", "home", "started",
         "min", "fg3m", "fg3a", "reb", "oreb", "fga", "fta", "tov", "pts", "ast"]
 NUMERIC = ["min", "fg3m", "fg3a", "reb", "oreb", "fga", "fta", "tov", "pts", "ast"]
 GAMES_PER_SEASON = 1230
-BOARD_TYPES = ("002", "003", "004", "005")  # regular season, Cup knockouts, playoffs, play-in (not preseason 001)
+# ESPN season types: 1 preseason, 2 regular season, 3 playoffs, 5 play-in. Tonight's board uses all but preseason.
+REGULAR = 2
+BOARD_TYPES = (2, 3, 5)
 
 session = requests.Session()
 session.headers.update({
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36",
     "Accept": "application/json, text/plain, */*",
-    "Referer": "https://www.nba.com/",
-    "Origin": "https://www.nba.com",
 })
 
 
 def get_json(url, params=None, tries=4, quiet=False):
-    """JSON or None. The CDN answers 403 (not 404) for a file that does not exist, so both mean "not there"."""
+    """JSON or None. A 403/404 means "not there"; anything else is retried, then raises unless quiet."""
     for attempt in range(tries):
         try:
             r = session.get(url, params=params, timeout=30)
@@ -63,12 +67,21 @@ def get_json(url, params=None, tries=4, quiet=False):
     raise RuntimeError(f"Request failed after {tries} tries: {url}")
 
 
+def today_et():
+    return datetime.now(ET).date()
+
+
+def season_window(season):
+    """First and last day to read for a season label like '20252026' (regular season only)."""
+    return date(int(str(season)[:4]), 10, 1), date(int(str(season)[4:8]), 4, 20)
+
+
 # --------------------------------------------------------------------------
 # Parsing
 # --------------------------------------------------------------------------
 def minutes_of(v):
-    """'PT34M12.00S' -> 34.2, '34:12' -> 34.2, 34 -> 34.0, '' -> 0.0"""
-    if v in (None, ""):
+    """'34' -> 34.0, '34:12' -> 34.2, 'PT34M12.00S' -> 34.2, '' or '--' -> 0.0"""
+    if v in (None, "", "--"):
         return 0.0
     if isinstance(v, (int, float)):
         return float(v)
@@ -85,80 +98,149 @@ def minutes_of(v):
         return 0.0
 
 
-def num(d, *keys):
-    for k in keys:
-        v = d.get(k)
-        if v is not None and v != "":
-            try:
-                return float(v)
-            except (TypeError, ValueError):
-                continue
-    return 0.0
+def to_float(v):
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return 0.0
 
 
-def et_date(game):
-    """The ET calendar date of a boxscore's game block."""
-    s = game.get("gameEt") or ""
-    if s:
-        return s[:10]
-    utc = game.get("gameTimeUTC") or ""
-    if utc:
-        return datetime.fromisoformat(utc.replace("Z", "+00:00")).astimezone(ET).strftime("%Y-%m-%d")
-    return ""
+def split_pair(v):
+    """'3-8' -> (3.0, 8.0)"""
+    if isinstance(v, str) and "-" in v:
+        a, b = v.split("-", 1)
+        return to_float(a), to_float(b)
+    return to_float(v), 0.0
 
 
-def parse_boxscore(js, season, date_hint=None):
-    """One boxscore JSON -> (rows, is_final). Rows are every player who actually played."""
-    g = (js or {}).get("game") or {}
-    final = g.get("gameStatus") == 3 or str(g.get("gameStatusText", "")).lower().startswith("final")
-    day = date_hint or et_date(g)
-    rows = []
-    for side, other, home in ((g.get("homeTeam") or {}, g.get("awayTeam") or {}, 1),
-                              (g.get("awayTeam") or {}, g.get("homeTeam") or {}, 0)):
-        team, opp = side.get("teamTricode"), other.get("teamTricode")
-        if not team or not opp:
-            continue
-        for p in side.get("players", []):
-            st = p.get("statistics") or {}
-            mins = minutes_of(st.get("minutes") or st.get("minutesCalculated"))
-            if mins <= 0 or str(p.get("status", "ACTIVE")).upper() == "INACTIVE":
-                continue
-            name = p.get("name") or f"{p.get('firstName', '')} {p.get('familyName', '')}".strip()
-            rows.append({
-                "season": str(season), "player_id": int(p["personId"]), "name": name,
-                "pos": p.get("position") or "", "game_id": str(g.get("gameId") or ""), "date": day,
-                "team": team, "opp": opp, "home": home,
-                "started": 1 if str(p.get("starter", "0")) in ("1", "True", "true") else 0,
-                "min": mins, "fg3m": num(st, "threePointersMade"), "fg3a": num(st, "threePointersAttempted"),
-                "reb": num(st, "reboundsTotal"), "oreb": num(st, "reboundsOffensive"),
-                "fga": num(st, "fieldGoalsAttempted"), "fta": num(st, "freeThrowsAttempted"),
-                "tov": num(st, "turnovers"), "pts": num(st, "points"), "ast": num(st, "assists")})
-    return rows, final
+def tricode(abbr):
+    a = (abbr or "").upper()
+    return ESPN_ABBR.get(a, a)
 
 
-def parse_schedule(js):
-    """The league schedule -> list of {id, status, date, start, away, home}."""
+def et_day(iso):
+    """'2025-10-22T23:30Z' -> '2025-10-22' on the Eastern calendar."""
+    if not iso:
+        return ""
+    s = str(iso).replace("Z", "+00:00")
+    try:
+        dt = datetime.fromisoformat(s)
+    except ValueError:
+        return str(iso)[:10]
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(ET).strftime("%Y-%m-%d")
+
+
+def season_type_of(event):
+    s = event.get("season")
+    t = s.get("type") if isinstance(s, dict) else s
+    if isinstance(t, dict):
+        t = t.get("type")
+    try:
+        return int(t)
+    except (TypeError, ValueError):
+        return None
+
+
+def parse_scoreboard(js):
+    """One day's scoreboard -> list of {id, status, date, start, away, home, type}. status 3 means final."""
     out = []
-    for d in ((js or {}).get("leagueSchedule") or {}).get("gameDates", []):
-        for g in d.get("games", []):
-            away, home = (g.get("awayTeam") or {}).get("teamTricode"), (g.get("homeTeam") or {}).get("teamTricode")
-            if not away or not home:
-                continue
-            day = (g.get("gameDateEst") or g.get("gameDateTimeEst") or "")[:10]
-            out.append({"id": str(g["gameId"]), "status": g.get("gameStatus"), "date": day,
-                        "start": g.get("gameDateTimeUTC"), "away": away, "home": home})
+    for e in (js or {}).get("events", []):
+        comp = (e.get("competitions") or [{}])[0]
+        side = {c.get("homeAway"): tricode((c.get("team") or {}).get("abbreviation")) for c in comp.get("competitors", [])}
+        home, away = side.get("home"), side.get("away")
+        if home not in TEAMS or away not in TEAMS:   # All-Star games, international exhibitions
+            continue
+        st = ((e.get("status") or comp.get("status") or {}).get("type") or {})
+        final = bool(st.get("completed")) or st.get("state") == "post"
+        start = e.get("date") or comp.get("date")
+        out.append({"id": str(e["id"]), "status": 3 if final else 1, "date": et_day(start), "start": start,
+                    "away": away, "home": home, "type": season_type_of(e)})
     return out
 
 
-def fetch_schedule():
-    return parse_schedule(get_json(SCHEDULE_URL))
+def fetch_schedule(day=None):
+    """Games on one Eastern date (default today), from the scoreboard."""
+    day = day or today_et().strftime("%Y-%m-%d")
+    js = get_json(SCOREBOARD_URL, params={"dates": day.replace("-", ""), "limit": 100})
+    return parse_scoreboard(js)
+
+
+def _stat_index(group):
+    """Column positions for a stat group, using ESPN's own key names (or the short labels as a fallback)."""
+    names = group.get("keys") or []
+    labels = group.get("labels") or []
+    idx = {}
+    for i, k in enumerate(names):
+        idx[str(k)] = i
+    for i, k in enumerate(labels):
+        idx.setdefault({"MIN": "minutes", "PTS": "points", "FG": "fieldGoalsMade-fieldGoalsAttempted",
+                        "3PT": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+                        "FT": "freeThrowsMade-freeThrowsAttempted", "REB": "rebounds", "AST": "assists",
+                        "TO": "turnovers", "OREB": "offensiveRebounds"}.get(str(k), str(k)), i)
+    return idx
+
+
+def parse_boxscore(js, season, date_hint=None):
+    """One ESPN summary JSON -> (rows, is_final). Rows are every player who actually played."""
+    js = js or {}
+    comp = (((js.get("header") or {}).get("competitions")) or [{}])[0]
+    st = ((comp.get("status") or {}).get("type") or {})
+    final = bool(st.get("completed")) or st.get("state") == "post"
+    day = date_hint or et_day(comp.get("date"))
+    gid = str((js.get("header") or {}).get("id") or comp.get("id") or "")
+    home_of = {tricode((c.get("team") or {}).get("abbreviation")): c.get("homeAway") == "home"
+               for c in comp.get("competitors", [])}
+    teams = list(home_of)
+    rows = []
+    for blk in (js.get("boxscore") or {}).get("players", []):
+        team = tricode((blk.get("team") or {}).get("abbreviation"))
+        others = [t for t in teams if t != team]
+        if team not in home_of or not others:
+            continue
+        opp = others[0]
+        for group in blk.get("statistics", []):
+            idx = _stat_index(group)
+            if "minutes" not in idx:
+                continue
+
+            def at(stats, key, i=idx):
+                j = i.get(key)
+                return stats[j] if j is not None and j < len(stats) else None
+            for a in group.get("athletes", []):
+                stats = a.get("stats") or []
+                if a.get("didNotPlay") or not stats:
+                    continue
+                mins = minutes_of(at(stats, "minutes"))
+                if mins <= 0:
+                    continue
+                ath = a.get("athlete") or {}
+                fg3m, fg3a = split_pair(at(stats, "threePointFieldGoalsMade-threePointFieldGoalsAttempted"))
+                _, fga = split_pair(at(stats, "fieldGoalsMade-fieldGoalsAttempted"))
+                _, fta = split_pair(at(stats, "freeThrowsMade-freeThrowsAttempted"))
+                try:
+                    pid = int(ath.get("id"))
+                except (TypeError, ValueError):
+                    continue
+                rows.append({
+                    "season": str(season), "player_id": pid, "name": ath.get("displayName") or ath.get("shortName") or "",
+                    "pos": (ath.get("position") or {}).get("abbreviation") or "", "game_id": gid, "date": day,
+                    "team": team, "opp": opp, "home": 1 if home_of[team] else 0,
+                    "started": 1 if a.get("starter") else 0,
+                    "min": mins, "fg3m": fg3m, "fg3a": fg3a,
+                    "reb": to_float(at(stats, "rebounds")), "oreb": to_float(at(stats, "offensiveRebounds")),
+                    "fga": fga, "fta": fta, "tov": to_float(at(stats, "turnovers")),
+                    "pts": to_float(at(stats, "points")), "ast": to_float(at(stats, "assists"))})
+    return rows, final
 
 
 # --------------------------------------------------------------------------
 # Season cache
 # --------------------------------------------------------------------------
-def season_prefix(season):
-    return "002" + str(season)[2:4]
+def _fetch_day(day):
+    js = get_json(SCOREBOARD_URL, params={"dates": day.strftime("%Y%m%d"), "limit": 100})
+    return parse_scoreboard(js)
 
 
 def _fetch_box(args):
@@ -167,6 +249,10 @@ def _fetch_box(args):
     if not js:
         return gid, None, False
     rows, final = parse_boxscore(js, season, day)
+    if not rows:
+        return gid, None, False
+    for r in rows:
+        r["game_id"] = str(gid)
     return gid, rows, final
 
 
@@ -178,15 +264,16 @@ def _frame(rows):
     return df.astype({c: float for c in NUMERIC}).astype({"player_id": int, "home": int, "started": int})
 
 
-def fetch_season(season, refresh=False, workers=6):
+def fetch_season(season, refresh=False, workers=8):
     """Cached per season in data/games_<season>.csv. Only games not yet in the cache are downloaded.
 
-    Current season: the schedule says which games are final. Finished season: every id 1..1230 is tried.
+    Finished season: every day Oct 1 to Apr 20 is read once, then marked complete.
+    Current season: only the last few cached days plus anything newer are read each run.
     refresh=True throws the cache away and starts over.
     """
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     path = DATA_DIR / f"games_{season}.csv"
-    marker = DATA_DIR / f"games_{season}.complete"   # written once a finished season is fully downloaded
+    marker = DATA_DIR / f"games_{season}.complete"
     if refresh:
         marker.unlink(missing_ok=True)
     have = pd.DataFrame(columns=COLS) if refresh or not path.exists() else pd.read_csv(path, dtype={"game_id": str})
@@ -194,46 +281,39 @@ def fetch_season(season, refresh=False, workers=6):
         print(f"{season}: cache is complete ({have['game_id'].nunique()} games).")
         return have
     done = set(have["game_id"].astype(str))
-    prefix = season_prefix(season)
-    sched = [g for g in fetch_schedule() if g["id"].startswith(prefix)]
-    new, missing, tried = [], 0, 0
-    if sched:  # this season is the one on the CDN schedule: fetch what is final and not cached yet
-        todo = [(g["id"], season, g["date"]) for g in sched if g["status"] == 3 and g["id"] not in done]
-        print(f"{season}: downloading {len(todo)} new boxscores..." if todo else f"{season}: cache is current ({len(done)} games).")
-        with ThreadPoolExecutor(max_workers=workers) as ex:
-            for gid, rows, final in ex.map(_fetch_box, todo):
-                tried += 1
-                if rows is None or not final:
-                    missing += 1
-                else:
-                    new += rows
-        walked_all = False
-    else:      # an older season: walk the ids 100 at a time and stop when a whole chunk is empty
-        ids = [f"{prefix}{n:05d}" for n in range(1, GAMES_PER_SEASON + 1)]
-        ids = [g for g in ids if g not in done]
-        print(f"{season}: walking {len(ids)} game ids...")
-        walked_all = True
-        with ThreadPoolExecutor(max_workers=workers) as ex:
-            for i in range(0, len(ids), 100):
-                got = 0
-                for gid, rows, final in ex.map(_fetch_box, [(g, season, None) for g in ids[i:i + 100]]):
-                    tried += 1
-                    if rows is None or not final:
-                        missing += 1
-                    else:
-                        new += rows
-                        got += 1
-                if got == 0:
-                    break
-    if missing and tried:
-        print(f"  {missing} of {tried} games were not available.")
+    first, last = season_window(season)
+    today = today_et()
+    finished = last < today
+    if len(have) and not finished:   # current season: re-read only the recent days
+        first = max(first, datetime.strptime(str(have["date"].max()), "%Y-%m-%d").date() - timedelta(days=4))
+    last = min(last, today)
+    days = [first + timedelta(n) for n in range((last - first).days + 1)]
+    print(f"{season}: reading {len(days)} scoreboard days...")
+    todo, seen = [], set()
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        for games in ex.map(_fetch_day, days):
+            for g in games:
+                if g["type"] == REGULAR and g["status"] == 3 and g["id"] not in done and g["id"] not in seen:
+                    seen.add(g["id"])
+                    todo.append((g["id"], season, g["date"]))
+    print(f"  downloading {len(todo)} new boxscores..." if todo else f"  cache is current ({len(done)} games).")
+    new, missing = [], 0
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        for gid, rows, final in ex.map(_fetch_box, todo):
+            if rows is None or not final:
+                missing += 1
+            else:
+                new += rows
+    if missing:
+        print(f"  {missing} of {len(todo)} boxscores were not available.")
     df = _frame(have.to_dict("records") + new)
-    if not len(df) and tried > 20 and missing == tried:
-        raise RuntimeError("No boxscores came back at all. cdn.nba.com looks blocked from this machine; "
-                           "run the Probe workflow to see what each source answers.")
+    if not len(df) and len(todo) > 20 and missing == len(todo):
+        raise RuntimeError("Games were found but no boxscores came back. Run the Probe workflow to see what ESPN answers.")
+    if not len(df) and not todo and finished:
+        raise RuntimeError(f"No finished games found for {season}. Run the Probe workflow to see what ESPN answers.")
     if len(df):
         df.to_csv(path, index=False)
-        if walked_all and df["game_id"].nunique() >= GAMES_PER_SEASON - 10:
+        if finished and df["game_id"].nunique() >= GAMES_PER_SEASON - 10:
             marker.write_text(str(df["game_id"].nunique()))
         tg = df.groupby(["game_id", "team"]).size()
         print(f"  {len(df):,} player-games, {df['game_id'].nunique()} games, "

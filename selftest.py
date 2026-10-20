@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """End-to-end self-test on a synthetic league with KNOWN true rates. No internet needed.
 
-It builds three fake seasons of boxscores in the same JSON shape as cdn.nba.com, serves them through the
+It builds three fake seasons of boxscores in the same JSON shape as ESPN's feeds, serves them through the
 real parser and cache code, then runs the backtest, tonight's board (with a fake odds feed) and the sim.
 Because the true rates are known, it can check that the model recovers them instead of just "running".
 
@@ -132,21 +132,75 @@ def make_season(teams, start, yy, truth, final_through=None, n_games=None):
     return boxes, sched
 
 
+ESPN_OUT = {"GSW": "GS", "NYK": "NY", "NOP": "NO", "SAS": "SA", "UTA": "UTAH", "WAS": "WSH"}  # ESPN's short codes
+KEYS = ["minutes", "points", "fieldGoalsMade-fieldGoalsAttempted",
+        "threePointFieldGoalsMade-threePointFieldGoalsAttempted", "freeThrowsMade-freeThrowsAttempted",
+        "rebounds", "assists", "turnovers", "offensiveRebounds"]
+
+
+def espn_event(gid, home, away, day, final):
+    ab = lambda t: ESPN_OUT.get(t, t)  # noqa: E731
+    return {"id": gid, "date": f"{day}T23:30Z", "season": {"year": 2035, "type": 2},
+            "status": {"type": {"completed": final, "state": "post" if final else "pre"}},
+            "competitions": [{"competitors": [{"homeAway": "home", "team": {"abbreviation": ab(home)}},
+                                              {"homeAway": "away", "team": {"abbreviation": ab(away)}}]}]}
+
+
+def espn_summary(box):
+    """Turns the generator's box (NBA-shaped) into the shape ESPN's summary endpoint returns."""
+    g = box["game"]
+    day = g["gameEt"][:10]
+    ab = lambda t: ESPN_OUT.get(t, t)  # noqa: E731
+    blocks = []
+    for side in ("homeTeam", "awayTeam"):
+        t = g[side]
+        aths = []
+        for p in t["players"]:
+            st = p.get("statistics") or {}
+            ath = {"id": str(p["personId"]), "displayName": p["name"], "position": {"abbreviation": p.get("position") or "F"}}
+            if p.get("status") == "INACTIVE" or not st:
+                aths.append({"athlete": ath, "starter": False, "didNotPlay": True, "stats": []})
+                continue
+            mins = str(int(round(nba_data.minutes_of(st["minutes"]))))
+            aths.append({"athlete": ath, "starter": p.get("starter") == "1", "didNotPlay": False, "stats": [
+                mins, str(st["points"]), f"0-{st['fieldGoalsAttempted']}",
+                f"{st['threePointersMade']}-{st['threePointersAttempted']}", f"0-{st['freeThrowsAttempted']}",
+                str(st["reboundsTotal"]), str(st["assists"]), str(st["turnovers"]), str(st["reboundsOffensive"])]})
+        blocks.append({"team": {"abbreviation": ab(t["teamTricode"])}, "statistics": [{"keys": KEYS, "athletes": aths}]})
+    comp = espn_event(g["gameId"], g["homeTeam"]["teamTricode"], g["awayTeam"]["teamTricode"], day, True)["competitions"][0]
+    comp["date"], comp["status"] = f"{day}T23:30Z", {"type": {"completed": True, "state": "post"}}
+    return {"header": {"id": g["gameId"], "competitions": [comp]}, "boxscore": {"players": blocks}}
+
+
 class FakeCDN:
-    """Stands in for requests: serves schedule + boxscores from memory."""
+    """Stands in for requests: serves ESPN-shaped scoreboards and summaries from memory."""
     def __init__(self):
         self.boxes, self.sched, self.calls = {}, [], 0
+        self._idx, self._n = {}, -1
+
+    def by_day(self):
+        if self._n != len(self.boxes):
+            self._idx, self._n = {}, len(self.boxes)
+            for gid, box in self.boxes.items():
+                g = box["game"]
+                self._idx.setdefault(g["gameEt"][:10], {})[gid] = espn_event(
+                    gid, g["homeTeam"]["teamTricode"], g["awayTeam"]["teamTricode"], g["gameEt"][:10], True)
+        return self._idx
 
     def get_json(self, url, params=None, tries=4, quiet=False):
         self.calls += 1
-        if url == nba_data.SCHEDULE_URL:
-            by_day = {}
+        if url == nba_data.SCOREBOARD_URL:
+            d = params["dates"]
+            iso = f"{d[:4]}-{d[4:6]}-{d[6:]}"
+            events = dict(self.by_day().get(iso, {}))
             for g in self.sched:
-                by_day.setdefault(g["gameDateEst"][:10], []).append(g)
-            return {"leagueSchedule": {"gameDates": [{"gameDate": d, "games": gs} for d, gs in sorted(by_day.items())]}}
-        gid = url.rsplit("boxscore_", 1)[-1].replace(".json", "")
-        return self.boxes.get(gid)
-
+                if g["gameDateTimeUTC"][:10] == iso and g["gameId"] not in events:
+                    events[g["gameId"]] = espn_event(g["gameId"], g["homeTeam"]["teamTricode"],
+                                                     g["awayTeam"]["teamTricode"], iso, g["gameStatus"] == 3)
+            return {"events": list(events.values())}
+        gid = url.rsplit("event=", 1)[-1]
+        box = self.boxes.get(gid)
+        return espn_summary(box) if box else None
 
 
 # ---------------------------------------------------------------- fake odds feed (The Odds API shape)
@@ -252,7 +306,7 @@ def stage_model(cdn, truth):
     print("\n== Data layer ==")
     prior = nba_data.fetch_season("20242025")
     test = nba_data.fetch_season("20252026")
-    check("walks a finished season id by id", prior["game_id"].nunique() == GAMES, f"{prior['game_id'].nunique()} games")
+    check("reads a finished season day by day", prior["game_id"].nunique() == GAMES, f"{prior['game_id'].nunique()} games")
     per_team = prior.groupby(["game_id", "team"]).size()
     check("about 10-13 players per team-game", 9 <= per_team.mean() <= 13, f"{per_team.mean():.1f}")
     check("minutes per team-game ~240", abs(prior.groupby(["game_id", "team"])["min"].sum().mean() - 240) < 12)
@@ -314,6 +368,7 @@ def stage_season(cdn):
     import sim
     print("\n== Mini season: board -> sim -> grade, with a fake odds feed ==")
     teams, truth = build_world(cdn, 2034, False)
+    nba_data.today_et = lambda: date(2037, 1, 1)   # the 2026-27 season is "current": still being played
     for f in Path(nba_data.DATA_DIR).glob("games_*"):
         f.unlink()
     n26 = 300 if QUICK else 600
@@ -379,6 +434,10 @@ if __name__ == "__main__":
     nba_data.DATA_DIR = tmp / "data"
     cdn = FakeCDN()
     nba_data.get_json = cdn.get_json
+    WINDOWS = {"20242025": (date(2034, 10, 1), date(2035, 4, 20)), "20252026": (date(2035, 10, 1), date(2036, 4, 20)),
+               "20262027": (date(2036, 10, 1), date(2037, 4, 20))}
+    nba_data.season_window = WINDOWS.__getitem__
+    nba_data.today_et = lambda: date(2040, 1, 1)
     print(f"Generating synthetic league ({GAMES} games per season)...")
     teams, truth = build_world(cdn, 2034, False)
     stage_model(cdn, truth)
