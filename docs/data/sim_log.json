@@ -10122,8 +10122,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.465
  },
  {
   "date": "2026-10-23",
@@ -10149,8 +10149,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.5
  },
  {
   "date": "2026-10-23",
@@ -10175,8 +10175,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.667
  },
  {
   "date": "2026-10-23",
@@ -10205,8 +10205,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.671
  },
  {
   "date": "2026-10-23",
@@ -10235,8 +10235,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.676
  },
  {
   "date": "2026-10-23",
@@ -10263,8 +10263,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10294,8 +10294,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10320,8 +10320,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10348,8 +10348,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.769
  },
  {
   "date": "2026-10-23",
@@ -10375,8 +10375,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.833
  },
  {
   "date": "2026-10-23",
@@ -10401,8 +10401,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10429,8 +10429,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.5
  },
  {
   "date": "2026-10-23",
@@ -10455,8 +10455,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.769
  },
  {
   "date": "2026-10-23",
@@ -10482,8 +10482,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10511,8 +10511,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.8
  },
  {
   "date": "2026-10-23",
@@ -10537,8 +10537,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10566,8 +10566,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.69
  },
  {
   "date": "2026-10-23",
@@ -10598,8 +10598,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10630,8 +10630,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10657,8 +10657,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.571
  },
  {
   "date": "2026-10-23",
@@ -10689,8 +10689,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.847
  },
  {
   "date": "2026-10-23",
@@ -10720,8 +10720,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.667
  },
  {
   "date": "2026-10-23",
@@ -10752,8 +10752,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10782,8 +10782,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.04
  },
  {
   "date": "2026-10-23",
@@ -10809,8 +10809,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10839,8 +10839,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10869,8 +10869,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.649
  },
  {
   "date": "2026-10-23",
@@ -10900,8 +10900,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -10932,8 +10932,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.641
  },
  {
   "date": "2026-10-23",
@@ -10964,8 +10964,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -10995,8 +10995,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11025,8 +11025,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11056,8 +11056,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.1
  },
  {
   "date": "2026-10-23",
@@ -11082,8 +11082,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.571
  },
  {
   "date": "2026-10-23",
@@ -11114,8 +11114,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.926
  },
  {
   "date": "2026-10-23",
@@ -11145,8 +11145,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.893
  },
  {
   "date": "2026-10-23",
@@ -11175,8 +11175,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.847
  },
  {
   "date": "2026-10-23",
@@ -11207,8 +11207,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -11235,8 +11235,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.694
  },
  {
   "date": "2026-10-23",
@@ -11261,8 +11261,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11293,8 +11293,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.15
  },
  {
   "date": "2026-10-23",
@@ -11324,8 +11324,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.769
  },
  {
   "date": "2026-10-23",
@@ -11350,8 +11350,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11377,8 +11377,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.613
  },
  {
   "date": "2026-10-23",
@@ -11409,8 +11409,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.758
  },
  {
   "date": "2026-10-23",
@@ -11441,8 +11441,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.833
  },
  {
   "date": "2026-10-23",
@@ -11471,8 +11471,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.781
  },
  {
   "date": "2026-10-23",
@@ -11498,8 +11498,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.645
  },
  {
   "date": "2026-10-23",
@@ -11530,8 +11530,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.735
  },
  {
   "date": "2026-10-23",
@@ -11562,8 +11562,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.741
  },
  {
   "date": "2026-10-23",
@@ -11589,8 +11589,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11615,8 +11615,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11647,8 +11647,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11678,8 +11678,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11710,8 +11710,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.741
  },
  {
   "date": "2026-10-23",
@@ -11739,8 +11739,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.741
  },
  {
   "date": "2026-10-23",
@@ -11769,8 +11769,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.24
  },
  {
   "date": "2026-10-23",
@@ -11800,8 +11800,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11832,8 +11832,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.12
  },
  {
   "date": "2026-10-23",
@@ -11858,8 +11858,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11886,8 +11886,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.599
  },
  {
   "date": "2026-10-23",
@@ -11916,8 +11916,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11948,8 +11948,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -11977,8 +11977,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.658
  },
  {
   "date": "2026-10-23",
@@ -12009,8 +12009,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.719
  },
  {
   "date": "2026-10-23",
@@ -12040,8 +12040,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12072,8 +12072,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.855
  },
  {
   "date": "2026-10-23",
@@ -12104,8 +12104,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.758
  },
  {
   "date": "2026-10-23",
@@ -12136,8 +12136,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12168,8 +12168,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.98
  },
  {
   "date": "2026-10-23",
@@ -12194,8 +12194,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.18
  },
  {
   "date": "2026-10-23",
@@ -12226,8 +12226,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12256,8 +12256,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -12288,8 +12288,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.0
  },
  {
   "date": "2026-10-23",
@@ -12320,8 +12320,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12350,8 +12350,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.877
  },
  {
   "date": "2026-10-23",
@@ -12376,8 +12376,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.556
  },
  {
   "date": "2026-10-23",
@@ -12402,8 +12402,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12428,8 +12428,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.0
  },
  {
   "date": "2026-10-23",
@@ -12454,8 +12454,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.556
  },
  {
   "date": "2026-10-23",
@@ -12481,8 +12481,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12508,8 +12508,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.625
  },
  {
   "date": "2026-10-23",
@@ -12538,8 +12538,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12570,8 +12570,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.709
  },
  {
   "date": "2026-10-23",
@@ -12600,8 +12600,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12632,8 +12632,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12658,8 +12658,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.45
  },
  {
   "date": "2026-10-23",
@@ -12690,8 +12690,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12720,8 +12720,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12749,8 +12749,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12777,8 +12777,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12804,8 +12804,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12834,8 +12834,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.87
  },
  {
   "date": "2026-10-23",
@@ -12863,8 +12863,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.1
  },
  {
   "date": "2026-10-23",
@@ -12889,8 +12889,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12915,8 +12915,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.595
  },
  {
   "date": "2026-10-23",
@@ -12946,8 +12946,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -12972,8 +12972,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.621
  },
  {
   "date": "2026-10-23",
@@ -13002,8 +13002,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.781
  },
  {
   "date": "2026-10-23",
@@ -13034,8 +13034,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13066,8 +13066,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.775
  },
  {
   "date": "2026-10-23",
@@ -13098,8 +13098,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13129,8 +13129,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.8
  },
  {
   "date": "2026-10-23",
@@ -13156,8 +13156,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.633
  },
  {
   "date": "2026-10-23",
@@ -13187,8 +13187,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13216,8 +13216,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.704
  },
  {
   "date": "2026-10-23",
@@ -13246,8 +13246,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.775
  },
  {
   "date": "2026-10-23",
@@ -13272,8 +13272,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13301,8 +13301,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13330,8 +13330,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13362,8 +13362,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13394,8 +13394,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.909
  },
  {
   "date": "2026-10-23",
@@ -13423,8 +13423,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.667
  },
  {
   "date": "2026-10-23",
@@ -13450,8 +13450,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.455
  },
  {
   "date": "2026-10-23",
@@ -13482,8 +13482,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13514,8 +13514,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13542,8 +13542,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13574,8 +13574,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.12
  },
  {
   "date": "2026-10-23",
@@ -13605,8 +13605,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.833
  },
  {
   "date": "2026-10-23",
@@ -13635,8 +13635,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -13666,8 +13666,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13696,8 +13696,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -13727,8 +13727,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13753,8 +13753,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13779,8 +13779,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.645
  },
  {
   "date": "2026-10-23",
@@ -13807,8 +13807,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13835,8 +13835,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.12
  },
  {
   "date": "2026-10-23",
@@ -13862,8 +13862,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13889,8 +13889,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13919,8 +13919,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -13947,8 +13947,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.22
  },
  {
   "date": "2026-10-23",
@@ -13979,8 +13979,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.769
  },
  {
   "date": "2026-10-23",
@@ -14011,8 +14011,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.87
  },
  {
   "date": "2026-10-23",
@@ -14038,8 +14038,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14064,8 +14064,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -14091,8 +14091,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.617
  },
  {
   "date": "2026-10-23",
@@ -14123,8 +14123,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14154,8 +14154,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14182,8 +14182,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14212,8 +14212,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.15
  },
  {
   "date": "2026-10-23",
@@ -14239,8 +14239,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14268,8 +14268,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.69
  },
  {
   "date": "2026-10-23",
@@ -14300,8 +14300,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14331,8 +14331,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.741
  },
  {
   "date": "2026-10-23",
@@ -14362,8 +14362,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.699
  },
  {
   "date": "2026-10-23",
@@ -14394,8 +14394,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -14426,8 +14426,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14458,8 +14458,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.847
  },
  {
   "date": "2026-10-23",
@@ -14487,8 +14487,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.667
  },
  {
   "date": "2026-10-23",
@@ -14515,8 +14515,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.8
  },
  {
   "date": "2026-10-23",
@@ -14543,8 +14543,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.1
  },
  {
   "date": "2026-10-23",
@@ -14572,8 +14572,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14600,8 +14600,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14632,8 +14632,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14664,8 +14664,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14696,8 +14696,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14723,8 +14723,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.667
  },
  {
   "date": "2026-10-23",
@@ -14753,8 +14753,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.758
  },
  {
   "date": "2026-10-23",
@@ -14781,8 +14781,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -14810,8 +14810,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14839,8 +14839,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.87
  },
  {
   "date": "2026-10-23",
@@ -14869,8 +14869,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.719
  },
  {
   "date": "2026-10-23",
@@ -14899,8 +14899,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -14931,8 +14931,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.87
  },
  {
   "date": "2026-10-23",
@@ -14962,8 +14962,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -14991,8 +14991,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -15017,8 +15017,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15049,8 +15049,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.769
  },
  {
   "date": "2026-10-23",
@@ -15081,8 +15081,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.901
  },
  {
   "date": "2026-10-23",
@@ -15113,8 +15113,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15142,8 +15142,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -15173,8 +15173,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15204,8 +15204,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15230,8 +15230,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15260,8 +15260,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.5
  },
  {
   "date": "2026-10-23",
@@ -15289,8 +15289,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.667
  },
  {
   "date": "2026-10-23",
@@ -15319,8 +15319,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.571
  },
  {
   "date": "2026-10-23",
@@ -15345,8 +15345,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.444
  },
  {
   "date": "2026-10-23",
@@ -15373,8 +15373,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.444
  },
  {
   "date": "2026-10-23",
@@ -15400,8 +15400,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15429,8 +15429,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15458,8 +15458,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.476
  },
  {
   "date": "2026-10-23",
@@ -15489,8 +15489,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15516,8 +15516,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15547,8 +15547,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.952
  },
  {
   "date": "2026-10-23",
@@ -15576,8 +15576,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.667
  },
  {
   "date": "2026-10-23",
@@ -15607,8 +15607,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15639,8 +15639,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15671,8 +15671,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -15703,8 +15703,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.4
  },
  {
   "date": "2026-10-23",
@@ -15730,8 +15730,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.556
  },
  {
   "date": "2026-10-23",
@@ -15761,8 +15761,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.69
  },
  {
   "date": "2026-10-23",
@@ -15793,8 +15793,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.645
  },
  {
   "date": "2026-10-23",
@@ -15824,8 +15824,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15855,8 +15855,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.7
  },
  {
   "date": "2026-10-23",
@@ -15886,8 +15886,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -15917,8 +15917,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.61
  },
  {
   "date": "2026-10-23",
@@ -15947,8 +15947,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.541
  },
  {
   "date": "2026-10-23",
@@ -15975,8 +15975,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.7
  },
  {
   "date": "2026-10-23",
@@ -16005,8 +16005,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.556
  },
  {
   "date": "2026-10-23",
@@ -16033,8 +16033,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16065,8 +16065,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16096,8 +16096,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16125,8 +16125,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.465
  },
  {
   "date": "2026-10-23",
@@ -16157,8 +16157,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.5
  },
  {
   "date": "2026-10-23",
@@ -16184,8 +16184,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16213,8 +16213,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16245,8 +16245,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16277,8 +16277,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16309,8 +16309,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16340,8 +16340,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.606
  },
  {
   "date": "2026-10-23",
@@ -16371,8 +16371,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16403,8 +16403,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.725
  },
  {
   "date": "2026-10-23",
@@ -16435,8 +16435,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.676
  },
  {
   "date": "2026-10-23",
@@ -16466,8 +16466,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 1.36
  },
  {
   "date": "2026-10-23",
@@ -16498,8 +16498,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16530,8 +16530,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.725
  },
  {
   "date": "2026-10-23",
@@ -16561,8 +16561,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.515
  },
  {
   "date": "2026-10-23",
@@ -16593,8 +16593,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16619,8 +16619,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16650,8 +16650,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.515
  },
  {
   "date": "2026-10-23",
@@ -16682,8 +16682,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16713,8 +16713,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.476
  },
  {
   "date": "2026-10-23",
@@ -16743,8 +16743,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16775,8 +16775,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16807,8 +16807,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16838,8 +16838,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16870,8 +16870,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.714
  },
  {
   "date": "2026-10-23",
@@ -16897,8 +16897,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16928,8 +16928,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16960,8 +16960,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -16991,8 +16991,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.575
  },
  {
   "date": "2026-10-23",
@@ -17023,8 +17023,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.629
  },
  {
   "date": "2026-10-23",
@@ -17049,8 +17049,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.541
  },
  {
   "date": "2026-10-23",
@@ -17075,8 +17075,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-10-23T19:42+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-10-23",
@@ -17107,6 +17107,3343 @@
   "flag": false,
   "likely": false,
   "logged": "2026-10-23T19:42+00:00",
+  "status": "win",
+  "units": 1.1
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 2595516,
+  "name": "Norman Powell",
+  "team": "CHI",
+  "opp": "WAS",
+  "market": "ast_o1.5",
+  "kind": "likely",
+  "p": 0.6013,
+  "p_model": 0.6498,
+  "p_mkt": 0.5752,
+  "fair": -151,
+  "price": -155,
+  "book": "betPARX",
+  "prices": {
+   "Hard Rock Bet": -185,
+   "DraftKings": -186,
+   "theScore Bet": -160,
+   "betPARX": -155,
+   "BetRivers": -157
+  },
+  "ev": -0.0107,
+  "min": 29.4,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 3059319,
+  "name": "Andrew Wiggins",
+  "team": "MIA",
+  "opp": "CHA",
+  "market": "ast_o1.5",
+  "kind": "likely",
+  "p": 0.6144,
+  "p_model": 0.6718,
+  "p_mkt": 0.5835,
+  "fair": -159,
+  "price": -165,
+  "book": "theScore Bet",
+  "prices": {
+   "theScore Bet": -165
+  },
+  "ev": -0.0132,
+  "min": 29.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 4431767,
+  "name": "Christian Braun",
+  "team": "DEN",
+  "opp": "NOP",
+  "market": "ast_o1.5",
+  "kind": "likely",
+  "p": 0.6137,
+  "p_model": 0.7182,
+  "p_mkt": 0.5575,
+  "fair": -159,
+  "price": -148,
+  "book": "betPARX",
+  "prices": {
+   "theScore Bet": -180,
+   "BetRivers": -150,
+   "betPARX": -148
+  },
+  "ev": 0.0284,
+  "min": 31.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 4711294,
+  "name": "Matas Buzelis",
+  "team": "CHI",
+  "opp": "WAS",
+  "market": "ast_o1.5",
+  "kind": "likely",
+  "p": 0.5732,
+  "p_model": 0.5971,
+  "p_mkt": 0.5604,
+  "fair": -134,
+  "price": -139,
+  "book": "betPARX",
+  "prices": {
+   "Hard Rock Bet": -150,
+   "DraftKings": -149,
+   "theScore Bet": -160,
+   "betPARX": -139,
+   "BetRivers": -141
+  },
+  "ev": -0.0143,
+  "min": 28.3,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 5160992,
+  "name": "Alex Sarr",
+  "team": "WAS",
+  "opp": "CHI",
+  "market": "ast_o1.5",
+  "kind": "bet",
+  "p": 0.6228,
+  "p_model": 0.7609,
+  "p_mkt": 0.5484,
+  "fair": -165,
+  "price": -139,
+  "book": "betPARX",
+  "prices": {
+   "Hard Rock Bet": -180,
+   "theScore Bet": -145,
+   "betPARX": -139,
+   "BetRivers": -139
+  },
+  "ev": 0.0708,
+  "min": 26.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 4397189,
+  "name": "Jalen Smith",
+  "team": "CHI",
+  "opp": "WAS",
+  "market": "ast_u1.5",
+  "kind": "likely",
+  "p": 0.5706,
+  "p_model": 0.6259,
+  "p_mkt": 0.5408,
+  "fair": -133,
+  "price": -130,
+  "book": "theScore Bet",
+  "prices": {
+   "Hard Rock Bet": -135,
+   "DraftKings": -138,
+   "theScore Bet": -130
+  },
+  "ev": 0.0095,
+  "min": 20.7,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 3978,
+  "name": "DeMar DeRozan",
+  "team": "DEN",
+  "opp": "NOP",
+  "market": "ast_o2.5",
+  "kind": "likely",
+  "p": 0.6264,
+  "p_model": 0.6889,
+  "p_mkt": 0.5928,
+  "fair": -168,
+  "price": -168,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -188,
+   "DraftKings": -168,
+   "BetMGM": -175,
+   "theScore Bet": -170
+  },
+  "ev": -0.0007,
+  "min": 31.1,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909856",
+  "player_id": 4278039,
+  "name": "Nickeil Alexander-Walker",
+  "team": "ATL",
+  "opp": "HOU",
+  "market": "ast_o2.5",
+  "kind": "likely",
+  "p": 0.6137,
+  "p_model": 0.6677,
+  "p_mkt": 0.5846,
+  "fair": -159,
+  "price": -165,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "Hard Rock Bet": -165,
+   "DraftKings": -175,
+   "theScore Bet": -165,
+   "BetRivers": -167,
+   "betPARX": -167
+  },
+  "ev": -0.0144,
+  "min": 32.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4278104,
+  "name": "Michael Porter Jr.",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "ast_o2.5",
+  "kind": "bet",
+  "p": 0.457,
+  "p_model": 0.531,
+  "p_mkt": 0.4171,
+  "fair": 119,
+  "price": 138,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": 120,
+   "Hard Rock Bet": 125,
+   "DraftKings": 126,
+   "betPARX": 138,
+   "BetRivers": 138,
+   "BetMGM": 120
+  },
+  "ev": 0.0876,
+  "min": 32.6,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909860",
+  "player_id": 4278585,
+  "name": "Collin Gillespie",
+  "team": "PHX",
+  "opp": "GSW",
+  "market": "ast_o2.5",
+  "kind": "likely",
+  "p": 0.6552,
+  "p_model": 0.7621,
+  "p_mkt": 0.5977,
+  "fair": -190,
+  "price": -178,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": -178
+  },
+  "ev": 0.0234,
+  "min": 28.0,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 4397688,
+  "name": "Trey Murphy III",
+  "team": "NOP",
+  "opp": "DEN",
+  "market": "ast_o2.5",
+  "kind": "likely",
+  "p": 0.566,
+  "p_model": 0.6285,
+  "p_mkt": 0.5323,
+  "fair": -130,
+  "price": -121,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -132,
+   "Hard Rock Bet": -130,
+   "DraftKings": -121,
+   "BetMGM": -135,
+   "theScore Bet": -125,
+   "BetRivers": -143,
+   "betPARX": -143
+  },
+  "ev": 0.0337,
+  "min": 35.0,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909856",
+  "player_id": 4431680,
+  "name": "Onyeka Okongwu",
+  "team": "ATL",
+  "opp": "HOU",
+  "market": "ast_o2.5",
+  "kind": "bet",
+  "p": 0.4672,
+  "p_model": 0.5953,
+  "p_mkt": 0.3983,
+  "fair": 114,
+  "price": 145,
+  "book": "BetRivers",
+  "prices": {
+   "FanDuel": 134,
+   "Hard Rock Bet": 135,
+   "DraftKings": 137,
+   "theScore Bet": 135,
+   "BetMGM": 125,
+   "BetRivers": 145,
+   "betPARX": 145
+  },
+  "ev": 0.1448,
+  "min": 30.5,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 5174563,
+  "name": "Kyshawn George",
+  "team": "WAS",
+  "opp": "CHI",
+  "market": "ast_o2.5",
+  "kind": "likely",
+  "p": 0.6298,
+  "p_model": 0.7495,
+  "p_mkt": 0.5654,
+  "fair": -170,
+  "price": -152,
+  "book": "betPARX",
+  "prices": {
+   "Hard Rock Bet": -160,
+   "betPARX": -152,
+   "BetRivers": -155
+  },
+  "ev": 0.0442,
+  "min": 28.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4432194,
+  "name": "Day'Ron Sharpe",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "ast_u2.5",
+  "kind": "bet",
+  "p": 0.4776,
+  "p_model": 0.5955,
+  "p_mkt": 0.4141,
+  "fair": 109,
+  "price": 130,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "FanDuel": 124,
+   "Hard Rock Bet": 130,
+   "theScore Bet": 130,
+   "betPARX": 118,
+   "BetRivers": 117,
+   "BetMGM": 130
+  },
+  "ev": 0.0985,
+  "min": 19.4,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 4432582,
+  "name": "Max Christie",
+  "team": "DAL",
+  "opp": "SAS",
+  "market": "ast_u2.5",
+  "kind": "likely",
+  "p": 0.5988,
+  "p_model": 0.6292,
+  "p_mkt": 0.5824,
+  "fair": -149,
+  "price": -158,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": -158,
+   "Hard Rock Bet": -165,
+   "theScore Bet": -160,
+   "betPARX": -167,
+   "BetRivers": -167
+  },
+  "ev": -0.0222,
+  "min": 29.6,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4433249,
+  "name": "Moussa Diabate",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "ast_u2.5",
+  "kind": "likely",
+  "p": 0.628,
+  "p_model": 0.6615,
+  "p_mkt": 0.61,
+  "fair": -169,
+  "price": -183,
+  "book": "DraftKings",
+  "prices": {
+   "DraftKings": -183,
+   "Hard Rock Bet": -185
+  },
+  "ev": -0.0288,
+  "min": 26.2,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4602025,
+  "name": "Sion James",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "ast_u2.5",
+  "kind": "likely",
+  "p": 0.5706,
+  "p_model": 0.6374,
+  "p_mkt": 0.5347,
+  "fair": -133,
+  "price": -121,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -146,
+   "DraftKings": -136,
+   "betPARX": -121,
+   "BetRivers": -122,
+   "theScore Bet": -130,
+   "BetMGM": -135,
+   "Hard Rock Bet": -135
+  },
+  "ev": 0.0423,
+  "min": 22.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4702177,
+  "name": "Keon Ellis",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "ast_u2.5",
+  "kind": "bet",
+  "p": 0.6865,
+  "p_model": 0.8366,
+  "p_mkt": 0.6057,
+  "fair": -219,
+  "price": -162,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -210,
+   "Hard Rock Bet": -185,
+   "theScore Bet": -180,
+   "DraftKings": -182,
+   "betPARX": -162,
+   "BetRivers": -162,
+   "BetMGM": -190
+  },
+  "ev": 0.1103,
+  "min": 21.3,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909860",
+  "player_id": 4278585,
+  "name": "Collin Gillespie",
+  "team": "PHX",
+  "opp": "GSW",
+  "market": "ast_o3.5",
+  "kind": "bet",
+  "p": 0.4835,
+  "p_model": 0.5945,
+  "p_mkt": 0.4237,
+  "fair": 107,
+  "price": 125,
+  "book": "theScore Bet",
+  "prices": {
+   "DraftKings": 116,
+   "BetMGM": 110,
+   "theScore Bet": 125,
+   "betPARX": 120,
+   "BetRivers": 120,
+   "Hard Rock Bet": 125
+  },
+  "ev": 0.0878,
+  "min": 28.0,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 5124612,
+  "name": "VJ Edgecombe",
+  "team": "PHI",
+  "opp": "MIL",
+  "market": "ast_o3.5",
+  "kind": "bet",
+  "p": 0.4824,
+  "p_model": 0.5564,
+  "p_mkt": 0.4425,
+  "fair": 107,
+  "price": 128,
+  "book": "BetRivers",
+  "prices": {
+   "FanDuel": 114,
+   "DraftKings": -111,
+   "theScore Bet": 100,
+   "BetMGM": 110,
+   "BetRivers": 128,
+   "betPARX": 128,
+   "Hard Rock Bet": 110
+  },
+  "ev": 0.0998,
+  "min": 34.9,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 5174563,
+  "name": "Kyshawn George",
+  "team": "WAS",
+  "opp": "CHI",
+  "market": "ast_o3.5",
+  "kind": "bet",
+  "p": 0.4706,
+  "p_model": 0.5779,
+  "p_mkt": 0.4128,
+  "fair": 113,
+  "price": 129,
+  "book": "DraftKings",
+  "prices": {
+   "DraftKings": 129,
+   "theScore Bet": 125
+  },
+  "ev": 0.0776,
+  "min": 28.8,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4066261,
+  "name": "Bam Adebayo",
+  "team": "MIA",
+  "opp": "CHA",
+  "market": "ast_u3.5",
+  "kind": "likely",
+  "p": 0.5563,
+  "p_model": 0.6166,
+  "p_mkt": 0.5239,
+  "fair": -125,
+  "price": -120,
+  "book": "theScore Bet",
+  "prices": {
+   "FanDuel": -125,
+   "DraftKings": -124,
+   "betPARX": -130,
+   "BetRivers": -132,
+   "theScore Bet": -120,
+   "BetMGM": -140,
+   "Hard Rock Bet": -125
+  },
+  "ev": 0.02,
+  "min": 31.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4396971,
+  "name": "Naz Reid",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "ast_u3.5",
+  "kind": "likely",
+  "p": 0.6186,
+  "p_model": 0.708,
+  "p_mkt": 0.5705,
+  "fair": -162,
+  "price": -150,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -154,
+   "DraftKings": -156,
+   "betPARX": -152,
+   "BetRivers": -155,
+   "theScore Bet": -160,
+   "BetMGM": -150,
+   "Hard Rock Bet": -160
+  },
+  "ev": 0.031,
+  "min": 26.4,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4432158,
+  "name": "Evan Mobley",
+  "team": "CLE",
+  "opp": "BKN",
+  "market": "ast_u3.5",
+  "kind": "likely",
+  "p": 0.5654,
+  "p_model": 0.5694,
+  "p_mkt": 0.5633,
+  "fair": -130,
+  "price": -135,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -158,
+   "Hard Rock Bet": -150,
+   "theScore Bet": -145,
+   "DraftKings": -137,
+   "betPARX": -175,
+   "BetRivers": -175,
+   "BetMGM": -135
+  },
+  "ev": -0.0157,
+  "min": 32.1,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4432194,
+  "name": "Day'Ron Sharpe",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "ast_u3.5",
+  "kind": "likely",
+  "p": 0.6577,
+  "p_model": 0.7817,
+  "p_mkt": 0.591,
+  "fair": -192,
+  "price": -171,
+  "book": "DraftKings",
+  "prices": {
+   "DraftKings": -171
+  },
+  "ev": 0.0424,
+  "min": 19.4,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4433287,
+  "name": "Brandon Miller",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "ast_u3.5",
+  "kind": "likely",
+  "p": 0.5952,
+  "p_model": 0.6545,
+  "p_mkt": 0.5633,
+  "fair": -147,
+  "price": -137,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -150,
+   "DraftKings": -137,
+   "betPARX": -152,
+   "BetRivers": -155,
+   "theScore Bet": -150,
+   "BetMGM": -150,
+   "Hard Rock Bet": -150
+  },
+  "ev": 0.0297,
+  "min": 30.2,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909860",
+  "player_id": 4437244,
+  "name": "Jalen Green",
+  "team": "PHX",
+  "opp": "GSW",
+  "market": "ast_u3.5",
+  "kind": "bet",
+  "p": 0.5265,
+  "p_model": 0.6761,
+  "p_mkt": 0.4459,
+  "fair": -111,
+  "price": 114,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": 110,
+   "DraftKings": 114,
+   "BetMGM": -105,
+   "theScore Bet": 110,
+   "betPARX": 108,
+   "BetRivers": 108,
+   "Hard Rock Bet": 110
+  },
+  "ev": 0.1266,
+  "min": 25.9,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 5037871,
+  "name": "Dylan Harper",
+  "team": "SAS",
+  "opp": "DAL",
+  "market": "ast_u3.5",
+  "kind": "bet",
+  "p": 0.4722,
+  "p_model": 0.5449,
+  "p_mkt": 0.433,
+  "fair": 112,
+  "price": 125,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": 116,
+   "Hard Rock Bet": 120,
+   "DraftKings": 111,
+   "BetMGM": 125,
+   "theScore Bet": 115
+  },
+  "ev": 0.0624,
+  "min": 23.9,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 5104157,
+  "name": "Victor Wembanyama",
+  "team": "SAS",
+  "opp": "DAL",
+  "market": "ast_u3.5",
+  "kind": "likely",
+  "p": 0.6199,
+  "p_model": 0.6599,
+  "p_mkt": 0.5984,
+  "fair": -163,
+  "price": -177,
+  "book": "betPARX",
+  "prices": {
+   "betPARX": -177,
+   "BetRivers": -182
+  },
+  "ev": -0.0298,
+  "min": 29.6,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 5175643,
+  "name": "Egor Demin",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "ast_u3.5",
+  "kind": "likely",
+  "p": 0.554,
+  "p_model": 0.6174,
+  "p_mkt": 0.5198,
+  "fair": -124,
+  "price": -115,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -125,
+   "Hard Rock Bet": -125,
+   "theScore Bet": -125,
+   "DraftKings": -135,
+   "betPARX": -125,
+   "BetRivers": -127,
+   "BetMGM": -115
+  },
+  "ev": 0.0357,
+  "min": 25.2,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 3059318,
+  "name": "Joel Embiid",
+  "team": "PHI",
+  "opp": "MIL",
+  "market": "ast_u4.5",
+  "kind": "likely",
+  "p": 0.5899,
+  "p_model": 0.6564,
+  "p_mkt": 0.5541,
+  "fair": -144,
+  "price": -144,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": -144,
+   "DraftKings": -146,
+   "theScore Bet": -145,
+   "BetMGM": -150,
+   "BetRivers": -148,
+   "betPARX": -148,
+   "Hard Rock Bet": -150
+  },
+  "ev": -0.0004,
+  "min": 31.7,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 4278594,
+  "name": "Naji Marshall",
+  "team": "DAL",
+  "opp": "SAS",
+  "market": "ast_u4.5",
+  "kind": "bet",
+  "p": 0.5766,
+  "p_model": 0.6773,
+  "p_mkt": 0.5224,
+  "fair": -136,
+  "price": -113,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -132,
+   "Hard Rock Bet": -130,
+   "DraftKings": -127,
+   "theScore Bet": -125,
+   "betPARX": -113,
+   "BetRivers": -114
+  },
+  "ev": 0.0869,
+  "min": 29.7,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 4395725,
+  "name": "Tyler Herro",
+  "team": "MIL",
+  "opp": "PHI",
+  "market": "ast_u4.5",
+  "kind": "likely",
+  "p": 0.5516,
+  "p_model": 0.5536,
+  "p_mkt": 0.5506,
+  "fair": -123,
+  "price": -126,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -138,
+   "DraftKings": -126,
+   "theScore Bet": -130,
+   "BetMGM": -150,
+   "BetRivers": -152,
+   "betPARX": -150,
+   "Hard Rock Bet": -140
+  },
+  "ev": -0.0105,
+  "min": 31.3,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 5037871,
+  "name": "Dylan Harper",
+  "team": "SAS",
+  "opp": "DAL",
+  "market": "ast_u4.5",
+  "kind": "likely",
+  "p": 0.6133,
+  "p_model": 0.71,
+  "p_mkt": 0.5612,
+  "fair": -159,
+  "price": -152,
+  "book": "betPARX",
+  "prices": {
+   "betPARX": -152,
+   "BetRivers": -152
+  },
+  "ev": 0.0168,
+  "min": 23.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 3032979,
+  "name": "Dennis Schroder",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "ast_u5.5",
+  "kind": "bet",
+  "p": 0.5368,
+  "p_model": 0.6496,
+  "p_mkt": 0.4761,
+  "fair": -116,
+  "price": 115,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "FanDuel": -102,
+   "theScore Bet": -105,
+   "Hard Rock Bet": 115
+  },
+  "ev": 0.1542,
+  "min": 24.6,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 3907497,
+  "name": "Dejounte Murray",
+  "team": "NOP",
+  "opp": "DEN",
+  "market": "ast_u5.5",
+  "kind": "bet",
+  "p": 0.5041,
+  "p_model": 0.5588,
+  "p_mkt": 0.4747,
+  "fair": -102,
+  "price": 115,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -102,
+   "Hard Rock Bet": 105,
+   "DraftKings": -103,
+   "BetMGM": 115,
+   "theScore Bet": -105,
+   "BetRivers": -112,
+   "betPARX": -112
+  },
+  "ev": 0.0839,
+  "min": 28.3,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909856",
+  "player_id": 4684740,
+  "name": "Amen Thompson",
+  "team": "HOU",
+  "opp": "ATL",
+  "market": "ast_u5.5",
+  "kind": "likely",
+  "p": 0.5805,
+  "p_model": 0.6066,
+  "p_mkt": 0.5665,
+  "fair": -138,
+  "price": -143,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -152,
+   "Hard Rock Bet": -155,
+   "DraftKings": -143,
+   "theScore Bet": -160,
+   "BetMGM": -155
+  },
+  "ev": -0.0135,
+  "min": 37.1,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 3032977,
+  "name": "Giannis Antetokounmpo",
+  "team": "MIA",
+  "opp": "CHA",
+  "market": "ast_u6.5",
+  "kind": "bet",
+  "p": 0.6299,
+  "p_model": 0.7917,
+  "p_mkt": 0.5428,
+  "fair": -170,
+  "price": -128,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -136,
+   "DraftKings": -128,
+   "betPARX": -162,
+   "BetRivers": -162,
+   "theScore Bet": -130,
+   "BetMGM": -155,
+   "Hard Rock Bet": -135
+  },
+  "ev": 0.122,
+  "min": 29.2,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 3032979,
+  "name": "Dennis Schroder",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "ast_u6.5",
+  "kind": "bet",
+  "p": 0.6408,
+  "p_model": 0.768,
+  "p_mkt": 0.5723,
+  "fair": -178,
+  "price": -146,
+  "book": "DraftKings",
+  "prices": {
+   "DraftKings": -146,
+   "betPARX": -159,
+   "BetRivers": -159,
+   "BetMGM": -160
+  },
+  "ev": 0.0797,
+  "min": 24.6,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4278053,
+  "name": "Davion Mitchell",
+  "team": "MIA",
+  "opp": "CHA",
+  "market": "ast_u6.5",
+  "kind": "likely",
+  "p": 0.5576,
+  "p_model": 0.5781,
+  "p_mkt": 0.5465,
+  "fair": -126,
+  "price": -128,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -142,
+   "DraftKings": -128,
+   "betPARX": -141,
+   "BetRivers": -143,
+   "theScore Bet": -150,
+   "BetMGM": -140,
+   "Hard Rock Bet": -135
+  },
+  "ev": -0.0068,
+  "min": 29.1,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 3936299,
+  "name": "Jamal Murray",
+  "team": "DEN",
+  "opp": "NOP",
+  "market": "ast_u7.5",
+  "kind": "likely",
+  "p": 0.5893,
+  "p_model": 0.6333,
+  "p_mkt": 0.5656,
+  "fair": -143,
+  "price": -140,
+  "book": "theScore Bet",
+  "prices": {
+   "FanDuel": -158,
+   "DraftKings": -141,
+   "BetMGM": -175,
+   "theScore Bet": -140,
+   "BetRivers": -157,
+   "betPARX": -152
+  },
+  "ev": 0.0102,
+  "min": 35.5,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 4871145,
+  "name": "Josh Giddey",
+  "team": "CHI",
+  "opp": "WAS",
+  "market": "ast_u9.5",
+  "kind": "likely",
+  "p": 0.5519,
+  "p_model": 0.6107,
+  "p_mkt": 0.5203,
+  "fair": -123,
+  "price": -120,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -130,
+   "Hard Rock Bet": -125,
+   "DraftKings": -125,
+   "theScore Bet": -125,
+   "BetMGM": -140,
+   "betPARX": -120,
+   "BetRivers": -121
+  },
+  "ev": 0.0119,
+  "min": 31.2,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 4277905,
+  "name": "Trae Young",
+  "team": "WAS",
+  "opp": "CHI",
+  "market": "ast_u10.5",
+  "kind": "bet",
+  "p": 0.5896,
+  "p_model": 0.8105,
+  "p_mkt": 0.4706,
+  "fair": -144,
+  "price": 105,
+  "book": "theScore Bet",
+  "prices": {
+   "Hard Rock Bet": 100,
+   "DraftKings": -102,
+   "theScore Bet": 105,
+   "BetMGM": 105,
+   "betPARX": -104,
+   "BetRivers": -105
+  },
+  "ev": 0.2086,
+  "min": 26.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 4277905,
+  "name": "Trae Young",
+  "team": "WAS",
+  "opp": "CHI",
+  "market": "ast_u11.5",
+  "kind": "bet",
+  "p": 0.6724,
+  "p_model": 0.8681,
+  "p_mkt": 0.567,
+  "fair": -205,
+  "price": -154,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": -154
+  },
+  "ev": 0.109,
+  "min": 26.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 2595516,
+  "name": "Norman Powell",
+  "team": "CHI",
+  "opp": "WAS",
+  "market": "reb_o2.5",
+  "kind": "likely",
+  "p": 0.6084,
+  "p_model": 0.67,
+  "p_mkt": 0.5752,
+  "fair": -155,
+  "price": -160,
+  "book": "theScore Bet",
+  "prices": {
+   "theScore Bet": -160
+  },
+  "ev": -0.0114,
+  "min": 29.4,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909860",
+  "player_id": 4278585,
+  "name": "Collin Gillespie",
+  "team": "PHX",
+  "opp": "GSW",
+  "market": "reb_o2.5",
+  "kind": "likely",
+  "p": 0.6178,
+  "p_model": 0.7002,
+  "p_mkt": 0.5734,
+  "fair": -162,
+  "price": -150,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "theScore Bet": -165,
+   "Hard Rock Bet": -150
+  },
+  "ev": 0.0296,
+  "min": 28.0,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 5144091,
+  "name": "Jeremiah Fears",
+  "team": "NOP",
+  "opp": "DEN",
+  "market": "reb_o2.5",
+  "kind": "likely",
+  "p": 0.5874,
+  "p_model": 0.6265,
+  "p_mkt": 0.5664,
+  "fair": -142,
+  "price": -150,
+  "book": "theScore Bet",
+  "prices": {
+   "FanDuel": -152,
+   "Hard Rock Bet": -155,
+   "DraftKings": -153,
+   "BetMGM": -155,
+   "theScore Bet": -150
+  },
+  "ev": -0.0209,
+  "min": 25.4,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 6475,
+  "name": "Klay Thompson",
+  "team": "MIA",
+  "opp": "CHA",
+  "market": "reb_u2.5",
+  "kind": "likely",
+  "p": 0.622,
+  "p_model": 0.658,
+  "p_mkt": 0.6026,
+  "fair": -165,
+  "price": -160,
+  "book": "theScore Bet",
+  "prices": {
+   "betPARX": -182,
+   "BetRivers": -186,
+   "theScore Bet": -160
+  },
+  "ev": 0.0107,
+  "min": 21.5,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4278053,
+  "name": "Davion Mitchell",
+  "team": "MIA",
+  "opp": "CHA",
+  "market": "reb_u2.5",
+  "kind": "bet",
+  "p": 0.5014,
+  "p_model": 0.5416,
+  "p_mkt": 0.4797,
+  "fair": -101,
+  "price": 110,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -111,
+   "DraftKings": -104,
+   "betPARX": -109,
+   "BetRivers": -110,
+   "theScore Bet": -105,
+   "BetMGM": 110,
+   "Hard Rock Bet": -105
+  },
+  "ev": 0.0529,
+  "min": 29.1,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4702177,
+  "name": "Keon Ellis",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "reb_u2.5",
+  "kind": "bet",
+  "p": 0.603,
+  "p_model": 0.6924,
+  "p_mkt": 0.5548,
+  "fair": -152,
+  "price": -124,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -146,
+   "Hard Rock Bet": -140,
+   "theScore Bet": -140,
+   "DraftKings": -124,
+   "betPARX": -148,
+   "BetRivers": -152,
+   "BetMGM": -150
+  },
+  "ev": 0.0892,
+  "min": 21.3,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 4591725,
+  "name": "Ryan Rollins",
+  "team": "MIL",
+  "opp": "PHI",
+  "market": "reb_o3.5",
+  "kind": "likely",
+  "p": 0.5966,
+  "p_model": 0.6582,
+  "p_mkt": 0.5635,
+  "fair": -148,
+  "price": -146,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": -146,
+   "Hard Rock Bet": -155
+  },
+  "ev": 0.0053,
+  "min": 31.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 5174563,
+  "name": "Kyshawn George",
+  "team": "WAS",
+  "opp": "CHI",
+  "market": "reb_o3.5",
+  "kind": "likely",
+  "p": 0.6058,
+  "p_model": 0.7021,
+  "p_mkt": 0.554,
+  "fair": -154,
+  "price": -140,
+  "book": "theScore Bet",
+  "prices": {
+   "Hard Rock Bet": -150,
+   "theScore Bet": -140
+  },
+  "ev": 0.0386,
+  "min": 28.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 3032979,
+  "name": "Dennis Schroder",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "reb_u3.5",
+  "kind": "likely",
+  "p": 0.5736,
+  "p_model": 0.6309,
+  "p_mkt": 0.5428,
+  "fair": -135,
+  "price": -130,
+  "book": "theScore Bet",
+  "prices": {
+   "FanDuel": -136,
+   "DraftKings": -143,
+   "betPARX": -139,
+   "BetRivers": -141,
+   "theScore Bet": -130,
+   "BetMGM": -135,
+   "Hard Rock Bet": -130
+  },
+  "ev": 0.0149,
+  "min": 24.6,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4602025,
+  "name": "Sion James",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "reb_u3.5",
+  "kind": "bet",
+  "p": 0.4917,
+  "p_model": 0.5331,
+  "p_mkt": 0.4694,
+  "fair": 103,
+  "price": 115,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": 104,
+   "DraftKings": -103,
+   "betPARX": -105,
+   "BetRivers": -105,
+   "theScore Bet": 100,
+   "BetMGM": 115,
+   "Hard Rock Bet": 100
+  },
+  "ev": 0.0571,
+  "min": 22.8,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 5175643,
+  "name": "Egor Demin",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "reb_u3.5",
+  "kind": "likely",
+  "p": 0.5912,
+  "p_model": 0.6108,
+  "p_mkt": 0.5806,
+  "fair": -145,
+  "price": -154,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": -154,
+   "Hard Rock Bet": -160,
+   "theScore Bet": -160,
+   "DraftKings": -165,
+   "betPARX": -165,
+   "BetRivers": -167,
+   "BetMGM": -155
+  },
+  "ev": -0.025,
+  "min": 25.2,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 3936299,
+  "name": "Jamal Murray",
+  "team": "DEN",
+  "opp": "NOP",
+  "market": "reb_o4.5",
+  "kind": "bet",
+  "p": 0.4695,
+  "p_model": 0.5132,
+  "p_mkt": 0.4459,
+  "fair": 113,
+  "price": 125,
+  "book": "BetRivers",
+  "prices": {
+   "FanDuel": 102,
+   "Hard Rock Bet": 110,
+   "DraftKings": 110,
+   "BetMGM": 105,
+   "theScore Bet": 120,
+   "BetRivers": 125,
+   "betPARX": 125
+  },
+  "ev": 0.0563,
+  "min": 35.5,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 4397688,
+  "name": "Trey Murphy III",
+  "team": "NOP",
+  "opp": "DEN",
+  "market": "reb_o4.5",
+  "kind": "likely",
+  "p": 0.5826,
+  "p_model": 0.6247,
+  "p_mkt": 0.5599,
+  "fair": -140,
+  "price": -137,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -158,
+   "Hard Rock Bet": -145,
+   "DraftKings": -137,
+   "BetMGM": -140,
+   "theScore Bet": -140,
+   "BetRivers": -159,
+   "betPARX": -157
+  },
+  "ev": 0.0078,
+  "min": 35.0,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909860",
+  "player_id": 4437244,
+  "name": "Jalen Green",
+  "team": "PHX",
+  "opp": "GSW",
+  "market": "reb_u4.5",
+  "kind": "bet",
+  "p": 0.6203,
+  "p_model": 0.7114,
+  "p_mkt": 0.5712,
+  "fair": -163,
+  "price": -140,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -154,
+   "DraftKings": -161,
+   "BetMGM": -140,
+   "theScore Bet": -160,
+   "betPARX": -157,
+   "BetRivers": -159,
+   "Hard Rock Bet": -155
+  },
+  "ev": 0.0633,
+  "min": 25.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 5037871,
+  "name": "Dylan Harper",
+  "team": "SAS",
+  "opp": "DAL",
+  "market": "reb_u4.5",
+  "kind": "bet",
+  "p": 0.5687,
+  "p_model": 0.7075,
+  "p_mkt": 0.4939,
+  "fair": -132,
+  "price": -105,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -112,
+   "Hard Rock Bet": -115,
+   "DraftKings": -111,
+   "BetMGM": -105,
+   "theScore Bet": -110,
+   "betPARX": -122,
+   "BetRivers": -124
+  },
+  "ev": 0.1102,
+  "min": 23.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 3907497,
+  "name": "Dejounte Murray",
+  "team": "NOP",
+  "opp": "DEN",
+  "market": "reb_u5.5",
+  "kind": "likely",
+  "p": 0.5832,
+  "p_model": 0.6527,
+  "p_mkt": 0.5458,
+  "fair": -140,
+  "price": -139,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -140,
+   "Hard Rock Bet": -145,
+   "DraftKings": -141,
+   "BetMGM": -155,
+   "theScore Bet": -140,
+   "BetRivers": -141,
+   "betPARX": -139
+  },
+  "ev": 0.0028,
+  "min": 28.3,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 4278594,
+  "name": "Naji Marshall",
+  "team": "DAL",
+  "opp": "SAS",
+  "market": "reb_u5.5",
+  "kind": "likely",
+  "p": 0.5824,
+  "p_model": 0.6635,
+  "p_mkt": 0.5387,
+  "fair": -139,
+  "price": -132,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -158,
+   "DraftKings": -132,
+   "theScore Bet": -160,
+   "betPARX": -136,
+   "BetRivers": -137
+  },
+  "ev": 0.0236,
+  "min": 29.7,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 4432848,
+  "name": "Jaime Jaquez Jr.",
+  "team": "MIL",
+  "opp": "PHI",
+  "market": "reb_u5.5",
+  "kind": "likely",
+  "p": 0.5669,
+  "p_model": 0.5975,
+  "p_mkt": 0.5504,
+  "fair": -131,
+  "price": -123,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -146,
+   "DraftKings": -123,
+   "theScore Bet": -140,
+   "BetMGM": -150,
+   "BetRivers": -143,
+   "betPARX": -143,
+   "Hard Rock Bet": -145
+  },
+  "ev": 0.0278,
+  "min": 28.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4433287,
+  "name": "Brandon Miller",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "reb_u5.5",
+  "kind": "likely",
+  "p": 0.5718,
+  "p_model": 0.6053,
+  "p_mkt": 0.5538,
+  "fair": -134,
+  "price": -135,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -156,
+   "DraftKings": -140,
+   "betPARX": -148,
+   "BetRivers": -148,
+   "theScore Bet": -150,
+   "BetMGM": -135,
+   "Hard Rock Bet": -145
+  },
+  "ev": -0.0046,
+  "min": 30.2,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909860",
+  "player_id": 4997536,
+  "name": "Gui Santos",
+  "team": "GSW",
+  "opp": "PHX",
+  "market": "reb_u5.5",
+  "kind": "bet",
+  "p": 0.5835,
+  "p_model": 0.7763,
+  "p_mkt": 0.4797,
+  "fair": -140,
+  "price": -105,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "Hard Rock Bet": -105
+  },
+  "ev": 0.1392,
+  "min": 20.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 5044385,
+  "name": "Leonard Miller",
+  "team": "CHI",
+  "opp": "WAS",
+  "market": "reb_u5.5",
+  "kind": "bet",
+  "p": 0.6348,
+  "p_model": 0.7749,
+  "p_mkt": 0.5594,
+  "fair": -174,
+  "price": -145,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "Hard Rock Bet": -145,
+   "DraftKings": -152
+  },
+  "ev": 0.0726,
+  "min": 16.7,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 4871145,
+  "name": "Josh Giddey",
+  "team": "CHI",
+  "opp": "WAS",
+  "market": "reb_o6.5",
+  "kind": "likely",
+  "p": 0.5601,
+  "p_model": 0.6111,
+  "p_mkt": 0.5326,
+  "fair": -127,
+  "price": -127,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -138,
+   "Hard Rock Bet": -135,
+   "DraftKings": -141,
+   "theScore Bet": -130,
+   "betPARX": -127,
+   "BetRivers": -129
+  },
+  "ev": 0.0011,
+  "min": 31.2,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 5160992,
+  "name": "Alex Sarr",
+  "team": "WAS",
+  "opp": "CHI",
+  "market": "reb_o6.5",
+  "kind": "bet",
+  "p": 0.5024,
+  "p_model": 0.5772,
+  "p_mkt": 0.4621,
+  "fair": -101,
+  "price": 110,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": 102,
+   "Hard Rock Bet": -105,
+   "DraftKings": 103,
+   "theScore Bet": -105,
+   "BetMGM": -105,
+   "betPARX": 110,
+   "BetRivers": 110
+  },
+  "ev": 0.055,
+  "min": 26.9,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 3064290,
+  "name": "Aaron Gordon",
+  "team": "DEN",
+  "opp": "NOP",
+  "market": "reb_u6.5",
+  "kind": "likely",
+  "p": 0.5778,
+  "p_model": 0.6219,
+  "p_mkt": 0.5541,
+  "fair": -137,
+  "price": -140,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -146,
+   "Hard Rock Bet": -145,
+   "DraftKings": -142,
+   "BetMGM": -140,
+   "theScore Bet": -140,
+   "BetRivers": -150,
+   "betPARX": -148
+  },
+  "ev": -0.0094,
+  "min": 27.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 5124612,
+  "name": "VJ Edgecombe",
+  "team": "PHI",
+  "opp": "MIL",
+  "market": "reb_u6.5",
+  "kind": "likely",
+  "p": 0.5964,
+  "p_model": 0.6686,
+  "p_mkt": 0.5575,
+  "fair": -148,
+  "price": -148,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -168,
+   "BetMGM": -150,
+   "BetRivers": -150,
+   "betPARX": -148
+  },
+  "ev": -0.0007,
+  "min": 34.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 4278078,
+  "name": "P.J. Washington",
+  "team": "DAL",
+  "opp": "SAS",
+  "market": "reb_u7.5",
+  "kind": "likely",
+  "p": 0.5677,
+  "p_model": 0.5903,
+  "p_mkt": 0.5555,
+  "fair": -131,
+  "price": -140,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -146,
+   "DraftKings": -140,
+   "BetMGM": -150,
+   "theScore Bet": -145,
+   "betPARX": -148,
+   "BetRivers": -150
+  },
+  "ev": -0.0268,
+  "min": 31.0,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4066328,
+  "name": "Jarrett Allen",
+  "team": "CLE",
+  "opp": "BKN",
+  "market": "reb_u8.5",
+  "kind": "likely",
+  "p": 0.5546,
+  "p_model": 0.5829,
+  "p_mkt": 0.5393,
+  "fair": -124,
+  "price": -130,
+  "book": "theScore Bet",
+  "prices": {
+   "FanDuel": -146,
+   "Hard Rock Bet": -140,
+   "theScore Bet": -130,
+   "DraftKings": -138,
+   "betPARX": -134,
+   "BetRivers": -136
+  },
+  "ev": -0.0189,
+  "min": 27.2,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 4397189,
+  "name": "Jalen Smith",
+  "team": "CHI",
+  "opp": "WAS",
+  "market": "reb_u8.5",
+  "kind": "bet",
+  "p": 0.5953,
+  "p_model": 0.7093,
+  "p_mkt": 0.5339,
+  "fair": -147,
+  "price": -125,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -140,
+   "Hard Rock Bet": -140,
+   "DraftKings": -131,
+   "theScore Bet": -130,
+   "BetMGM": -125,
+   "betPARX": -134,
+   "BetRivers": -136
+  },
+  "ev": 0.0715,
+  "min": 20.7,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4432194,
+  "name": "Day'Ron Sharpe",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "reb_u8.5",
+  "kind": "bet",
+  "p": 0.5766,
+  "p_model": 0.7565,
+  "p_mkt": 0.4797,
+  "fair": -136,
+  "price": 110,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": 110,
+   "Hard Rock Bet": 105,
+   "theScore Bet": -105,
+   "DraftKings": -106,
+   "BetMGM": -105
+  },
+  "ev": 0.2108,
+  "min": 19.4,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909856",
+  "player_id": 4684740,
+  "name": "Amen Thompson",
+  "team": "HOU",
+  "opp": "ATL",
+  "market": "reb_u8.5",
+  "kind": "likely",
+  "p": 0.5616,
+  "p_model": 0.6383,
+  "p_mkt": 0.5203,
+  "fair": -128,
+  "price": -121,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -136,
+   "Hard Rock Bet": -130,
+   "DraftKings": -125,
+   "theScore Bet": -130,
+   "BetMGM": -125,
+   "BetRivers": -122,
+   "betPARX": -121
+  },
+  "ev": 0.0257,
+  "min": 37.1,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4432194,
+  "name": "Day'Ron Sharpe",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "reb_u9.5",
+  "kind": "bet",
+  "p": 0.6535,
+  "p_model": 0.8329,
+  "p_mkt": 0.5569,
+  "fair": -189,
+  "price": -148,
+  "book": "betPARX",
+  "prices": {
+   "betPARX": -148,
+   "BetRivers": -150
+  },
+  "ev": 0.0951,
+  "min": 19.4,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 3032977,
+  "name": "Giannis Antetokounmpo",
+  "team": "MIA",
+  "opp": "CHA",
+  "market": "reb_u10.5",
+  "kind": "bet",
+  "p": 0.5459,
+  "p_model": 0.6498,
+  "p_mkt": 0.4899,
+  "fair": -120,
+  "price": -101,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -113,
+   "DraftKings": -101,
+   "betPARX": -112,
+   "BetRivers": -112,
+   "theScore Bet": -110,
+   "BetMGM": -105,
+   "Hard Rock Bet": -105
+  },
+  "ev": 0.0863,
+  "min": 29.2,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 6583,
+  "name": "Anthony Davis",
+  "team": "WAS",
+  "opp": "CHI",
+  "market": "reb_u11.5",
+  "kind": "likely",
+  "p": 0.5651,
+  "p_model": 0.6483,
+  "p_mkt": 0.5203,
+  "fair": -130,
+  "price": -121,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -136,
+   "Hard Rock Bet": -125,
+   "DraftKings": -121,
+   "theScore Bet": -125,
+   "BetMGM": -130,
+   "betPARX": -124,
+   "BetRivers": -125
+  },
+  "ev": 0.0321,
+  "min": 31.4,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 5104157,
+  "name": "Victor Wembanyama",
+  "team": "SAS",
+  "opp": "DAL",
+  "market": "reb_u11.5",
+  "kind": "bet",
+  "p": 0.5116,
+  "p_model": 0.5871,
+  "p_mkt": 0.471,
+  "fair": -105,
+  "price": 108,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": 108,
+   "Hard Rock Bet": 105,
+   "DraftKings": -109,
+   "theScore Bet": 100,
+   "betPARX": -103,
+   "BetRivers": -104
+  },
+  "ev": 0.0642,
+  "min": 29.6,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 5104157,
+  "name": "Victor Wembanyama",
+  "team": "SAS",
+  "opp": "DAL",
+  "market": "reb_u12.5",
+  "kind": "likely",
+  "p": 0.5806,
+  "p_model": 0.6658,
+  "p_mkt": 0.5347,
+  "fair": -138,
+  "price": -135,
+  "book": "BetMGM",
+  "prices": {
+   "BetMGM": -135
+  },
+  "ev": 0.0106,
+  "min": 29.6,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 3112335,
+  "name": "Nikola Jokic",
+  "team": "DEN",
+  "opp": "NOP",
+  "market": "reb_u13.5",
+  "kind": "likely",
+  "p": 0.5589,
+  "p_model": 0.5883,
+  "p_mkt": 0.5431,
+  "fair": -127,
+  "price": -130,
+  "book": "theScore Bet",
+  "prices": {
+   "Hard Rock Bet": -135,
+   "theScore Bet": -130,
+   "BetRivers": -141,
+   "betPARX": -141
+  },
+  "ev": -0.0111,
+  "min": 34.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909856",
+  "player_id": 3202,
+  "name": "Kevin Durant",
+  "team": "HOU",
+  "opp": "ATL",
+  "market": "thr_o1.5",
+  "kind": "likely",
+  "p": 0.6091,
+  "p_model": 0.6099,
+  "p_mkt": 0.6086,
+  "fair": -156,
+  "price": -162,
+  "book": "BetRivers",
+  "prices": {
+   "FanDuel": -188,
+   "Hard Rock Bet": -180,
+   "DraftKings": -190,
+   "theScore Bet": -190,
+   "BetRivers": -162,
+   "betPARX": -162
+  },
+  "ev": -0.015,
+  "min": 36.5,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 3112335,
+  "name": "Nikola Jokic",
+  "team": "DEN",
+  "opp": "NOP",
+  "market": "thr_o1.5",
+  "kind": "likely",
+  "p": 0.5508,
+  "p_model": 0.5338,
+  "p_mkt": 0.5599,
+  "fair": -123,
+  "price": -131,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -154,
+   "Hard Rock Bet": -145,
+   "DraftKings": -131,
+   "BetMGM": -155,
+   "theScore Bet": -145,
+   "BetRivers": -152,
+   "betPARX": -150
+  },
+  "ev": -0.0288,
+  "min": 34.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 3133628,
+  "name": "Myles Turner",
+  "team": "MIL",
+  "opp": "PHI",
+  "market": "thr_o1.5",
+  "kind": "likely",
+  "p": 0.5589,
+  "p_model": 0.5571,
+  "p_mkt": 0.5599,
+  "fair": -127,
+  "price": -135,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -146,
+   "DraftKings": -166,
+   "theScore Bet": -160,
+   "BetMGM": -135,
+   "BetRivers": -152,
+   "betPARX": -150,
+   "Hard Rock Bet": -145
+  },
+  "ev": -0.0271,
+  "min": 27.4,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4066757,
+  "name": "Sam Merrill",
+  "team": "CLE",
+  "opp": "BKN",
+  "market": "thr_o1.5",
+  "kind": "likely",
+  "p": 0.6305,
+  "p_model": 0.6884,
+  "p_mkt": 0.5993,
+  "fair": -171,
+  "price": -175,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "Hard Rock Bet": -175,
+   "theScore Bet": -195,
+   "betPARX": -175,
+   "BetRivers": -175,
+   "BetMGM": -185
+  },
+  "ev": -0.0092,
+  "min": 26.3,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 4432582,
+  "name": "Max Christie",
+  "team": "DAL",
+  "opp": "SAS",
+  "market": "thr_o1.5",
+  "kind": "likely",
+  "p": 0.5814,
+  "p_model": 0.5983,
+  "p_mkt": 0.5723,
+  "fair": -139,
+  "price": -136,
+  "book": "betPARX",
+  "prices": {
+   "Hard Rock Bet": -180,
+   "theScore Bet": -190,
+   "betPARX": -136,
+   "BetRivers": -137
+  },
+  "ev": 0.0089,
+  "min": 29.6,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909856",
+  "player_id": 4432639,
+  "name": "Jabari Smith Jr.",
+  "team": "HOU",
+  "opp": "ATL",
+  "market": "thr_o1.5",
+  "kind": "likely",
+  "p": 0.6044,
+  "p_model": 0.6234,
+  "p_mkt": 0.5941,
+  "fair": -153,
+  "price": -162,
+  "book": "BetRivers",
+  "prices": {
+   "FanDuel": -205,
+   "DraftKings": -189,
+   "BetMGM": -175,
+   "BetRivers": -162,
+   "betPARX": -162
+  },
+  "ev": -0.0226,
+  "min": 35.1,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 4591725,
+  "name": "Ryan Rollins",
+  "team": "MIL",
+  "opp": "PHI",
+  "market": "thr_o1.5",
+  "kind": "likely",
+  "p": 0.5911,
+  "p_model": 0.6427,
+  "p_mkt": 0.5633,
+  "fair": -145,
+  "price": -144,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": -144,
+   "DraftKings": -186,
+   "theScore Bet": -160,
+   "BetMGM": -160,
+   "BetRivers": -148,
+   "betPARX": -148,
+   "Hard Rock Bet": -150
+  },
+  "ev": 0.0016,
+  "min": 31.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4683747,
+  "name": "Jaylon Tyson",
+  "team": "CLE",
+  "opp": "BKN",
+  "market": "thr_o1.5",
+  "kind": "bet",
+  "p": 0.434,
+  "p_model": 0.5182,
+  "p_mkt": 0.3887,
+  "fair": 130,
+  "price": 147,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": 140,
+   "Hard Rock Bet": 140,
+   "theScore Bet": 140,
+   "DraftKings": 147,
+   "betPARX": 143,
+   "BetRivers": 143,
+   "BetMGM": 130
+  },
+  "ev": 0.072,
+  "min": 26.8,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 4711294,
+  "name": "Matas Buzelis",
+  "team": "CHI",
+  "opp": "WAS",
+  "market": "thr_o1.5",
+  "kind": "likely",
+  "p": 0.5912,
+  "p_model": 0.5906,
+  "p_mkt": 0.5915,
+  "fair": -145,
+  "price": -155,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -180,
+   "Hard Rock Bet": -170,
+   "DraftKings": -155,
+   "theScore Bet": -180,
+   "BetMGM": -200,
+   "betPARX": -159,
+   "BetRivers": -162
+  },
+  "ev": -0.0274,
+  "min": 28.3,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 4871145,
+  "name": "Josh Giddey",
+  "team": "CHI",
+  "opp": "WAS",
+  "market": "thr_o1.5",
+  "kind": "bet",
+  "p": 0.436,
+  "p_model": 0.5074,
+  "p_mkt": 0.3976,
+  "fair": 129,
+  "price": 144,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": 136,
+   "Hard Rock Bet": 130,
+   "DraftKings": 144,
+   "theScore Bet": 135,
+   "BetMGM": 125,
+   "betPARX": 135,
+   "BetRivers": 133
+  },
+  "ev": 0.0639,
+  "min": 31.2,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 3032979,
+  "name": "Dennis Schroder",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "thr_u1.5",
+  "kind": "bet",
+  "p": 0.6197,
+  "p_model": 0.6819,
+  "p_mkt": 0.5862,
+  "fair": -163,
+  "price": -140,
+  "book": "BetMGM",
+  "prices": {
+   "DraftKings": -169,
+   "betPARX": -175,
+   "BetRivers": -180,
+   "theScore Bet": -165,
+   "BetMGM": -140,
+   "Hard Rock Bet": -155
+  },
+  "ev": 0.0623,
+  "min": 24.6,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 4278078,
+  "name": "P.J. Washington",
+  "team": "DAL",
+  "opp": "SAS",
+  "market": "thr_u1.5",
+  "kind": "bet",
+  "p": 0.5337,
+  "p_model": 0.6019,
+  "p_mkt": 0.497,
+  "fair": -114,
+  "price": 110,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -112,
+   "Hard Rock Bet": -115,
+   "BetMGM": -120,
+   "theScore Bet": -115,
+   "betPARX": 110,
+   "BetRivers": 110
+  },
+  "ev": 0.1208,
+  "min": 31.0,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 4278594,
+  "name": "Naji Marshall",
+  "team": "DAL",
+  "opp": "SAS",
+  "market": "thr_u1.5",
+  "kind": "likely",
+  "p": 0.6524,
+  "p_model": 0.7423,
+  "p_mkt": 0.604,
+  "fair": -188,
+  "price": -175,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "FanDuel": -178,
+   "Hard Rock Bet": -175,
+   "DraftKings": -192,
+   "BetMGM": -185,
+   "theScore Bet": -180,
+   "betPARX": -200,
+   "BetRivers": -200
+  },
+  "ev": 0.0252,
+  "min": 29.7,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 4431767,
+  "name": "Christian Braun",
+  "team": "DEN",
+  "opp": "NOP",
+  "market": "thr_u1.5",
+  "kind": "likely",
+  "p": 0.5796,
+  "p_model": 0.6571,
+  "p_mkt": 0.5379,
+  "fair": -138,
+  "price": -130,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "FanDuel": -136,
+   "Hard Rock Bet": -130,
+   "DraftKings": -131,
+   "BetMGM": -135,
+   "theScore Bet": -145,
+   "BetRivers": -141,
+   "betPARX": -139
+  },
+  "ev": 0.0255,
+  "min": 31.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4432158,
+  "name": "Evan Mobley",
+  "team": "CLE",
+  "opp": "BKN",
+  "market": "thr_u1.5",
+  "kind": "likely",
+  "p": 0.6823,
+  "p_model": 0.7227,
+  "p_mkt": 0.6605,
+  "fair": -215,
+  "price": -220,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -260,
+   "BetMGM": -220
+  },
+  "ev": -0.0076,
+  "min": 32.1,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 4432848,
+  "name": "Jaime Jaquez Jr.",
+  "team": "MIL",
+  "opp": "PHI",
+  "market": "thr_u1.5",
+  "kind": "likely",
+  "p": 0.6935,
+  "p_model": 0.7876,
+  "p_mkt": 0.6429,
+  "fair": -226,
+  "price": -220,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -245,
+   "BetRivers": -225,
+   "betPARX": -220
+  },
+  "ev": 0.0088,
+  "min": 28.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4602025,
+  "name": "Sion James",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "thr_u1.5",
+  "kind": "likely",
+  "p": 0.587,
+  "p_model": 0.631,
+  "p_mkt": 0.5633,
+  "fair": -142,
+  "price": -140,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -158,
+   "DraftKings": -150,
+   "betPARX": -177,
+   "BetRivers": -180,
+   "theScore Bet": -145,
+   "BetMGM": -140,
+   "Hard Rock Bet": -150
+  },
+  "ev": 0.0063,
+  "min": 22.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4702177,
+  "name": "Keon Ellis",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "thr_u1.5",
+  "kind": "likely",
+  "p": 0.6361,
+  "p_model": 0.6692,
+  "p_mkt": 0.6182,
+  "fair": -175,
+  "price": -179,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -210,
+   "Hard Rock Bet": -195,
+   "theScore Bet": -195,
+   "DraftKings": -179,
+   "betPARX": -190,
+   "BetRivers": -195,
+   "BetMGM": -200
+  },
+  "ev": -0.0086,
+  "min": 21.3,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909858",
+  "player_id": 5037871,
+  "name": "Dylan Harper",
+  "team": "SAS",
+  "opp": "DAL",
+  "market": "thr_u1.5",
+  "kind": "likely",
+  "p": 0.6545,
+  "p_model": 0.7668,
+  "p_mkt": 0.5941,
+  "fair": -189,
+  "price": -170,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "FanDuel": -174,
+   "Hard Rock Bet": -170,
+   "DraftKings": -193,
+   "BetMGM": -175,
+   "theScore Bet": -170,
+   "betPARX": -182,
+   "BetRivers": -186
+  },
+  "ev": 0.0396,
+  "min": 23.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 5160992,
+  "name": "Alex Sarr",
+  "team": "WAS",
+  "opp": "CHI",
+  "market": "thr_u1.5",
+  "kind": "likely",
+  "p": 0.6618,
+  "p_model": 0.6999,
+  "p_mkt": 0.6413,
+  "fair": -196,
+  "price": -205,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -220,
+   "Hard Rock Bet": -220,
+   "theScore Bet": -215,
+   "BetMGM": -235,
+   "betPARX": -205,
+   "BetRivers": -210
+  },
+  "ev": -0.0154,
+  "min": 26.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4066757,
+  "name": "Sam Merrill",
+  "team": "CLE",
+  "opp": "BKN",
+  "market": "thr_o2.5",
+  "kind": "bet",
+  "p": 0.403,
+  "p_model": 0.4605,
+  "p_mkt": 0.3721,
+  "fair": 148,
+  "price": 162,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": 162,
+   "DraftKings": 142
+  },
+  "ev": 0.056,
+  "min": 26.3,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 4397688,
+  "name": "Trey Murphy III",
+  "team": "NOP",
+  "opp": "DEN",
+  "market": "thr_o2.5",
+  "kind": "bet",
+  "p": 0.4709,
+  "p_model": 0.5564,
+  "p_mkt": 0.4248,
+  "fair": 112,
+  "price": 125,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "FanDuel": 118,
+   "Hard Rock Bet": 125,
+   "DraftKings": 122,
+   "BetMGM": 125,
+   "theScore Bet": 120,
+   "BetRivers": 112,
+   "betPARX": 112
+  },
+  "ev": 0.0594,
+  "min": 35.0,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 4431678,
+  "name": "Tyrese Maxey",
+  "team": "PHI",
+  "opp": "MIL",
+  "market": "thr_o2.5",
+  "kind": "likely",
+  "p": 0.5599,
+  "p_model": 0.5762,
+  "p_mkt": 0.5511,
+  "fair": -127,
+  "price": -125,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -144,
+   "DraftKings": -125,
+   "theScore Bet": -140,
+   "BetMGM": -135,
+   "BetRivers": -152,
+   "betPARX": -150,
+   "Hard Rock Bet": -145
+  },
+  "ev": 0.0078,
+  "min": 38.4,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909857",
+  "player_id": 4277905,
+  "name": "Trae Young",
+  "team": "WAS",
+  "opp": "CHI",
+  "market": "thr_u2.5",
+  "kind": "bet",
+  "p": 0.5724,
+  "p_model": 0.7069,
+  "p_mkt": 0.5,
+  "fair": -134,
+  "price": -115,
+  "book": "Hard Rock Bet",
+  "prices": {
+   "FanDuel": -118,
+   "Hard Rock Bet": -115,
+   "DraftKings": -133,
+   "theScore Bet": -115,
+   "BetMGM": -120,
+   "betPARX": -115,
+   "BetRivers": -117
+  },
+  "ev": 0.0702,
+  "min": 26.8,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909855",
+  "player_id": 4395725,
+  "name": "Tyler Herro",
+  "team": "MIL",
+  "opp": "PHI",
+  "market": "thr_u2.5",
+  "kind": "bet",
+  "p": 0.5001,
+  "p_model": 0.5379,
+  "p_mkt": 0.4797,
+  "fair": -100,
+  "price": 115,
+  "book": "betPARX",
+  "prices": {
+   "FanDuel": -106,
+   "DraftKings": -105,
+   "theScore Bet": -105,
+   "BetMGM": -110,
+   "BetRivers": 114,
+   "betPARX": 115,
+   "Hard Rock Bet": -105
+  },
+  "ev": 0.0752,
+  "min": 31.3,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909853",
+  "player_id": 4396971,
+  "name": "Naz Reid",
+  "team": "CHA",
+  "opp": "MIA",
+  "market": "thr_u2.5",
+  "kind": "bet",
+  "p": 0.4775,
+  "p_model": 0.5638,
+  "p_mkt": 0.431,
+  "fair": 109,
+  "price": 122,
+  "book": "FanDuel",
+  "prices": {
+   "FanDuel": 122,
+   "DraftKings": 119,
+   "betPARX": 114,
+   "BetRivers": 112,
+   "theScore Bet": 120,
+   "BetMGM": 105,
+   "Hard Rock Bet": 120
+  },
+  "ev": 0.06,
+  "min": 26.4,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909860",
+  "player_id": 4437244,
+  "name": "Jalen Green",
+  "team": "PHX",
+  "opp": "GSW",
+  "market": "thr_u2.5",
+  "kind": "bet",
+  "p": 0.5541,
+  "p_model": 0.6546,
+  "p_mkt": 0.5,
+  "fair": -124,
+  "price": -105,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -118,
+   "DraftKings": -105,
+   "BetMGM": -120,
+   "theScore Bet": -115,
+   "betPARX": -113,
+   "BetRivers": -114,
+   "Hard Rock Bet": -115
+  },
+  "ev": 0.0818,
+  "min": 25.9,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 5175643,
+  "name": "Egor Demin",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "thr_u2.5",
+  "kind": "likely",
+  "p": 0.6198,
+  "p_model": 0.6375,
+  "p_mkt": 0.6102,
+  "fair": -163,
+  "price": -160,
+  "book": "BetMGM",
+  "prices": {
+   "FanDuel": -205,
+   "theScore Bet": -190,
+   "DraftKings": -185,
+   "BetMGM": -160
+  },
+  "ev": 0.0071,
+  "min": 25.2,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909859",
+  "player_id": 3936299,
+  "name": "Jamal Murray",
+  "team": "DEN",
+  "opp": "NOP",
+  "market": "thr_u3.5",
+  "kind": "likely",
+  "p": 0.6094,
+  "p_model": 0.642,
+  "p_mkt": 0.5919,
+  "fair": -156,
+  "price": -163,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -182,
+   "DraftKings": -163
+  },
+  "ev": -0.0167,
+  "min": 35.5,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-10-24",
+  "game_id": "401909854",
+  "player_id": 4278104,
+  "name": "Michael Porter Jr.",
+  "team": "BKN",
+  "opp": "CLE",
+  "market": "thr_u3.5",
+  "kind": "likely",
+  "p": 0.5762,
+  "p_model": 0.5942,
+  "p_mkt": 0.5665,
+  "fair": -136,
+  "price": -142,
+  "book": "DraftKings",
+  "prices": {
+   "FanDuel": -148,
+   "Hard Rock Bet": -150,
+   "theScore Bet": -145,
+   "DraftKings": -142,
+   "betPARX": -159,
+   "BetRivers": -162,
+   "BetMGM": -155
+  },
+  "ev": -0.018,
+  "min": 32.6,
+  "flag": false,
+  "likely": true,
+  "logged": "2026-10-24T18:31+00:00",
   "status": "pending",
   "units": null
  }
