@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Buckets">
+<title>Buckets — Doubles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#14110E">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="board.css">
+</head>
+<body>
+<main>
+  <header class="masthead">
+    <h1 class="wordmark">Buckets</h1>
+    <p><span id="when">Doubles</span></p>
+  </header>
+  <div id="app" hidden>
+    <div class="switch two" role="group" aria-label="Kind">
+      <button data-kind="dd" aria-pressed="true">Double-doubles</button>
+      <button data-kind="td" aria-pressed="false">Triple-doubles</button>
+    </div>
+    <p class="status" id="status"></p>
+    <section class="block">
+      <h2>Best chance tonight</h2>
+      <p class="muted" id="topNote"></p>
+      <ol class="plays" id="top"></ol>
+    </section>
+    <section class="block">
+      <h2>Biggest bump over usual</h2>
+      <p class="muted" id="boostNote"></p>
+      <ol class="plays" id="boost"></ol>
+    </section>
+    <section class="block">
+      <h2>Everyone</h2>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Player</th><th>Chance</th><th>Usual</th><th>Bump</th><th>Proj</th></tr></thead>
+          <tbody id="all"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="block">
+      <h2>How it has done</h2>
+      <p class="muted" id="liveNote"></p>
+      <div class="tablewrap" id="liveWrap" hidden>
+        <table><thead><tr><th>Group</th><th>Picks</th><th>Model</th><th>Actual</th></tr></thead><tbody id="live"></tbody></table>
+      </div>
+      <p class="muted" id="backNote"></p>
+      <div class="tablewrap" id="backWrap" hidden>
+        <table><thead><tr><th>Game looked</th><th>Games</th><th>Usual</th><th>Model</th><th>Actual</th></tr></thead><tbody id="back"></tbody></table>
+      </div>
+    </section>
+  </div>
+  <div class="empty" id="empty" hidden>
+    <h2 id="emptyTitle">No doubles board yet</h2>
+    <p id="emptyText">It appears after the next Tonight run.</p>
+  </div>
+  <footer>Chances come from the Buckets model alone, with no odds. Double-double means two of points, rebounds and assists at 10+. Blocks and steals aren’t counted. Check the injury report before betting.</footer>
+</main>
+<script src="doubles.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>

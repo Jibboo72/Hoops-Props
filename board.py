@@ -17,6 +17,7 @@ import pandas as pd
 import requests
 
 import market
+import doubles
 import nba_data as d
 import nba_pipeline as m
 from nba_model import position_map
@@ -30,6 +31,7 @@ ALIASES_FILE = m.ROOT / "data" / "name_aliases.json"   # {"nic claxton": "nicola
 
 SEASON, PRIOR = "20262027", "20252026"
 OUT = m.ROOT / "docs" / "data" / "board.json"
+DOUBLES_OUT = m.ROOT / "docs" / "data" / "doubles.json"
 ODDS_KEY = os.environ.get("ODDS_API_KEY", "").strip()
 ODDS_BASE = "https://api.the-odds-api.com/v4/sports/basketball_nba"
 MARKETS = {"thr": "player_threes", "reb": "player_rebounds", "ast": "player_assists"}   # one odds credit per market per game
@@ -247,10 +249,18 @@ def main():
     proj = m.build_projections(pd.concat([played, tonight], ignore_index=True), prior, cfg)
     proj = proj[proj["date"] == date]
     event_of = {c["player_id"]: c["event_id"] for c in cands}
+    try:   # ESPN's pre-game injury report (free). Players listed Out are dropped; other statuses are shown as a tag.
+        inj = {t: {norm(n, alias): s for n, s in ps.items()} for t, ps in d.fetch_injuries(games).items()}
+    except Exception:
+        inj = {}
+    dbl = []
     exp_env, bd = cfg["env_exponent"], cfg["blowout_drop"]
     nb = cfg["nb_r"]
 
     for _, r in proj.iterrows():
+        status = inj.get(r["team"], {}).get(norm(r["name"], alias), "")
+        if status.lower() == "out":
+            continue
         gl = lines.get(r["team"], {})
         ratio = market.env_ratio(gl.get("total"), r["pts_pred"])
         bm = 1.0
@@ -258,10 +268,19 @@ def main():
             bm = 1 - bd * float(np.clip((abs(gl["spread"]) - 8) / 10, 0, 1))
         lam = {"thr": float(r["lam_thr"]) * ratio ** exp_env["thr"] * bm,
                "reb": float(r["lam_reb"]) * ratio ** exp_env["reb"] * bm,
-               "ast": float(r["lam_ast"]) * ratio ** exp_env["ast"] * bm}
+               "ast": float(r["lam_ast"]) * ratio ** exp_env["ast"] * bm,
+               "pts": float(r["lam_pts"]) * ratio ** exp_env["pts"] * bm}
+        p_dd, p_td = doubles.calibrated(lam["pts"], lam["reb"], lam["ast"], nb, float(r["typ_dd"]), float(r["typ_td"]))
+        dbl.append({"id": int(r["player_id"]), "name": r["name"], "team": r["team"], "opp": r["opp"],
+                    "game_id": str(r["game_id"]), "min": round(float(r["proj_min"]), 1), "status": status,
+                    "p_dd": round(float(p_dd), 4), "p_td": round(float(p_td), 4),
+                    "typ_dd": round(float(r["typ_dd"]), 4), "typ_td": round(float(r["typ_td"]), 4),
+                    "exp_pts": round(lam["pts"], 1), "exp_reb": round(lam["reb"], 1), "exp_ast": round(lam["ast"], 1)})
         row = {"id": int(r["player_id"]), "name": r["name"], "team": r["team"], "opp": r["opp"], "pos": r["pg"],
                "game_id": str(r["game_id"]), "min": round(float(r["proj_min"]), 1),
                "exp_thr": round(lam["thr"], 2), "exp_reb": round(lam["reb"], 2), "exp_ast": round(lam["ast"], 2), "env": round(ratio, 3)}
+        if status:
+            row["status"] = status
         for fam in ("thr", "reb", "ast"):
             posted = odds.get((fam, norm(r["name"], alias), event_of.get(int(r["player_id"]))), {}) if odds else {}
             if not odds:  # fair odds only: one book-like line
@@ -300,6 +319,8 @@ def main():
                            "min_price": market.LIKELY_MIN_PRICE, "price_check": market.PRICE_CHECK}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, indent=1))
+    DOUBLES_OUT.write_text(json.dumps({"date": date, "generated": out["generated"], "games": games,
+                                       "players": sorted(dbl, key=lambda x: -x["p_dd"])}, indent=1))
     print(f"{date}: {len(games)} games, {len(out['players'])} players. {out['odds_status']}"
           + (f" {len(out['unmatched'])} priced names not matched." if out["unmatched"] else ""))
 

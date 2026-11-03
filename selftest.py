@@ -331,6 +331,15 @@ def stage_model(cdn, truth):
     check("opening night works with an empty current season", len(opening) > 0 and not opening["lam_thr"].isna().any(),
           f"{len(opening)} rows")
 
+    from doubles import doubles_backtest
+    db = doubles_backtest(m.build_projections(test, prior), m.CONFIG)
+    check("double/triple-double backtest runs with finite chances",
+          all(0 < db[k]["avg_pred"] < 1 and db[k]["n"] > 100 for k in ("dd", "td")),
+          f"DD predicted {db['dd']['avg_pred']:.3f} vs actual {db['dd']['base_rate']:.3f}")
+    inj = nba_data.parse_injuries({"injuries": [{"team": {"abbreviation": "GS"}, "injuries": [
+        {"athlete": {"displayName": "Test Player"}, "status": "Out"}]}]})
+    check("injury report parses (ESPN short codes mapped)", inj == {"GSW": {"Test Player": "Out"}}, str(inj))
+
     print("\n== Model vs. ground truth (2025-26, prior = 2024-25) ==")
     proj = m.build_projections(test, prior)
     check("no NaN projections", not proj[["lam_thr", "lam_reb", "proj_min"]].isna().any().any())
@@ -392,7 +401,9 @@ def stage_season(cdn):
     cdn.sched = s3
     out = Path(tempfile.mkdtemp())
     board.OUT, sim.BOARD, sim.LOG, sim.CALIB = out / "board.json", out / "board.json", out / "sim_log.json", out / "calib"
+    board.DOUBLES_OUT, sim.DOUBLES, sim.DOUBLES_LOG = out / "doubles.json", out / "doubles.json", out / "doubles_log.json"
     board.ODDS_KEY = "test"
+    board.credit_plan = lambda n, now=None: (dict(board.MARKETS), "")   # test is independent of the real credit balance
     pts = [sum(p["statistics"].get("points", 0) for t in ("homeTeam", "awayTeam") for p in b["game"][t]["players"])
            for b in list(b2 for b2 in cdn.boxes.values())[-400:]]
     total_mean = float(np.mean(pts))
@@ -432,6 +443,11 @@ def stage_season(cdn):
     check("nothing logged after tip-off / no duplicates", len({(x["date"], x["player_id"], x["market"]) for x in log}) == len(log))
     rows = [r for f in sorted(sim.CALIB.glob("*.json")) for r in json.loads(f.read_text())]
     done = [r for r in rows if r["hit"] in (0, 1)]
+    dl = json.loads(sim.DOUBLES_LOG.read_text())
+    dgr = [r for r in dl if r["hit_dd"] in (0, 1)]
+    check("doubles tracked and graded without odds", len(dl) > 50 and len(dgr) > 20, f"{len(dl)} tracked, {len(dgr)} graded")
+    check("doubles chances are valid and nobody tracked twice a day",
+          all(0 <= r["p_dd"] <= 1 and 0 <= r["p_td"] <= 1 for r in dl) and len({(r["date"], r["player_id"]) for r in dl}) == len(dl))
     check("calibration log graded", len(done) > 200, f"{len(done)} graded priced props")
     if len(done) > 200:
         hp = np.array([r["hit"] for r in done], float)

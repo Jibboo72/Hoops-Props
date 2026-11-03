@@ -22,3 +22,11 @@ Same setup as Scoresheet (NHL), switched to basketball. Model first, paper-bet s
 
 ## Odds credits
 The Tonight page shows how many Odds API credits are left and when they reset (the 28th). The **Credits** workflow (daily, or run by hand) checks the balance for free and updates that line.
+
+## Odds are off by default
+Tonight runs on the model alone (no Odds API credits). To turn prices back on, add a repo variable named `USE_ODDS`
+with value `true` (Settings > Secrets and variables > Actions > Variables).
+
+## Doubles
+The Doubles tab ranks tonight's double-double and triple-double chances and each player's bump over his usual rate.
+Chances are tracked and graded in `docs/data/doubles_log.json`, no odds needed.

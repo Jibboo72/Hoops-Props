@@ -20,6 +20,9 @@ from market import parse_key
 BOARD = m.ROOT / "docs" / "data" / "board.json"
 LOG = m.ROOT / "docs" / "data" / "sim_log.json"
 CALIB = m.ROOT / "docs" / "data" / "calib"   # one small file per day
+DOUBLES = m.ROOT / "docs" / "data" / "doubles.json"
+DOUBLES_LOG = m.ROOT / "docs" / "data" / "doubles_log.json"
+DOUBLES_MIN = 0.05   # every player with at least this chance of a double-double is tracked (no odds needed)
 MIN_EV = 0.05      # same bar as "Best plays" on the board (the value strategy)
 # The "most likely" strategy logs every prop board.py marks likely, even below MIN_EV (kind "likely").
 FLAG_EV = 0.30     # logged, but tagged so we can see if these lose (usually news the model missed)
@@ -45,7 +48,7 @@ def boxscore_stats(game_id):
     if not js:
         return False, {}
     rows, final = d.parse_boxscore(js, "")
-    return final, {int(r["player_id"]): {"fg3m": r["fg3m"], "reb": r["reb"], "ast": r["ast"], "min": r["min"]} for r in rows}
+    return final, {int(r["player_id"]): {"fg3m": r["fg3m"], "reb": r["reb"], "ast": r["ast"], "pts": r["pts"], "min": r["min"]} for r in rows}
 
 
 def hit(line, market):
@@ -150,6 +153,48 @@ def calibration(board):
     path.write_text(json.dumps(rows, separators=(",", ":")))
 
 
+def tens(stats):
+    """(double-double, triple-double) as 1/0 from one player's pts/reb/ast."""
+    n = sum(stats[k] >= 10 for k in ("pts", "reb", "ast"))
+    return int(n >= 2), int(n >= 3)
+
+
+def track_doubles(board):
+    """Grades earlier double/triple-double picks, then adds tonight's (first numbers seen are kept).
+    hit values: 1 yes, 0 no, -1 did not play. Needs no odds."""
+    rows = load(DOUBLES_LOG, [])
+    cache = {}
+    for r in rows:
+        if r["hit_dd"] is not None:
+            continue
+        if r["game_id"] not in cache:
+            cache[r["game_id"]] = boxscore_stats(r["game_id"])
+        final, stats = cache[r["game_id"]]
+        if final:
+            if r["player_id"] in stats:
+                r["hit_dd"], r["hit_td"] = tens(stats[r["player_id"]])
+            else:
+                r["hit_dd"] = r["hit_td"] = -1
+    new = 0
+    dbl = load(DOUBLES, {})
+    if dbl.get("players"):
+        now = datetime.now(timezone.utc)
+        starts = {g["id"]: g.get("start") for g in dbl.get("games", [])}
+        seen = {(r["date"], r["player_id"]) for r in rows}
+        for p in dbl["players"]:
+            if p["p_dd"] < DOUBLES_MIN or (dbl["date"], p["id"]) in seen or started(starts, p["game_id"], now):
+                continue
+            rows.append({"date": dbl["date"], "game_id": p["game_id"], "player_id": p["id"], "name": p["name"],
+                         "team": p["team"], "opp": p["opp"], "min": p["min"], "p_dd": p["p_dd"], "p_td": p["p_td"],
+                         "typ_dd": p["typ_dd"], "typ_td": p["typ_td"], "hit_dd": None, "hit_td": None})
+            new += 1
+    DOUBLES_LOG.parent.mkdir(parents=True, exist_ok=True)
+    DOUBLES_LOG.write_text(json.dumps(rows, separators=(",", ":")))
+    done = [r for r in rows if r["hit_dd"] in (0, 1)]
+    print(f"Doubles: tracked {new} new, {len(done)} graded"
+          + (f", model {sum(r['p_dd'] for r in done) / len(done):.1%} vs actual {sum(r['hit_dd'] for r in done) / len(done):.1%} double-doubles." if done else "."))
+
+
 def main():
     log = grade(load(LOG, []))
     board = load(BOARD, {})
@@ -159,6 +204,7 @@ def main():
     LOG.parent.mkdir(parents=True, exist_ok=True)
     LOG.write_text(json.dumps(log, indent=1))
     calibration(board)
+    track_doubles(board)
     done = [b for b in log if b["status"] in ("win", "loss")]
     units = sum(b["units"] or 0 for b in done)
     print(f"Logged {added} new plays. Graded record {sum(b['status'] == 'win' for b in done)}-"

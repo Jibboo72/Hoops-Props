@@ -31,6 +31,7 @@ GROUPS = [
     ("three accuracy", "thr", {"pct_prior_att": [100, 250, 500], "opp_pct_prior_att": [450, 900, 1800]}),
     ("rebounds", "reb", {"recent_weight_reb": [0.15, 0.3, 0.45, 0.65, 0.8], "reb_prior_games": [10, 20, 35]}),
     ("assists", "ast", {"recent_weight_ast": [0.15, 0.3, 0.45, 0.65, 0.8], "ast_prior_games": [10, 20, 35]}),
+    ("points", "pts", {"recent_weight_pts": [0.15, 0.3, 0.45, 0.65, 0.8], "pts_prior_games": [10, 20, 35]}),
     ("context", "all", {"team_k": [6, 10, 20], "team_prior_keep": [0.3, 0.6, 0.9],
                         "home_edge": [0.0, 0.01, 0.02], "b2b_drop": [0.0, 0.02, 0.04]}),
 ]
@@ -45,14 +46,15 @@ def scores(proj):
         out.append({
             "thr": min(-float(np.mean(m.dist_logpmf(d["fg3m"].to_numpy(), d["lam_thr"].to_numpy(), r))) for r in DISPERSION),
             "reb": min(-float(np.mean(m.dist_logpmf(d["reb"].to_numpy(), d["lam_reb"].to_numpy(), r))) for r in DISPERSION),
-            "ast": min(-float(np.mean(m.dist_logpmf(d["ast"].to_numpy(), d["lam_ast"].to_numpy(), r))) for r in DISPERSION)})
+            "ast": min(-float(np.mean(m.dist_logpmf(d["ast"].to_numpy(), d["lam_ast"].to_numpy(), r))) for r in DISPERSION),
+            "pts": min(-float(np.mean(m.dist_logpmf(d["pts"].to_numpy(), d["lam_pts"].to_numpy(), r))) for r in DISPERSION)})
     return out
 
 
 def score_of(s, key, ref):
     if key != "all":
         return s[key]
-    return sum(s[k] / ref[k] for k in ("thr", "reb", "ast"))  # relative, so each market counts equally
+    return sum(s[k] / ref[k] for k in ("thr", "reb", "ast", "pts"))  # relative, so each market counts equally
 
 
 def best_dispersion(proj, col, stat):
@@ -81,7 +83,8 @@ def tune(test, prior, start_cfg=None, groups=GROUPS, verbose=True):
         elif verbose:
             print(f"{name}: nothing beat the current settings on the second half, kept as is")
     proj = m.build_projections(test, prior, cfg)
-    cfg["nb_r"] = {"thr": best_dispersion(proj, "lam_thr", "fg3m"), "reb": best_dispersion(proj, "lam_reb", "reb"), "ast": best_dispersion(proj, "lam_ast", "ast")}
+    cfg["nb_r"] = {"thr": best_dispersion(proj, "lam_thr", "fg3m"), "reb": best_dispersion(proj, "lam_reb", "reb"), "ast": best_dispersion(proj, "lam_ast", "ast"),
+                  "pts": best_dispersion(proj, "lam_pts", "pts")}
     report["after"] = check0
     report["improvement"] = {k: round(1 - check0[k] / report["before"][k], 5) for k in check0}
     return cfg, proj, report
@@ -101,11 +104,12 @@ def main():
     TUNED.parent.mkdir(parents=True, exist_ok=True)
     TUNED.write_text(json.dumps(tuned, indent=1))
     markets = m.backtest(proj, cfg)
+    from doubles import doubles_backtest
     out = {"generated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
            "season_tested": "2025-26", "prior_season": "2024-25",
            "counts": {"player_games": int(len(proj)), "players": int(proj["player_id"].nunique()),
                       "games": int(proj["game_id"].nunique())},
-           "config": cfg, "tuning": report, "markets": markets}
+           "config": cfg, "tuning": report, "markets": markets, "doubles": doubles_backtest(proj, cfg)}
     m.OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     m.OUT_FILE.write_text(json.dumps(out, indent=1, default=str))
     for k, v in report["improvement"].items():

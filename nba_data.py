@@ -319,3 +319,26 @@ def fetch_season(season, refresh=False, workers=8):
         print(f"  {len(df):,} player-games, {df['game_id'].nunique()} games, "
               f"{tg.mean() if len(tg) else 0:.1f} players per team-game")
     return df
+
+
+def parse_injuries(js):
+    """One ESPN summary -> {team tricode: {player name: status}} from its pre-game injury report."""
+    out = {}
+    for blk in (js or {}).get("injuries", []) or []:
+        team = tricode((blk.get("team") or {}).get("abbreviation"))
+        for i in blk.get("injuries", []) or []:
+            name = (i.get("athlete") or {}).get("displayName")
+            status = i.get("status") or (i.get("type") or {}).get("description") or ""
+            if name and team:
+                out.setdefault(team, {})[name] = status
+    return out
+
+
+def fetch_injuries(games):
+    """Injury report for tonight's games (free ESPN calls, one per game). {team: {player name: status}}"""
+    out = {}
+    for g in games:
+        js = get_json(BOX_URL.format(gid=g["id"]), quiet=True)
+        for team, players in parse_injuries(js).items():
+            out.setdefault(team, {}).update(players)
+    return out

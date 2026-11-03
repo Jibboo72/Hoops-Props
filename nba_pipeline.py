@@ -130,11 +130,12 @@ def main():
     test = fetch_season(TEST_SEASON, refresh)
     proj = build_projections(test, prior)
     markets = backtest(proj)
+    from doubles import doubles_backtest
     out = {"generated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
            "season_tested": "2025-26", "prior_season": "2024-25",
            "counts": {"player_games": int(len(proj)), "players": int(proj["player_id"].nunique()),
                       "games": int(proj["game_id"].nunique())},
-           "config": CONFIG, "markets": markets}
+           "config": CONFIG, "markets": markets, "doubles": doubles_backtest(proj)}
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUT_FILE.write_text(json.dumps(out, indent=1, default=str))
     print(f"Wrote {OUT_FILE}")

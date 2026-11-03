@@ -1,5 +1,5 @@
 (function(){
-  var tabs=[["board.html","Tonight"],["sim.html","Sim"],["app.html","Backtest"]];
+  var tabs=[["board.html","Tonight"],["doubles.html","Doubles"],["sim.html","Sim"],["app.html","Backtest"]];
   var here=location.pathname.split("/").pop()||"board.html";
   var nav=document.createElement("nav"); nav.className="tabbar"; nav.setAttribute("aria-label","Buckets");
   tabs.forEach(function(t){
