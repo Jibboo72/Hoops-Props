@@ -178,6 +178,12 @@ def data_candidates(frames, games, idx):
     return cands
 
 
+def write_doubles(date, generated, games, players):
+    DOUBLES_OUT.parent.mkdir(parents=True, exist_ok=True)
+    DOUBLES_OUT.write_text(json.dumps({"date": date, "generated": generated, "games": games,
+                                       "players": sorted(players, key=lambda x: -x["p_dd"])}, indent=1))
+
+
 def main():
     date = sys.argv[1] if len(sys.argv) > 1 else datetime.now(ET).strftime("%Y-%m-%d")
     cfg = m.CONFIG
@@ -190,6 +196,7 @@ def main():
         out["odds_status"] = "No NBA games on this date."
         OUT.parent.mkdir(parents=True, exist_ok=True)
         OUT.write_text(json.dumps(out, indent=1))
+        write_doubles(date, out["generated"], [], [])
         print(out["odds_status"])
         return
 
@@ -244,6 +251,7 @@ def main():
         out["odds_status"] += " No players matched the model's history yet."
         OUT.parent.mkdir(parents=True, exist_ok=True)
         OUT.write_text(json.dumps(out, indent=1))
+        write_doubles(date, out["generated"], games, [])
         print(out["odds_status"])
         return
     proj = m.build_projections(pd.concat([played, tonight], ignore_index=True), prior, cfg)
@@ -319,8 +327,7 @@ def main():
                            "min_price": market.LIKELY_MIN_PRICE, "price_check": market.PRICE_CHECK}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, indent=1))
-    DOUBLES_OUT.write_text(json.dumps({"date": date, "generated": out["generated"], "games": games,
-                                       "players": sorted(dbl, key=lambda x: -x["p_dd"])}, indent=1))
+    write_doubles(date, out["generated"], games, dbl)
     print(f"{date}: {len(games)} games, {len(out['players'])} players. {out['odds_status']}"
           + (f" {len(out['unmatched'])} priced names not matched." if out["unmatched"] else ""))
 

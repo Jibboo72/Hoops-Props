@@ -4,6 +4,8 @@
   var $=function(id){return document.getElementById(id)};
   var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
   var pct=function(v){return v>=0.1?(v*100).toFixed(0)+"%":(v*100).toFixed(1)+"%"};
+  var ch=function(v){return pct(Math.max(v,0.01))};   // anyone near zero is rated 1%
+  var POOL={dd:0.03, td:0.01};                           // the 2x and 3x pools: players with at least this chance tonight
   var x=function(v){return v.toFixed(2).replace(/\.?0+$/,"")+"x"};
   var P=function(p){return kind==="dd"?p.p_dd:p.p_td};
   var T=function(p){return kind==="dd"?p.typ_dd:p.typ_td};
@@ -15,22 +17,26 @@
     var b=boost(p);
     li.innerHTML="<span class='who'>"+esc(p.name)+(p.status?" <em>"+esc(p.status)+"</em>":"")+"</span>"+
       "<span class='game'>"+p.team+" vs "+p.opp+", ~"+Math.round(p.min)+" min, projected "+Math.round(p.exp_pts)+" pts / "+Math.round(p.exp_reb)+" reb / "+Math.round(p.exp_ast)+" ast</span>"+
-      "<span class='nums'>Chance <b>"+pct(P(p))+"</b>, usual "+pct(T(p))+(b?", <b>"+x(b)+"</b> a normal game":"")+"</span>"+
-      "<span class='ev'><b>"+pct(P(p))+"</b><span>"+(kind==="dd"?"2x":"3x")+"</span></span>";
+      "<span class='nums'>Chance <b>"+ch(P(p))+"</b>, usual "+ch(T(p))+(b?", <b>"+x(b)+"</b> a normal game":"")+"</span>"+
+      "<span class='ev'><b>"+ch(P(p))+"</b><span>"+(kind==="dd"?"2x":"3x")+"</span></span>";
     return li;
   }
   function renderTonight(){
-    var ps=DATA.players.filter(function(p){return P(p)>=(kind==="dd"?0.03:0.005)});
+    var all=DATA.players.slice().sort(function(a,b){return P(b)-P(a)});
+    var ps=all.filter(function(p){return P(p)>=POOL[kind]});
+    var rest=all.filter(function(p){return P(p)<POOL[kind]});
     var top=ps.slice().sort(function(a,b){return P(b)-P(a)}).slice(0,12);
     var bo=ps.filter(function(p){return boost(p)!==null}).sort(function(a,b){return boost(b)-boost(a)}).slice(0,12);
     var o1=$("top"); o1.innerHTML=""; top.forEach(function(p){o1.appendChild(item(p))});
     var o2=$("boost"); o2.innerHTML=""; bo.forEach(function(p){o2.appendChild(item(p))});
     $("topNote").textContent="The players most likely to get a "+name()+" tonight.";
     $("boostNote").textContent="Players whose chance tonight is furthest above their own usual rate (only players who usually do it at least "+Math.round(MIN_TYP[kind]*100)+"% of the time). A bump comes from more minutes, a faster game or a friendlier matchup.";
+    $("rest").textContent=rest.length?("Everyone else tonight is rated 1%: "+rest.map(function(p){return p.name}).join(", ")+"."):"";
+    $("poolNote").textContent=ps.length+" of "+all.length+" players tonight are in the "+(kind==="dd"?"2x":"3x")+" pool (at least "+Math.round(POOL[kind]*100)+"% to get a "+name()+").";
     var tb=$("all"); tb.innerHTML="";
     ps.sort(function(a,b){return P(b)-P(a)}).forEach(function(p){
       var b=boost(p), tr=document.createElement("tr");
-      tr.innerHTML="<td>"+esc(p.name)+"<span class='sub'>"+p.team+" vs "+p.opp+(p.status?", "+esc(p.status):"")+"</span></td><td>"+pct(P(p))+"</td><td>"+pct(T(p))+"</td><td class='"+(b&&b>=1.25?"pos":"")+"'>"+(b?x(b):"—")+"</td><td>"+Math.round(p.exp_pts)+"/"+Math.round(p.exp_reb)+"/"+Math.round(p.exp_ast)+"</td>";
+      tr.innerHTML="<td>"+esc(p.name)+"<span class='sub'>"+p.team+" vs "+p.opp+(p.status?", "+esc(p.status):"")+"</span></td><td>"+ch(P(p))+"</td><td>"+ch(T(p))+"</td><td class='"+(b&&b>=1.25?"pos":"")+"'>"+(b?x(b):"—")+"</td><td>"+Math.round(p.exp_pts)+"/"+Math.round(p.exp_reb)+"/"+Math.round(p.exp_ast)+"</td>";
       tb.appendChild(tr);
     });
   }
@@ -62,7 +68,7 @@
   }
   function render(){
     document.querySelectorAll("[data-kind]").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.kind===kind?"true":"false")});
-    $("status").textContent=DATA.players.length+" players across "+DATA.games.length+" games."+(kind==="td"?" Triple-doubles are rare, so even the top chances are long shots.":"");
+    $("status").textContent=DATA.players.length+" players across "+DATA.games.length+" games."+(kind==="td"?" Triple-doubles are rare, so only a handful of players have a real chance.":"");
     renderTonight(); renderRecord();
   }
   document.querySelectorAll("[data-kind]").forEach(function(b){b.onclick=function(){kind=b.dataset.kind; render();}});
