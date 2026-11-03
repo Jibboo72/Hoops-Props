@@ -52055,7 +52055,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52079,7 +52079,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52103,7 +52103,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52127,7 +52127,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52151,7 +52151,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52175,7 +52175,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52199,7 +52199,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52223,7 +52223,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52247,7 +52247,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -52271,7 +52271,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52295,7 +52295,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52319,7 +52319,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -52343,7 +52343,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -52367,7 +52367,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52391,7 +52391,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52415,7 +52415,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52439,7 +52439,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52463,7 +52463,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52487,7 +52487,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52511,7 +52511,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52535,7 +52535,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52559,7 +52559,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52583,7 +52583,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52607,7 +52607,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -52631,7 +52631,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52655,7 +52655,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -52679,7 +52679,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52703,7 +52703,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52727,7 +52727,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52751,7 +52751,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52775,7 +52775,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52799,7 +52799,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52823,7 +52823,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52847,7 +52847,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52871,7 +52871,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52895,7 +52895,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -52919,7 +52919,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52943,7 +52943,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -52967,7 +52967,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -52991,7 +52991,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53015,7 +53015,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53039,7 +53039,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53063,7 +53063,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53087,7 +53087,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53111,7 +53111,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53135,7 +53135,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53159,7 +53159,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53183,7 +53183,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53207,7 +53207,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53231,7 +53231,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53255,7 +53255,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53279,7 +53279,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53303,7 +53303,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53327,7 +53327,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53351,7 +53351,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53375,7 +53375,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53399,7 +53399,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53423,7 +53423,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53447,7 +53447,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53471,7 +53471,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53495,7 +53495,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53519,7 +53519,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53543,7 +53543,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53567,7 +53567,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53591,7 +53591,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53615,7 +53615,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53639,7 +53639,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53663,7 +53663,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53687,7 +53687,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53711,7 +53711,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53735,7 +53735,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53759,7 +53759,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53783,7 +53783,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53807,7 +53807,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53831,7 +53831,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53855,7 +53855,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53879,7 +53879,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -53903,7 +53903,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53927,7 +53927,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53951,7 +53951,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -53975,7 +53975,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -53999,7 +53999,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54023,7 +54023,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54047,7 +54047,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54071,7 +54071,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -54095,7 +54095,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -54119,7 +54119,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -54143,7 +54143,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -54167,7 +54167,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54191,7 +54191,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54215,7 +54215,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54239,7 +54239,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54263,7 +54263,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54287,7 +54287,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54311,7 +54311,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54335,7 +54335,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54359,7 +54359,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54383,7 +54383,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54407,7 +54407,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54431,7 +54431,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54455,7 +54455,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54479,7 +54479,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54503,7 +54503,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54527,7 +54527,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -54551,7 +54551,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54575,7 +54575,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54599,7 +54599,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54623,7 +54623,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54647,7 +54647,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -54671,7 +54671,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54695,7 +54695,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54719,7 +54719,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54743,7 +54743,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54767,7 +54767,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -54791,7 +54791,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54815,7 +54815,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -54839,7 +54839,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54863,7 +54863,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -54887,7 +54887,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -54911,7 +54911,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54935,7 +54935,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -54959,7 +54959,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -54983,7 +54983,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55007,7 +55007,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55031,7 +55031,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55055,7 +55055,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55079,7 +55079,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55103,7 +55103,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55127,7 +55127,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55151,7 +55151,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55175,7 +55175,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55199,7 +55199,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55223,7 +55223,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55247,7 +55247,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55271,7 +55271,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55295,7 +55295,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55319,7 +55319,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55343,7 +55343,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55367,7 +55367,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55391,7 +55391,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55415,7 +55415,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55439,7 +55439,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55463,7 +55463,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55487,7 +55487,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55511,7 +55511,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55535,7 +55535,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55559,7 +55559,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55583,7 +55583,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55607,7 +55607,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55631,7 +55631,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55655,7 +55655,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55679,7 +55679,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55703,7 +55703,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55727,7 +55727,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55751,7 +55751,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55775,7 +55775,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55799,7 +55799,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55823,7 +55823,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55847,7 +55847,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55871,7 +55871,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55895,7 +55895,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -55919,7 +55919,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55943,7 +55943,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -55967,7 +55967,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -55991,7 +55991,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56015,7 +56015,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56039,7 +56039,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56063,7 +56063,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56087,7 +56087,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56111,7 +56111,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56135,7 +56135,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56159,7 +56159,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56183,7 +56183,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56207,7 +56207,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56231,7 +56231,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56255,7 +56255,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56279,7 +56279,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56303,7 +56303,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56327,7 +56327,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56351,7 +56351,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56375,7 +56375,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56399,7 +56399,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56423,7 +56423,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56447,7 +56447,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56471,7 +56471,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56495,7 +56495,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56519,7 +56519,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56543,7 +56543,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56567,7 +56567,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56591,7 +56591,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56615,7 +56615,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56639,7 +56639,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56663,7 +56663,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56687,7 +56687,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56711,7 +56711,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56735,7 +56735,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56759,7 +56759,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56783,7 +56783,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56807,7 +56807,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56831,7 +56831,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56855,7 +56855,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -56879,7 +56879,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56903,7 +56903,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56927,7 +56927,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -56951,7 +56951,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56975,7 +56975,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -56999,7 +56999,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -57023,7 +57023,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -57047,7 +57047,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57071,7 +57071,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -57095,7 +57095,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57119,7 +57119,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57143,7 +57143,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57167,7 +57167,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57191,7 +57191,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57215,7 +57215,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57239,7 +57239,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57263,7 +57263,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57287,7 +57287,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57311,7 +57311,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57335,7 +57335,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57359,7 +57359,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57383,7 +57383,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57407,7 +57407,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -57431,7 +57431,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57455,7 +57455,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57479,7 +57479,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57503,7 +57503,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57527,7 +57527,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57551,7 +57551,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57575,7 +57575,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -57599,7 +57599,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -57623,7 +57623,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57647,7 +57647,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57671,7 +57671,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57695,7 +57695,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57719,7 +57719,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57743,7 +57743,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -57767,7 +57767,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57791,7 +57791,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57815,7 +57815,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57839,7 +57839,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57863,7 +57863,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -57887,7 +57887,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57911,7 +57911,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -57935,7 +57935,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57959,7 +57959,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -57983,7 +57983,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58007,7 +58007,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58031,7 +58031,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -58055,7 +58055,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58079,7 +58079,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58103,7 +58103,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -58127,7 +58127,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58151,7 +58151,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58175,7 +58175,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58199,7 +58199,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58223,7 +58223,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58247,7 +58247,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58271,7 +58271,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58295,7 +58295,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58319,7 +58319,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58343,7 +58343,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -58367,7 +58367,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58391,7 +58391,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58415,7 +58415,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -58439,7 +58439,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58463,7 +58463,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58487,7 +58487,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58511,7 +58511,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -58535,7 +58535,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58559,7 +58559,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58583,7 +58583,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -58607,7 +58607,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58631,7 +58631,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58655,7 +58655,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -58679,7 +58679,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -58703,7 +58703,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -58727,7 +58727,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -58751,7 +58751,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58775,7 +58775,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58799,7 +58799,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58823,7 +58823,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58847,7 +58847,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58871,7 +58871,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58895,7 +58895,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58919,7 +58919,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58943,7 +58943,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -58967,7 +58967,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -58991,7 +58991,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -59015,7 +59015,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59039,7 +59039,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59063,7 +59063,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59087,7 +59087,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59111,7 +59111,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59135,7 +59135,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -59159,7 +59159,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59183,7 +59183,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59207,7 +59207,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59231,7 +59231,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -59255,7 +59255,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59279,7 +59279,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59303,7 +59303,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59327,7 +59327,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59351,7 +59351,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59375,7 +59375,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -59399,7 +59399,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59423,7 +59423,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59447,7 +59447,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59471,7 +59471,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59495,7 +59495,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59519,7 +59519,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -59543,7 +59543,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59567,7 +59567,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -59591,7 +59591,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59615,7 +59615,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59639,7 +59639,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59663,7 +59663,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59687,7 +59687,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -59711,7 +59711,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-02T23:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  }
 ]
