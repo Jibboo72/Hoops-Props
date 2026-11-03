@@ -10,7 +10,7 @@ The app is served by GitHub Pages from `docs/` (`jibboo72.github.io/Hoops-Props/
 
 | File | What's in it | Written by | When (UTC cron) | Read by |
 |---|---|---|---|---|
-| `board.json` | Tonight's board: games, players, markets, odds status, max price, rules | `board.py` (tonight.yml, secret `ODDS_API_KEY`) | 16:00, 19:00, 22:00 daily | `board.html` / `board.js` |
+| `board.json` | Tonight's board: games, players, markets, odds status, max price, rules | `board.py` (tonight.yml, secret `ODDS_API_KEY`) | 16:00, 19:00, 22:00 daily | `board.html` / `board.js`, **SportsMF** |
 | `sim_log.json` | Simulated results log | `sim.py` (tonight.yml) | with the board | `sim.js`, `structures.js` |
 | `calib/YYYY-MM-DD.json` | Daily calibration snapshot | tonight.yml | with the board | history |
 | `credits.json` | Odds API credits left | `credits.py` (credits.yml) | 12:00 daily | `board.js` |
@@ -27,5 +27,7 @@ ESPN NBA site API (games, logs) and The Odds API (prices).
 
 ## Who else reads it
 
-Nobody yet. `board.json` has the same shape as Scoresheet's, which SportsMF
-already reads — adding NBA to SportsMF would be a small change.
+**SportsMF** reads `docs/data/board.json` for the Props tab on NBA game pages.
+It matches games by `games[].id` (the ESPN event id) and uses `players[]`
+(`game_id`, `name`, `team`, `min`, `exp_thr/reb/ast`), `markets`, `max_price`,
+and each market's `p`, `fair`, `price`, `book`, `ev`, `likely`. Keep those stable.
