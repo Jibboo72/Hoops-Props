@@ -1,0 +1,1243 @@
+{
+ "generated": "2026-11-04T01:45+00:00",
+ "picks_per_night": 6,
+ "note": "Players are chosen from those who played that night (lineups aren't known in advance), so this is a little generous.",
+ "markets": {
+  "dd": {
+   "totals": {
+    "nights": 14,
+    "picks": 84,
+    "single_hits": 38,
+    "pairs": 210,
+    "pair_hits": 43,
+    "nights_with_a_hit": 13,
+    "nights_all_6": 0,
+    "single_hit_rate": 0.4524,
+    "pair_hit_rate": 0.2048,
+    "avg_chance": 0.5181
+   },
+   "nights": [
+    {
+     "date": "2026-10-20",
+     "hits": 3,
+     "pair_hits": 3,
+     "picks": [
+      {
+       "name": "Karl-Anthony Towns",
+       "team": "NYK",
+       "chance": 0.661,
+       "hit": 1
+      },
+      {
+       "name": "Victor Wembanyama",
+       "team": "SAS",
+       "chance": 0.598,
+       "hit": 1
+      },
+      {
+       "name": "Jalen Duren",
+       "team": "DET",
+       "chance": 0.521,
+       "hit": 0
+      },
+      {
+       "name": "Cade Cunningham",
+       "team": "DET",
+       "chance": 0.504,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.442,
+       "hit": 1
+      },
+      {
+       "name": "Chet Holmgren",
+       "team": "OKC",
+       "chance": 0.354,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "hits": 3,
+     "pair_hits": 3,
+     "picks": [
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.62,
+       "hit": 1
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.498,
+       "hit": 0
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.488,
+       "hit": 0
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.482,
+       "hit": 1
+      },
+      {
+       "name": "Anthony Davis",
+       "team": "WAS",
+       "chance": 0.48,
+       "hit": 1
+      },
+      {
+       "name": "Bam Adebayo",
+       "team": "MIA",
+       "chance": 0.48,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "hits": 2,
+     "pair_hits": 1,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.831,
+       "hit": 0
+      },
+      {
+       "name": "Evan Mobley",
+       "team": "CLE",
+       "chance": 0.39,
+       "hit": 0
+      },
+      {
+       "name": "Chet Holmgren",
+       "team": "OKC",
+       "chance": 0.333,
+       "hit": 1
+      },
+      {
+       "name": "Joel Embiid",
+       "team": "PHI",
+       "chance": 0.32,
+       "hit": 0
+      },
+      {
+       "name": "Jarrett Allen",
+       "team": "CLE",
+       "chance": 0.318,
+       "hit": 0
+      },
+      {
+       "name": "LeBron James",
+       "team": "PHI",
+       "chance": 0.307,
+       "hit": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "hits": 3,
+     "pair_hits": 3,
+     "picks": [
+      {
+       "name": "Karl-Anthony Towns",
+       "team": "NYK",
+       "chance": 0.647,
+       "hit": 1
+      },
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.611,
+       "hit": 0
+      },
+      {
+       "name": "Victor Wembanyama",
+       "team": "SAS",
+       "chance": 0.586,
+       "hit": 1
+      },
+      {
+       "name": "Jalen Duren",
+       "team": "DET",
+       "chance": 0.521,
+       "hit": 0
+      },
+      {
+       "name": "Anthony Davis",
+       "team": "WAS",
+       "chance": 0.513,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.512,
+       "hit": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "hits": 2,
+     "pair_hits": 1,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.814,
+       "hit": 1
+      },
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.608,
+       "hit": 1
+      },
+      {
+       "name": "Victor Wembanyama",
+       "team": "SAS",
+       "chance": 0.603,
+       "hit": 0
+      },
+      {
+       "name": "Anthony Davis",
+       "team": "WAS",
+       "chance": 0.514,
+       "hit": 0
+      },
+      {
+       "name": "Josh Giddey",
+       "team": "CHI",
+       "chance": 0.479,
+       "hit": 0
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.467,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "hits": 3,
+     "pair_hits": 3,
+     "picks": [
+      {
+       "name": "Karl-Anthony Towns",
+       "team": "NYK",
+       "chance": 0.665,
+       "hit": 1
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.547,
+       "hit": 1
+      },
+      {
+       "name": "Cade Cunningham",
+       "team": "DET",
+       "chance": 0.485,
+       "hit": 0
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.454,
+       "hit": 1
+      },
+      {
+       "name": "Ivica Zubac",
+       "team": "IND",
+       "chance": 0.442,
+       "hit": 0
+      },
+      {
+       "name": "Rudy Gobert",
+       "team": "MIN",
+       "chance": 0.38,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "hits": 3,
+     "pair_hits": 3,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.81,
+       "hit": 1
+      },
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.614,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.492,
+       "hit": 0
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.476,
+       "hit": 0
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.456,
+       "hit": 1
+      },
+      {
+       "name": "Anthony Davis",
+       "team": "WAS",
+       "chance": 0.454,
+       "hit": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-10-27",
+     "hits": 3,
+     "pair_hits": 3,
+     "picks": [
+      {
+       "name": "Karl-Anthony Towns",
+       "team": "NYK",
+       "chance": 0.68,
+       "hit": 1
+      },
+      {
+       "name": "Victor Wembanyama",
+       "team": "SAS",
+       "chance": 0.597,
+       "hit": 1
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.595,
+       "hit": 1
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.484,
+       "hit": 0
+      },
+      {
+       "name": "Cade Cunningham",
+       "team": "DET",
+       "chance": 0.434,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.428,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-28",
+     "hits": 5,
+     "pair_hits": 10,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.806,
+       "hit": 1
+      },
+      {
+       "name": "Karl-Anthony Towns",
+       "team": "NYK",
+       "chance": 0.725,
+       "hit": 1
+      },
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.646,
+       "hit": 1
+      },
+      {
+       "name": "Victor Wembanyama",
+       "team": "SAS",
+       "chance": 0.585,
+       "hit": 1
+      },
+      {
+       "name": "Anthony Davis",
+       "team": "WAS",
+       "chance": 0.491,
+       "hit": 0
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.49,
+       "hit": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.637,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.61,
+       "hit": 0
+      },
+      {
+       "name": "Evan Mobley",
+       "team": "CLE",
+       "chance": 0.43,
+       "hit": 0
+      },
+      {
+       "name": "Donovan Clingan",
+       "team": "POR",
+       "chance": 0.367,
+       "hit": 0
+      },
+      {
+       "name": "Deni Avdija",
+       "team": "POR",
+       "chance": 0.312,
+       "hit": 0
+      },
+      {
+       "name": "Jarrett Allen",
+       "team": "CLE",
+       "chance": 0.291,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "hits": 4,
+     "pair_hits": 6,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.799,
+       "hit": 1
+      },
+      {
+       "name": "Karl-Anthony Towns",
+       "team": "NYK",
+       "chance": 0.718,
+       "hit": 1
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.545,
+       "hit": 1
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.479,
+       "hit": 0
+      },
+      {
+       "name": "Anthony Davis",
+       "team": "WAS",
+       "chance": 0.454,
+       "hit": 1
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.448,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-31",
+     "hits": 1,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Victor Wembanyama",
+       "team": "SAS",
+       "chance": 0.628,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.611,
+       "hit": 1
+      },
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.609,
+       "hit": 0
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.485,
+       "hit": 0
+      },
+      {
+       "name": "Evan Mobley",
+       "team": "CLE",
+       "chance": 0.408,
+       "hit": 0
+      },
+      {
+       "name": "Donovan Clingan",
+       "team": "POR",
+       "chance": 0.344,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-11-01",
+     "hits": 2,
+     "pair_hits": 1,
+     "picks": [
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.446,
+       "hit": 1
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.419,
+       "hit": 0
+      },
+      {
+       "name": "Walker Kessler",
+       "team": "LAL",
+       "chance": 0.275,
+       "hit": 1
+      },
+      {
+       "name": "Scottie Barnes",
+       "team": "TOR",
+       "chance": 0.261,
+       "hit": 0
+      },
+      {
+       "name": "Andrew Nembhard",
+       "team": "IND",
+       "chance": 0.234,
+       "hit": 0
+      },
+      {
+       "name": "Michael Porter Jr.",
+       "team": "BKN",
+       "chance": 0.21,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-11-02",
+     "hits": 4,
+     "pair_hits": 6,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.815,
+       "hit": 0
+      },
+      {
+       "name": "Karl-Anthony Towns",
+       "team": "NYK",
+       "chance": 0.703,
+       "hit": 1
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.607,
+       "hit": 0
+      },
+      {
+       "name": "Victor Wembanyama",
+       "team": "SAS",
+       "chance": 0.603,
+       "hit": 1
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.531,
+       "hit": 1
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.504,
+       "hit": 1
+      }
+     ]
+    }
+   ]
+  },
+  "td": {
+   "totals": {
+    "nights": 14,
+    "picks": 84,
+    "single_hits": 3,
+    "pairs": 210,
+    "pair_hits": 0,
+    "nights_with_a_hit": 3,
+    "nights_all_6": 0,
+    "single_hit_rate": 0.0357,
+    "pair_hit_rate": 0.0,
+    "avg_chance": 0.0878
+   },
+   "nights": [
+    {
+     "date": "2026-10-20",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Cade Cunningham",
+       "team": "DET",
+       "chance": 0.047,
+       "hit": 0
+      },
+      {
+       "name": "LeBron James",
+       "team": "PHI",
+       "chance": 0.038,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.031,
+       "hit": 0
+      },
+      {
+       "name": "Stephon Castle",
+       "team": "SAS",
+       "chance": 0.03,
+       "hit": 0
+      },
+      {
+       "name": "Jaylen Brown",
+       "team": "PHI",
+       "chance": 0.018,
+       "hit": 0
+      },
+      {
+       "name": "Josh Hart",
+       "team": "NYK",
+       "chance": 0.014,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.164,
+       "hit": 0
+      },
+      {
+       "name": "Josh Giddey",
+       "team": "CHI",
+       "chance": 0.13,
+       "hit": 0
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.103,
+       "hit": 0
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.073,
+       "hit": 0
+      },
+      {
+       "name": "Scottie Barnes",
+       "team": "TOR",
+       "chance": 0.042,
+       "hit": 0
+      },
+      {
+       "name": "Deni Avdija",
+       "team": "POR",
+       "chance": 0.04,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.479,
+       "hit": 0
+      },
+      {
+       "name": "LeBron James",
+       "team": "PHI",
+       "chance": 0.048,
+       "hit": 0
+      },
+      {
+       "name": "James Harden",
+       "team": "CLE",
+       "chance": 0.023,
+       "hit": 0
+      },
+      {
+       "name": "Jaylen Brown",
+       "team": "PHI",
+       "chance": 0.022,
+       "hit": 0
+      },
+      {
+       "name": "Joel Embiid",
+       "team": "PHI",
+       "chance": 0.013,
+       "hit": 0
+      },
+      {
+       "name": "Jamal Murray",
+       "team": "DEN",
+       "chance": 0.007,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.145,
+       "hit": 0
+      },
+      {
+       "name": "Josh Giddey",
+       "team": "CHI",
+       "chance": 0.122,
+       "hit": 0
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.089,
+       "hit": 0
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.058,
+       "hit": 0
+      },
+      {
+       "name": "Cade Cunningham",
+       "team": "DET",
+       "chance": 0.05,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.042,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "hits": 1,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.463,
+       "hit": 1
+      },
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.153,
+       "hit": 0
+      },
+      {
+       "name": "Josh Giddey",
+       "team": "CHI",
+       "chance": 0.143,
+       "hit": 0
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.059,
+       "hit": 0
+      },
+      {
+       "name": "Stephon Castle",
+       "team": "SAS",
+       "chance": 0.024,
+       "hit": 0
+      },
+      {
+       "name": "Jaylen Brown",
+       "team": "PHI",
+       "chance": 0.02,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.091,
+       "hit": 0
+      },
+      {
+       "name": "LeBron James",
+       "team": "PHI",
+       "chance": 0.05,
+       "hit": 0
+      },
+      {
+       "name": "Cade Cunningham",
+       "team": "DET",
+       "chance": 0.044,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.035,
+       "hit": 0
+      },
+      {
+       "name": "Scottie Barnes",
+       "team": "TOR",
+       "chance": 0.034,
+       "hit": 0
+      },
+      {
+       "name": "Jaylen Brown",
+       "team": "PHI",
+       "chance": 0.02,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.444,
+       "hit": 0
+      },
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.164,
+       "hit": 0
+      },
+      {
+       "name": "Josh Giddey",
+       "team": "CHI",
+       "chance": 0.081,
+       "hit": 0
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.068,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.059,
+       "hit": 0
+      },
+      {
+       "name": "James Harden",
+       "team": "CLE",
+       "chance": 0.023,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-27",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.103,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.048,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.043,
+       "hit": 0
+      },
+      {
+       "name": "Cade Cunningham",
+       "team": "DET",
+       "chance": 0.033,
+       "hit": 0
+      },
+      {
+       "name": "Deni Avdija",
+       "team": "POR",
+       "chance": 0.028,
+       "hit": 0
+      },
+      {
+       "name": "Stephon Castle",
+       "team": "SAS",
+       "chance": 0.024,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-28",
+     "hits": 1,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.432,
+       "hit": 1
+      },
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.199,
+       "hit": 0
+      },
+      {
+       "name": "Josh Giddey",
+       "team": "CHI",
+       "chance": 0.079,
+       "hit": 0
+      },
+      {
+       "name": "Cade Cunningham",
+       "team": "DET",
+       "chance": 0.042,
+       "hit": 0
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.041,
+       "hit": 0
+      },
+      {
+       "name": "LeBron James",
+       "team": "PHI",
+       "chance": 0.039,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.189,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.052,
+       "hit": 0
+      },
+      {
+       "name": "Deni Avdija",
+       "team": "POR",
+       "chance": 0.042,
+       "hit": 0
+      },
+      {
+       "name": "James Harden",
+       "team": "CLE",
+       "chance": 0.017,
+       "hit": 0
+      },
+      {
+       "name": "Dyson Daniels",
+       "team": "ATL",
+       "chance": 0.011,
+       "hit": 0
+      },
+      {
+       "name": "Donovan Mitchell",
+       "team": "CLE",
+       "chance": 0.005,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "hits": 1,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.408,
+       "hit": 0
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.083,
+       "hit": 0
+      },
+      {
+       "name": "Josh Giddey",
+       "team": "CHI",
+       "chance": 0.076,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.076,
+       "hit": 0
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.043,
+       "hit": 1
+      },
+      {
+       "name": "LeBron James",
+       "team": "PHI",
+       "chance": 0.042,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-10-31",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Jalen Johnson",
+       "team": "ATL",
+       "chance": 0.173,
+       "hit": 0
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.076,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.057,
+       "hit": 0
+      },
+      {
+       "name": "Deni Avdija",
+       "team": "POR",
+       "chance": 0.04,
+       "hit": 0
+      },
+      {
+       "name": "Stephon Castle",
+       "team": "SAS",
+       "chance": 0.025,
+       "hit": 0
+      },
+      {
+       "name": "James Harden",
+       "team": "CLE",
+       "chance": 0.016,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-11-01",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.087,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.052,
+       "hit": 0
+      },
+      {
+       "name": "Julius Randle",
+       "team": "BKN",
+       "chance": 0.018,
+       "hit": 0
+      },
+      {
+       "name": "Scottie Barnes",
+       "team": "TOR",
+       "chance": 0.017,
+       "hit": 0
+      },
+      {
+       "name": "Franz Wagner",
+       "team": "ORL",
+       "chance": 0.006,
+       "hit": 0
+      },
+      {
+       "name": "Pascal Siakam",
+       "team": "IND",
+       "chance": 0.003,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-11-02",
+     "hits": 0,
+     "pair_hits": 0,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.443,
+       "hit": 0
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.122,
+       "hit": 0
+      },
+      {
+       "name": "Josh Giddey",
+       "team": "CHI",
+       "chance": 0.081,
+       "hit": 0
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.075,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.061,
+       "hit": 0
+      },
+      {
+       "name": "LeBron James",
+       "team": "PHI",
+       "chance": 0.061,
+       "hit": 0
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
