@@ -17,6 +17,7 @@ The app is served by GitHub Pages from `docs/` (`jibboo72.github.io/Hoops-Props/
 | `calib/YYYY-MM-DD.json` | Daily calibration snapshot | tonight.yml | with the board | history |
 | `credits.json` | Odds API credits left | `credits.py` (credits.yml) | 12:00 daily | `board.js` |
 | `backtest.json` | Model backtest (incl. `doubles` section) | `tune.py` (tune.yml) / `nba_pipeline.py` (backtest.yml) | manual | `app.js` |
+| `backtest_live.json` | Backtest of this season only (2026-27 so far), each game projected from earlier games | `nba_pipeline.py --live` (backtest.yml, `live` input) | manual | `app.js` (`app.html?season=live`) |
 
 ## Working data (`data/`, not served)
 

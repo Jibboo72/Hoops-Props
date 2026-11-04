@@ -95,12 +95,13 @@
   document.querySelectorAll(".switch button").forEach(function(b){
     b.onclick=function(){market=b.dataset.market; selected=null; render();};
   });
-  fetch("data/backtest.json",{cache:"no-store"})
+  var LIVE=/[?&]season=live/.test(location.search);
+  fetch(LIVE?"data/backtest_live.json":"data/backtest.json",{cache:"no-store"})
     .then(function(r){if(!r.ok) throw 0; return r.json();})
     .then(function(d){
       DATA=d;
       var when=new Date(d.generated);
-      $("meta").innerHTML="Backtest of "+d.season_tested+"<br>"+d.counts.players.toLocaleString()+" players";
+      $("meta").innerHTML="Backtest of "+d.season_tested+" · <a href='app.html"+(LIVE?"":"?season=live")+"'>"+(LIVE?"last season":"this season")+"</a><br>"+d.counts.players.toLocaleString()+" players";
       $("foot").textContent="Data from the NBA’s public boxscore feed. Updated "+when.toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"})+".";
       $("app").hidden=false; render();
     })

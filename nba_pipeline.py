@@ -126,19 +126,28 @@ def backtest(proj, cfg=CONFIG):
 
 def main():
     refresh = "--refresh" in sys.argv
-    prior = fetch_season(PRIOR_SEASON, refresh)
-    test = fetch_season(TEST_SEASON, refresh)
+    live = "--live" in sys.argv   # replay this season only: each game is projected from games before it
+    prior_s, test_s, out_file = PRIOR_SEASON, TEST_SEASON, OUT_FILE
+    if live:
+        prior_s, test_s, out_file = "20252026", "20262027", ROOT / "docs" / "data" / "backtest_live.json"
+        tuned = ROOT / "data" / "tuned_config.json"   # same settings the nightly board uses
+        if tuned.exists():
+            t = json.loads(tuned.read_text())
+            t["nb_r"] = {**CONFIG["nb_r"], **t.get("nb_r", {})}
+            CONFIG.update(t)
+    prior = fetch_season(prior_s, refresh)
+    test = fetch_season(test_s, refresh and not live)
     proj = build_projections(test, prior)
     markets = backtest(proj)
     from doubles import doubles_backtest
     out = {"generated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
-           "season_tested": "2025-26", "prior_season": "2024-25",
+           "season_tested": "2026-27 so far" if live else "2025-26", "prior_season": "2025-26" if live else "2024-25",
            "counts": {"player_games": int(len(proj)), "players": int(proj["player_id"].nunique()),
                       "games": int(proj["game_id"].nunique())},
            "config": CONFIG, "markets": markets, "doubles": doubles_backtest(proj)}
-    OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    OUT_FILE.write_text(json.dumps(out, indent=1, default=str))
-    print(f"Wrote {OUT_FILE}")
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    out_file.write_text(json.dumps(out, indent=1, default=str))
+    print(f"Wrote {out_file}")
     for fam, m in markets.items():
         for line, s in m["lines"].items():
             print(f"  {m['label']} over {line}: skill {s['skill']:+.1%}, calibration miss {s['ece']:.1%}, n={s['n']:,}")

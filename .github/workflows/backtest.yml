@@ -8,6 +8,10 @@ on:
         description: "Re-download all NBA data"
         type: boolean
         default: false
+      live:
+        description: "This season only (2026-27 so far)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,7 +32,9 @@ jobs:
 
       - name: Fetch data and run backtest
         run: |
-          if [ "${{ inputs.refresh }}" = "true" ]; then
+          if [ "${{ inputs.live }}" = "true" ]; then
+            python nba_pipeline.py --live
+          elif [ "${{ inputs.refresh }}" = "true" ]; then
             python nba_pipeline.py --refresh
           else
             python nba_pipeline.py
