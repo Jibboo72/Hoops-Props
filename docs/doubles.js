@@ -58,16 +58,16 @@
     });
     nights.sort(function(a,b){return a.date<b.date?1:-1});
     var tb=$("sixLog"); tb.innerHTML="";
-    var sh=0, sg=0, ph=0, pp=0;
+    var sh=0, sg=0, ph=0, pp=0, th=0, tp=0;
     nights.forEach(function(n){
-      var pairs=n.hits*(n.hits-1)/2; sh+=n.hits; sg+=n.graded; ph+=pairs; pp+=n.graded*(n.graded-1)/2;
+      var pairs=n.hits*(n.hits-1)/2, trio=pairs*(n.hits-2)/3, g=n.graded; sh+=n.hits; sg+=n.graded; ph+=pairs; pp+=g*(g-1)/2; th+=trio; tp+=g*(g-1)*(g-2)/6;
       var tr=document.createElement("tr"), d=new Date(n.date+"T12:00:00");
-      tr.innerHTML="<td>"+d.toLocaleDateString(undefined,{month:"short",day:"numeric"})+"</td><td>"+n.hits+"/"+n.graded+"</td><td>"+pairs+"/"+(n.graded*(n.graded-1)/2)+"</td><td>"+
+      tr.innerHTML="<td>"+d.toLocaleDateString(undefined,{month:"short",day:"numeric"})+"</td><td>"+n.hits+"/"+n.graded+"</td><td>"+pairs+"/"+(n.graded*(n.graded-1)/2)+"</td><td>"+trio+"/"+(g*(g-1)*(g-2)/6)+"</td><td>"+
         n.picks.map(function(p){return (p.hit===1?"✔ ":p.hit===-1?"– ":"✘ ")+esc(p.name)}).join("<br>")+"</td>";
       tb.appendChild(tr);
     });
     $("sixLogWrap").hidden=!nights.length;
-    $("sixLogNote").textContent=nights.length?("Each night's best 6. Singles: "+sh+" of "+sg+" hit ("+Math.round(100*sh/Math.max(sg,1))+"%). 2-team round robins (every pair of the 6): "+ph+" of "+pp+" pairs hit. ✔ hit, ✘ missed, – did not play. Nights before Nov 3 are a replay of the model on finished games; nights from Nov 3 are saved live."):"The first night appears after tonight's games are graded.";
+    $("sixLogNote").textContent=nights.length?("Each night's best 6. Singles: "+sh+" of "+sg+" hit ("+Math.round(100*sh/Math.max(sg,1))+"%). 2-team round robins (every pair of the 6): "+ph+" of "+pp+" pairs hit. 3-team parlays (every 3 of the 6): "+th+" of "+tp+" hit. ✔ hit, ✘ missed, – did not play. Nights before Nov 3 are a replay of the model on finished games; nights from Nov 3 are saved live."):"The first night appears after tonight's games are graded.";
   }
   function renderRecord(){
     var done=LOG.filter(function(r){return r["hit_"+kind]===0||r["hit_"+kind]===1});

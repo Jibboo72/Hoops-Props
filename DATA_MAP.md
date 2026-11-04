@@ -18,7 +18,7 @@ The app is served by GitHub Pages from `docs/` (`jibboo72.github.io/Hoops-Props/
 | `credits.json` | Odds API credits left | `credits.py` (credits.yml) | 12:00 daily | `board.js` |
 | `backtest.json` | Model backtest (incl. `doubles` section) | `tune.py` (tune.yml) / `nba_pipeline.py` (backtest.yml) | manual | `app.js` |
 | `backtest_live.json` | Backtest of this season only (2026-27 so far), each game projected from earlier games | `nba_pipeline.py --live` (backtest.yml, `live` input) | manual | `app.js` (`app.html?season=live`) |
-| `top6_live.json` | This season's nightly top-6 2x and 3x picks and whether each hit (singles and 2-team round robins) | `sim_top6.py` (top6.yml) | manual | `doubles.js` (Best 6 night by night) |
+| `top6_live.json` | This season's nightly top-6 2x and 3x picks and whether each hit (singles and 2-team round robins) | `sim_top6.py` (top6.yml) | manual | `doubles.js` (Best 6 night by night, with 2-team and 3-team parlay counts) |
 
 ## Working data (`data/`, not served)
 
