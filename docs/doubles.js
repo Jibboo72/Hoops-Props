@@ -1,5 +1,5 @@
 (function(){
-  var DATA=null, LOG=[], BACK=null, kind="dd";
+  var DATA=null, LOG=[], BACK=null, SIX=null, kind="dd";
   var MIN_TYP={dd:0.10, td:0.02};
   var $=function(id){return document.getElementById(id)};
   var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
@@ -27,6 +27,8 @@
     var rest=all.filter(function(p){return P(p)<POOL[kind]});
     var top=ps.slice().sort(function(a,b){return P(b)-P(a)}).slice(0,12);
     var bo=ps.filter(function(p){return boost(p)!==null}).sort(function(a,b){return boost(b)-boost(a)}).slice(0,12);
+    var six=all.slice(0,6), o6=$("six"); o6.innerHTML=""; six.forEach(function(p){o6.appendChild(item(p))});
+    $("sixNote").textContent="The 6 players most likely to get a "+name()+" tonight. They are saved before tip-off and graded after the games.";
     var o1=$("top"); o1.innerHTML=""; top.forEach(function(p){o1.appendChild(item(p))});
     var o2=$("boost"); o2.innerHTML=""; bo.forEach(function(p){o2.appendChild(item(p))});
     $("topNote").textContent="The players most likely to get a "+name()+" tonight.";
@@ -39,6 +41,33 @@
       tr.innerHTML="<td>"+esc(p.name)+"<span class='sub'>"+p.team+" vs "+p.opp+(p.status?", "+esc(p.status):"")+"</span></td><td>"+ch(P(p))+"</td><td>"+ch(T(p))+"</td><td class='"+(b&&b>=1.25?"pos":"")+"'>"+(b?x(b):"—")+"</td><td>"+Math.round(p.exp_pts)+"/"+Math.round(p.exp_reb)+"/"+Math.round(p.exp_ast)+"</td>";
       tb.appendChild(tr);
     });
+  }
+  function renderSix(){
+    var key=kind, nights=[], seen={};
+    ((SIX&&SIX.markets&&SIX.markets[key]&&SIX.markets[key].nights)||[]).forEach(function(n){
+      seen[n.date]=1; nights.push({date:n.date,hits:n.hits,graded:6,picks:n.picks.map(function(p){return {name:p.name,hit:p.hit}})});
+    });
+    var pk=function(r){return kind==="dd"?r.p_dd:r.p_td}, byDay={};
+    LOG.forEach(function(r){(byDay[r.date]=byDay[r.date]||[]).push(r)});
+    Object.keys(byDay).forEach(function(d){
+      if(seen[d]) return;
+      var t=byDay[d].sort(function(a,b){return pk(b)-pk(a)}).slice(0,6);
+      if(t.length<6||t.some(function(r){return r["hit_"+key]===null||r["hit_"+key]===undefined})) return;   // wait until all six are graded
+      nights.push({date:d,hits:t.filter(function(r){return r["hit_"+key]===1}).length,graded:t.filter(function(r){return r["hit_"+key]!==-1}).length,
+        picks:t.map(function(r){return {name:r.name,hit:r["hit_"+key]}})});
+    });
+    nights.sort(function(a,b){return a.date<b.date?1:-1});
+    var tb=$("sixLog"); tb.innerHTML="";
+    var sh=0, sg=0, ph=0, pp=0;
+    nights.forEach(function(n){
+      var pairs=n.hits*(n.hits-1)/2; sh+=n.hits; sg+=n.graded; ph+=pairs; pp+=n.graded*(n.graded-1)/2;
+      var tr=document.createElement("tr"), d=new Date(n.date+"T12:00:00");
+      tr.innerHTML="<td>"+d.toLocaleDateString(undefined,{month:"short",day:"numeric"})+"</td><td>"+n.hits+"/"+n.graded+"</td><td>"+pairs+"/"+(n.graded*(n.graded-1)/2)+"</td><td>"+
+        n.picks.map(function(p){return (p.hit===1?"✔ ":p.hit===-1?"– ":"✘ ")+esc(p.name)}).join("<br>")+"</td>";
+      tb.appendChild(tr);
+    });
+    $("sixLogWrap").hidden=!nights.length;
+    $("sixLogNote").textContent=nights.length?("Each night's best 6. Singles: "+sh+" of "+sg+" hit ("+Math.round(100*sh/Math.max(sg,1))+"%). 2-team round robins (every pair of the 6): "+ph+" of "+pp+" pairs hit. ✔ hit, ✘ missed, – did not play. Nights before Nov 3 are a replay of the model on finished games; nights from Nov 3 are saved live."):"The first night appears after tonight's games are graded.";
   }
   function renderRecord(){
     var done=LOG.filter(function(r){return r["hit_"+kind]===0||r["hit_"+kind]===1});
@@ -69,12 +98,12 @@
   function render(){
     document.querySelectorAll("[data-kind]").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.kind===kind?"true":"false")});
     $("status").textContent=DATA.players.length+" players across "+DATA.games.length+" games."+(kind==="td"?" Triple-doubles are rare, so only a handful of players have a real chance.":"");
-    renderTonight(); renderRecord();
+    renderTonight(); renderSix(); renderRecord();
   }
   document.querySelectorAll("[data-kind]").forEach(function(b){b.onclick=function(){kind=b.dataset.kind; render();}});
   var get=function(u){return fetch(u,{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})};
-  Promise.all([get("data/doubles.json"),get("data/doubles_log.json"),get("data/backtest.json")]).then(function(a){
-    DATA=a[0]; LOG=a[1]||[]; BACK=a[2]&&a[2].doubles;
+  Promise.all([get("data/doubles.json"),get("data/doubles_log.json"),get("data/backtest.json"),get("data/top6_live.json")]).then(function(a){
+    DATA=a[0]; LOG=a[1]||[]; BACK=a[2]&&a[2].doubles; SIX=a[3];
     if(!DATA||!DATA.games||!DATA.games.length){ $("emptyTitle").textContent="No games today"; $("emptyText").textContent="The next board appears on the next game day."; $("empty").hidden=false; return; }
     var day=new Date(DATA.date+"T12:00:00"); $("when").textContent=day.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
     $("app").hidden=false; render();
