@@ -10,7 +10,7 @@ The app is served by GitHub Pages from `docs/` (`jibboo72.github.io/Hoops-Props/
 
 | File | What's in it | Written by | When (UTC cron) | Read by |
 |---|---|---|---|---|
-| `board.json` | Tonight's board: games, players, markets, odds status, max price, rules | `board.py` (tonight.yml; odds only if repo variable `USE_ODDS` = true, using secret `ODDS_API_KEY`) | 16:00, 19:00, 22:00 daily | `board.html` / `board.js`, **SportsMF** |
+| `board.json` | Tonight's board: games, players, markets, odds status, max price, rules | `board.py` (tonight.yml; odds only if repo variable `USE_ODDS` = true, using secret `ODDS_API_KEY`) | 15:17, 18:43, 21:47 daily (off the top of the hour because GitHub delays those; with odds off every run rebuilds the board, with odds on only the first run of the day) | `board.html` / `board.js`, **SportsMF** |
 | `doubles.json` | Tonight's double-double / triple-double chances per player, with each player's usual rate (model only, no odds). Raw chances are unrounded; the page shows anything under 1% as 1% and builds the 2x (≥3%) and 3x (≥1%) pools itself | `board.py` (tonight.yml) | with the board | `doubles.html` / `doubles.js` |
 | `doubles_log.json` | Tracked double/triple-double chances, graded after games | `sim.py` (tonight.yml) | with the board | `doubles.js` |
 | `sim_log.json` | Simulated results log | `sim.py` (tonight.yml) | with the board | `sim.js`, `structures.js` |

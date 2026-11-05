@@ -2,9 +2,9 @@ name: Tonight
 
 on:
   schedule:
-    - cron: 0 16 * * *
-    - cron: 0 19 * * *
-    - cron: 0 22 * * *
+    - cron: 17 15 * * *
+    - cron: 43 18 * * *
+    - cron: 47 21 * * *
   workflow_dispatch:
     inputs:
       date:
@@ -24,7 +24,7 @@ jobs:
         id: check
         run: |
           today=$(TZ=America/New_York date +%F)
-          if [ "${{ github.event_name }}" = schedule ] && grep -q "\"date\": \"$today\"" docs/data/board.json; then
+          if [ "${{ github.event_name }}" = schedule ] && [ "${{ vars.USE_ODDS }}" = true ] && grep -q "\"date\": \"$today\"" docs/data/board.json; then
             echo "Board for $today already built, skipping so no odds credits are spent"
             echo skip=1 >> $GITHUB_OUTPUT
           fi
