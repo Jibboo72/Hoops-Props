@@ -5,6 +5,7 @@
   var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
   var pct=function(v){return v>=0.1?(v*100).toFixed(0)+"%":(v*100).toFixed(1)+"%"};
   var ch=function(v){return pct(Math.max(v,0.01))};   // anyone near zero is rated 1%
+  var MAX_JUICE=-198;                                     // Best 6 never uses a play priced worse than this
   var POOL={dd:0.03, td:0.01};                           // the 2x and 3x pools: players with at least this chance tonight
   var x=function(v){return v.toFixed(2).replace(/\.?0+$/,"")+"x"};
   var P=function(p){return kind==="dd"?p.p_dd:p.p_td};
@@ -32,8 +33,10 @@
     var rest=all.filter(function(p){return P(p)<POOL[kind]});
     var top=ps.slice().sort(function(a,b){return P(b)-P(a)}).slice(0,12);
     var bo=ps.filter(function(p){return boost(p)!==null}).sort(function(a,b){return boost(b)-boost(a)}).slice(0,12);
-    var six=all.slice(0,6), o6=$("six"); o6.innerHTML=""; six.forEach(function(p){o6.appendChild(item(p))});
-    $("sixNote").textContent="The 6 players most likely to get a "+name()+" tonight. They are saved before tip-off and graded after the games.";
+    var juiced=function(p){return kind==="dd"&&p.odds&&typeof p.odds.price==="number"&&p.odds.price<MAX_JUICE};   // too expensive to be worth a parlay leg
+    var elig=all.filter(function(p){return !juiced(p)}), skipped=all.slice(0,12).filter(juiced).slice(0,4);
+    var six=elig.slice(0,6), o6=$("six"); o6.innerHTML=""; six.forEach(function(p){o6.appendChild(item(p))});
+    $("sixNote").textContent="The 6 players most likely to get a "+name()+" tonight"+(kind==="dd"?", leaving out anyone priced worse than "+MAX_JUICE:"")+". They are saved before tip-off and graded after the games."+(skipped.length?" Left out for price: "+skipped.map(function(p){return p.name+" ("+p.odds.price+")"}).join(", ")+".":"");
     var o1=$("top"); o1.innerHTML=""; top.forEach(function(p){o1.appendChild(item(p))});
     var o2=$("boost"); o2.innerHTML=""; bo.forEach(function(p){o2.appendChild(item(p))});
     $("topNote").textContent="The players most likely to get a "+name()+" tonight.";
