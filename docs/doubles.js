@@ -11,13 +11,18 @@
   var T=function(p){return kind==="dd"?p.typ_dd:p.typ_td};
   var boost=function(p){return T(p)>=MIN_TYP[kind]?P(p)/T(p):null};
   var name=function(){return kind==="dd"?"double-double":"triple-double"};
+  // Book price for a double-double (Yes), when one is posted. Triple-doubles are not priced.
+  var O=function(p){return kind==="dd"?p.odds:null};
+  var am=function(v){return v==null?"—":(v>0?"+"+v:""+v)};
+  var evs=function(v){return (v>0?"+":"")+(v*100).toFixed(0)+"%"};
+  var priceText=function(p){var o=O(p); return o?", best <b>"+am(o.price)+"</b> "+esc(o.book)+" (fair "+am(o.fair)+", "+evs(o.ev)+" EV)":""};
 
   function item(p){
     var li=document.createElement("li"); li.className="play";
     var b=boost(p);
     li.innerHTML="<span class='who'>"+esc(p.name)+(p.status?" <em>"+esc(p.status)+"</em>":"")+"</span>"+
       "<span class='game'>"+p.team+" vs "+p.opp+", ~"+Math.round(p.min)+" min, projected "+Math.round(p.exp_pts)+" pts / "+Math.round(p.exp_reb)+" reb / "+Math.round(p.exp_ast)+" ast</span>"+
-      "<span class='nums'>Chance <b>"+ch(P(p))+"</b>, usual "+ch(T(p))+(b?", <b>"+x(b)+"</b> a normal game":"")+"</span>"+
+      "<span class='nums'>Chance <b>"+ch(P(p))+"</b>, usual "+ch(T(p))+(b?", <b>"+x(b)+"</b> a normal game":"")+priceText(p)+"</span>"+
       "<span class='ev'><b>"+ch(P(p))+"</b><span>"+(kind==="dd"?"2x":"3x")+"</span></span>";
     return li;
   }
@@ -38,7 +43,8 @@
     var tb=$("all"); tb.innerHTML="";
     ps.sort(function(a,b){return P(b)-P(a)}).forEach(function(p){
       var b=boost(p), tr=document.createElement("tr");
-      tr.innerHTML="<td>"+esc(p.name)+"<span class='sub'>"+p.team+" vs "+p.opp+(p.status?", "+esc(p.status):"")+"</span></td><td>"+ch(P(p))+"</td><td>"+ch(T(p))+"</td><td class='"+(b&&b>=1.25?"pos":"")+"'>"+(b?x(b):"—")+"</td><td>"+Math.round(p.exp_pts)+"/"+Math.round(p.exp_reb)+"/"+Math.round(p.exp_ast)+"</td>";
+      tr.innerHTML="<td>"+esc(p.name)+"<span class='sub'>"+p.team+" vs "+p.opp+(p.status?", "+esc(p.status):"")+"</span></td><td>"+ch(P(p))+"</td><td>"+ch(T(p))+"</td><td class='"+(b&&b>=1.25?"pos":"")+"'>"+(b?x(b):"—")+"</td><td>"+Math.round(p.exp_pts)+"/"+Math.round(p.exp_reb)+"/"+Math.round(p.exp_ast)+"</td>"+
+        "<td class='"+(O(p)&&O(p).ev>=0.05?"pos":"")+"'>"+(O(p)?am(O(p).price)+"<span class='sub'>"+esc(O(p).book)+", "+evs(O(p).ev)+" EV</span>":"—")+"</td>";
       tb.appendChild(tr);
     });
   }
@@ -97,7 +103,10 @@
   }
   function render(){
     document.querySelectorAll("[data-kind]").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.kind===kind?"true":"false")});
-    $("status").textContent=DATA.players.length+" players across "+DATA.games.length+" games."+(kind==="td"?" Triple-doubles are rare, so only a handful of players have a real chance.":"");
+    var np=DATA.players.filter(function(p){return p.odds}).length;
+    $("status").textContent=DATA.players.length+" players across "+DATA.games.length+" games."+
+      (kind==="td"?" Triple-doubles are rare, so only a handful of players have a real chance.":
+       np?" "+np+" have a double-double price posted; best price and EV are shown next to each one.":" No double-double prices posted yet, so these are model chances only.");
     renderTonight(); renderSix(); renderRecord();
   }
   document.querySelectorAll("[data-kind]").forEach(function(b){b.onclick=function(){kind=b.dataset.kind; render();}});

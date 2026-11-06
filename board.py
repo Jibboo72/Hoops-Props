@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Tonight's NBA board: model odds for 3-pointers made, rebounds and assists vs. sportsbook prices.
+"""Tonight's NBA board: model odds for double-doubles, 3-pointers made, rebounds and assists vs. sportsbook prices.
+
+Priced markets (in priority order when credits are short): double-doubles, then threes. Rebounds and assists stay
+in the model and on the board at fair odds only.
 
 Usage: python board.py [YYYY-MM-DD]     (default: today, Eastern time)
 Needs ODDS_API_KEY in the environment for prices; without it the board shows fair odds only.
@@ -34,18 +37,22 @@ OUT = m.ROOT / "docs" / "data" / "board.json"
 DOUBLES_OUT = m.ROOT / "docs" / "data" / "doubles.json"
 ODDS_KEY = os.environ.get("ODDS_API_KEY", "").strip()
 ODDS_BASE = "https://api.the-odds-api.com/v4/sports/basketball_nba"
-MARKETS = {"thr": "player_threes", "reb": "player_rebounds", "ast": "player_assists"}   # one odds credit per market per game
+# Priced markets, in priority order. One odds credit per market per game. Double-doubles are a Yes/No market;
+# their prices go on doubles.json (the Doubles page), threes go on board.json. Rebounds and assists are fair-only.
+MARKETS = {"dd": "player_double_double", "thr": "player_threes"}
+BOARD_FAMS = ("thr", "reb", "ast")   # over/under markets shown on the Tonight board
 BOOKS = "draftkings,fanduel,betmgm,hardrockbet,espnbet,betrivers,betparx"
 # Odds cost: 2 credits per game for props + 2 for game lines. When the month's credits run low,
 # skip game lines so prop prices last until the plan resets.
 LINES_MIN_CREDITS = 150
-NBA_SHARE = 0.6      # the NHL app draws on the same monthly credits; the NBA aims to use about this share
+NBA_SHARE = 1.0      # share of this key's monthly credits the NBA board may spend (Scoresheet no longer pulls odds)
 RESERVE = 25         # credits never touched
 
 
 def credit_plan(n_games, now=None):
     """How many prop markets per game the credit balance can pay for tonight, spread over the days until the
-    28th reset. Returns (markets, note). Priority order: threes, rebounds, assists."""
+    28th reset. Returns (markets, note). Priority order: double-doubles, then threes. Game lines (2 credits a night)
+    come out of the allowance first while they are still being pulled."""
     from datetime import date as _d
     try:
         left = int(json.loads((m.ROOT / "docs" / "data" / "credits.json").read_text())["remaining"])
@@ -55,12 +62,15 @@ def credit_plan(n_games, now=None):
     reset = _d(today.year + (today.month == 12 and today.day >= 28), (today.month % 12) + 1 if today.day >= 28 else today.month, 28)
     days = max((reset - today).days, 1)
     allowance = max(left - RESERVE, 0) * NBA_SHARE / days          # credits for tonight
+    if left >= LINES_MIN_CREDITS:
+        allowance -= 2                                             # game lines
     k = int(min(len(MARKETS), allowance // max(n_games, 1)))
     use = dict(list(MARKETS.items())[:k])
     note = ""
     if k < len(MARKETS):
         dropped = [x for x in MARKETS if x not in use]
-        note = f" Credit budget ({left} left, {days} days to reset): skipped {', '.join(dropped) or 'everything'}."
+        names = {"dd": "double-doubles", "thr": "threes"}
+        note = f" Credit budget ({left} left, {days} days to reset): skipped {', '.join(names.get(x, x) for x in dropped)} prices."
     return use, note
 ET = d.ET
 NO_ODDS_THR = (1.5, 2.5)
@@ -117,16 +127,17 @@ def espn_rosters(alias):
 
 
 def fetch_odds(date, games):
-    """Every book's price per player, per line, per side. Returns (odds, events, status, credits left).
+    """Every book's price per player, per line, per side. Returns (odds, events, status, credits left, priced markets).
 
     odds[(fam, name, event_id)] = {line: {"o": {book: price}, "u": {book: price}}}
     events[event_id] = {"home": "BOS", "away": "NYK", "game_id": "0022600001"}
+    Double-doubles are Yes/No with no line: stored as line 0.5, Yes as "o" and No as "u".
     """
     if not ODDS_KEY:
-        return {}, {}, "No odds key set. Showing fair odds only.", None
+        return {}, {}, "No odds key set. Showing fair odds only.", None, set()
     use, plan_note = credit_plan(len(games))
     if not use:
-        return {}, {}, "Odds skipped: not enough credits left before the reset." + plan_note, None
+        return {}, {}, "Odds skipped: not enough credits left before the reset." + plan_note, None, set()
     try:
         events = requests.get(f"{ODDS_BASE}/events", params={"apiKey": ODDS_KEY}, timeout=30).json()
         todays = [e for e in events if datetime.fromisoformat(e["commence_time"].replace("Z", "+00:00"))
@@ -147,18 +158,26 @@ def fetch_odds(date, games):
                     fam = next((k for k, v in use.items() if v == mk["key"]), None)
                     for o in mk.get("outcomes", []) if fam else []:
                         pt = o.get("point")
-                        if pt is None or abs(pt * 2 % 2 - 1) > 1e-9:   # half-point lines only (no pushes)
-                            continue
-                        side = "o" if o.get("name") == "Over" else "u" if o.get("name") == "Under" else None
+                        if fam == "dd":
+                            pt = 0.5 if pt is None else pt
+                            side = "o" if o.get("name") in ("Yes", "Over") else "u" if o.get("name") in ("No", "Under") else None
+                        else:
+                            if pt is None or abs(pt * 2 % 2 - 1) > 1e-9:   # half-point lines only (no pushes)
+                                continue
+                            side = "o" if o.get("name") == "Over" else "u" if o.get("name") == "Under" else None
                         if side is None:
                             continue
                         key = (fam, norm(o.get("description"), alias), e["id"])
                         odds.setdefault(key, {}).setdefault(float(pt), {"o": {}, "u": {}})[side][
                             book.get("title", book.get("key"))] = o["price"]
         n = len(evs)
-        return odds, evs, f"Odds from {n} game{'' if n == 1 else 's'}. {left} odds credits left this month." + plan_note, left
+        got = {k[0] for k in odds}
+        names = {"dd": "double-doubles", "thr": "threes"}
+        what = " and ".join(names[f] for f in use if f in got) or "nothing posted yet"
+        return (odds, evs, f"Odds from {n} game{'' if n == 1 else 's'} ({what}). {left} odds credits left this month." + plan_note,
+                left, set(use))
     except Exception as exc:  # the board still works without odds
-        return {}, {}, f"Odds pull failed ({exc.__class__.__name__}). Showing fair odds only.", None
+        return {}, {}, f"Odds pull failed ({exc.__class__.__name__}). Showing fair odds only.", None, set()
 
 
 def data_candidates(frames, games, idx):
@@ -176,6 +195,25 @@ def data_candidates(frames, games, idx):
                     cands.append({"player_id": int(pid), "name": info["name"], "team": team, "opp": opp, "home": home,
                                   "game_id": g["id"], "pos": info["pos"], "event_id": None})
     return cands
+
+
+def dd_price(p_model, posted):
+    """Book prices for one player's double-double (Yes side), blended chance and EV at the best price.
+    posted = {0.5: {"o": {book: yes price}, "u": {book: no price}}} or None. Returns None when nobody posts Yes."""
+    sides = (posted or {}).get(0.5) or next(iter((posted or {}).values()), None)
+    if not sides or not sides["o"]:
+        return None
+    yes, no = sides["o"], sides["u"]
+    fair = [market.two_way(yes[b], no[b]) for b in yes if b in no]
+    p_mkt = round(float(np.median(fair)), 4) if fair else None
+    w = market.MODEL_WEIGHT["dd"]
+    p = p_model if p_mkt is None else w * p_model + (1 - w) * p_mkt
+    book = max(yes, key=yes.get)
+    ev = round(p * decimal(yes[book]) - 1, 4)
+    return {"p_model": round(p_model, 4), "p_mkt": p_mkt, "p": round(p, 4), "fair": fair_american(p),
+            "prices": yes, "price": yes[book], "book": book, "ev": ev,
+            "likely": bool(p >= market.LIKELY_MIN["dd"] and ev >= market.PRICE_CHECK
+                           and market.LIKELY_MIN_PRICE <= yes[book] <= market.LIKELY_MAX_PRICE)}
 
 
 def write_doubles(date, generated, games, players):
@@ -206,7 +244,7 @@ def main():
     prior = d.fetch_season(PRIOR)
     idx = name_index([prior, played], alias)
 
-    odds, events, out["odds_status"], left = fetch_odds(date, games)
+    odds, events, out["odds_status"], left, priced = fetch_odds(date, games)
     low = left is not None and str(left).isdigit() and int(left) < LINES_MIN_CREDITS
     try:  # the market's game total and spread, from the books
         lines = market.game_lines(ODDS_KEY, ODDS_BASE, BOOKS, date, ET) if ODDS_KEY and not low else {}
@@ -279,26 +317,30 @@ def main():
                "ast": float(r["lam_ast"]) * ratio ** exp_env["ast"] * bm,
                "pts": float(r["lam_pts"]) * ratio ** exp_env["pts"] * bm}
         p_dd, p_td = doubles.calibrated(lam["pts"], lam["reb"], lam["ast"], nb, float(r["typ_dd"]), float(r["typ_td"]))
+        dd_odds = dd_price(float(p_dd), odds.get(("dd", norm(r["name"], alias), event_of.get(int(r["player_id"])))))
         dbl.append({"id": int(r["player_id"]), "name": r["name"], "team": r["team"], "opp": r["opp"],
                     "game_id": str(r["game_id"]), "min": round(float(r["proj_min"]), 1), "status": status,
                     "p_dd": round(float(p_dd), 4), "p_td": round(float(p_td), 4),
                     "typ_dd": round(float(r["typ_dd"]), 4), "typ_td": round(float(r["typ_td"]), 4),
                     "exp_pts": round(lam["pts"], 1), "exp_reb": round(lam["reb"], 1), "exp_ast": round(lam["ast"], 1)})
+        if dd_odds:
+            dbl[-1]["odds"] = dd_odds
         row = {"id": int(r["player_id"]), "name": r["name"], "team": r["team"], "opp": r["opp"], "pos": r["pg"],
                "game_id": str(r["game_id"]), "min": round(float(r["proj_min"]), 1),
                "exp_thr": round(lam["thr"], 2), "exp_reb": round(lam["reb"], 2), "exp_ast": round(lam["ast"], 2), "env": round(ratio, 3)}
         if status:
             row["status"] = status
-        for fam in ("thr", "reb", "ast"):
-            posted = odds.get((fam, norm(r["name"], alias), event_of.get(int(r["player_id"]))), {}) if odds else {}
-            if not odds:  # fair odds only: one book-like line
+        for fam in BOARD_FAMS:
+            live = fam in priced and bool(odds)
+            posted = odds.get((fam, norm(r["name"], alias), event_of.get(int(r["player_id"]))), {}) if live else {}
+            if not live:  # fair odds only: one book-like line
                 pts = NO_ODDS_THR if fam == "thr" else (math.floor(lam[fam]) + 0.5,)
                 posted = {float(pt): {"o": {}, "u": {}} for pt in pts}
             for pt, sides in posted.items():
                 p_over = float(m.dist_sf(int(math.floor(pt)), lam[fam], nb[fam]))
                 for side, p in (("o", p_over), ("u", 1 - p_over)):
                     other = "u" if side == "o" else "o"
-                    if odds and not sides[side]:
+                    if live and not sides[side]:
                         continue  # nobody is offering this side
                     cell = {"p_model": round(p, 4), "line": pt}
                     if sides[side]:

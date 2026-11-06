@@ -10,9 +10,9 @@ The app is served by GitHub Pages from `docs/` (`jibboo72.github.io/Hoops-Props/
 
 | File | What's in it | Written by | When (UTC cron) | Read by |
 |---|---|---|---|---|
-| `board.json` | Tonight's board: games, players, markets, odds status, max price, rules | `board.py` (tonight.yml; odds only if repo variable `USE_ODDS` = true, using secret `ODDS_API_KEY`) | 15:17, 18:43, 21:47 daily (off the top of the hour because GitHub delays those; with odds off every run rebuilds the board, with odds on only the first run of the day) | `board.html` / `board.js`, **SportsMF** |
-| `doubles.json` | Tonight's double-double / triple-double chances per player, with each player's usual rate (model only, no odds). Raw chances are unrounded; the page shows anything under 1% as 1% and builds the 2x (≥3%) and 3x (≥1%) pools itself | `board.py` (tonight.yml) | with the board | `doubles.html` / `doubles.js` |
-| `doubles_log.json` | Tracked double/triple-double chances, graded after games | `sim.py` (tonight.yml) | with the board | `doubles.js` |
+| `board.json` | Tonight's board: games, players, markets (threes priced; rebounds and assists always fair odds only), odds status, max price, rules | `board.py` (tonight.yml; odds only if repo variable `USE_ODDS` = true, using secret `ODDS_API_KEY`) | 15:17, 18:43, 21:47 daily (off the top of the hour because GitHub delays those; with odds off every run rebuilds the board, with odds on only the first run of the day) | `board.html` / `board.js`, **SportsMF** |
+| `doubles.json` | Tonight's double-double / triple-double chances per player, with each player's usual rate. When a book prices a player's double-double (Yes), the player gets an `odds` block: `p_model`, `p_mkt` (only if a book posts both Yes and No), `p` (blend), `fair`, `prices`, `price`, `book`, `ev`, `likely`. Triple-doubles are model only. Raw chances are unrounded; the page shows anything under 1% as 1% and builds the 2x (≥3%) and 3x (≥1%) pools itself | `board.py` (tonight.yml) | with the board | `doubles.html` / `doubles.js` |
+| `doubles_log.json` | Tracked double/triple-double chances, graded after games; priced ones also carry `dd_price`, `dd_book`, `dd_prices`, `dd_p`, `dd_p_mkt`, `dd_ev`, `dd_likely` (first price seen) | `sim.py` (tonight.yml) | with the board | `doubles.js` |
 | `sim_log.json` | Simulated results log | `sim.py` (tonight.yml) | with the board | `sim.js`, `structures.js` |
 | `calib/YYYY-MM-DD.json` | Daily calibration snapshot | tonight.yml | with the board | history |
 | `credits.json` | Odds API credits left | `credits.py` (credits.yml) | 12:00 daily | `board.js` |
@@ -27,7 +27,9 @@ The app is served by GitHub Pages from `docs/` (`jibboo72.github.io/Hoops-Props/
 
 ## Sources
 
-ESPN NBA site API (games, logs, pre-game injury report; free) and The Odds API (prices; off by default, flip repo variable `USE_ODDS` to true to turn on).
+ESPN NBA site API (games, logs, pre-game injury report; free) and The Odds API (prices; off unless repo variable `USE_ODDS` is true).
+
+Odds markets pulled, in priority order when credits are short: `player_double_double` (1 credit a game), then `player_threes` (1 credit a game), plus game lines (2 credits a night while 150+ credits are left). `credit_plan()` in `board.py` spreads the key's balance evenly until the 28th, keeping 25 in reserve; `NBA_SHARE` is 1.0 since Scoresheet stopped pulling odds (Nov 6, 2026). Note: this repo's `ODDS_API_KEY` secret reports its own balance in `credits.json`, separate from Scoresheet's key.
 
 ## Who else reads it
 
@@ -36,4 +38,4 @@ It matches games by `games[].id` (the ESPN event id) and uses `players[]`
 (`game_id`, `name`, `team`, `min`, `exp_thr/reb/ast`), `markets`, `max_price`,
 and each market's `p`, `fair`, `price`, `book`, `ev`, `likely`. Keep those stable.
 
-With odds off, `board.json` has model-only fair prices: no `price`, `book`, `ev` or `likely` on markets. Players listed Out on ESPN's injury report are left out of `players[]`; others get an optional `status` field.
+With odds off, `board.json` has model-only fair prices: no `price`, `book`, `ev` or `likely` on markets. With odds on, only `thr_*` markets carry prices; `reb_*` and `ast_*` stay fair-only. Double-double prices live in `doubles.json`, not `board.json`, so SportsMF's Props tab is unchanged. Players listed Out on ESPN's injury report are left out of `players[]`; others get an optional `status` field.

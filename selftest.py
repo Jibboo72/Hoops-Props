@@ -259,6 +259,21 @@ class FakeOdds:
                                                       "price": american(pr * 1.045)})
             for b in self.BOOKS:
                 out[b]["markets"].append(mk[b])
+        # Double-double: a Yes/No market with no line. Every book posts Yes; only the first also posts No.
+        dd = {b: {"key": "player_double_double", "outcomes": []} for b in self.BOOKS}
+        for tri in (g["homeTeam"]["teamTricode"], g["awayTeam"]["teamTricode"]):
+            for p in self.teams[tri]["roster"]:
+                if p["mu_cur"] < 24:
+                    continue
+                reb = p["share"] * float(np.exp(p["zs"])) * 88.0 * p["mu_cur"] / 48.0
+                p_yes = float(np.clip(0.02 + 0.06 * max(reb - 4, 0), 0.03, 0.85))
+                for i, b in enumerate(self.BOOKS):
+                    q = float(np.clip(p_yes + RNG.normal(0, 0.02), 0.02, 0.9))
+                    dd[b]["outcomes"].append({"name": "Yes", "description": p["name"], "price": american(q * 1.05)})
+                    if i == 0:
+                        dd[b]["outcomes"].append({"name": "No", "description": p["name"], "price": american((1 - q) * 1.05)})
+        for b in self.BOOKS:
+            out[b]["markets"].append(dd[b])
         return list(out.values())
 
     def lines(self, g):
@@ -430,6 +445,18 @@ def stage_season(cdn):
                 check("over + under model chances sum to 1", abs(both[0]["reb_o4.5"]["p_model"] + both[0]["reb_u4.5"]["p_model"] - 1) < 1e-3)
             check("every priced name matched a player", not b.get("unmatched"), str(b.get("unmatched"))[:80])
             check("market total reached the games", all("total" in g for g in b["games"]), "")
+            check("rebounds and assists stay on the board at fair odds only",
+                  any(k.startswith(("reb_", "ast_")) for k in b["markets"])
+                  and not any(p.get(k, {}).get("price") is not None for p in ps for k in b["markets"] if not k.startswith("thr_")))
+            check("double-doubles are not a board market (SportsMF reads board.json)", not any(k.startswith("dd") for k in b["markets"]))
+            dj = json.loads(board.DOUBLES_OUT.read_text())
+            dp = [p for p in dj["players"] if p.get("odds")]
+            check("double-doubles are priced on doubles.json", len(dp) > 5, f"{len(dp)} of {len(dj['players'])} players")
+            check("double-double prices have finite chance, fair odds and EV",
+                  all(0 < p["odds"]["p"] < 1 and np.isfinite(p["odds"]["ev"]) and p["odds"]["fair"] and p["odds"]["book"] in FakeOdds.BOOKS
+                      and p["odds"]["p_model"] == round(p["p_dd"], 4) for p in dp))
+            check("market chance used where a book posts both Yes and No", all(p["odds"]["p_mkt"] is not None for p in dp))
+            check("best Yes price is the highest posted", all(p["odds"]["price"] == max(p["odds"]["prices"].values()) for p in dp))
         sim.main()
         for g in games:   # play tonight's games, then the next run grades them
             h, a = g["homeTeam"]["teamTricode"], g["awayTeam"]["teamTricode"]
@@ -445,6 +472,8 @@ def stage_season(cdn):
     done = [r for r in rows if r["hit"] in (0, 1)]
     dl = json.loads(sim.DOUBLES_LOG.read_text())
     dgr = [r for r in dl if r["hit_dd"] in (0, 1)]
+    dpr = [r for r in dgr if r.get("dd_price") is not None]
+    check("double-double prices logged and graded", len(dpr) > 10, f"{len(dpr)} graded at a book price")
     check("doubles tracked and graded without odds", len(dl) > 50 and len(dgr) > 20, f"{len(dl)} tracked, {len(dgr)} graded")
     check("doubles chances are valid and nobody tracked twice a day",
           all(0 <= r["p_dd"] <= 1 and 0 <= r["p_td"] <= 1 for r in dl) and len({(r["date"], r["player_id"]) for r in dl}) == len(dl))

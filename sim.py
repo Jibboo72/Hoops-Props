@@ -187,12 +187,22 @@ def track_doubles(board):
             rows.append({"date": dbl["date"], "game_id": p["game_id"], "player_id": p["id"], "name": p["name"],
                          "team": p["team"], "opp": p["opp"], "min": p["min"], "p_dd": p["p_dd"], "p_td": p["p_td"],
                          "typ_dd": p["typ_dd"], "typ_td": p["typ_td"], "hit_dd": None, "hit_td": None})
+            od = p.get("odds")
+            if od:   # double-double Yes price, when a book posted one (first price seen is kept)
+                rows[-1].update(dd_price=od["price"], dd_book=od["book"], dd_prices=od["prices"], dd_p=od["p"],
+                                dd_p_mkt=od.get("p_mkt"), dd_ev=od["ev"], dd_likely=bool(od.get("likely")))
             new += 1
     DOUBLES_LOG.parent.mkdir(parents=True, exist_ok=True)
     DOUBLES_LOG.write_text(json.dumps(rows, separators=(",", ":")))
     done = [r for r in rows if r["hit_dd"] in (0, 1)]
     print(f"Doubles: tracked {new} new, {len(done)} graded"
           + (f", model {sum(r['p_dd'] for r in done) / len(done):.1%} vs actual {sum(r['hit_dd'] for r in done) / len(done):.1%} double-doubles." if done else "."))
+    priced = [r for r in done if r.get("dd_price") is not None]
+    if priced:   # flat 1 unit on every priced Yes, and on the ones with a 5%+ edge
+        u = lambda rs: sum(decimal(r["dd_price"]) - 1 if r["hit_dd"] else -1 for r in rs)
+        edge = [r for r in priced if r["dd_ev"] >= MIN_EV]
+        print(f"Doubles at book prices: {len(priced)} graded, {u(priced):+.2f} units on all, "
+              f"{u(edge):+.2f} units on {len(edge)} with a 5%+ edge.")
 
 
 def main():
