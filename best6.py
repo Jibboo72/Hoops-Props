@@ -10,6 +10,7 @@ import json
 from datetime import datetime, timezone
 
 import nba_pipeline as m
+import parlay
 import sim
 from market import parse_key
 
@@ -41,7 +42,7 @@ def pick_for(p, fam):
     if not opts:
         return None
     chance, key, cell = max(opts, key=lambda o: o[0])
-    return {"key": key, "chance": round(chance, 4), "price": cell.get("price"), "book": cell.get("book")}
+    return {"key": key, "chance": round(chance, 4), "price": cell.get("price"), "book": cell.get("book"), "prices": cell.get("prices")}
 
 
 def build(board, now, skip_started):
@@ -130,7 +131,12 @@ def track(board):
         tonight = {fam: sorted([r for r in log if r["date"] == date and r["market"] == fam], key=lambda r: r["rank"]) for fam in FAMS}
     LOG.parent.mkdir(parents=True, exist_ok=True)
     LOG.write_text(json.dumps(log, separators=(",", ":")))
-    OUT.write_text(json.dumps({"date": date, "generated": now.isoformat(timespec="minutes"), "markets": tonight}, separators=(",", ":")))
+    ratings = {}
+    for fam, rows in tonight.items():   # same 1-10 scale as the double-double round robin (parlay.py); unpriced legs use a fair price less 7%
+        rt = parlay.rate_legs([{"p": r["chance"], "price": r.get("price"), "prices": r.get("prices")} for r in rows])
+        if rt:
+            ratings[fam] = rt
+    OUT.write_text(json.dumps({"date": date, "generated": now.isoformat(timespec="minutes"), "markets": tonight, "ratings": ratings}, separators=(",", ":")))
     s = summary(log)
     SUMMARY.write_text(json.dumps(s, separators=(",", ":")))
     print("Best 6: " + ", ".join(f"{v['label']} {v['hits']}/{v['picks']}" for v in s["markets"].values()))

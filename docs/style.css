@@ -105,19 +105,15 @@ body{padding-bottom:64px}
 :root{--good-bg:#DDF0E2;--good-fg:#1D7A3E;--mid-bg:#FBEBC8;--mid-fg:#8A5E00;--bad-bg:#F8D9D2;--bad-fg:#B3321A}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--good-bg:#1E3A29;--good-fg:#6FD08C;--mid-bg:#47381A;--mid-fg:#F0B94A;--bad-bg:#4A2620;--bad-fg:#FF8A6B}}
 :root[data-theme="dark"]{--good-bg:#1E3A29;--good-fg:#6FD08C;--mid-bg:#47381A;--mid-fg:#F0B94A;--bad-bg:#4A2620;--bad-fg:#FF8A6B}
-.b6strip{display:block;max-width:720px;margin:0 auto;padding:12px 20px 0;text-decoration:none;color:var(--ink)}
+.b6strip{display:block;max-width:720px;margin:0 auto;padding:10px 20px 0;text-decoration:none;color:var(--ink)}
 .b6strip[hidden]{display:none}
-.b6row{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:10px}
-.b6row.four{grid-template-columns:repeat(2,1fr)}
-.b6row.four .b6t{grid-column:1/-1;font:600 13px/1.1 var(--display);letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin-bottom:-2px}
-@media (min-width:560px){.b6row.four{grid-template-columns:repeat(4,1fr)}}
-.b6c{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:14px 8px;border-radius:12px;border:1px solid var(--rule);background:var(--board);min-height:96px;text-align:center}
-.b6c.big{min-height:116px}
-.b6c b{font:700 38px/1 var(--display)}
-.b6c.big b{font-size:54px}
-.b6c b small{font-size:.45em;font-weight:600;opacity:.8}
-.b6c .b6l{font:600 13px/1.1 var(--display);letter-spacing:.6px;text-transform:uppercase}
-.b6c i{font:500 12px/1.3 var(--body);font-style:normal;opacity:.85}
+.b6row{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.b6cap{font:500 11px/1.3 var(--body);color:var(--muted);margin-top:5px}
+.b6c{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:7px 2px;border-radius:9px;border:1px solid var(--rule);background:var(--board);min-height:62px;text-align:center}
+.b6c b{font:700 26px/1 var(--display)}
+.b6c b small{font-size:.5em;font-weight:600;opacity:.8}
+.b6c .b6l{font:600 10.5px/1.1 var(--display);letter-spacing:.5px;text-transform:uppercase;white-space:nowrap}
+.b6c i{font:500 10px/1.2 var(--body);font-style:normal;opacity:.85;white-space:nowrap}
 .b6c.good{background:var(--good-bg);color:var(--good-fg);border-color:transparent}
 .b6c.mid{background:var(--mid-bg);color:var(--mid-fg);border-color:transparent}
 .b6c.bad{background:var(--bad-bg);color:var(--bad-fg);border-color:transparent}

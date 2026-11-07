@@ -178,3 +178,35 @@ def build(players, games, log=None, top6=None):
             "rules": {"stake_total": STAKE_TOTAL, "max_juice": MAX_JUICE, "roi_per_point": ROI_PER_POINT,
                       "profit_weight": PROFIT_WEIGHT, "usual_profit": {str(k_): v for k_, v in USUAL_PROFIT.items()},
                       "tie": TIE, "est_ev_unpriced": EST_EV}}
+
+
+def rate_legs(legs):
+    """The same 1-10 round-robin rating for any six legs (threes, rebounds, assists Best 6).
+    legs: [{"p": chance, "price": best American price or None, "prices": {book: American} or None}].
+    No calibration shrink (k = 1) and same-game legs are treated as independent. None when there are fewer than 6 legs."""
+    legs = legs[:PICKS]
+    if len(legs) < PICKS:
+        return None
+    probs = [float(l["p"]) for l in legs]
+    priced = [bool(l.get("prices")) or l.get("price") is not None for l in legs]
+    books = sorted({b for l in legs for b in (l.get("prices") or {})})
+    full = [b for b in books if all(b in (l.get("prices") or {}) for l in legs)]
+    best_decs = [decimal(l["price"]) if pr and l.get("price") is not None else (1 + EST_EV) / q
+                 for l, pr, q in zip(legs, priced, probs)]
+    fmts = {}
+    for size, stake in FORMATS.items():
+        ref = summarize(probs, best_decs, size, stake)
+        pick, pick_stats = None, None
+        for b in full:
+            st = summarize(probs, [decimal(l["prices"][b]) for l in legs], size, stake)
+            if pick_stats is None or st["exp_profit"] > pick_stats["exp_profit"]:
+                pick, pick_stats = b, st
+        stats = pick_stats or ref
+        sc = score(stats, size)
+        fmts[str(size)] = {"name": f"{size}-pick", "book": pick, "bets": stats["bets"], "stake_each": stake,
+                           "exp_profit": stats["exp_profit"], "roi": stats["roi"], "p_profit": stats["p_profit"],
+                           "p_lose_all": stats["p_lose_all"], "score": sc,
+                           "rating": int(min(10, max(1, np.floor(sc + 0.5))))}
+    better = "3" if fmts["3"]["exp_profit"] > fmts["2"]["exp_profit"] + TIE else "2"
+    return {"formats": fmts, "better": better, "rating": fmts[better]["rating"], "priced_legs": sum(priced),
+            "books_with_all_6": full}
