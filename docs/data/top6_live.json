@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T22:11+00:00",
+ "generated": "2026-11-07T22:12+00:00",
  "picks_per_night": 6,
  "note": "Players are chosen from those who played that night (lineups aren't known in advance), so this is a little generous.",
  "markets": {
@@ -3287,21 +3287,21 @@
    "totals": {
     "nights": 17,
     "picks": 102,
-    "single_hits": 93,
-    "single_hit_rate": 0.9118
+    "single_hits": 78,
+    "single_hit_rate": 0.7647
    },
    "nights": [
     {
      "date": "2026-10-20",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
     },
     {
      "date": "2026-10-21",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
     },
     {
      "date": "2026-10-22",
@@ -3311,27 +3311,27 @@
     },
     {
      "date": "2026-10-23",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
     },
     {
      "date": "2026-10-24",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
     },
     {
      "date": "2026-10-25",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
     },
     {
      "date": "2026-10-26",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
     },
     {
      "date": "2026-10-27",
@@ -3341,33 +3341,33 @@
     },
     {
      "date": "2026-10-28",
+     "hits": 1,
+     "pair_hits": 0,
+     "trio_hits": 0
+    },
+    {
+     "date": "2026-10-29",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
+    },
+    {
+     "date": "2026-10-30",
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1
+    },
+    {
+     "date": "2026-10-31",
      "hits": 5,
      "pair_hits": 10,
      "trio_hits": 10
     },
     {
-     "date": "2026-10-29",
-     "hits": 2,
-     "pair_hits": 1,
-     "trio_hits": 0
-    },
-    {
-     "date": "2026-10-30",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
-    },
-    {
-     "date": "2026-10-31",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
-    },
-    {
      "date": "2026-11-01",
-     "hits": 4,
-     "pair_hits": 6,
-     "trio_hits": 4
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
     },
     {
      "date": "2026-11-02",
@@ -3377,21 +3377,21 @@
     },
     {
      "date": "2026-11-04",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
     },
     {
      "date": "2026-11-05",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
     },
     {
      "date": "2026-11-06",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
     }
    ]
   },
@@ -3399,8 +3399,8 @@
    "totals": {
     "nights": 17,
     "picks": 102,
-    "single_hits": 77,
-    "single_hit_rate": 0.7549
+    "single_hits": 76,
+    "single_hit_rate": 0.7451
    },
    "nights": [
     {
@@ -3423,9 +3423,9 @@
     },
     {
      "date": "2026-10-23",
-     "hits": 5,
-     "pair_hits": 10,
-     "trio_hits": 10
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
     },
     {
      "date": "2026-10-24",
@@ -3435,9 +3435,9 @@
     },
     {
      "date": "2026-10-25",
-     "hits": 5,
-     "pair_hits": 10,
-     "trio_hits": 10
+     "hits": 2,
+     "pair_hits": 1,
+     "trio_hits": 0
     },
     {
      "date": "2026-10-26",
@@ -3453,9 +3453,9 @@
     },
     {
      "date": "2026-10-28",
-     "hits": 3,
-     "pair_hits": 3,
-     "trio_hits": 1
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
     },
     {
      "date": "2026-10-29",
@@ -3477,9 +3477,9 @@
     },
     {
      "date": "2026-11-01",
-     "hits": 5,
-     "pair_hits": 10,
-     "trio_hits": 10
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
     },
     {
      "date": "2026-11-02",
@@ -3511,8 +3511,8 @@
    "totals": {
     "nights": 17,
     "picks": 102,
-    "single_hits": 72,
-    "single_hit_rate": 0.7059
+    "single_hits": 71,
+    "single_hit_rate": 0.6961
    },
    "nights": [
     {
@@ -3535,15 +3535,15 @@
     },
     {
      "date": "2026-10-23",
-     "hits": 4,
-     "pair_hits": 6,
-     "trio_hits": 4
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
     },
     {
      "date": "2026-10-24",
-     "hits": 3,
-     "pair_hits": 3,
-     "trio_hits": 1
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
     },
     {
      "date": "2026-10-25",
@@ -3553,45 +3553,45 @@
     },
     {
      "date": "2026-10-26",
-     "hits": 4,
-     "pair_hits": 6,
-     "trio_hits": 4
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
     },
     {
      "date": "2026-10-27",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
-    },
-    {
-     "date": "2026-10-28",
      "hits": 5,
      "pair_hits": 10,
      "trio_hits": 10
     },
     {
+     "date": "2026-10-28",
+     "hits": 2,
+     "pair_hits": 1,
+     "trio_hits": 0
+    },
+    {
      "date": "2026-10-29",
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1
+    },
+    {
+     "date": "2026-10-30",
      "hits": 4,
      "pair_hits": 6,
      "trio_hits": 4
     },
     {
-     "date": "2026-10-30",
-     "hits": 6,
-     "pair_hits": 15,
-     "trio_hits": 20
-    },
-    {
      "date": "2026-10-31",
-     "hits": 5,
-     "pair_hits": 10,
-     "trio_hits": 10
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
     },
     {
      "date": "2026-11-01",
-     "hits": 2,
-     "pair_hits": 1,
-     "trio_hits": 0
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1
     },
     {
      "date": "2026-11-02",
@@ -3607,15 +3607,15 @@
     },
     {
      "date": "2026-11-05",
-     "hits": 2,
-     "pair_hits": 1,
-     "trio_hits": 0
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1
     },
     {
      "date": "2026-11-06",
-     "hits": 4,
-     "pair_hits": 6,
-     "trio_hits": 4
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
     }
    ]
   }
