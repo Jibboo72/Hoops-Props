@@ -1,5 +1,5 @@
 (function(){
-  var DATA=null, market="thr", game="all", view="straight";
+  var DATA=null, SIX=null, market="thr", game="all", view="straight";
   var BEST=0.05, FLAG=0.30;
   var $=function(id){return document.getElementById(id)};
   var pct=function(v){return (v*100).toFixed(0)+"%"};
@@ -102,11 +102,24 @@
       ". Resets "+reset.toLocaleDateString(undefined,{month:"short",day:"numeric"})+" ("+days+" day"+(days===1?"":"s")+")."+
       (c.remaining<150?" Running low: game lines are skipped to save prop prices.":"");
   }
+  function renderSix(){
+    var rows=(SIX&&SIX.date===DATA.date&&SIX.markets&&SIX.markets[market])||[], ol=$("six"); ol.innerHTML="";
+    $("sixBlock").hidden=!rows.length; if(!rows.length) return;
+    rows.forEach(function(x){
+      var li=document.createElement("li"); li.className="play";
+      li.innerHTML="<span class='who'>"+esc(x.name)+(x.status?" <em>"+esc(x.status)+"</em>":"")+"</span>"+
+        "<span class='game'>"+x.team+" vs "+x.opp+", "+lab(x.key)+"</span>"+
+        "<span class='nums'>Chance <b>"+pct(x.chance)+"</b>"+(x.price!=null?", best <b>"+am(x.price)+"</b> "+esc(x.book||""):"")+(x.hit===1?" · hit":x.hit===0?" · missed":x.hit===-1?" · did not play":"")+"</span>"+
+        "<span class='ev'><b>"+pct(x.chance)+"</b><span>#"+x.rank+"</span></span>";
+      ol.appendChild(li);
+    });
+    $("sixNote").textContent="The model's 6 most likely plays in this market, each on the line closest to a coin flip. Plays priced worse than -198 are skipped. Saved before tip-off and graded after the games.";
+  }
   function render(){
     $("straights").hidden=view!=="straight"; $("parlays").hidden=view!=="parlay";
     document.querySelectorAll("#views button").forEach(function(b){b.setAttribute("aria-pressed", b.dataset.view===view?"true":"false")});
     if(view==="parlay"){ renderParlays(); return; }
-    renderLikely();
+    renderSix(); renderLikely();
     document.querySelectorAll("[data-market]").forEach(function(b){
       b.setAttribute("aria-pressed", b.dataset.market===market?"true":"false");
     });
@@ -155,6 +168,7 @@
     b.onclick=function(){view=b.dataset.view; render();};
   });
   fetch("data/credits.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(renderCredits).catch(function(){});
+  fetch("data/best6.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(s){SIX=s; if(DATA) render()}).catch(function(){});
   fetch("data/board.json",{cache:"no-store"})
     .then(function(r){if(!r.ok) throw 0; return r.json();})
     .then(function(d){

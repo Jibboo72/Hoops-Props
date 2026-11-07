@@ -468,6 +468,8 @@ def stage_season(cdn):
     out = Path(tempfile.mkdtemp())
     board.OUT, sim.BOARD, sim.LOG, sim.CALIB = out / "board.json", out / "board.json", out / "sim_log.json", out / "calib"
     board.DOUBLES_OUT, sim.DOUBLES, sim.DOUBLES_LOG = out / "doubles.json", out / "doubles.json", out / "doubles_log.json"
+    import best6
+    best6.OUT, best6.LOG, best6.SUMMARY, best6.TOP6 = out / "best6.json", out / "best6_log.json", out / "best6_summary.json", out / "top6_live.json"
     board.ODDS_KEY = "test"
     board.credit_plan = lambda n, now=None: (dict(board.MARKETS), "")   # test is independent of the real credit balance
     pts = [sum(p["statistics"].get("points", 0) for t in ("homeTeam", "awayTeam") for p in b["game"][t]["players"])
@@ -538,6 +540,17 @@ def stage_season(cdn):
     check("doubles tracked and graded without odds", len(dl) > 50 and len(dgr) > 20, f"{len(dl)} tracked, {len(dgr)} graded")
     check("doubles chances are valid and nobody tracked twice a day",
           all(0 <= r["p_dd"] <= 1 and 0 <= r["p_td"] <= 1 for r in dl) and len({(r["date"], r["player_id"]) for r in dl}) == len(dl))
+    b6 = json.loads(best6.LOG.read_text())
+    b6days = {(r["date"], r["market"]) for r in b6}
+    check("Best 6 saved for threes, rebounds and assists every night, six each",
+          {m_ for _, m_ in b6days} == {"thr", "reb", "ast"} and all(sum(1 for r in b6 if (r["date"], r["market"]) == k) == 6 for k in b6days),
+          f"{len(b6)} rows over {len(b6days)} night-markets")
+    b6g = [r for r in b6 if r["hit"] in (0, 1)]
+    check("Best 6 graded from boxscores, never twice a day per player", len(b6g) > 6 and len({(r["date"], r["market"], r["player_id"]) for r in b6}) == len(b6),
+          f"{len(b6g)} graded")
+    b6s = json.loads(best6.SUMMARY.read_text())["markets"]
+    check("Best 6 summary has a hit rate for each market with graded nights",
+          all(b6s[k]["nights"] > 0 and 0 <= b6s[k]["rate"] <= 1 for k in ("thr", "reb", "ast")), str({k: (v["hits"], v["picks"]) for k, v in b6s.items()}))
     check("calibration log graded", len(done) > 200, f"{len(done)} graded priced props")
     if len(done) > 200:
         hp = np.array([r["hit"] for r in done], float)

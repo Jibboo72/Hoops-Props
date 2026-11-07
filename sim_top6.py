@@ -43,7 +43,29 @@ def main():
         tot["trio_hit_rate"] = round(tot["trio_hits"] / max(tot["trios"], 1), 4)
         tot["avg_chance"] = round(float(np.mean([p["chance"] for n in nights for p in n["picks"]])), 4) if nights else None
         dest[key] = {"totals": tot, "nights": nights}
+    import nba_pipeline as pl
+    proj = proj[proj["proj_min"] >= 15]
+    out["extra"] = {}   # threes, rebounds, assists: model-only main line (floor(projection)+0.5), the side the model likes
+    for fam, (_, lam_col, stat_col, _, _) in pl.FAMILIES.items():
+        lam = proj[lam_col].to_numpy(float)
+        line = np.floor(lam) + 0.5
+        p_over = pl.dist_sf(np.floor(lam), lam, m.CONFIG["nb_r"][fam])
+        over = p_over >= 0.5
+        actual = proj[stat_col].to_numpy(float)
+        g2 = proj.assign(chance=np.where(over, p_over, 1 - p_over), pick_hit=np.where(over, actual > line, actual < line).astype(int))
+        nights, tot = [], dict(nights=0, picks=0, single_hits=0)
+        for date, g in g2.groupby("date"):
+            top = g.sort_values("chance", ascending=False).head(6)
+            if len(top) < 6:
+                continue
+            h = int(top["pick_hit"].sum())
+            nights.append({"date": str(date), "hits": h, "pair_hits": comb(h, 2), "trio_hits": comb(h, 3)})
+            tot["nights"] += 1; tot["picks"] += 6; tot["single_hits"] += h
+        tot["single_hit_rate"] = round(tot["single_hits"] / max(tot["picks"], 1), 4)
+        out["extra"][fam] = {"totals": tot, "nights": nights}
     (ROOT / "docs" / "data" / "top6_live.json").write_text(json.dumps(out, indent=1))
+    for fam, v in out["extra"].items():
+        print("extra", fam, v["totals"])
     for grp in ("markets", "bump"):
         for k, v in out[grp].items():
             print(grp, k, v["totals"])

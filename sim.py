@@ -215,6 +215,8 @@ def main():
     LOG.write_text(json.dumps(log, indent=1))
     calibration(board)
     track_doubles(board)
+    import best6
+    best6.track(board)   # nightly Best 6 per market + the numbers strip
     done = [b for b in log if b["status"] in ("win", "loss")]
     units = sum(b["units"] or 0 for b in done)
     print(f"Logged {added} new plays. Graded record {sum(b['status'] == 'win' for b in done)}-"

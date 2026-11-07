@@ -18,7 +18,10 @@ The app is served by GitHub Pages from `docs/` (`jibboo72.github.io/Hoops-Props/
 | `credits.json` | Odds API credits left | `credits.py` (credits.yml) | 12:00 daily | `board.js` |
 | `backtest.json` | Model backtest (incl. `doubles` section) | `tune.py` (tune.yml) / `nba_pipeline.py` (backtest.yml) | manual | `app.js` |
 | `backtest_live.json` | Backtest of this season only (2026-27 so far), each game projected from earlier games | `nba_pipeline.py --live` (backtest.yml, `live` input) | manual | `app.js` (`app.html?season=live`) |
-| `top6_live.json` | This season's nightly top-6 2x and 3x picks (`markets` = most likely, `bump` = biggest jump over usual) and whether each hit (singles and 2-team round robins) | `sim_top6.py` (top6.yml) | manual | `doubles.js` (Best 6 night by night, with 2-team and 3-team parlay counts) |
+| `top6_live.json` | This season's nightly top-6 2x and 3x picks (`markets` = most likely, `bump` = biggest jump over usual, `extra` = model-only threes/rebounds/assists replay) and whether each hit (singles and 2-team round robins) | `sim_top6.py` (top6.yml) | manual | `doubles.js` (Best 6 night by night, with 2-team and 3-team parlay counts) |
+| `best6.json` | Tonight's Best 6 for threes, rebounds and assists (main line, side the model likes, skips plays worse than -198) | `best6.py` via `sim.py` (tonight.yml) | with the board | `board.js` |
+| `best6_log.json` | Each night's Best 6 per market with results, frozen at first tip | `best6.py` via `sim.py` | with the board | `best6.py` (summary) |
+| `best6_summary.json` | Hit rate per market (2x, 3PT, REB, AST): replay since Oct 20 plus live nights | `best6.py` via `sim.py` | with the board | `nav.js` (strip at the top of every page) |
 
 ## Working data (`data/`, not served)
 
