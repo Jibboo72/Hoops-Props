@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-04T05:10+00:00",
+ "generated": "2026-11-07T22:11+00:00",
  "picks_per_night": 6,
  "note": "Players are chosen from those who played that night (lineups aren't known in advance), so this is a little generous.",
  "markets": {
   "dd": {
    "totals": {
-    "nights": 14,
-    "picks": 84,
-    "single_hits": 38,
-    "pairs": 210,
-    "pair_hits": 43,
-    "trios": 280,
-    "trio_hits": 24,
-    "nights_with_a_hit": 13,
-    "nights_all_6": 0,
-    "single_hit_rate": 0.4524,
-    "pair_hit_rate": 0.2048,
-    "trio_hit_rate": 0.0857,
-    "avg_chance": 0.5181
+    "nights": 17,
+    "picks": 102,
+    "single_hits": 51,
+    "pairs": 255,
+    "pair_hits": 67,
+    "trios": 340,
+    "trio_hits": 49,
+    "nights_with_a_hit": 16,
+    "nights_all_6": 1,
+    "single_hit_rate": 0.5,
+    "pair_hit_rate": 0.2627,
+    "trio_hit_rate": 0.1441,
+    "avg_chance": 0.5076
    },
    "nights": [
     {
@@ -719,24 +719,174 @@
        "hit": 1
       }
      ]
+    },
+    {
+     "date": "2026-11-04",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.799,
+       "usual": 0.762,
+       "hit": 1
+      },
+      {
+       "name": "Karl-Anthony Towns",
+       "team": "NYK",
+       "chance": 0.755,
+       "usual": 0.784,
+       "hit": 1
+      },
+      {
+       "name": "Victor Wembanyama",
+       "team": "SAS",
+       "chance": 0.601,
+       "usual": 0.633,
+       "hit": 1
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.552,
+       "usual": 0.535,
+       "hit": 1
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.537,
+       "usual": 0.567,
+       "hit": 1
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.512,
+       "usual": 0.459,
+       "hit": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4,
+     "picks": [
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.595,
+       "usual": 0.552,
+       "hit": 1
+      },
+      {
+       "name": "Bam Adebayo",
+       "team": "MIA",
+       "chance": 0.388,
+       "usual": 0.36,
+       "hit": 1
+      },
+      {
+       "name": "Davion Mitchell",
+       "team": "MIA",
+       "chance": 0.184,
+       "usual": 0.23,
+       "hit": 0
+      },
+      {
+       "name": "Yaxel Lendeborg",
+       "team": "GSW",
+       "chance": 0.152,
+       "usual": 0.123,
+       "hit": 0
+      },
+      {
+       "name": "Wendell Carter Jr.",
+       "team": "ORL",
+       "chance": 0.147,
+       "usual": 0.11,
+       "hit": 1
+      },
+      {
+       "name": "Franz Wagner",
+       "team": "ORL",
+       "chance": 0.147,
+       "usual": 0.118,
+       "hit": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1,
+     "picks": [
+      {
+       "name": "Victor Wembanyama",
+       "team": "SAS",
+       "chance": 0.627,
+       "usual": 0.647,
+       "hit": 1
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.597,
+       "usual": 0.582,
+       "hit": 1
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.498,
+       "usual": 0.463,
+       "hit": 0
+      },
+      {
+       "name": "Evan Mobley",
+       "team": "CLE",
+       "chance": 0.398,
+       "usual": 0.422,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.383,
+       "usual": 0.403,
+       "hit": 0
+      },
+      {
+       "name": "Donovan Clingan",
+       "team": "POR",
+       "chance": 0.38,
+       "usual": 0.412,
+       "hit": 1
+      }
+     ]
     }
    ]
   },
   "td": {
    "totals": {
-    "nights": 14,
-    "picks": 84,
-    "single_hits": 3,
-    "pairs": 210,
-    "pair_hits": 0,
-    "trios": 280,
+    "nights": 17,
+    "picks": 102,
+    "single_hits": 5,
+    "pairs": 255,
+    "pair_hits": 1,
+    "trios": 340,
     "trio_hits": 0,
-    "nights_with_a_hit": 3,
+    "nights_with_a_hit": 4,
     "nights_all_6": 0,
-    "single_hit_rate": 0.0357,
-    "pair_hit_rate": 0.0,
+    "single_hit_rate": 0.049,
+    "pair_hit_rate": 0.0039,
     "trio_hit_rate": 0.0,
-    "avg_chance": 0.0878
+    "avg_chance": 0.0843
    },
    "nights": [
     {
@@ -1438,6 +1588,156 @@
        "hit": 0
       }
      ]
+    },
+    {
+     "date": "2026-11-04",
+     "hits": 2,
+     "pair_hits": 1,
+     "trio_hits": 0,
+     "picks": [
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.431,
+       "usual": 0.451,
+       "hit": 1
+      },
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.105,
+       "usual": 0.04,
+       "hit": 1
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.102,
+       "usual": 0.086,
+       "hit": 0
+      },
+      {
+       "name": "Josh Giddey",
+       "team": "CHI",
+       "chance": 0.077,
+       "usual": 0.164,
+       "hit": 0
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.062,
+       "usual": 0.075,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.046,
+       "usual": 0.038,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
+     "hits": 0,
+     "pair_hits": 0,
+     "trio_hits": 0,
+     "picks": [
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.074,
+       "usual": 0.072,
+       "hit": 0
+      },
+      {
+       "name": "Franz Wagner",
+       "team": "ORL",
+       "chance": 0.008,
+       "usual": 0.0,
+       "hit": 0
+      },
+      {
+       "name": "Yaxel Lendeborg",
+       "team": "GSW",
+       "chance": 0.003,
+       "usual": 0.004,
+       "hit": 0
+      },
+      {
+       "name": "Bam Adebayo",
+       "team": "MIA",
+       "chance": 0.003,
+       "usual": 0.0,
+       "hit": 0
+      },
+      {
+       "name": "Brandin Podziemski",
+       "team": "GSW",
+       "chance": 0.003,
+       "usual": 0.0,
+       "hit": 0
+      },
+      {
+       "name": "Luke Kennard",
+       "team": "PHX",
+       "chance": 0.002,
+       "usual": 0.01,
+       "hit": 0
+      }
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "hits": 0,
+     "pair_hits": 0,
+     "trio_hits": 0,
+     "picks": [
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.115,
+       "usual": 0.083,
+       "hit": 0
+      },
+      {
+       "name": "LeBron James",
+       "team": "PHI",
+       "chance": 0.052,
+       "usual": 0.034,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.046,
+       "usual": 0.036,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.044,
+       "usual": 0.036,
+       "hit": 0
+      },
+      {
+       "name": "Deni Avdija",
+       "team": "POR",
+       "chance": 0.028,
+       "usual": 0.032,
+       "hit": 0
+      },
+      {
+       "name": "Joel Embiid",
+       "team": "PHI",
+       "chance": 0.022,
+       "usual": 0.055,
+       "hit": 0
+      }
+     ]
     }
    ]
   }
@@ -1445,19 +1745,19 @@
  "bump": {
   "dd": {
    "totals": {
-    "nights": 14,
-    "picks": 84,
-    "single_hits": 18,
-    "pairs": 210,
-    "pair_hits": 8,
-    "trios": 280,
-    "trio_hits": 1,
-    "nights_with_a_hit": 11,
+    "nights": 17,
+    "picks": 102,
+    "single_hits": 27,
+    "pairs": 255,
+    "pair_hits": 20,
+    "trios": 340,
+    "trio_hits": 11,
+    "nights_with_a_hit": 14,
     "nights_all_6": 0,
-    "single_hit_rate": 0.2143,
-    "pair_hit_rate": 0.0381,
-    "trio_hit_rate": 0.0036,
-    "avg_chance": 0.2448
+    "single_hit_rate": 0.2647,
+    "pair_hit_rate": 0.0784,
+    "trio_hit_rate": 0.0324,
+    "avg_chance": 0.2427
    },
    "nights": [
     {
@@ -2159,24 +2459,174 @@
        "hit": 0
       }
      ]
+    },
+    {
+     "date": "2026-11-04",
+     "hits": 2,
+     "pair_hits": 1,
+     "trio_hits": 0,
+     "picks": [
+      {
+       "name": "Jalen Brunson",
+       "team": "NYK",
+       "chance": 0.146,
+       "usual": 0.114,
+       "hit": 0
+      },
+      {
+       "name": "Trae Young",
+       "team": "WAS",
+       "chance": 0.292,
+       "usual": 0.236,
+       "hit": 0
+      },
+      {
+       "name": "P.J. Washington",
+       "team": "DAL",
+       "chance": 0.167,
+       "usual": 0.139,
+       "hit": 1
+      },
+      {
+       "name": "Walker Kessler",
+       "team": "LAL",
+       "chance": 0.327,
+       "usual": 0.276,
+       "hit": 0
+      },
+      {
+       "name": "Julius Randle",
+       "team": "BKN",
+       "chance": 0.201,
+       "usual": 0.172,
+       "hit": 0
+      },
+      {
+       "name": "Cooper Flagg",
+       "team": "DAL",
+       "chance": 0.201,
+       "usual": 0.175,
+       "hit": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10,
+     "picks": [
+      {
+       "name": "Wendell Carter Jr.",
+       "team": "ORL",
+       "chance": 0.147,
+       "usual": 0.11,
+       "hit": 1
+      },
+      {
+       "name": "Franz Wagner",
+       "team": "ORL",
+       "chance": 0.147,
+       "usual": 0.118,
+       "hit": 1
+      },
+      {
+       "name": "Yaxel Lendeborg",
+       "team": "GSW",
+       "chance": 0.152,
+       "usual": 0.123,
+       "hit": 0
+      },
+      {
+       "name": "Miles Bridges",
+       "team": "PHX",
+       "chance": 0.129,
+       "usual": 0.117,
+       "hit": 1
+      },
+      {
+       "name": "Bam Adebayo",
+       "team": "MIA",
+       "chance": 0.388,
+       "usual": 0.36,
+       "hit": 1
+      },
+      {
+       "name": "Giannis Antetokounmpo",
+       "team": "MIA",
+       "chance": 0.595,
+       "usual": 0.552,
+       "hit": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "hits": 2,
+     "pair_hits": 1,
+     "trio_hits": 0,
+     "picks": [
+      {
+       "name": "Cameron Boozer",
+       "team": "MEM",
+       "chance": 0.229,
+       "usual": 0.159,
+       "hit": 0
+      },
+      {
+       "name": "Walker Kessler",
+       "team": "LAL",
+       "chance": 0.345,
+       "usual": 0.266,
+       "hit": 1
+      },
+      {
+       "name": "Tyrese Maxey",
+       "team": "PHI",
+       "chance": 0.126,
+       "usual": 0.102,
+       "hit": 0
+      },
+      {
+       "name": "Lauri Markkanen",
+       "team": "UTA",
+       "chance": 0.149,
+       "usual": 0.122,
+       "hit": 0
+      },
+      {
+       "name": "P.J. Washington",
+       "team": "DAL",
+       "chance": 0.205,
+       "usual": 0.169,
+       "hit": 0
+      },
+      {
+       "name": "Cooper Flagg",
+       "team": "DAL",
+       "chance": 0.246,
+       "usual": 0.206,
+       "hit": 1
+      }
+     ]
     }
    ]
   },
   "td": {
    "totals": {
-    "nights": 11,
-    "picks": 66,
-    "single_hits": 3,
-    "pairs": 165,
-    "pair_hits": 0,
-    "trios": 220,
+    "nights": 13,
+    "picks": 78,
+    "single_hits": 5,
+    "pairs": 195,
+    "pair_hits": 1,
+    "trios": 260,
     "trio_hits": 0,
-    "nights_with_a_hit": 3,
+    "nights_with_a_hit": 4,
     "nights_all_6": 0,
-    "single_hit_rate": 0.0455,
-    "pair_hit_rate": 0.0,
+    "single_hit_rate": 0.0641,
+    "pair_hit_rate": 0.0051,
     "trio_hit_rate": 0.0,
-    "avg_chance": 0.0882
+    "avg_chance": 0.0883
    },
    "nights": [
     {
@@ -2728,6 +3178,444 @@
        "hit": 0
       }
      ]
+    },
+    {
+     "date": "2026-11-04",
+     "hits": 2,
+     "pair_hits": 1,
+     "trio_hits": 0,
+     "picks": [
+      {
+       "name": "Alperen Sengun",
+       "team": "HOU",
+       "chance": 0.105,
+       "usual": 0.04,
+       "hit": 1
+      },
+      {
+       "name": "Cade Cunningham",
+       "team": "DET",
+       "chance": 0.043,
+       "usual": 0.032,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.046,
+       "usual": 0.038,
+       "hit": 0
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.102,
+       "usual": 0.086,
+       "hit": 0
+      },
+      {
+       "name": "LeBron James",
+       "team": "PHI",
+       "chance": 0.042,
+       "usual": 0.036,
+       "hit": 0
+      },
+      {
+       "name": "Nikola Jokic",
+       "team": "DEN",
+       "chance": 0.431,
+       "usual": 0.451,
+       "hit": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "hits": 0,
+     "pair_hits": 0,
+     "trio_hits": 0,
+     "picks": [
+      {
+       "name": "LeBron James",
+       "team": "PHI",
+       "chance": 0.052,
+       "usual": 0.034,
+       "hit": 0
+      },
+      {
+       "name": "Luka Doncic",
+       "team": "LAL",
+       "chance": 0.115,
+       "usual": 0.083,
+       "hit": 0
+      },
+      {
+       "name": "Domantas Sabonis",
+       "team": "SAC",
+       "chance": 0.046,
+       "usual": 0.036,
+       "hit": 0
+      },
+      {
+       "name": "Jayson Tatum",
+       "team": "BOS",
+       "chance": 0.044,
+       "usual": 0.036,
+       "hit": 0
+      },
+      {
+       "name": "Deni Avdija",
+       "team": "POR",
+       "chance": 0.028,
+       "usual": 0.032,
+       "hit": 0
+      },
+      {
+       "name": "Jaylen Brown",
+       "team": "PHI",
+       "chance": 0.013,
+       "usual": 0.028,
+       "hit": 0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "extra": {
+  "thr": {
+   "totals": {
+    "nights": 17,
+    "picks": 102,
+    "single_hits": 93,
+    "single_hit_rate": 0.9118
+   },
+   "nights": [
+    {
+     "date": "2026-10-20",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-21",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-22",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-23",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-24",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-25",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-26",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-27",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-10-28",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-10-29",
+     "hits": 2,
+     "pair_hits": 1,
+     "trio_hits": 0
+    },
+    {
+     "date": "2026-10-30",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-31",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-11-01",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
+    },
+    {
+     "date": "2026-11-02",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-11-04",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-11-05",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-11-06",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    }
+   ]
+  },
+  "reb": {
+   "totals": {
+    "nights": 17,
+    "picks": 102,
+    "single_hits": 77,
+    "single_hit_rate": 0.7549
+   },
+   "nights": [
+    {
+     "date": "2026-10-20",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-21",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-10-22",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-23",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-10-24",
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1
+    },
+    {
+     "date": "2026-10-25",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-10-26",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
+    },
+    {
+     "date": "2026-10-27",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-10-28",
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1
+    },
+    {
+     "date": "2026-10-29",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-10-30",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-31",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
+    },
+    {
+     "date": "2026-11-01",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-11-02",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
+    },
+    {
+     "date": "2026-11-04",
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1
+    },
+    {
+     "date": "2026-11-05",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-11-06",
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1
+    }
+   ]
+  },
+  "ast": {
+   "totals": {
+    "nights": 17,
+    "picks": 102,
+    "single_hits": 72,
+    "single_hit_rate": 0.7059
+   },
+   "nights": [
+    {
+     "date": "2026-10-20",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-10-21",
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1
+    },
+    {
+     "date": "2026-10-22",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-10-23",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
+    },
+    {
+     "date": "2026-10-24",
+     "hits": 3,
+     "pair_hits": 3,
+     "trio_hits": 1
+    },
+    {
+     "date": "2026-10-25",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
+    },
+    {
+     "date": "2026-10-26",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
+    },
+    {
+     "date": "2026-10-27",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-28",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-10-29",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
+    },
+    {
+     "date": "2026-10-30",
+     "hits": 6,
+     "pair_hits": 15,
+     "trio_hits": 20
+    },
+    {
+     "date": "2026-10-31",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-11-01",
+     "hits": 2,
+     "pair_hits": 1,
+     "trio_hits": 0
+    },
+    {
+     "date": "2026-11-02",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-11-04",
+     "hits": 5,
+     "pair_hits": 10,
+     "trio_hits": 10
+    },
+    {
+     "date": "2026-11-05",
+     "hits": 2,
+     "pair_hits": 1,
+     "trio_hits": 0
+    },
+    {
+     "date": "2026-11-06",
+     "hits": 4,
+     "pair_hits": 6,
+     "trio_hits": 4
     }
    ]
   }
