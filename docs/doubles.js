@@ -51,6 +51,31 @@
       tb.appendChild(tr);
     });
   }
+  // Tonight's 6-leg round robin, rated 1 to 10 for 2-pick (15 x $2) and 3-pick (20 x $1.50). Built by parlay.py.
+  function renderRR(){
+    var rr=DATA.parlay, blk=$("rrBlock");
+    if(kind!=="dd"||!rr||!rr.formats){ blk.hidden=true; return; }
+    blk.hidden=false;
+    var money=function(v){return (v<0?"−$":"+$")+Math.abs(v).toFixed(2)};
+    var box=$("rr"); box.innerHTML="";
+    ["2","3"].forEach(function(k){
+      var f=rr.formats[k], d=document.createElement("div");
+      d.className="fmt"+(rr.better===k?" best":"");
+      d.innerHTML="<h3>"+f.name+" <span class='n'>"+f.bets+" × $"+f.stake_each.toFixed(2)+"</span></h3>"+
+        (rr.better===k?"<span class='tag'>Better tonight</span>":"<span class='tag'>&nbsp;</span>")+
+        "<span class='score'>"+f.rating+"<small>/10</small></span>"+
+        "<ul><li><span>Expected</span><span>"+money(f.exp_profit)+" ("+evs(f.roi)+")</span></li>"+
+        "<li><span>Chance to profit</span><span>"+Math.round(f.p_profit*100)+"%</span></li>"+
+        "<li><span>Lose all $30</span><span>"+Math.round(f.p_lose_all*100)+"%</span></li>"+
+        "<li><span>Profit needs</span><span>"+(f.breakeven_hits==null?"—":f.breakeven_hits+" of 6")+"</span></li>"+
+        "<li><span>Book</span><span>"+esc(f.book||"best per leg")+"</span></li></ul>";
+      box.appendChild(d);
+    });
+    var c=rr.calibration||{};
+    $("rrNote").textContent="The Best 6 above as a $30 round robin at one book, scored 1 to 10 (5 is break-even). Chances blend the model and the market; the model's half is scaled by "+(c.k!=null?c.k.toFixed(2):"1")+" from this season's Best 6 record ("+c.hits+" hits on "+(c.expected!=null?c.expected.toFixed(1):"?")+" expected over "+c.picks+" picks).";
+    var two=rr.formats["2"], three=rr.formats["3"];
+    $("rrFoot").textContent=(rr.notes||[]).join(" ")+" At the best price for each leg: 2-pick "+money(two.best_price.exp_profit)+", 3-pick "+money(three.best_price.exp_profit)+".";
+  }
   function renderSix(){
     var key=kind, nights=[], seen={};
     ((SIX&&SIX.markets&&SIX.markets[key]&&SIX.markets[key].nights)||[]).forEach(function(n){
@@ -110,7 +135,7 @@
     $("status").textContent=DATA.players.length+" players across "+DATA.games.length+" games."+
       (kind==="td"?" Triple-doubles are rare, so only a handful of players have a real chance.":
        np?" "+np+" have a double-double price posted; best price and EV are shown next to each one.":" No double-double prices posted yet, so these are model chances only.");
-    renderTonight(); renderSix(); renderRecord();
+    renderTonight(); renderRR(); renderSix(); renderRecord();
   }
   document.querySelectorAll("[data-kind]").forEach(function(b){b.onclick=function(){kind=b.dataset.kind; render();}});
   var get=function(u){return fetch(u,{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})};

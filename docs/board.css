@@ -20,3 +20,14 @@
 td.pos{color:var(--blue);font-weight:600}
 td .sub{display:block;color:var(--muted);font-size:12px}
 td:first-child{max-width:150px}
+.rr{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.rr .fmt{background:var(--board);border:1px solid var(--rule);border-radius:12px;padding:12px}
+.rr .fmt.best{border:2px solid var(--blue)}
+.rr .fmt h3{margin:0;font:600 19px/1.1 var(--display)}
+.rr .fmt .score{display:block;font:700 44px/1 var(--display);margin:6px 0 2px}
+.rr .fmt .score small{font-size:18px;color:var(--muted)}
+.rr .fmt .tag{font-size:12px;font-weight:600;color:var(--blue);text-transform:uppercase;letter-spacing:.4px}
+.rr .fmt ul{list-style:none;margin:6px 0 0;padding:0;font-size:14px;font-variant-numeric:tabular-nums}
+.rr .fmt li{display:flex;justify-content:space-between;gap:8px;border-top:1px solid var(--rule);padding:3px 0}
+.rr .fmt li span:first-child{color:var(--muted)}
+.rr .fmt h3 .n{font:500 14px var(--body);color:var(--muted)}

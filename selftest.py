@@ -398,6 +398,57 @@ def stage_tune(cdn):
           sum(found[False]) >= sum(found[True]) - 0.2, f"drifting {found[False]} vs stationary {found[True]}")
 
 
+def stage_parlay():
+    """Round-robin math on cases with known answers (parlay.py)."""
+    import parlay
+    print("\n== Round-robin rating ==")
+    probs, even = [0.5] * 6, [2.0] * 6
+    rows = parlay.outcomes(probs, even, 2, 2.0)
+    check("64 outcomes whose chances add to 1", len(rows) == 64 and abs(sum(r[1] for r in rows) - 1) < 1e-12)
+    two, three = parlay.summarize(probs, even, 2, 2.0), parlay.summarize(probs, even, 3, 1.5)
+    check("fair even-money legs break even in both formats", abs(two["roi"]) < 1e-4 and abs(three["roi"]) < 1e-4,
+          f"{two['roi']} / {three['roi']}")
+    check("$30 a night: 15 x $2 and 20 x $1.50", two["total"] == 30 and three["total"] == 30 and two["bets"] == 15 and three["bets"] == 20)
+    check("lose all = 0-1 hits for 2-pick, 0-2 hits for 3-pick",
+          abs(two["p_lose_all"] - 7 / 64) < 1e-4 and abs(three["p_lose_all"] - 22 / 64) < 1e-4, f"{two['p_lose_all']} / {three['p_lose_all']}")
+    rng = np.random.default_rng(7)
+    q, dec = rng.uniform(0.3, 0.6, 6), rng.uniform(1.8, 3.2, 6)
+    from itertools import combinations
+    for size, st in ((2, 2.0), (3, 1.5)):
+        s_ = parlay.summarize(list(q), list(dec), size, st)
+        lin = sum(st * float(np.prod([q[i] * dec[i] for i in c])) for c in combinations(range(6), size)) - 30
+        check(f"{size}-pick expected profit matches the sum over every parlay", abs(s_["exp_profit"] - lin) < 0.01, f"{s_['exp_profit']} vs {lin:.2f}")
+    check("score: break-even is about 5, +ROI scores higher, clamped 1-10",
+          4 <= parlay.score(two, 2) <= 6 and parlay.score({"roi": 0.2, "p_profit": 0.4}, 2) > parlay.score(two, 2)
+          and parlay.score({"roi": -0.9, "p_profit": 0}, 3) == 1 and parlay.score({"roi": 2, "p_profit": 1}, 2) == 10)
+
+    def player(i, p, prices, mkt=None):
+        return {"id": i, "name": f"P{i}", "team": "AAA", "game_id": str(i % 4), "p_dd": p,
+                **({"odds": {"p_model": p, "p_mkt": mkt, "p": p if mkt is None else (p + mkt) / 2, "prices": prices,
+                             "price": max(prices.values()), "book": max(prices, key=prices.get)}} if prices else {})}
+    ps = [player(1, 0.70, {"A": -250, "B": -260})] + [player(i, 0.5 - i / 100, {"A": 110, "B": 105, "C": 150})
+                                                      for i in range(2, 7)] + [player(7, 0.30, {"A": 120, "B": 125})]
+    games = [{"id": str(g), "away": "X", "home": "Y"} for g in range(4)]
+    rr = parlay.build(ps, games)
+    check("Best 6 skips a leg priced worse than -198", [p["id"] for p in rr["picks"]] == [2, 3, 4, 5, 6, 7])
+    check("round robin priced at the best book that has all 6 (not one missing a leg)",
+          rr["books_with_all_6"] == ["A", "B"] and rr["formats"]["2"]["book"] == "A" and rr["formats"]["3"]["book"] == "A", str(rr["formats"]["2"]["book"]))
+    check("same-game picks are flagged", any(len(s_["players"]) > 1 for s_ in rr["same_game"]))
+    ps[3].pop("odds")
+    rr = parlay.build(ps, games)
+    check("an unpriced leg is still rated, at an estimated price, and said so",
+          rr["priced_legs"] == 5 and rr["formats"]["2"]["book"] is None and "estimated" in " ".join(rr["notes"]))
+    check("fewer than 6 players: no rating", parlay.build(ps[:5], games) is None)
+    top6 = {"markets": {"dd": {"nights": [{"date": "2036-01-01", "picks": [{"chance": 0.6, "hit": 0}] * 6}] * 20}}}
+    cal = parlay.calibration([], top6)
+    check("calibration shrinks a model that ran hot, within its limits", parlay.CAL_RANGE[0] <= cal["k"] < 1, str(cal))
+    check("calibration never inflates the model",
+          parlay.calibration([], {"markets": {"dd": {"nights": [{"date": "d", "picks": [{"chance": 0.3, "hit": 1}] * 6}] * 5}}})["k"] == 1.0)
+    tie = parlay.build([player(i, 0.45, {"A": 120}) for i in range(1, 7)], games)
+    check("better format is the one with more expected profit (2-pick on a tie)",
+          tie["better"] == ("3" if tie["formats"]["3"]["exp_profit"] > tie["formats"]["2"]["exp_profit"] + parlay.TIE else "2"))
+
+
 def stage_season(cdn):
     """A mini season through the real board.py and sim.py: price, log, play the games, grade, repeat."""
     import requests
@@ -457,6 +508,16 @@ def stage_season(cdn):
                       and p["odds"]["p_model"] == round(p["p_dd"], 4) for p in dp))
             check("market chance used where a book posts both Yes and No", all(p["odds"]["p_mkt"] is not None for p in dp))
             check("best Yes price is the highest posted", all(p["odds"]["price"] == max(p["odds"]["prices"].values()) for p in dp))
+            rr = dj.get("parlay")
+            page_six = [p["id"] for p in sorted([p for p in dj["players"] if not (p.get("odds") and p["odds"]["price"] < -198)],
+                                                key=lambda p: -p["p_dd"])[:6]]
+            check("round-robin rating is on doubles.json for the page's Best 6",
+                  bool(rr) and [p["id"] for p in rr["picks"]] == page_six, str(rr and [p["name"] for p in rr["picks"]])[:80])
+            if rr:
+                check("2-pick and 3-pick rated 1-10 with finite numbers, priced at a book that has all 6",
+                      all(1 <= rr["formats"][k]["rating"] <= 10 and np.isfinite(rr["formats"][k]["exp_profit"])
+                          and 0 <= rr["formats"][k]["p_lose_all"] <= 1 and rr["formats"][k]["book"] in rr["books_with_all_6"]
+                          for k in ("2", "3")) and rr["better"] in ("2", "3"), str({k: rr["formats"][k]["rating"] for k in ("2", "3")}))
         sim.main()
         for g in games:   # play tonight's games, then the next run grades them
             h, a = g["homeTeam"]["teamTricode"], g["awayTeam"]["teamTricode"]
@@ -500,6 +561,7 @@ if __name__ == "__main__":
     nba_data.today_et = lambda: date(2040, 1, 1)
     print(f"Generating synthetic league ({GAMES} games per season)...")
     teams, truth = build_world(cdn, 2034, False)
+    stage_parlay()
     stage_model(cdn, truth)
     stage_tune(cdn)
     stage_season(cdn)

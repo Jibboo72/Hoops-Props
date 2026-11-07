@@ -3744,5 +3744,225 @@
    "exp_reb": 2.6,
    "exp_ast": 1.8
   }
- ]
+ ],
+ "parlay": {
+  "picks": [
+   {
+    "id": 3945274,
+    "name": "Luka Doncic",
+    "team": "LAL",
+    "game_id": "401909294",
+    "p_model": 0.4907,
+    "p": 0.4437,
+    "price": 135,
+    "book": "BetMGM",
+    "priced": true
+   },
+   {
+    "id": 4432158,
+    "name": "Evan Mobley",
+    "team": "CLE",
+    "game_id": "401909289",
+    "p_model": 0.4008,
+    "p": 0.4091,
+    "price": 120,
+    "book": "betPARX",
+    "priced": true
+   },
+   {
+    "id": 4065648,
+    "name": "Jayson Tatum",
+    "team": "BOS",
+    "game_id": "401909288",
+    "p_model": 0.3822,
+    "p": 0.351,
+    "price": 200,
+    "book": "BetMGM",
+    "priced": true
+   },
+   {
+    "id": 3059318,
+    "name": "Joel Embiid",
+    "team": "PHI",
+    "game_id": "401909289",
+    "p_model": 0.3801,
+    "p": 0.3989,
+    "price": 123,
+    "book": "DraftKings",
+    "priced": true
+   },
+   {
+    "id": 5105565,
+    "name": "Donovan Clingan",
+    "team": "POR",
+    "game_id": "401909294",
+    "p_model": 0.3717,
+    "p": 0.3767,
+    "price": 145,
+    "book": "Hard Rock Bet",
+    "priced": true
+   },
+   {
+    "id": 1966,
+    "name": "LeBron James",
+    "team": "PHI",
+    "game_id": "401909289",
+    "p_model": 0.3429,
+    "p": 0.3369,
+    "price": 210,
+    "book": "BetMGM",
+    "priced": true
+   }
+  ],
+  "calibration": {
+   "k": 0.9813,
+   "picks": 95,
+   "hits": 47,
+   "expected": 48.38
+  },
+  "priced_legs": 6,
+  "books_with_all_6": [
+   "BetMGM",
+   "DraftKings",
+   "FanDuel",
+   "Hard Rock Bet",
+   "betPARX",
+   "theScore Bet"
+  ],
+  "formats": {
+   "2": {
+    "name": "2-pick",
+    "book": "Hard Rock Bet",
+    "bets": 15,
+    "stake_each": 2.0,
+    "total": 30.0,
+    "exp_profit": -2.58,
+    "roi": -0.0861,
+    "p_profit": 0.4267,
+    "p_lose_all": 0.2548,
+    "breakeven_hits": 3,
+    "can_profit_at": 3,
+    "payout_by_hits": {
+     "0": [
+      0,
+      0
+     ],
+     "1": [
+      0,
+      0
+     ],
+     "2": [
+      9.68,
+      16.82
+     ],
+     "3": [
+      30.36,
+      45.24
+     ],
+     "4": [
+      63.44,
+      84.02
+     ],
+     "5": [
+      116.8,
+      130.66
+     ],
+     "6": [
+      186.98,
+      186.98
+     ]
+    },
+    "score": 3.9,
+    "best_price": {
+     "exp_profit": -1.49,
+     "roi": -0.0496,
+     "p_profit": 0.4267
+    },
+    "rating": 4
+   },
+   "3": {
+    "name": "3-pick",
+    "book": "Hard Rock Bet",
+    "bets": 20,
+    "stake_each": 1.5,
+    "total": 30.0,
+    "exp_profit": -3.82,
+    "roi": -0.1274,
+    "p_profit": 0.1685,
+    "p_lose_all": 0.5733,
+    "breakeven_hits": 4,
+    "can_profit_at": 3,
+    "payout_by_hits": {
+     "0": [
+      0,
+      0
+     ],
+     "1": [
+      0,
+      0
+     ],
+     "2": [
+      0,
+      0
+     ],
+     "3": [
+      17.06,
+      30.91
+     ],
+     "4": [
+      72.85,
+      110.64
+     ],
+     "5": [
+      210.82,
+      249.27
+     ],
+     "6": [
+      464.85,
+      464.85
+     ]
+    },
+    "score": 2.5,
+    "best_price": {
+     "exp_profit": -2.25,
+     "roi": -0.0749,
+     "p_profit": 0.1999
+    },
+    "rating": 3
+   }
+  },
+  "better": "2",
+  "same_game": [
+   {
+    "game": "POR at LAL",
+    "players": [
+     "Luka Doncic",
+     "Donovan Clingan"
+    ]
+   },
+   {
+    "game": "PHI at CLE",
+    "players": [
+     "Evan Mobley",
+     "Joel Embiid",
+     "LeBron James"
+    ]
+   }
+  ],
+  "notes": [
+   "Same-game picks are treated as independent: Luka Doncic, Donovan Clingan (POR at LAL); Evan Mobley, Joel Embiid, LeBron James (PHI at CLE)."
+  ],
+  "rules": {
+   "stake_total": 30.0,
+   "max_juice": -198,
+   "roi_per_point": 0.07,
+   "profit_weight": 4.0,
+   "usual_profit": {
+    "2": 0.4,
+    "3": 0.33
+   },
+   "tie": 0.5,
+   "est_ev_unpriced": -0.07
+  }
+ }
 }

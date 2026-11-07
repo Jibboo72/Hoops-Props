@@ -21,6 +21,7 @@ import requests
 
 import market
 import doubles
+import parlay
 import nba_data as d
 import nba_pipeline as m
 from nba_model import position_map
@@ -216,10 +217,24 @@ def dd_price(p_model, posted):
                            and market.LIKELY_MIN_PRICE <= yes[book] <= market.LIKELY_MAX_PRICE)}
 
 
+def _load(path, default):
+    try:
+        return json.loads(path.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return default
+
+
 def write_doubles(date, generated, games, players):
+    """doubles.json, with tonight's round-robin rating for the Best 6 (parlay.py) under "parlay"."""
     DOUBLES_OUT.parent.mkdir(parents=True, exist_ok=True)
+    data = DOUBLES_OUT.parent
+    try:
+        rr = parlay.build(players, games, _load(data / "doubles_log.json", []), _load(data / "top6_live.json", {}))
+    except Exception as exc:  # the board must never fail because of the rating
+        print(f"Parlay rating skipped ({exc.__class__.__name__}: {exc})")
+        rr = None
     DOUBLES_OUT.write_text(json.dumps({"date": date, "generated": generated, "games": games,
-                                       "players": sorted(players, key=lambda x: -x["p_dd"])}, indent=1))
+                                       "players": sorted(players, key=lambda x: -x["p_dd"]), "parlay": rr}, indent=1))
 
 
 def main():
