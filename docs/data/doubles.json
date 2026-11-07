@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-07T22:11+00:00",
+ "generated": "2026-11-07T22:13+00:00",
  "games": [
   {
    "id": "401909938",
@@ -727,14 +727,14 @@
     "prices": {
      "FanDuel": 400,
      "betPARX": 340,
-     "DraftKings": 516,
+     "DraftKings": 466,
      "theScore Bet": 380,
      "Hard Rock Bet": 400,
      "BetMGM": 375
     },
-    "price": 516,
+    "price": 466,
     "book": "DraftKings",
-    "ev": 0.1496,
+    "ev": 0.0563,
     "likely": false
    }
   },
@@ -925,19 +925,19 @@
    "exp_ast": 2.1,
    "odds": {
     "p_model": 0.1489,
-    "p_mkt": 0.1415,
-    "p": 0.1452,
-    "fair": 589,
+    "p_mkt": 0.1529,
+    "p": 0.1509,
+    "fair": 563,
     "prices": {
      "FanDuel": 640,
-     "theScore Bet": 550,
+     "theScore Bet": 500,
      "betPARX": 540,
      "DraftKings": 710,
      "BetMGM": 600
     },
     "price": 710,
     "book": "DraftKings",
-    "ev": 0.1762,
+    "ev": 0.2223,
     "likely": false
    }
   },
@@ -1300,7 +1300,7 @@
     "prices": {
      "FanDuel": 1000,
      "betPARX": 850,
-     "DraftKings": 910,
+     "DraftKings": 960,
      "Hard Rock Bet": 850,
      "BetMGM": 950
     },
@@ -1393,12 +1393,12 @@
    "exp_ast": 3.6,
    "odds": {
     "p_model": 0.0647,
-    "p_mkt": 0.0933,
-    "p": 0.079,
-    "fair": 1166,
+    "p_mkt": 0.1084,
+    "p": 0.0865,
+    "fair": 1055,
     "prices": {
      "FanDuel": 1000,
-     "theScore Bet": 900,
+     "theScore Bet": 750,
      "betPARX": 1000,
      "DraftKings": 1240,
      "Hard Rock Bet": 1100,
@@ -1406,7 +1406,7 @@
     },
     "price": 1240,
     "book": "DraftKings",
-    "ev": 0.0586,
+    "ev": 0.1598,
     "likely": false
    }
   },

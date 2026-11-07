@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-07T22:11+00:00",
+ "generated": "2026-11-07T22:13+00:00",
  "games": [
   {
    "id": "401909938",
@@ -4750,15 +4750,15 @@
      "betPARX": -175,
      "DraftKings": -179,
      "theScore Bet": -170,
-     "Hard Rock Bet": -165,
+     "Hard Rock Bet": -170,
      "BetMGM": -190
     },
     "p_mkt": 0.592,
     "p": 0.5754,
     "fair": -136,
-    "price": -165,
-    "book": "Hard Rock Bet",
-    "ev": -0.0758,
+    "price": -166,
+    "book": "FanDuel",
+    "ev": -0.0779,
     "likely": false
    },
    "thr_u1.5": {
@@ -4770,7 +4770,7 @@
      "betPARX": 128,
      "DraftKings": 135,
      "theScore Bet": 130,
-     "Hard Rock Bet": 130,
+     "Hard Rock Bet": 135,
      "BetMGM": 140
     },
     "p_mkt": 0.408,
@@ -5575,17 +5575,16 @@
     "line": 1.5,
     "prices": {
      "FanDuel": 158,
-     "DraftKings": 179,
      "theScore Bet": 160,
      "Hard Rock Bet": 165,
      "BetMGM": 155
     },
-    "p_mkt": 0.3604,
-    "p": 0.3204,
+    "p_mkt": 0.3613,
+    "p": 0.321,
     "fair": 212,
-    "price": 179,
-    "book": "DraftKings",
-    "ev": -0.1061,
+    "price": 165,
+    "book": "Hard Rock Bet",
+    "ev": -0.1494,
     "likely": false
    },
    "thr_u1.5": {
@@ -5593,47 +5592,48 @@
     "line": 1.5,
     "prices": {
      "FanDuel": -215,
-     "DraftKings": -240,
      "theScore Bet": -215,
      "Hard Rock Bet": -220,
      "BetMGM": -210
     },
-    "p_mkt": 0.6396,
-    "p": 0.6796,
+    "p_mkt": 0.6387,
+    "p": 0.679,
     "fair": -212,
     "price": -210,
     "book": "BetMGM",
-    "ev": 0.0032,
+    "ev": 0.0024,
     "likely": true
    },
    "thr_o0.5": {
     "p_model": 0.5921,
     "line": 0.5,
     "prices": {
+     "DraftKings": -239,
      "BetRivers": -240,
      "betPARX": -240
     },
     "p_mkt": 0.6559,
     "p": 0.6336,
     "fair": -173,
-    "price": -240,
-    "book": "BetRivers",
-    "ev": -0.1024,
+    "price": -239,
+    "book": "DraftKings",
+    "ev": -0.1013,
     "likely": false
    },
    "thr_u0.5": {
     "p_model": 0.4079,
     "line": 0.5,
     "prices": {
+     "DraftKings": 178,
      "BetRivers": 170,
      "betPARX": 170
     },
     "p_mkt": 0.3441,
     "p": 0.3664,
     "fair": 173,
-    "price": 170,
-    "book": "BetRivers",
-    "ev": -0.0106,
+    "price": 178,
+    "book": "DraftKings",
+    "ev": 0.0187,
     "likely": false
    },
    "reb_o4.5": {
@@ -5715,7 +5715,7 @@
     "line": 1.5,
     "prices": {
      "FanDuel": -154,
-     "DraftKings": -146,
+     "DraftKings": -141,
      "theScore Bet": -150,
      "BetRivers": -157,
      "betPARX": -157,
@@ -5725,9 +5725,9 @@
     "p_mkt": 0.5665,
     "p": 0.566,
     "fair": -130,
-    "price": -146,
+    "price": -141,
     "book": "DraftKings",
-    "ev": -0.0463,
+    "ev": -0.0326,
     "likely": false
    },
    "thr_u1.5": {
@@ -5735,7 +5735,7 @@
     "line": 1.5,
     "prices": {
      "FanDuel": 116,
-     "DraftKings": 111,
+     "DraftKings": 107,
      "theScore Bet": 115,
      "BetRivers": 116,
      "betPARX": 116,
@@ -6472,7 +6472,7 @@
    }
   }
  ],
- "odds_status": "Odds from 7 games (double-doubles and threes). 407 odds credits left this month. Game lines for 7 games.",
+ "odds_status": "Odds from 7 games (double-doubles and threes). 391 odds credits left this month. Game lines for 7 games.",
  "unmatched": [
   "c j mccollum"
  ],
