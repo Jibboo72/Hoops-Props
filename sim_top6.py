@@ -53,6 +53,7 @@ def main():
         over = p_over >= 0.5
         actual = proj[stat_col].to_numpy(float)
         g2 = proj.assign(chance=np.where(over, p_over, 1 - p_over), pick_hit=np.where(over, actual > line, actual < line).astype(int))
+        g2 = g2[g2["chance"] <= 0.665]   # no prices in a replay: a 66.5% chance is about -198, so anything surer is a play books price out of reach
         nights, tot = [], dict(nights=0, picks=0, single_hits=0)
         for date, g in g2.groupby("date"):
             top = g.sort_values("chance", ascending=False).head(6)
