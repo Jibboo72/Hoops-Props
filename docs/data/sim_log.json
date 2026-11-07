@@ -87755,5 +87755,31 @@
   "logged": "2026-11-07T22:11+00:00",
   "status": "pending",
   "units": null
+ },
+ {
+  "date": "2026-11-07",
+  "game_id": "401909940",
+  "player_id": 6585,
+  "name": "Andre Drummond",
+  "team": "NYK",
+  "opp": "CLE",
+  "market": "thr_o0.5",
+  "kind": "bet",
+  "p": 0.1734,
+  "p_model": 0.213,
+  "p_mkt": 0.1521,
+  "fair": 477,
+  "price": 527,
+  "book": "DraftKings",
+  "prices": {
+   "DraftKings": 527
+  },
+  "ev": 0.0873,
+  "min": 16.1,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-11-07T22:38+00:00",
+  "status": "pending",
+  "units": null
  }
 ]
