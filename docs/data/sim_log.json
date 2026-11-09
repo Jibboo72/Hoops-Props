@@ -89075,7 +89075,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -89171,7 +89171,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -89747,7 +89747,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -89867,7 +89867,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -89939,7 +89939,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -89987,7 +89987,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -90035,7 +90035,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -90275,7 +90275,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -90467,7 +90467,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -90995,7 +90995,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -91019,7 +91019,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -91163,7 +91163,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -91187,7 +91187,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -91259,7 +91259,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -91283,7 +91283,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -91691,7 +91691,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -91787,7 +91787,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -92099,7 +92099,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -92627,7 +92627,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -92843,7 +92843,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -92915,7 +92915,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -93083,7 +93083,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -93155,7 +93155,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -93275,7 +93275,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -93395,7 +93395,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -93515,7 +93515,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -93539,7 +93539,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -93563,7 +93563,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -93635,7 +93635,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -93659,7 +93659,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -93683,7 +93683,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -93779,7 +93779,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -93827,7 +93827,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -93851,7 +93851,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -93899,7 +93899,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -94171,8 +94171,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-11-08",
@@ -94385,8 +94385,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-11-08",
@@ -94478,8 +94478,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-11-08",
@@ -94818,8 +94818,8 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
-  "units": null
+  "status": "loss",
+  "units": -1.0
  },
  {
   "date": "2026-11-08",
@@ -94849,8 +94849,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.769
  },
  {
   "date": "2026-11-08",
@@ -95160,8 +95160,8 @@
   "flag": false,
   "likely": true,
   "logged": "2026-11-08T19:44+00:00",
-  "status": "pending",
-  "units": null
+  "status": "win",
+  "units": 0.741
  },
  {
   "date": "2026-11-08",
@@ -96648,6 +96648,174 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-08T22:29+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-11-08",
+  "game_id": "401909951",
+  "player_id": 3059319,
+  "name": "Andrew Wiggins",
+  "team": "MIA",
+  "opp": "SAC",
+  "market": "ast_o2.5",
+  "kind": "watch",
+  "p": 0.361,
+  "p_model": 0.361,
+  "p_mkt": null,
+  "fair": 177,
+  "price": null,
+  "book": null,
+  "prices": null,
+  "ev": null,
+  "min": 27.7,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-11-09T01:15+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-11-08",
+  "game_id": "401909950",
+  "player_id": 4397136,
+  "name": "Saddiq Bey",
+  "team": "NOP",
+  "opp": "LAC",
+  "market": "ast_u2.5",
+  "kind": "watch",
+  "p": 0.5969,
+  "p_model": 0.5969,
+  "p_mkt": null,
+  "fair": -148,
+  "price": null,
+  "book": null,
+  "prices": null,
+  "ev": null,
+  "min": 29.5,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-11-09T01:15+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-11-08",
+  "game_id": "401909951",
+  "player_id": 3064440,
+  "name": "Zach LaVine",
+  "team": "SAC",
+  "opp": "MIA",
+  "market": "ast_u2.5",
+  "kind": "watch",
+  "p": 0.5458,
+  "p_model": 0.5458,
+  "p_mkt": null,
+  "fair": -120,
+  "price": null,
+  "book": null,
+  "prices": null,
+  "ev": null,
+  "min": 32.0,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-11-09T01:15+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-11-08",
+  "game_id": "401909950",
+  "player_id": 4066648,
+  "name": "Rui Hachimura",
+  "team": "LAC",
+  "opp": "NOP",
+  "market": "reb_o4.5",
+  "kind": "watch",
+  "p": 0.4639,
+  "p_model": 0.4639,
+  "p_mkt": null,
+  "fair": 116,
+  "price": null,
+  "book": null,
+  "prices": null,
+  "ev": null,
+  "min": 29.7,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-11-09T01:15+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-11-08",
+  "game_id": "401909950",
+  "player_id": 4397136,
+  "name": "Saddiq Bey",
+  "team": "NOP",
+  "opp": "LAC",
+  "market": "reb_o4.5",
+  "kind": "watch",
+  "p": 0.4613,
+  "p_model": 0.4613,
+  "p_mkt": null,
+  "fair": 117,
+  "price": null,
+  "book": null,
+  "prices": null,
+  "ev": null,
+  "min": 29.5,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-11-09T01:15+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-11-08",
+  "game_id": "401909950",
+  "player_id": 4396907,
+  "name": "Darius Garland",
+  "team": "LAC",
+  "opp": "NOP",
+  "market": "thr_o1.5",
+  "kind": "watch",
+  "p": 0.6635,
+  "p_model": 0.6635,
+  "p_mkt": null,
+  "fair": -197,
+  "price": null,
+  "book": null,
+  "prices": null,
+  "ev": null,
+  "min": 31.7,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-11-09T01:15+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-11-08",
+  "game_id": "401909950",
+  "player_id": 4396907,
+  "name": "Darius Garland",
+  "team": "LAC",
+  "opp": "NOP",
+  "market": "thr_o2.5",
+  "kind": "watch",
+  "p": 0.4305,
+  "p_model": 0.4305,
+  "p_mkt": null,
+  "fair": 132,
+  "price": null,
+  "book": null,
+  "prices": null,
+  "ev": null,
+  "min": 31.7,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-11-09T01:15+00:00",
   "status": "pending",
   "units": null
  }

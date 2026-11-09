@@ -1,46 +1,44 @@
 {
  "date": "2026-11-08",
- "generated": "2026-11-08T22:29+00:00",
+ "generated": "2026-11-09T01:15+00:00",
  "games": [
   {
    "id": "401909945",
    "start": "2026-11-08T20:30Z",
    "away": "PHI",
-   "home": "CHI",
-   "total": 248.5,
-   "spread_home": 9.5
+   "home": "CHI"
   },
   {
    "id": "401909946",
    "start": "2026-11-08T23:00Z",
    "away": "LAL",
    "home": "DET",
-   "total": 216.5,
-   "spread_home": -7.5
+   "total": 214.5,
+   "spread_home": 2.5
   },
   {
    "id": "401909947",
    "start": "2026-11-09T00:00Z",
    "away": "UTA",
    "home": "MIN",
-   "total": 222.5,
-   "spread_home": -11.5
+   "total": 220.5,
+   "spread_home": -12.5
   },
   {
    "id": "401909948",
    "start": "2026-11-09T00:30Z",
    "away": "BKN",
    "home": "DAL",
-   "total": 223.5,
-   "spread_home": -7.5
+   "total": 227.5,
+   "spread_home": -11.5
   },
   {
    "id": "401909949",
    "start": "2026-11-09T01:00Z",
    "away": "BOS",
    "home": "MIL",
-   "total": 222.5,
-   "spread_home": 13.5
+   "total": 223.5,
+   "spread_home": 10.5
   },
   {
    "id": "401909950",
@@ -55,8 +53,8 @@
    "start": "2026-11-09T02:00Z",
    "away": "MIA",
    "home": "SAC",
-   "total": 237.5,
-   "spread_home": 9.5
+   "total": 236.5,
+   "spread_home": 11.5
   }
  ],
  "players": [
@@ -68,63 +66,29 @@
    "game_id": "401909951",
    "min": 31.3,
    "status": "",
-   "p_dd": 0.5918,
-   "p_td": 0.063,
+   "p_dd": 0.5909,
+   "p_td": 0.0626,
    "typ_dd": 0.567,
    "typ_td": 0.0694,
    "exp_pts": 25.8,
    "exp_reb": 10.9,
    "exp_ast": 5.4,
    "odds": {
-    "p_model": 0.5918,
-    "p_mkt": 0.7368,
-    "p": 0.6643,
-    "fair": -198,
+    "p_model": 0.5909,
+    "p_mkt": 0.7566,
+    "p": 0.6738,
+    "fair": -207,
     "prices": {
-     "FanDuel": -420,
-     "DraftKings": -373,
-     "theScore Bet": -400,
+     "FanDuel": -470,
+     "DraftKings": -387,
+     "theScore Bet": -450,
      "betPARX": -375,
      "BetMGM": -450,
-     "Hard Rock Bet": -425
+     "Hard Rock Bet": -450
     },
-    "price": -373,
-    "book": "DraftKings",
-    "ev": -0.1576,
-    "likely": false
-   }
-  },
-  {
-   "id": 3155942,
-   "name": "Domantas Sabonis",
-   "team": "SAC",
-   "opp": "MIA",
-   "game_id": "401909951",
-   "min": 32.8,
-   "status": "",
-   "p_dd": 0.5871,
-   "p_td": 0.0443,
-   "typ_dd": 0.5966,
-   "typ_td": 0.0352,
-   "exp_pts": 14.8,
-   "exp_reb": 12.1,
-   "exp_ast": 5.1,
-   "odds": {
-    "p_model": 0.5871,
-    "p_mkt": 0.673,
-    "p": 0.6301,
-    "fair": -170,
-    "prices": {
-     "FanDuel": -275,
-     "DraftKings": -261,
-     "theScore Bet": -260,
-     "betPARX": -225,
-     "BetMGM": -250,
-     "Hard Rock Bet": -260
-    },
-    "price": -225,
+    "price": -375,
     "book": "betPARX",
-    "ev": -0.0899,
+    "ev": -0.1466,
     "likely": false
    }
   },
@@ -136,29 +100,29 @@
    "game_id": "401909949",
    "min": 33.6,
    "status": "",
-   "p_dd": 0.4223,
-   "p_td": 0.0643,
+   "p_dd": 0.4233,
+   "p_td": 0.0648,
    "typ_dd": 0.3881,
    "typ_td": 0.0349,
-   "exp_pts": 25.1,
+   "exp_pts": 25.2,
    "exp_reb": 8.4,
    "exp_ast": 6.5,
    "odds": {
-    "p_model": 0.4223,
+    "p_model": 0.4233,
     "p_mkt": 0.3373,
-    "p": 0.3798,
+    "p": 0.3803,
     "fair": 163,
     "prices": {
-     "FanDuel": 174,
-     "DraftKings": 182,
-     "betPARX": 165,
+     "FanDuel": 178,
+     "DraftKings": 230,
+     "betPARX": 143,
      "theScore Bet": 175,
-     "BetMGM": 180,
-     "Hard Rock Bet": 180
+     "BetMGM": 185,
+     "Hard Rock Bet": 210
     },
-    "price": 182,
+    "price": 230,
     "book": "DraftKings",
-    "ev": 0.071,
+    "ev": 0.255,
     "likely": false
    }
   },
@@ -170,29 +134,24 @@
    "game_id": "401909946",
    "min": 33.9,
    "status": "",
-   "p_dd": 0.4087,
-   "p_td": 0.0315,
+   "p_dd": 0.4068,
+   "p_td": 0.0309,
    "typ_dd": 0.4328,
    "typ_td": 0.0313,
-   "exp_pts": 23.9,
+   "exp_pts": 23.8,
    "exp_reb": 5.2,
-   "exp_ast": 8.5,
+   "exp_ast": 8.4,
    "odds": {
-    "p_model": 0.4087,
-    "p_mkt": 0.4694,
-    "p": 0.4391,
-    "fair": 128,
+    "p_model": 0.4068,
+    "p_mkt": null,
+    "p": 0.4068,
+    "fair": 146,
     "prices": {
-     "FanDuel": 104,
-     "DraftKings": -101,
-     "betPARX": -103,
-     "BetMGM": -110,
-     "Hard Rock Bet": 100,
-     "theScore Bet": 100
+     "DraftKings": 4000
     },
-    "price": 104,
-    "book": "FanDuel",
-    "ev": -0.1043,
+    "price": 4000,
+    "book": "DraftKings",
+    "ev": 15.6769,
     "likely": false
    }
   },
@@ -204,88 +163,29 @@
    "game_id": "401909951",
    "min": 33.0,
    "status": "",
-   "p_dd": 0.3968,
+   "p_dd": 0.3959,
    "p_td": 0.0021,
    "typ_dd": 0.3816,
    "typ_td": 0.0002,
-   "exp_pts": 20.7,
+   "exp_pts": 20.6,
    "exp_reb": 9.1,
    "exp_ast": 3.1,
    "odds": {
-    "p_model": 0.3968,
-    "p_mkt": 0.4899,
-    "p": 0.4434,
-    "fair": 126,
+    "p_model": 0.3959,
+    "p_mkt": 0.5101,
+    "p": 0.453,
+    "fair": 121,
     "prices": {
-     "FanDuel": -108,
-     "DraftKings": -120,
-     "theScore Bet": -110,
-     "betPARX": -107,
-     "BetMGM": -115,
-     "Hard Rock Bet": -105
+     "FanDuel": -118,
+     "DraftKings": -125,
+     "theScore Bet": -120,
+     "betPARX": -108,
+     "BetMGM": -155,
+     "Hard Rock Bet": -115
     },
-    "price": -105,
-    "book": "Hard Rock Bet",
-    "ev": -0.1344,
-    "likely": false
-   }
-  },
-  {
-   "id": 3059318,
-   "name": "Joel Embiid",
-   "team": "PHI",
-   "opp": "CHI",
-   "game_id": "401909945",
-   "min": 31.5,
-   "status": "",
-   "p_dd": 0.3754,
-   "p_td": 0.0194,
-   "typ_dd": 0.315,
-   "typ_td": 0.0528,
-   "exp_pts": 21.9,
-   "exp_reb": 9.1,
-   "exp_ast": 4.0,
-   "odds": {
-    "p_model": 0.3754,
-    "p_mkt": null,
-    "p": 0.3754,
-    "fair": 166,
-    "prices": {
-     "FanDuel": -1000,
-     "DraftKings": -750
-    },
-    "price": -750,
-    "book": "DraftKings",
-    "ev": -0.5746,
-    "likely": false
-   }
-  },
-  {
-   "id": 1966,
-   "name": "LeBron James",
-   "team": "PHI",
-   "opp": "CHI",
-   "game_id": "401909945",
-   "min": 32.9,
-   "status": "",
-   "p_dd": 0.3579,
-   "p_td": 0.0633,
-   "typ_dd": 0.2979,
-   "typ_td": 0.0332,
-   "exp_pts": 18.2,
-   "exp_reb": 7.3,
-   "exp_ast": 7.4,
-   "odds": {
-    "p_model": 0.3579,
-    "p_mkt": null,
-    "p": 0.3579,
-    "fair": 179,
-    "prices": {
-     "DraftKings": 8000
-    },
-    "price": 8000,
-    "book": "DraftKings",
-    "ev": 27.9901,
+    "price": -108,
+    "book": "betPARX",
+    "ev": -0.1275,
     "likely": false
    }
   },
@@ -297,29 +197,24 @@
    "game_id": "401909946",
    "min": 31.4,
    "status": "",
-   "p_dd": 0.3415,
+   "p_dd": 0.3391,
    "p_td": 0.0005,
    "typ_dd": 0.2907,
    "typ_td": 0.0017,
-   "exp_pts": 13.9,
+   "exp_pts": 13.8,
    "exp_reb": 9.7,
    "exp_ast": 2.0,
    "odds": {
-    "p_model": 0.3415,
-    "p_mkt": 0.5408,
-    "p": 0.4412,
-    "fair": 127,
+    "p_model": 0.3391,
+    "p_mkt": null,
+    "p": 0.3391,
+    "fair": 195,
     "prices": {
-     "FanDuel": -122,
-     "DraftKings": -140,
-     "betPARX": -136,
-     "BetMGM": -135,
-     "Hard Rock Bet": -130,
-     "theScore Bet": -135
+     "FanDuel": -154
     },
-    "price": -122,
+    "price": -154,
     "book": "FanDuel",
-    "ev": -0.1972,
+    "ev": -0.4407,
     "likely": false
    }
   },
@@ -331,7 +226,7 @@
    "game_id": "401909947",
    "min": 29.9,
    "status": "",
-   "p_dd": 0.2807,
+   "p_dd": 0.2784,
    "p_td": 0.0001,
    "typ_dd": 0.3185,
    "typ_td": 0.0002,
@@ -339,19 +234,18 @@
    "exp_reb": 11.3,
    "exp_ast": 1.6,
    "odds": {
-    "p_model": 0.2807,
-    "p_mkt": 0.3455,
-    "p": 0.3131,
-    "fair": 219,
+    "p_model": 0.2784,
+    "p_mkt": 0.3887,
+    "p": 0.3335,
+    "fair": 200,
     "prices": {
-     "FanDuel": 174,
-     "DraftKings": 167,
-     "betPARX": 170,
-     "theScore Bet": 170
+     "FanDuel": 172,
+     "DraftKings": 110,
+     "theScore Bet": 140
     },
-    "price": 174,
+    "price": 172,
     "book": "FanDuel",
-    "ev": -0.1421,
+    "ev": -0.0928,
     "likely": false
    }
   },
@@ -363,59 +257,27 @@
    "game_id": "401909948",
    "min": 34.8,
    "status": "",
-   "p_dd": 0.2419,
-   "p_td": 0.0167,
+   "p_dd": 0.2452,
+   "p_td": 0.0175,
    "typ_dd": 0.2344,
    "typ_td": 0.0002,
-   "exp_pts": 22.3,
-   "exp_reb": 6.6,
-   "exp_ast": 5.5,
+   "exp_pts": 22.5,
+   "exp_reb": 6.7,
+   "exp_ast": 5.6,
    "odds": {
-    "p_model": 0.2419,
-    "p_mkt": 0.3105,
-    "p": 0.2762,
-    "fair": 262,
+    "p_model": 0.2452,
+    "p_mkt": 0.2078,
+    "p": 0.2265,
+    "fair": 341,
     "prices": {
-     "FanDuel": 198,
-     "DraftKings": 209,
-     "BetMGM": 230,
-     "betPARX": 175,
-     "Hard Rock Bet": 220,
-     "theScore Bet": 200
+     "FanDuel": 370,
+     "DraftKings": 400,
+     "Hard Rock Bet": 425,
+     "theScore Bet": 340
     },
-    "price": 230,
-    "book": "BetMGM",
-    "ev": -0.0885,
-    "likely": false
-   }
-  },
-  {
-   "id": 3917376,
-   "name": "Jaylen Brown",
-   "team": "PHI",
-   "opp": "CHI",
-   "game_id": "401909945",
-   "min": 35.0,
-   "status": "",
-   "p_dd": 0.2405,
-   "p_td": 0.016,
-   "typ_dd": 0.1993,
-   "typ_td": 0.0275,
-   "exp_pts": 26.3,
-   "exp_reb": 7.3,
-   "exp_ast": 4.6,
-   "odds": {
-    "p_model": 0.2405,
-    "p_mkt": null,
-    "p": 0.2405,
-    "fair": 316,
-    "prices": {
-     "FanDuel": 2000,
-     "DraftKings": 2200
-    },
-    "price": 2200,
-    "book": "DraftKings",
-    "ev": 4.5307,
+    "price": 425,
+    "book": "Hard Rock Bet",
+    "ev": 0.1892,
     "likely": false
    }
   },
@@ -427,29 +289,27 @@
    "game_id": "401909948",
    "min": 33.4,
    "status": "",
-   "p_dd": 0.238,
+   "p_dd": 0.2409,
    "p_td": 0.0002,
    "typ_dd": 0.2185,
    "typ_td": 0.0003,
-   "exp_pts": 22.2,
+   "exp_pts": 22.4,
    "exp_reb": 7.5,
    "exp_ast": 2.1,
    "odds": {
-    "p_model": 0.238,
-    "p_mkt": 0.2308,
-    "p": 0.2344,
-    "fair": 327,
+    "p_model": 0.2409,
+    "p_mkt": 0.3887,
+    "p": 0.3148,
+    "fair": 218,
     "prices": {
-     "FanDuel": 300,
-     "DraftKings": 314,
-     "BetMGM": 310,
-     "betPARX": 310,
-     "Hard Rock Bet": 325,
-     "theScore Bet": 300
+     "FanDuel": 130,
+     "DraftKings": 135,
+     "Hard Rock Bet": -105,
+     "theScore Bet": 140
     },
-    "price": 325,
-    "book": "Hard Rock Bet",
-    "ev": -0.0038,
+    "price": 140,
+    "book": "theScore Bet",
+    "ev": -0.2444,
     "likely": false
    }
   },
@@ -461,29 +321,57 @@
    "game_id": "401909948",
    "min": 33.1,
    "status": "",
-   "p_dd": 0.1969,
-   "p_td": 0.0153,
+   "p_dd": 0.2,
+   "p_td": 0.0158,
    "typ_dd": 0.1606,
    "typ_td": 0.0248,
-   "exp_pts": 20.3,
-   "exp_reb": 6.7,
-   "exp_ast": 4.9,
+   "exp_pts": 20.5,
+   "exp_reb": 6.8,
+   "exp_ast": 5.0,
    "odds": {
-    "p_model": 0.1969,
-    "p_mkt": 0.2174,
-    "p": 0.2072,
-    "fair": 383,
+    "p_model": 0.2,
+    "p_mkt": 0.1595,
+    "p": 0.1798,
+    "fair": 456,
     "prices": {
-     "FanDuel": 360,
-     "DraftKings": 360,
-     "BetMGM": 310,
-     "betPARX": 390,
-     "Hard Rock Bet": 350,
-     "theScore Bet": 320
+     "FanDuel": 750,
+     "DraftKings": 600,
+     "Hard Rock Bet": 700,
+     "theScore Bet": 475
     },
-    "price": 390,
-    "book": "betPARX",
-    "ev": 0.0151,
+    "price": 750,
+    "book": "FanDuel",
+    "ev": 0.528,
+    "likely": false
+   }
+  },
+  {
+   "id": 5105623,
+   "name": "Kel'el Ware",
+   "team": "MIL",
+   "opp": "BOS",
+   "game_id": "401909949",
+   "min": 19.7,
+   "status": "",
+   "p_dd": 0.192,
+   "p_td": 0.0,
+   "typ_dd": 0.3083,
+   "typ_td": 0.0002,
+   "exp_pts": 8.9,
+   "exp_reb": 7.8,
+   "exp_ast": 0.8,
+   "odds": {
+    "p_model": 0.192,
+    "p_mkt": 0.1415,
+    "p": 0.1667,
+    "fair": 500,
+    "prices": {
+     "FanDuel": 700,
+     "theScore Bet": 550
+    },
+    "price": 700,
+    "book": "FanDuel",
+    "ev": 0.3338,
     "likely": false
    }
   },
@@ -495,29 +383,29 @@
    "game_id": "401909951",
    "min": 32.4,
    "status": "",
-   "p_dd": 0.1924,
+   "p_dd": 0.1917,
    "p_td": 0.0002,
    "typ_dd": 0.2217,
    "typ_td": 0.0002,
    "exp_pts": 12.4,
-   "exp_reb": 2.4,
+   "exp_reb": 2.3,
    "exp_ast": 7.4,
    "odds": {
-    "p_model": 0.1924,
+    "p_model": 0.1917,
     "p_mkt": 0.2174,
-    "p": 0.2049,
-    "fair": 388,
+    "p": 0.2045,
+    "fair": 389,
     "prices": {
-     "FanDuel": 350,
-     "DraftKings": 347,
+     "FanDuel": 370,
+     "DraftKings": 333,
      "theScore Bet": 320,
-     "betPARX": 330,
-     "BetMGM": 425,
-     "Hard Rock Bet": 350
+     "betPARX": 310,
+     "BetMGM": 475,
+     "Hard Rock Bet": 375
     },
-    "price": 425,
+    "price": 475,
     "book": "BetMGM",
-    "ev": 0.0757,
+    "ev": 0.1761,
     "likely": false
    }
   },
@@ -529,27 +417,26 @@
    "game_id": "401909948",
    "min": 32.9,
    "status": "",
-   "p_dd": 0.1786,
+   "p_dd": 0.1815,
    "p_td": 0.0001,
    "typ_dd": 0.1635,
    "typ_td": 0.0003,
-   "exp_pts": 15.3,
-   "exp_reb": 7.1,
+   "exp_pts": 15.4,
+   "exp_reb": 7.2,
    "exp_ast": 1.6,
    "odds": {
-    "p_model": 0.1786,
-    "p_mkt": 0.1837,
-    "p": 0.1811,
-    "fair": 452,
+    "p_model": 0.1815,
+    "p_mkt": 0.1084,
+    "p": 0.145,
+    "fair": 590,
     "prices": {
-     "FanDuel": 450,
-     "DraftKings": 484,
-     "betPARX": 400,
-     "theScore Bet": 400
+     "FanDuel": 1000,
+     "DraftKings": 1200,
+     "theScore Bet": 750
     },
-    "price": 484,
+    "price": 1200,
     "book": "DraftKings",
-    "ev": 0.0579,
+    "ev": 0.8844,
     "likely": false
    }
   },
@@ -570,20 +457,20 @@
    "exp_ast": 6.6,
    "odds": {
     "p_model": 0.1539,
-    "p_mkt": 0.2174,
-    "p": 0.1856,
-    "fair": 439,
+    "p_mkt": 0.2308,
+    "p": 0.1923,
+    "fair": 420,
     "prices": {
-     "FanDuel": 320,
-     "DraftKings": 371,
-     "theScore Bet": 320,
+     "FanDuel": 310,
+     "DraftKings": 334,
+     "theScore Bet": 300,
      "betPARX": 350,
-     "BetMGM": 333,
-     "Hard Rock Bet": 375
+     "BetMGM": 340,
+     "Hard Rock Bet": 325
     },
-    "price": 375,
-    "book": "Hard Rock Bet",
-    "ev": -0.1183,
+    "price": 350,
+    "book": "betPARX",
+    "ev": -0.1345,
     "likely": false
    }
   },
@@ -595,7 +482,7 @@
    "game_id": "401909951",
    "min": 37.1,
    "status": "",
-   "p_dd": 0.15,
+   "p_dd": 0.1494,
    "p_td": 0.0066,
    "typ_dd": 0.1188,
    "typ_td": 0.0035,
@@ -603,21 +490,21 @@
    "exp_reb": 4.6,
    "exp_ast": 6.2,
    "odds": {
-    "p_model": 0.15,
-    "p_mkt": 0.1837,
-    "p": 0.1668,
-    "fair": 499,
+    "p_model": 0.1494,
+    "p_mkt": 0.2632,
+    "p": 0.2063,
+    "fair": 385,
     "prices": {
-     "FanDuel": 450,
-     "DraftKings": 441,
-     "theScore Bet": 400,
-     "betPARX": 500,
-     "BetMGM": 450,
-     "Hard Rock Bet": 425
+     "FanDuel": 290,
+     "DraftKings": 231,
+     "theScore Bet": 250,
+     "betPARX": 260,
+     "BetMGM": 260,
+     "Hard Rock Bet": 300
     },
-    "price": 500,
-    "book": "betPARX",
-    "ev": 0.001,
+    "price": 300,
+    "book": "Hard Rock Bet",
+    "ev": -0.1748,
     "likely": false
    }
   },
@@ -629,92 +516,27 @@
    "game_id": "401909947",
    "min": 28.4,
    "status": "",
-   "p_dd": 0.1491,
-   "p_td": 0.0079,
+   "p_dd": 0.1477,
+   "p_td": 0.0077,
    "typ_dd": 0.0897,
    "typ_td": 0.0089,
-   "exp_pts": 20.1,
+   "exp_pts": 20.0,
    "exp_reb": 4.5,
    "exp_ast": 6.5,
    "odds": {
-    "p_model": 0.1491,
-    "p_mkt": 0.2434,
-    "p": 0.1963,
-    "fair": 410,
+    "p_model": 0.1477,
+    "p_mkt": 0.1837,
+    "p": 0.1657,
+    "fair": 503,
     "prices": {
-     "FanDuel": 280,
-     "DraftKings": 312,
-     "betPARX": 295,
-     "BetMGM": 300,
-     "theScore Bet": 280,
-     "Hard Rock Bet": 325
+     "FanDuel": 580,
+     "DraftKings": 450,
+     "theScore Bet": 400,
+     "Hard Rock Bet": 700
     },
-    "price": 325,
+    "price": 700,
     "book": "Hard Rock Bet",
-    "ev": -0.1659,
-    "likely": false
-   }
-  },
-  {
-   "id": 4066336,
-   "name": "Lauri Markkanen",
-   "team": "UTA",
-   "opp": "MIN",
-   "game_id": "401909947",
-   "min": 31.6,
-   "status": "Day-To-Day",
-   "p_dd": 0.1479,
-   "p_td": 0.0001,
-   "typ_dd": 0.1172,
-   "typ_td": 0.0004,
-   "exp_pts": 20.5,
-   "exp_reb": 6.6,
-   "exp_ast": 2.0,
-   "odds": {
-    "p_model": 0.1479,
-    "p_mkt": 0.191,
-    "p": 0.1694,
-    "fair": 490,
-    "prices": {
-     "FanDuel": 430,
-     "DraftKings": 460,
-     "betPARX": 380,
-     "BetMGM": 360,
-     "theScore Bet": 380,
-     "Hard Rock Bet": 400
-    },
-    "price": 460,
-    "book": "DraftKings",
-    "ev": -0.0511,
-    "likely": false
-   }
-  },
-  {
-   "id": 5095151,
-   "name": "Caleb Wilson",
-   "team": "CHI",
-   "opp": "PHI",
-   "game_id": "401909945",
-   "min": 32.2,
-   "status": "",
-   "p_dd": 0.1423,
-   "p_td": 0.0017,
-   "typ_dd": 0.0873,
-   "typ_td": 0.0037,
-   "exp_pts": 17.9,
-   "exp_reb": 6.8,
-   "exp_ast": 3.1,
-   "odds": {
-    "p_model": 0.1423,
-    "p_mkt": null,
-    "p": 0.1423,
-    "fair": 603,
-    "prices": {
-     "DraftKings": 6500
-    },
-    "price": 6500,
-    "book": "DraftKings",
-    "ev": 8.3925,
+    "ev": 0.3257,
     "likely": false
    }
   },
@@ -726,28 +548,28 @@
    "game_id": "401909949",
    "min": 23.8,
    "status": "",
-   "p_dd": 0.1398,
+   "p_dd": 0.1405,
    "p_td": 0.0,
    "typ_dd": 0.1478,
    "typ_td": 0.0002,
    "exp_pts": 9.9,
-   "exp_reb": 7.6,
+   "exp_reb": 7.7,
    "exp_ast": 1.5,
    "odds": {
-    "p_model": 0.1398,
-    "p_mkt": 0.191,
-    "p": 0.1654,
-    "fair": 505,
+    "p_model": 0.1405,
+    "p_mkt": 0.1667,
+    "p": 0.1536,
+    "fair": 551,
     "prices": {
-     "FanDuel": 400,
-     "DraftKings": 457,
+     "FanDuel": 470,
+     "DraftKings": 650,
      "betPARX": 390,
-     "theScore Bet": 380,
-     "Hard Rock Bet": 450
+     "theScore Bet": 450,
+     "Hard Rock Bet": 475
     },
-    "price": 457,
+    "price": 650,
     "book": "DraftKings",
-    "ev": -0.0788,
+    "ev": 0.152,
     "likely": false
    }
   },
@@ -772,43 +594,13 @@
     "p": 0.1392,
     "fair": 618,
     "prices": {
-     "FanDuel": 630,
-     "DraftKings": 750,
-     "Hard Rock Bet": 600
+     "FanDuel": 700,
+     "DraftKings": 880,
+     "Hard Rock Bet": 650
     },
-    "price": 750,
+    "price": 880,
     "book": "DraftKings",
-    "ev": 0.1831,
-    "likely": false
-   }
-  },
-  {
-   "id": 4431678,
-   "name": "Tyrese Maxey",
-   "team": "PHI",
-   "opp": "CHI",
-   "game_id": "401909945",
-   "min": 36.9,
-   "status": "",
-   "p_dd": 0.1367,
-   "p_td": 0.0038,
-   "typ_dd": 0.0988,
-   "typ_td": 0.0002,
-   "exp_pts": 28.6,
-   "exp_reb": 4.2,
-   "exp_ast": 6.2,
-   "odds": {
-    "p_model": 0.1367,
-    "p_mkt": null,
-    "p": 0.1367,
-    "fair": 631,
-    "prices": {
-     "FanDuel": 1200,
-     "DraftKings": 1400
-    },
-    "price": 1400,
-    "book": "DraftKings",
-    "ev": 1.051,
+    "ev": 0.364,
     "likely": false
    }
   },
@@ -819,30 +611,28 @@
    "opp": "MIN",
    "game_id": "401909947",
    "min": 32.8,
-   "status": "Day-To-Day",
-   "p_dd": 0.1249,
-   "p_td": 0.0025,
+   "status": "",
+   "p_dd": 0.1238,
+   "p_td": 0.0024,
    "typ_dd": 0.1199,
    "typ_td": 0.0003,
-   "exp_pts": 21.1,
+   "exp_pts": 21.0,
    "exp_reb": 4.0,
-   "exp_ast": 5.9,
+   "exp_ast": 5.8,
    "odds": {
-    "p_model": 0.1249,
-    "p_mkt": 0.1529,
-    "p": 0.1389,
-    "fair": 620,
+    "p_model": 0.1238,
+    "p_mkt": 0.4165,
+    "p": 0.2702,
+    "fair": 270,
     "prices": {
-     "FanDuel": 640,
-     "DraftKings": 710,
-     "betPARX": 600,
-     "BetMGM": 525,
-     "theScore Bet": 500,
-     "Hard Rock Bet": 575
+     "FanDuel": -215,
+     "DraftKings": -175,
+     "theScore Bet": 125,
+     "Hard Rock Bet": -275
     },
-    "price": 710,
-    "book": "DraftKings",
-    "ev": 0.1249,
+    "price": 125,
+    "book": "theScore Bet",
+    "ev": -0.3921,
     "likely": false
    }
   },
@@ -854,7 +644,7 @@
    "game_id": "401909951",
    "min": 25.4,
    "status": "",
-   "p_dd": 0.1142,
+   "p_dd": 0.1137,
    "p_td": 0.0,
    "typ_dd": 0.1438,
    "typ_td": 0.0002,
@@ -862,19 +652,19 @@
    "exp_reb": 6.5,
    "exp_ast": 1.4,
    "odds": {
-    "p_model": 0.1142,
-    "p_mkt": 0.1084,
-    "p": 0.1113,
-    "fair": 798,
+    "p_model": 0.1137,
+    "p_mkt": 0.2894,
+    "p": 0.2016,
+    "fair": 396,
     "prices": {
-     "FanDuel": 1260,
-     "DraftKings": 1060,
-     "theScore Bet": 750,
-     "BetMGM": 950
+     "FanDuel": 205,
+     "DraftKings": 244,
+     "theScore Bet": 220,
+     "BetMGM": 210
     },
-    "price": 1260,
-    "book": "FanDuel",
-    "ev": 0.5138,
+    "price": 244,
+    "book": "DraftKings",
+    "ev": -0.3066,
     "likely": false
    }
   },
@@ -886,29 +676,27 @@
    "game_id": "401909948",
    "min": 22.3,
    "status": "",
-   "p_dd": 0.1035,
+   "p_dd": 0.1059,
    "p_td": 0.0077,
    "typ_dd": 0.1241,
    "typ_td": 0.0347,
-   "exp_pts": 8.3,
+   "exp_pts": 8.4,
    "exp_reb": 7.5,
    "exp_ast": 3.4,
    "odds": {
-    "p_model": 0.1035,
-    "p_mkt": 0.2308,
-    "p": 0.1672,
-    "fair": 498,
+    "p_model": 0.1059,
+    "p_mkt": 0.1228,
+    "p": 0.1143,
+    "fair": 775,
     "prices": {
-     "FanDuel": 300,
-     "DraftKings": 331,
-     "BetMGM": 360,
-     "betPARX": 320,
-     "Hard Rock Bet": 375,
-     "theScore Bet": 300
+     "FanDuel": 920,
+     "DraftKings": 750,
+     "Hard Rock Bet": 1100,
+     "theScore Bet": 650
     },
-    "price": 375,
+    "price": 1100,
     "book": "Hard Rock Bet",
-    "ev": -0.206,
+    "ev": 0.3721,
     "likely": false
    }
   },
@@ -920,29 +708,25 @@
    "game_id": "401909946",
    "min": 26.9,
    "status": "",
-   "p_dd": 0.0937,
+   "p_dd": 0.0926,
    "p_td": 0.0014,
    "typ_dd": 0.106,
    "typ_td": 0.0002,
-   "exp_pts": 10.1,
+   "exp_pts": 10.0,
    "exp_reb": 6.3,
-   "exp_ast": 3.9,
+   "exp_ast": 3.8,
    "odds": {
-    "p_model": 0.0937,
-    "p_mkt": 0.1837,
-    "p": 0.1387,
-    "fair": 621,
+    "p_model": 0.0926,
+    "p_mkt": null,
+    "p": 0.0926,
+    "fair": 980,
     "prices": {
-     "FanDuel": 450,
-     "DraftKings": 454,
-     "betPARX": 390,
-     "BetMGM": 425,
-     "Hard Rock Bet": 450,
-     "theScore Bet": 400
+     "FanDuel": 490,
+     "DraftKings": 900
     },
-    "price": 454,
+    "price": 900,
     "book": "DraftKings",
-    "ev": -0.2317,
+    "ev": -0.0737,
     "likely": false
    }
   },
@@ -967,16 +751,16 @@
     "p": 0.1258,
     "fair": 695,
     "prices": {
-     "FanDuel": 580,
-     "DraftKings": 620,
+     "FanDuel": 640,
+     "DraftKings": 600,
      "theScore Bet": 475,
      "betPARX": 480,
      "BetMGM": 550,
      "Hard Rock Bet": 575
     },
-    "price": 620,
-    "book": "DraftKings",
-    "ev": -0.0945,
+    "price": 640,
+    "book": "FanDuel",
+    "ev": -0.0694,
     "likely": false
    }
   },
@@ -988,28 +772,26 @@
    "game_id": "401909948",
    "min": 22.5,
    "status": "",
-   "p_dd": 0.0895,
+   "p_dd": 0.0913,
    "p_td": 0.0001,
    "typ_dd": 0.1191,
    "typ_td": 0.0003,
-   "exp_pts": 10.0,
+   "exp_pts": 10.1,
    "exp_reb": 6.2,
    "exp_ast": 1.5,
    "odds": {
-    "p_model": 0.0895,
-    "p_mkt": 0.1318,
-    "p": 0.1107,
-    "fair": 804,
+    "p_model": 0.0913,
+    "p_mkt": null,
+    "p": 0.0913,
+    "fair": 996,
     "prices": {
-     "FanDuel": 800,
-     "DraftKings": 760,
-     "betPARX": 525,
-     "Hard Rock Bet": 700,
-     "theScore Bet": 600
+     "FanDuel": 1000,
+     "DraftKings": 650,
+     "theScore Bet": 700
     },
-    "price": 800,
+    "price": 1000,
     "book": "FanDuel",
-    "ev": -0.004,
+    "ev": 0.004,
     "likely": false
    }
   },
@@ -1021,7 +803,7 @@
    "game_id": "401909951",
    "min": 21.4,
    "status": "",
-   "p_dd": 0.0871,
+   "p_dd": 0.0868,
    "p_td": 0.0001,
    "typ_dd": 0.1433,
    "typ_td": 0.0002,
@@ -1029,20 +811,20 @@
    "exp_reb": 6.0,
    "exp_ast": 1.8,
    "odds": {
-    "p_model": 0.0871,
+    "p_model": 0.0868,
     "p_mkt": 0.115,
-    "p": 0.101,
-    "fair": 890,
+    "p": 0.1009,
+    "fair": 891,
     "prices": {
-     "FanDuel": 920,
-     "DraftKings": 980,
+     "FanDuel": 1000,
+     "DraftKings": 930,
      "theScore Bet": 700,
      "betPARX": 900,
-     "BetMGM": 950
+     "BetMGM": 825
     },
-    "price": 980,
-    "book": "DraftKings",
-    "ev": 0.0913,
+    "price": 1000,
+    "book": "FanDuel",
+    "ev": 0.1098,
     "likely": false
    }
   },
@@ -1063,20 +845,20 @@
    "exp_ast": 5.3,
    "odds": {
     "p_model": 0.0855,
-    "p_mkt": 0.191,
-    "p": 0.1383,
-    "fair": 623,
+    "p_mkt": 0.1837,
+    "p": 0.1346,
+    "fair": 643,
     "prices": {
-     "FanDuel": 430,
-     "DraftKings": 478,
-     "theScore Bet": 380,
-     "betPARX": 390,
+     "FanDuel": 520,
+     "DraftKings": 489,
+     "theScore Bet": 400,
+     "betPARX": 380,
      "BetMGM": 475,
      "Hard Rock Bet": 450
     },
-    "price": 478,
-    "book": "DraftKings",
-    "ev": -0.2009,
+    "price": 520,
+    "book": "FanDuel",
+    "ev": -0.1654,
     "likely": false
    }
   },
@@ -1088,29 +870,25 @@
    "game_id": "401909947",
    "min": 28.0,
    "status": "",
-   "p_dd": 0.0825,
+   "p_dd": 0.0815,
    "p_td": 0.0003,
    "typ_dd": 0.0555,
    "typ_td": 0.0004,
-   "exp_pts": 12.7,
+   "exp_pts": 12.6,
    "exp_reb": 6.2,
    "exp_ast": 2.8,
    "odds": {
-    "p_model": 0.0825,
-    "p_mkt": 0.1318,
-    "p": 0.1072,
-    "fair": 833,
+    "p_model": 0.0815,
+    "p_mkt": null,
+    "p": 0.0815,
+    "fair": 1127,
     "prices": {
-     "FanDuel": 800,
-     "DraftKings": 900,
-     "betPARX": 510,
-     "BetMGM": 700,
-     "theScore Bet": 600,
-     "Hard Rock Bet": 750
+     "DraftKings": 5500,
+     "Hard Rock Bet": 3000
     },
-    "price": 900,
+    "price": 5500,
     "book": "DraftKings",
-    "ev": 0.0716,
+    "ev": 3.5643,
     "likely": false
    }
   },
@@ -1122,7 +900,7 @@
    "game_id": "401909951",
    "min": 33.7,
    "status": "",
-   "p_dd": 0.0788,
+   "p_dd": 0.0784,
    "p_td": 0.0002,
    "typ_dd": 0.0767,
    "typ_td": 0.0008,
@@ -1130,19 +908,19 @@
    "exp_reb": 5.7,
    "exp_ast": 1.8,
    "odds": {
-    "p_model": 0.0788,
+    "p_model": 0.0784,
     "p_mkt": null,
-    "p": 0.0788,
-    "fair": 1170,
+    "p": 0.0784,
+    "fair": 1176,
     "prices": {
-     "FanDuel": 2000,
-     "DraftKings": 2200,
-     "betPARX": 2000,
-     "BetMGM": 1500
+     "FanDuel": 1200,
+     "DraftKings": 1620,
+     "betPARX": 1100,
+     "BetMGM": 1200
     },
-    "price": 2200,
+    "price": 1620,
     "book": "DraftKings",
-    "ev": 0.8116,
+    "ev": 0.3484,
     "likely": false
    }
   },
@@ -1154,29 +932,29 @@
    "game_id": "401909949",
    "min": 30.5,
    "status": "",
-   "p_dd": 0.0776,
+   "p_dd": 0.0781,
    "p_td": 0.0023,
    "typ_dd": 0.0402,
    "typ_td": 0.0004,
-   "exp_pts": 17.5,
+   "exp_pts": 17.6,
    "exp_reb": 5.5,
    "exp_ast": 4.2,
    "odds": {
-    "p_model": 0.0776,
-    "p_mkt": 0.1084,
-    "p": 0.093,
-    "fair": 975,
+    "p_model": 0.0781,
+    "p_mkt": 0.115,
+    "p": 0.0965,
+    "fair": 936,
     "prices": {
-     "FanDuel": 1100,
-     "DraftKings": 1340,
+     "FanDuel": 880,
+     "DraftKings": 1100,
      "betPARX": 850,
-     "theScore Bet": 750,
+     "theScore Bet": 700,
      "BetMGM": 950,
-     "Hard Rock Bet": 1000
+     "Hard Rock Bet": 750
     },
-    "price": 1340,
+    "price": 1100,
     "book": "DraftKings",
-    "ev": 0.3394,
+    "ev": 0.1585,
     "likely": false
    }
   },
@@ -1188,62 +966,28 @@
    "game_id": "401909949",
    "min": 28.0,
    "status": "",
-   "p_dd": 0.0771,
+   "p_dd": 0.0775,
    "p_td": 0.0007,
    "typ_dd": 0.0893,
    "typ_td": 0.0002,
-   "exp_pts": 15.2,
+   "exp_pts": 15.3,
    "exp_reb": 5.2,
    "exp_ast": 3.5,
    "odds": {
-    "p_model": 0.0771,
+    "p_model": 0.0775,
     "p_mkt": null,
-    "p": 0.0771,
-    "fair": 1197,
+    "p": 0.0775,
+    "fair": 1191,
     "prices": {
-     "FanDuel": 1280,
-     "DraftKings": 1580,
+     "FanDuel": 1700,
+     "DraftKings": 2200,
      "betPARX": 900,
      "BetMGM": 1200,
-     "Hard Rock Bet": 1400
+     "Hard Rock Bet": 1750
     },
-    "price": 1580,
+    "price": 2200,
     "book": "DraftKings",
-    "ev": 0.2957,
-    "likely": false
-   }
-  },
-  {
-   "id": 4066457,
-   "name": "Austin Reaves",
-   "team": "LAL",
-   "opp": "DET",
-   "game_id": "401909946",
-   "min": 35.7,
-   "status": "",
-   "p_dd": 0.0688,
-   "p_td": 0.001,
-   "typ_dd": 0.0757,
-   "typ_td": 0.0003,
-   "exp_pts": 21.8,
-   "exp_reb": 4.0,
-   "exp_ast": 4.8,
-   "odds": {
-    "p_model": 0.0688,
-    "p_mkt": 0.1837,
-    "p": 0.1263,
-    "fair": 692,
-    "prices": {
-     "FanDuel": 520,
-     "DraftKings": 478,
-     "betPARX": 420,
-     "BetMGM": 425,
-     "Hard Rock Bet": 450,
-     "theScore Bet": 400
-    },
-    "price": 520,
-    "book": "FanDuel",
-    "ev": -0.2172,
+    "ev": 0.7819,
     "likely": false
    }
   },
@@ -1255,7 +999,7 @@
    "game_id": "401909949",
    "min": 31.0,
    "status": "",
-   "p_dd": 0.0686,
+   "p_dd": 0.0689,
    "p_td": 0.0011,
    "typ_dd": 0.0755,
    "typ_td": 0.0005,
@@ -1263,20 +1007,49 @@
    "exp_reb": 4.7,
    "exp_ast": 4.1,
    "odds": {
-    "p_model": 0.0686,
+    "p_model": 0.0689,
     "p_mkt": null,
-    "p": 0.0686,
-    "fair": 1358,
+    "p": 0.0689,
+    "fair": 1352,
     "prices": {
-     "FanDuel": 1280,
-     "DraftKings": 1600,
+     "FanDuel": 1500,
+     "DraftKings": 2200,
      "betPARX": 1300,
      "BetMGM": 1200,
-     "Hard Rock Bet": 1400
+     "Hard Rock Bet": 1500
     },
-    "price": 1600,
+    "price": 2200,
     "book": "DraftKings",
-    "ev": 0.1658,
+    "ev": 0.5843,
+    "likely": false
+   }
+  },
+  {
+   "id": 4066457,
+   "name": "Austin Reaves",
+   "team": "LAL",
+   "opp": "DET",
+   "game_id": "401909946",
+   "min": 35.7,
+   "status": "",
+   "p_dd": 0.0682,
+   "p_td": 0.001,
+   "typ_dd": 0.0757,
+   "typ_td": 0.0003,
+   "exp_pts": 21.7,
+   "exp_reb": 4.0,
+   "exp_ast": 4.7,
+   "odds": {
+    "p_model": 0.0682,
+    "p_mkt": null,
+    "p": 0.0682,
+    "fair": 1366,
+    "prices": {
+     "DraftKings": 7500
+    },
+    "price": 7500,
+    "book": "DraftKings",
+    "ev": 4.1829,
     "likely": false
    }
   },
@@ -1288,29 +1061,27 @@
    "game_id": "401909947",
    "min": 30.9,
    "status": "",
-   "p_dd": 0.0686,
+   "p_dd": 0.068,
    "p_td": 0.0027,
    "typ_dd": 0.0879,
    "typ_td": 0.0092,
-   "exp_pts": 17.6,
+   "exp_pts": 17.5,
    "exp_reb": 4.5,
-   "exp_ast": 4.2,
+   "exp_ast": 4.1,
    "odds": {
-    "p_model": 0.0686,
-    "p_mkt": 0.1318,
-    "p": 0.1002,
-    "fair": 898,
+    "p_model": 0.068,
+    "p_mkt": 0.0286,
+    "p": 0.0483,
+    "fair": 1970,
     "prices": {
-     "FanDuel": 750,
-     "DraftKings": 1100,
-     "betPARX": 700,
-     "BetMGM": 750,
-     "theScore Bet": 600,
-     "Hard Rock Bet": 700
+     "FanDuel": 2500,
+     "DraftKings": 3500,
+     "theScore Bet": 3300,
+     "Hard Rock Bet": 1500
     },
-    "price": 1100,
+    "price": 3500,
     "book": "DraftKings",
-    "ev": 0.2023,
+    "ev": 0.7392,
     "likely": false
    }
   },
@@ -1322,7 +1093,7 @@
    "game_id": "401909947",
    "min": 29.9,
    "status": "",
-   "p_dd": 0.067,
+   "p_dd": 0.0663,
    "p_td": 0.0001,
    "typ_dd": 0.0812,
    "typ_td": 0.0002,
@@ -1330,21 +1101,19 @@
    "exp_reb": 5.4,
    "exp_ast": 1.7,
    "odds": {
-    "p_model": 0.067,
-    "p_mkt": 0.1667,
-    "p": 0.1168,
-    "fair": 756,
+    "p_model": 0.0663,
+    "p_mkt": null,
+    "p": 0.0663,
+    "fair": 1407,
     "prices": {
-     "FanDuel": 490,
-     "DraftKings": 583,
-     "betPARX": 450,
-     "BetMGM": 450,
-     "theScore Bet": 450,
-     "Hard Rock Bet": 500
+     "FanDuel": 2500,
+     "DraftKings": 1900,
+     "theScore Bet": 1100,
+     "Hard Rock Bet": 1750
     },
-    "price": 583,
-    "book": "DraftKings",
-    "ev": -0.202,
+    "price": 2500,
+    "book": "FanDuel",
+    "ev": 0.7251,
     "likely": false
    }
   },
@@ -1356,58 +1125,24 @@
    "game_id": "401909946",
    "min": 22.0,
    "status": "",
-   "p_dd": 0.0567,
+   "p_dd": 0.0561,
    "p_td": 0.0001,
    "typ_dd": 0.07,
    "typ_td": 0.0003,
    "exp_pts": 10.5,
-   "exp_reb": 5.5,
+   "exp_reb": 5.4,
    "exp_ast": 1.9,
    "odds": {
-    "p_model": 0.0567,
-    "p_mkt": 0.2804,
-    "p": 0.1685,
-    "fair": 493,
-    "prices": {
-     "FanDuel": 240,
-     "DraftKings": 239,
-     "betPARX": 225,
-     "BetMGM": 250,
-     "Hard Rock Bet": 240,
-     "theScore Bet": 230
-    },
-    "price": 250,
-    "book": "BetMGM",
-    "ev": -0.4101,
-    "likely": false
-   }
-  },
-  {
-   "id": 4711294,
-   "name": "Matas Buzelis",
-   "team": "CHI",
-   "opp": "PHI",
-   "game_id": "401909945",
-   "min": 26.9,
-   "status": "",
-   "p_dd": 0.0548,
-   "p_td": 0.0001,
-   "typ_dd": 0.038,
-   "typ_td": 0.0002,
-   "exp_pts": 14.5,
-   "exp_reb": 5.4,
-   "exp_ast": 2.1,
-   "odds": {
-    "p_model": 0.0548,
+    "p_model": 0.0561,
     "p_mkt": null,
-    "p": 0.0548,
-    "fair": 1725,
+    "p": 0.0561,
+    "fair": 1684,
     "prices": {
-     "DraftKings": 6500
+     "DraftKings": 850
     },
-    "price": 6500,
+    "price": 850,
     "book": "DraftKings",
-    "ev": 2.6164,
+    "ev": -0.4674,
     "likely": false
    }
   },
@@ -1433,14 +1168,14 @@
     "fair": 1820,
     "prices": {
      "FanDuel": 1200,
-     "DraftKings": 1520,
-     "betPARX": 1050,
+     "DraftKings": 1540,
+     "betPARX": 1000,
      "BetMGM": 1250,
      "Hard Rock Bet": 1300
     },
-    "price": 1520,
+    "price": 1540,
     "book": "DraftKings",
-    "ev": -0.1564,
+    "ev": -0.146,
     "likely": false
    }
   },
@@ -1452,60 +1187,26 @@
    "game_id": "401909949",
    "min": 26.2,
    "status": "",
-   "p_dd": 0.0502,
+   "p_dd": 0.0504,
    "p_td": 0.0008,
    "typ_dd": 0.0555,
    "typ_td": 0.0002,
-   "exp_pts": 12.8,
+   "exp_pts": 12.9,
    "exp_reb": 4.3,
    "exp_ast": 4.5,
    "odds": {
-    "p_model": 0.0502,
+    "p_model": 0.0504,
     "p_mkt": null,
-    "p": 0.0502,
-    "fair": 1893,
+    "p": 0.0504,
+    "fair": 1882,
     "prices": {
-     "FanDuel": 3500,
-     "DraftKings": 5200,
-     "Hard Rock Bet": 4000
+     "FanDuel": 4000,
+     "DraftKings": 5000,
+     "Hard Rock Bet": 2500
     },
-    "price": 5200,
+    "price": 5000,
     "book": "DraftKings",
-    "ev": 1.6587,
-    "likely": false
-   }
-  },
-  {
-   "id": 4431671,
-   "name": "Jaden McDaniels",
-   "team": "MIN",
-   "opp": "UTA",
-   "game_id": "401909947",
-   "min": 33.5,
-   "status": "",
-   "p_dd": 0.0499,
-   "p_td": 0.0007,
-   "typ_dd": 0.0031,
-   "typ_td": 0.0002,
-   "exp_pts": 16.6,
-   "exp_reb": 5.4,
-   "exp_ast": 3.4,
-   "odds": {
-    "p_model": 0.0499,
-    "p_mkt": 0.1318,
-    "p": 0.0908,
-    "fair": 1001,
-    "prices": {
-     "FanDuel": 800,
-     "DraftKings": 790,
-     "betPARX": 650,
-     "BetMGM": 750,
-     "theScore Bet": 600,
-     "Hard Rock Bet": 750
-    },
-    "price": 800,
-    "book": "FanDuel",
-    "ev": -0.1825,
+    "ev": 1.5729,
     "likely": false
    }
   },
@@ -1530,14 +1231,14 @@
     "p": 0.0496,
     "fair": 1918,
     "prices": {
-     "FanDuel": 2500,
-     "DraftKings": 2200,
+     "FanDuel": 1700,
+     "DraftKings": 2400,
      "betPARX": 2200,
      "BetMGM": 1500,
      "Hard Rock Bet": 2500
     },
     "price": 2500,
-    "book": "FanDuel",
+    "book": "Hard Rock Bet",
     "ev": 0.2885,
     "likely": false
    }
@@ -1550,7 +1251,7 @@
    "game_id": "401909949",
    "min": 25.9,
    "status": "",
-   "p_dd": 0.0492,
+   "p_dd": 0.0494,
    "p_td": 0.0001,
    "typ_dd": 0.0751,
    "typ_td": 0.0002,
@@ -1558,19 +1259,82 @@
    "exp_reb": 5.0,
    "exp_ast": 2.7,
    "odds": {
-    "p_model": 0.0492,
+    "p_model": 0.0494,
     "p_mkt": null,
-    "p": 0.0492,
-    "fair": 1935,
+    "p": 0.0494,
+    "fair": 1926,
     "prices": {
-     "FanDuel": 1500,
-     "DraftKings": 2200,
+     "FanDuel": 2800,
+     "DraftKings": 2500,
      "betPARX": 1600,
      "Hard Rock Bet": 1750
     },
-    "price": 2200,
+    "price": 2800,
+    "book": "FanDuel",
+    "ev": 0.4317,
+    "likely": false
+   }
+  },
+  {
+   "id": 4431671,
+   "name": "Jaden McDaniels",
+   "team": "MIN",
+   "opp": "UTA",
+   "game_id": "401909947",
+   "min": 33.5,
+   "status": "",
+   "p_dd": 0.0491,
+   "p_td": 0.0007,
+   "typ_dd": 0.0031,
+   "typ_td": 0.0002,
+   "exp_pts": 16.6,
+   "exp_reb": 5.4,
+   "exp_ast": 3.4,
+   "odds": {
+    "p_model": 0.0491,
+    "p_mkt": 0.1084,
+    "p": 0.0788,
+    "fair": 1170,
+    "prices": {
+     "FanDuel": 1000,
+     "DraftKings": 1300,
+     "theScore Bet": 750,
+     "Hard Rock Bet": 1400
+    },
+    "price": 1400,
+    "book": "Hard Rock Bet",
+    "ev": 0.1813,
+    "likely": false
+   }
+  },
+  {
+   "id": 4351852,
+   "name": "Mitchell Robinson",
+   "team": "BOS",
+   "opp": "MIL",
+   "game_id": "401909949",
+   "min": 19.1,
+   "status": "",
+   "p_dd": 0.0481,
+   "p_td": 0.0001,
+   "typ_dd": 0.0688,
+   "typ_td": 0.0003,
+   "exp_pts": 6.0,
+   "exp_reb": 7.6,
+   "exp_ast": 0.7,
+   "odds": {
+    "p_model": 0.0481,
+    "p_mkt": 0.1084,
+    "p": 0.0782,
+    "fair": 1178,
+    "prices": {
+     "FanDuel": 1100,
+     "DraftKings": 1400,
+     "theScore Bet": 750
+    },
+    "price": 1400,
     "book": "DraftKings",
-    "ev": 0.1305,
+    "ev": 0.1735,
     "likely": false
    }
   },
@@ -1595,13 +1359,13 @@
     "p": 0.0478,
     "fair": 1991,
     "prices": {
-     "FanDuel": 3000,
-     "DraftKings": 2900,
+     "FanDuel": 3500,
+     "DraftKings": 3000,
      "Hard Rock Bet": 3000
     },
-    "price": 3000,
+    "price": 3500,
     "book": "FanDuel",
-    "ev": 0.4824,
+    "ev": 0.7215,
     "likely": false
    }
   },
@@ -1613,7 +1377,7 @@
    "game_id": "401909949",
    "min": 27.2,
    "status": "",
-   "p_dd": 0.0463,
+   "p_dd": 0.0466,
    "p_td": 0.0001,
    "typ_dd": 0.0396,
    "typ_td": 0.0002,
@@ -1621,54 +1385,21 @@
    "exp_reb": 5.9,
    "exp_ast": 1.9,
    "odds": {
-    "p_model": 0.0463,
-    "p_mkt": 0.0933,
-    "p": 0.0698,
-    "fair": 1333,
-    "prices": {
-     "FanDuel": 1200,
-     "DraftKings": 1500,
-     "betPARX": 900,
-     "theScore Bet": 900,
-     "BetMGM": 1100,
-     "Hard Rock Bet": 1200
-    },
-    "price": 1500,
-    "book": "DraftKings",
-    "ev": 0.1164,
-    "likely": false
-   }
-  },
-  {
-   "id": 3908845,
-   "name": "John Collins",
-   "team": "DET",
-   "opp": "LAL",
-   "game_id": "401909946",
-   "min": 25.6,
-   "status": "",
-   "p_dd": 0.0441,
-   "p_td": 0.0,
-   "typ_dd": 0.0682,
-   "typ_td": 0.0002,
-   "exp_pts": 9.8,
-   "exp_reb": 5.0,
-   "exp_ast": 0.8,
-   "odds": {
-    "p_model": 0.0441,
+    "p_model": 0.0466,
     "p_mkt": 0.1318,
-    "p": 0.088,
-    "fair": 1037,
+    "p": 0.0892,
+    "fair": 1021,
     "prices": {
      "FanDuel": 750,
-     "DraftKings": 880,
-     "betPARX": 600,
-     "BetMGM": 700,
-     "theScore Bet": 600
+     "DraftKings": 800,
+     "betPARX": 1050,
+     "theScore Bet": 600,
+     "BetMGM": 1200,
+     "Hard Rock Bet": 650
     },
-    "price": 880,
-    "book": "DraftKings",
-    "ev": -0.138,
+    "price": 1200,
+    "book": "BetMGM",
+    "ev": 0.1596,
     "likely": false
    }
   },
@@ -1680,29 +1411,29 @@
    "game_id": "401909949",
    "min": 31.9,
    "status": "",
-   "p_dd": 0.044,
+   "p_dd": 0.0443,
    "p_td": 0.0011,
    "typ_dd": 0.0114,
    "typ_td": 0.0002,
-   "exp_pts": 14.8,
+   "exp_pts": 14.9,
    "exp_reb": 4.0,
    "exp_ast": 5.0,
    "odds": {
-    "p_model": 0.044,
-    "p_mkt": 0.0783,
-    "p": 0.0611,
-    "fair": 1536,
+    "p_model": 0.0443,
+    "p_mkt": 0.0457,
+    "p": 0.045,
+    "fair": 2122,
     "prices": {
-     "FanDuel": 1400,
-     "DraftKings": 2300,
-     "betPARX": 1600,
-     "theScore Bet": 1100,
-     "BetMGM": 1300,
-     "Hard Rock Bet": 1500
+     "FanDuel": 2500,
+     "DraftKings": 3000,
+     "betPARX": 1500,
+     "theScore Bet": 2000,
+     "BetMGM": 1400,
+     "Hard Rock Bet": 2250
     },
-    "price": 2300,
+    "price": 3000,
     "book": "DraftKings",
-    "ev": 0.4673,
+    "ev": 0.3954,
     "likely": false
    }
   },
@@ -1725,18 +1456,18 @@
     "p_model": 0.0411,
     "p_mkt": 0.0933,
     "p": 0.0672,
-    "fair": 1389,
+    "fair": 1388,
     "prices": {
-     "FanDuel": 1100,
-     "DraftKings": 1520,
+     "FanDuel": 1260,
+     "DraftKings": 1800,
      "betPARX": 1500,
      "theScore Bet": 900,
-     "BetMGM": 1250,
+     "BetMGM": 1200,
      "Hard Rock Bet": 1300
     },
-    "price": 1520,
+    "price": 1800,
     "book": "DraftKings",
-    "ev": 0.0882,
+    "ev": 0.2772,
     "likely": false
    }
   },
@@ -1748,27 +1479,56 @@
    "game_id": "401909949",
    "min": 29.1,
    "status": "",
-   "p_dd": 0.0397,
+   "p_dd": 0.0399,
    "p_td": 0.0004,
    "typ_dd": 0.044,
    "typ_td": 0.0002,
-   "exp_pts": 14.4,
+   "exp_pts": 14.5,
    "exp_reb": 3.8,
    "exp_ast": 4.3,
    "odds": {
-    "p_model": 0.0397,
-    "p_mkt": 0.0457,
-    "p": 0.0427,
-    "fair": 2242,
+    "p_model": 0.0399,
+    "p_mkt": 0.0286,
+    "p": 0.0343,
+    "fair": 2818,
     "prices": {
-     "FanDuel": 2000,
-     "DraftKings": 3100,
-     "theScore Bet": 2000,
-     "Hard Rock Bet": 2250
+     "FanDuel": 2800,
+     "DraftKings": 3000,
+     "theScore Bet": 3300,
+     "Hard Rock Bet": 1750
     },
-    "price": 3100,
-    "book": "DraftKings",
-    "ev": 0.3666,
+    "price": 3300,
+    "book": "theScore Bet",
+    "ev": 0.165,
+    "likely": false
+   }
+  },
+  {
+   "id": 4873153,
+   "name": "Morez Johnson Jr.",
+   "team": "DAL",
+   "opp": "BKN",
+   "game_id": "401909948",
+   "min": 17.5,
+   "status": "",
+   "p_dd": 0.0384,
+   "p_td": 0.0007,
+   "typ_dd": 0.0843,
+   "typ_td": 0.0035,
+   "exp_pts": 8.6,
+   "exp_reb": 4.0,
+   "exp_ast": 1.7,
+   "odds": {
+    "p_model": 0.0384,
+    "p_mkt": null,
+    "p": 0.0384,
+    "fair": 2504,
+    "prices": {
+     "FanDuel": 2500
+    },
+    "price": 2500,
+    "book": "FanDuel",
+    "ev": -0.0015,
     "likely": false
    }
   },
@@ -1780,28 +1540,26 @@
    "game_id": "401909947",
    "min": 30.5,
    "status": "",
-   "p_dd": 0.0367,
-   "p_td": 0.001,
+   "p_dd": 0.0363,
+   "p_td": 0.0009,
    "typ_dd": 0.0498,
    "typ_td": 0.0035,
    "exp_pts": 14.2,
    "exp_reb": 4.0,
    "exp_ast": 3.7,
    "odds": {
-    "p_model": 0.0367,
+    "p_model": 0.0363,
     "p_mkt": null,
-    "p": 0.0367,
-    "fair": 2627,
+    "p": 0.0363,
+    "fair": 2653,
     "prices": {
-     "FanDuel": 1200,
-     "DraftKings": 1500,
-     "betPARX": 1050,
-     "BetMGM": 1050,
-     "Hard Rock Bet": 1100
+     "FanDuel": 880,
+     "DraftKings": 1100,
+     "Hard Rock Bet": 750
     },
-    "price": 1500,
+    "price": 1100,
     "book": "DraftKings",
-    "ev": -0.4133,
+    "ev": -0.5641,
     "likely": false
    }
   },
@@ -1813,26 +1571,25 @@
    "game_id": "401909948",
    "min": 27.8,
    "status": "",
-   "p_dd": 0.0309,
+   "p_dd": 0.0318,
    "p_td": 0.0005,
    "typ_dd": 0.023,
    "typ_td": 0.0002,
-   "exp_pts": 13.7,
-   "exp_reb": 4.0,
+   "exp_pts": 13.8,
+   "exp_reb": 4.1,
    "exp_ast": 4.2,
    "odds": {
-    "p_model": 0.0309,
+    "p_model": 0.0318,
     "p_mkt": null,
-    "p": 0.0309,
-    "fair": 3135,
+    "p": 0.0318,
+    "fair": 3044,
     "prices": {
-     "FanDuel": 3500,
-     "DraftKings": 3100,
-     "Hard Rock Bet": 3000
+     "DraftKings": 5500,
+     "Hard Rock Bet": 2500
     },
-    "price": 3500,
-    "book": "FanDuel",
-    "ev": 0.1129,
+    "price": 5500,
+    "book": "DraftKings",
+    "ev": 0.7811,
     "likely": false
    }
   },
@@ -1853,20 +1610,20 @@
    "exp_ast": 1.2,
    "odds": {
     "p_model": 0.0305,
-    "p_mkt": 0.1084,
-    "p": 0.0694,
-    "fair": 1340,
+    "p_mkt": 0.115,
+    "p": 0.0727,
+    "fair": 1275,
     "prices": {
      "FanDuel": 920,
-     "DraftKings": 1140,
-     "theScore Bet": 750,
+     "DraftKings": 840,
+     "theScore Bet": 700,
      "betPARX": 900,
      "BetMGM": 1200,
-     "Hard Rock Bet": 1000
+     "Hard Rock Bet": 900
     },
     "price": 1200,
     "book": "BetMGM",
-    "ev": -0.0974,
+    "ev": -0.0545,
     "likely": false
    }
   },
@@ -1878,27 +1635,25 @@
    "game_id": "401909948",
    "min": 20.2,
    "status": "",
-   "p_dd": 0.0283,
+   "p_dd": 0.0291,
    "p_td": 0.0001,
    "typ_dd": 0.0317,
    "typ_td": 0.0003,
-   "exp_pts": 9.3,
+   "exp_pts": 9.4,
    "exp_reb": 5.0,
    "exp_ast": 2.0,
    "odds": {
-    "p_model": 0.0283,
+    "p_model": 0.0291,
     "p_mkt": null,
-    "p": 0.0283,
-    "fair": 3433,
+    "p": 0.0291,
+    "fair": 3339,
     "prices": {
-     "FanDuel": 1100,
-     "DraftKings": 1120,
-     "betPARX": 950,
-     "Hard Rock Bet": 1200
+     "DraftKings": 2200,
+     "Hard Rock Bet": 2500
     },
-    "price": 1200,
+    "price": 2500,
     "book": "Hard Rock Bet",
-    "ev": -0.632,
+    "ev": -0.2441,
     "likely": false
    }
   },
@@ -1923,9 +1678,8 @@
     "p": 0.0254,
     "fair": 3843,
     "prices": {
-     "FanDuel": 2200,
+     "FanDuel": 2500,
      "DraftKings": 3000,
-     "betPARX": 2200,
      "Hard Rock Bet": 2500
     },
     "price": 3000,
@@ -1942,7 +1696,7 @@
    "game_id": "401909951",
    "min": 30.1,
    "status": "",
-   "p_dd": 0.0246,
+   "p_dd": 0.0244,
    "p_td": 0.0001,
    "typ_dd": 0.0052,
    "typ_td": 0.0004,
@@ -1950,19 +1704,19 @@
    "exp_reb": 4.7,
    "exp_ast": 1.8,
    "odds": {
-    "p_model": 0.0246,
+    "p_model": 0.0244,
     "p_mkt": null,
-    "p": 0.0246,
-    "fair": 3963,
+    "p": 0.0244,
+    "fair": 3995,
     "prices": {
-     "FanDuel": 2200,
-     "DraftKings": 2000,
-     "betPARX": 2200,
-     "BetMGM": 1400
+     "FanDuel": 1400,
+     "DraftKings": 1340,
+     "betPARX": 1150,
+     "BetMGM": 950
     },
-    "price": 2200,
+    "price": 1400,
     "book": "FanDuel",
-    "ev": -0.434,
+    "ev": -0.6337,
     "likely": false
    }
   },
@@ -1988,15 +1742,44 @@
     "fair": 1260,
     "prices": {
      "FanDuel": 880,
-     "DraftKings": 1120,
+     "DraftKings": 890,
      "theScore Bet": 650,
      "betPARX": 800,
-     "BetMGM": 850,
+     "BetMGM": 900,
      "Hard Rock Bet": 900
     },
-    "price": 1120,
-    "book": "DraftKings",
-    "ev": -0.1031,
+    "price": 900,
+    "book": "BetMGM",
+    "ev": -0.2649,
+    "likely": false
+   }
+  },
+  {
+   "id": 3136196,
+   "name": "Trey Lyles",
+   "team": "MIN",
+   "opp": "UTA",
+   "game_id": "401909947",
+   "min": 19.0,
+   "status": "",
+   "p_dd": 0.0231,
+   "p_td": 0.0007,
+   "typ_dd": 0.0481,
+   "typ_td": 0.0034,
+   "exp_pts": 7.7,
+   "exp_reb": 4.1,
+   "exp_ast": 1.3,
+   "odds": {
+    "p_model": 0.0231,
+    "p_mkt": null,
+    "p": 0.0231,
+    "fair": 4235,
+    "prices": {
+     "FanDuel": 1200
+    },
+    "price": 1200,
+    "book": "FanDuel",
+    "ev": -0.7001,
     "likely": false
    }
   },
@@ -2021,79 +1804,14 @@
     "p": 0.0183,
     "fair": 5359,
     "prices": {
-     "FanDuel": 2000,
-     "DraftKings": 2200,
-     "betPARX": 1800,
+     "FanDuel": 2200,
+     "DraftKings": 1980,
+     "betPARX": 1700,
      "BetMGM": 1450
     },
     "price": 2200,
-    "book": "DraftKings",
-    "ev": -0.5787,
-    "likely": false
-   }
-  },
-  {
-   "id": 4278580,
-   "name": "Sandro Mamukelashvili",
-   "team": "LAL",
-   "opp": "DET",
-   "game_id": "401909946",
-   "min": 22.3,
-   "status": "",
-   "p_dd": 0.0183,
-   "p_td": 0.0,
-   "typ_dd": 0.0264,
-   "typ_td": 0.0002,
-   "exp_pts": 8.8,
-   "exp_reb": 4.4,
-   "exp_ast": 1.6,
-   "odds": {
-    "p_model": 0.0183,
-    "p_mkt": 0.1084,
-    "p": 0.0634,
-    "fair": 1478,
-    "prices": {
-     "FanDuel": 1200,
-     "DraftKings": 1160,
-     "betPARX": 900,
-     "theScore Bet": 750
-    },
-    "price": 1200,
     "book": "FanDuel",
-    "ev": -0.1763,
-    "likely": false
-   }
-  },
-  {
-   "id": 4397077,
-   "name": "Jaxson Hayes",
-   "team": "UTA",
-   "opp": "MIN",
-   "game_id": "401909947",
-   "min": 22.0,
-   "status": "",
-   "p_dd": 0.0172,
-   "p_td": 0.0001,
-   "typ_dd": 0.0137,
-   "typ_td": 0.0003,
-   "exp_pts": 6.8,
-   "exp_reb": 5.7,
-   "exp_ast": 1.5,
-   "odds": {
-    "p_model": 0.0172,
-    "p_mkt": 0.1415,
-    "p": 0.0794,
-    "fair": 1160,
-    "prices": {
-     "FanDuel": 640,
-     "DraftKings": 670,
-     "betPARX": 480,
-     "BetMGM": 700,
-     "theScore Bet": 550
-    },
-    "price": 700,
-    "book": "BetMGM",
-    "ev": -0.3652,
+    "ev": -0.5787,
     "likely": false
    }
   },
@@ -2105,7 +1823,7 @@
    "game_id": "401909946",
    "min": 21.9,
    "status": "",
-   "p_dd": 0.0171,
+   "p_dd": 0.017,
    "p_td": 0.0001,
    "typ_dd": 0.0312,
    "typ_td": 0.0002,
@@ -2113,19 +1831,47 @@
    "exp_reb": 2.4,
    "exp_ast": 4.0,
    "odds": {
-    "p_model": 0.0171,
+    "p_model": 0.017,
     "p_mkt": null,
-    "p": 0.0171,
-    "fair": 5733,
+    "p": 0.017,
+    "fair": 5778,
     "prices": {
-     "FanDuel": 3500,
-     "DraftKings": 3500,
-     "BetMGM": 1650,
-     "Hard Rock Bet": 3000
+     "DraftKings": 9000
     },
-    "price": 3500,
+    "price": 9000,
+    "book": "DraftKings",
+    "ev": 0.548,
+    "likely": false
+   }
+  },
+  {
+   "id": 4397077,
+   "name": "Jaxson Hayes",
+   "team": "UTA",
+   "opp": "MIN",
+   "game_id": "401909947",
+   "min": 22.0,
+   "status": "",
+   "p_dd": 0.0169,
+   "p_td": 0.0001,
+   "typ_dd": 0.0137,
+   "typ_td": 0.0003,
+   "exp_pts": 6.7,
+   "exp_reb": 5.7,
+   "exp_ast": 1.5,
+   "odds": {
+    "p_model": 0.0169,
+    "p_mkt": 0.115,
+    "p": 0.0659,
+    "fair": 1417,
+    "prices": {
+     "FanDuel": 2000,
+     "DraftKings": 1400,
+     "theScore Bet": 700
+    },
+    "price": 2000,
     "book": "FanDuel",
-    "ev": -0.3828,
+    "ev": 0.3847,
     "likely": false
    }
   },
@@ -2137,7 +1883,7 @@
    "game_id": "401909951",
    "min": 27.7,
    "status": "",
-   "p_dd": 0.015,
+   "p_dd": 0.0149,
    "p_td": 0.0001,
    "typ_dd": 0.0223,
    "typ_td": 0.0002,
@@ -2145,45 +1891,16 @@
    "exp_reb": 3.8,
    "exp_ast": 2.2,
    "odds": {
-    "p_model": 0.015,
+    "p_model": 0.0149,
     "p_mkt": null,
-    "p": 0.015,
-    "fair": 6572,
+    "p": 0.0149,
+    "fair": 6603,
     "prices": {
-     "BetMGM": 1800
+     "BetMGM": 1750
     },
-    "price": 1800,
+    "price": 1750,
     "book": "BetMGM",
-    "ev": -0.7152,
-    "likely": false
-   }
-  },
-  {
-   "id": 4712896,
-   "name": "Noah Clowney",
-   "team": "BKN",
-   "opp": "DAL",
-   "game_id": "401909948",
-   "min": 23.7,
-   "status": "",
-   "p_dd": 0.0128,
-   "p_td": 0.0,
-   "typ_dd": 0.0132,
-   "typ_td": 0.0002,
-   "exp_pts": 8.0,
-   "exp_reb": 4.6,
-   "exp_ast": 1.2,
-   "odds": {
-    "p_model": 0.0128,
-    "p_mkt": null,
-    "p": 0.0128,
-    "fair": 7712,
-    "prices": {
-     "FanDuel": 3500
-    },
-    "price": 3500,
-    "book": "FanDuel",
-    "ev": -0.5392,
+    "ev": -0.724,
     "likely": false
    }
   },
@@ -2195,7 +1912,7 @@
    "game_id": "401909951",
    "min": 28.4,
    "status": "",
-   "p_dd": 0.0119,
+   "p_dd": 0.0118,
    "p_td": 0.0001,
    "typ_dd": 0.0125,
    "typ_td": 0.0002,
@@ -2203,19 +1920,19 @@
    "exp_reb": 3.2,
    "exp_ast": 3.6,
    "odds": {
-    "p_model": 0.0119,
+    "p_model": 0.0118,
     "p_mkt": null,
-    "p": 0.0119,
-    "fair": 8313,
+    "p": 0.0118,
+    "fair": 8368,
     "prices": {
-     "FanDuel": 2000,
+     "FanDuel": 1700,
      "DraftKings": 2600,
-     "BetMGM": 1650,
-     "Hard Rock Bet": 2250
+     "BetMGM": 1600,
+     "Hard Rock Bet": 2000
     },
     "price": 2600,
     "book": "DraftKings",
-    "ev": -0.6791,
+    "ev": -0.6812,
     "likely": false
    }
   },
@@ -2240,14 +1957,14 @@
     "p": 0.0109,
     "fair": 9099,
     "prices": {
-     "FanDuel": 1700,
-     "DraftKings": 2300,
-     "betPARX": 1500,
+     "FanDuel": 2000,
+     "DraftKings": 2400,
+     "betPARX": 1700,
      "BetMGM": 1550
     },
-    "price": 2300,
+    "price": 2400,
     "book": "DraftKings",
-    "ev": -0.7391,
+    "ev": -0.7282,
     "likely": false
    }
   },
@@ -2259,57 +1976,25 @@
    "game_id": "401909948",
    "min": 23.4,
    "status": "",
-   "p_dd": 0.0091,
+   "p_dd": 0.0092,
    "p_td": 0.0001,
    "typ_dd": 0.0154,
    "typ_td": 0.0003,
-   "exp_pts": 11.9,
+   "exp_pts": 12.0,
    "exp_reb": 2.2,
    "exp_ast": 3.3,
    "odds": {
-    "p_model": 0.0091,
+    "p_model": 0.0092,
     "p_mkt": null,
-    "p": 0.0091,
+    "p": 0.0092,
     "fair": 9900,
     "prices": {
-     "FanDuel": 1700,
-     "DraftKings": 1780,
-     "BetMGM": 1500,
-     "betPARX": 2000,
-     "Hard Rock Bet": 1400
+     "DraftKings": 3000,
+     "Hard Rock Bet": 2500
     },
-    "price": 2000,
-    "book": "betPARX",
-    "ev": -0.8092,
-    "likely": false
-   }
-  },
-  {
-   "id": 4397014,
-   "name": "Quentin Grimes",
-   "team": "LAL",
-   "opp": "DET",
-   "game_id": "401909946",
-   "min": 26.8,
-   "status": "",
-   "p_dd": 0.0088,
-   "p_td": 0.0,
-   "typ_dd": 0.0197,
-   "typ_td": 0.0002,
-   "exp_pts": 8.6,
-   "exp_reb": 2.8,
-   "exp_ast": 2.6,
-   "odds": {
-    "p_model": 0.0088,
-    "p_mkt": 0.0489,
-    "p": 0.0289,
-    "fair": 3365,
-    "prices": {
-     "BetMGM": 1850
-    },
-    "price": 1850,
-    "book": "BetMGM",
-    "ev": -0.4372,
+    "price": 3000,
+    "book": "DraftKings",
+    "ev": -0.7138,
     "likely": false
    }
   },
@@ -2334,45 +2019,44 @@
     "p": 0.0074,
     "fair": 9900,
     "prices": {
-     "FanDuel": 1500,
-     "DraftKings": 2100,
+     "FanDuel": 2000,
+     "DraftKings": 2200,
      "betPARX": 1400,
      "BetMGM": 1450,
      "Hard Rock Bet": 1750
     },
-    "price": 2100,
+    "price": 2200,
     "book": "DraftKings",
-    "ev": -0.8373,
+    "ev": -0.8299,
     "likely": false
    }
   },
   {
-   "id": 4592691,
-   "name": "Jake LaRavia",
-   "team": "LAL",
-   "opp": "DET",
-   "game_id": "401909946",
-   "min": 24.7,
+   "id": 4066262,
+   "name": "Malik Monk",
+   "team": "SAC",
+   "opp": "MIA",
+   "game_id": "401909951",
+   "min": 19.7,
    "status": "",
-   "p_dd": 0.0069,
-   "p_td": 0.0,
-   "typ_dd": 0.0108,
-   "typ_td": 0.0002,
-   "exp_pts": 7.6,
-   "exp_reb": 3.8,
-   "exp_ast": 1.8,
+   "p_dd": 0.0063,
+   "p_td": 0.0001,
+   "typ_dd": 0.0038,
+   "typ_td": 0.0003,
+   "exp_pts": 11.7,
+   "exp_reb": 1.6,
+   "exp_ast": 3.6,
    "odds": {
-    "p_model": 0.0069,
+    "p_model": 0.0063,
     "p_mkt": null,
-    "p": 0.0069,
+    "p": 0.0063,
     "fair": 9900,
     "prices": {
-     "DraftKings": 2300,
-     "Hard Rock Bet": 3000
+     "FanDuel": 4000
     },
-    "price": 3000,
-    "book": "Hard Rock Bet",
-    "ev": -0.787,
+    "price": 4000,
+    "book": "FanDuel",
+    "ev": -0.7422,
     "likely": false
    }
   },
@@ -2384,7 +2068,7 @@
    "game_id": "401909951",
    "min": 32.0,
    "status": "",
-   "p_dd": 0.006,
+   "p_dd": 0.0059,
    "p_td": 0.0001,
    "typ_dd": 0.0057,
    "typ_td": 0.0004,
@@ -2392,16 +2076,16 @@
    "exp_reb": 3.1,
    "exp_ast": 2.5,
    "odds": {
-    "p_model": 0.006,
+    "p_model": 0.0059,
     "p_mkt": null,
-    "p": 0.006,
+    "p": 0.0059,
     "fair": 9900,
     "prices": {
-     "BetMGM": 1800
+     "BetMGM": 1650
     },
-    "price": 1800,
+    "price": 1650,
     "book": "BetMGM",
-    "ev": -0.8866,
+    "ev": -0.8962,
     "likely": false
    }
   },
@@ -2413,82 +2097,24 @@
    "game_id": "401909948",
    "min": 16.0,
    "status": "",
-   "p_dd": 0.0053,
+   "p_dd": 0.0055,
    "p_td": 0.0001,
    "typ_dd": 0.0061,
    "typ_td": 0.0004,
-   "exp_pts": 8.5,
+   "exp_pts": 8.6,
    "exp_reb": 3.7,
    "exp_ast": 0.9,
    "odds": {
-    "p_model": 0.0053,
+    "p_model": 0.0055,
     "p_mkt": null,
-    "p": 0.0053,
+    "p": 0.0055,
     "fair": 9900,
     "prices": {
-     "FanDuel": 2200
+     "FanDuel": 2500
     },
-    "price": 2200,
+    "price": 2500,
     "book": "FanDuel",
-    "ev": -0.8782,
-    "likely": false
-   }
-  },
-  {
-   "id": 3907498,
-   "name": "Matisse Thybulle",
-   "team": "LAL",
-   "opp": "DET",
-   "game_id": "401909946",
-   "min": 20.6,
-   "status": "",
-   "p_dd": 0.0028,
-   "p_td": 0.0001,
-   "typ_dd": 0.0069,
-   "typ_td": 0.0005,
-   "exp_pts": 6.0,
-   "exp_reb": 1.9,
-   "exp_ast": 1.1,
-   "odds": {
-    "p_model": 0.0028,
-    "p_mkt": null,
-    "p": 0.0028,
-    "fair": 9900,
-    "prices": {
-     "DraftKings": 7700
-    },
-    "price": 7700,
-    "book": "DraftKings",
-    "ev": -0.7843,
-    "likely": false
-   }
-  },
-  {
-   "id": 3157465,
-   "name": "Duncan Robinson",
-   "team": "DET",
-   "opp": "LAL",
-   "game_id": "401909946",
-   "min": 29.6,
-   "status": "",
-   "p_dd": 0.002,
-   "p_td": 0.0,
-   "typ_dd": 0.0031,
-   "typ_td": 0.0002,
-   "exp_pts": 15.4,
-   "exp_reb": 2.4,
-   "exp_ast": 2.2,
-   "odds": {
-    "p_model": 0.002,
-    "p_mkt": null,
-    "p": 0.002,
-    "fair": 9900,
-    "prices": {
-     "DraftKings": 8100
-    },
-    "price": 8100,
-    "book": "DraftKings",
-    "ev": -0.8335,
+    "ev": -0.8579,
     "likely": false
    }
   }
@@ -2500,9 +2126,9 @@
     "name": "Jayson Tatum",
     "team": "BOS",
     "game_id": "401909949",
-    "p_model": 0.4223,
-    "p": 0.3749,
-    "price": 182,
+    "p_model": 0.4233,
+    "p": 0.3754,
+    "price": 230,
     "book": "DraftKings",
     "priced": true
    },
@@ -2511,10 +2137,10 @@
     "name": "Cade Cunningham",
     "team": "DET",
     "game_id": "401909946",
-    "p_model": 0.4087,
-    "p": 0.4343,
-    "price": 104,
-    "book": "FanDuel",
+    "p_model": 0.4068,
+    "p": 0.3973,
+    "price": 4000,
+    "book": "DraftKings",
     "priced": true
    },
    {
@@ -2522,21 +2148,10 @@
     "name": "Bam Adebayo",
     "team": "MIA",
     "game_id": "401909951",
-    "p_model": 0.3968,
-    "p": 0.4387,
-    "price": -105,
-    "book": "Hard Rock Bet",
-    "priced": true
-   },
-   {
-    "id": 1966,
-    "name": "LeBron James",
-    "team": "PHI",
-    "game_id": "401909945",
-    "p_model": 0.3579,
-    "p": 0.3496,
-    "price": 8000,
-    "book": "DraftKings",
+    "p_model": 0.3959,
+    "p": 0.4484,
+    "price": -108,
+    "book": "betPARX",
     "priced": true
    },
    {
@@ -2544,9 +2159,9 @@
     "name": "Walker Kessler",
     "team": "LAL",
     "game_id": "401909946",
-    "p_model": 0.3415,
-    "p": 0.4372,
-    "price": -122,
+    "p_model": 0.3391,
+    "p": 0.3312,
+    "price": -154,
     "book": "FanDuel",
     "priced": true
    },
@@ -2555,10 +2170,21 @@
     "name": "Rudy Gobert",
     "team": "MIN",
     "game_id": "401909947",
-    "p_model": 0.2807,
-    "p": 0.3098,
-    "price": 174,
+    "p_model": 0.2784,
+    "p": 0.3303,
+    "price": 172,
     "book": "FanDuel",
+    "priced": true
+   },
+   {
+    "id": 5041939,
+    "name": "Cooper Flagg",
+    "team": "DAL",
+    "game_id": "401909948",
+    "p_model": 0.2452,
+    "p": 0.2236,
+    "price": 425,
+    "book": "Hard Rock Bet",
     "priced": true
    }
   ],
@@ -2569,20 +2195,18 @@
    "expected": 54.88
   },
   "priced_legs": 6,
-  "books_with_all_6": [
-   "DraftKings"
-  ],
+  "books_with_all_6": [],
   "formats": {
    "2": {
     "name": "2-pick",
-    "book": "DraftKings",
+    "book": null,
     "bets": 15,
     "stake_each": 2.0,
     "total": 30.0,
-    "exp_profit": 228.4,
-    "roi": 7.6132,
-    "p_profit": 0.4092,
-    "p_lose_all": 0.2463,
+    "exp_profit": 141.34,
+    "roi": 4.7113,
+    "p_profit": 0.4628,
+    "p_lose_all": 0.3141,
     "breakeven_hits": 4,
     "can_profit_at": 2,
     "payout_by_hits": {
@@ -2595,44 +2219,44 @@
       0
      ],
      "2": [
-      6.29,
-      456.84
+      6.35,
+      430.5
      ],
      "3": [
-      20.41,
-      904.44
+      25.8,
+      735.75
      ],
      "4": [
-      49.98,
-      1248.69
+      67.35,
+      1005.3
      ],
      "5": [
-      96.27,
-      1573.11
+      168.1,
+      1206.64
      ],
      "6": [
-      1882.76,
-      1882.76
+      1385.41,
+      1385.41
      ]
     },
     "score": 10.0,
     "best_price": {
-     "exp_profit": 237.43,
-     "roi": 7.9142,
-     "p_profit": 0.4272
+     "exp_profit": 141.34,
+     "roi": 4.7113,
+     "p_profit": 0.4628
     },
     "rating": 10
    },
    "3": {
     "name": "3-pick",
-    "book": "DraftKings",
+    "book": null,
     "bets": 20,
     "stake_each": 1.5,
     "total": 30.0,
-    "exp_profit": 292.76,
-    "roi": 9.7586,
-    "p_profit": 0.2868,
-    "p_lose_all": 0.5636,
+    "exp_profit": 196.07,
+    "roi": 6.5357,
+    "p_profit": 0.2859,
+    "p_lose_all": 0.6459,
     "breakeven_hits": 4,
     "can_profit_at": 3,
     "payout_by_hits": {
@@ -2649,27 +2273,27 @@
       0
      ],
      "3": [
-      9.38,
-      914.82
+      12.96,
+      1065.49
      ],
      "4": [
-      50.24,
-      2264.76
+      76.82,
+      2566.42
      ],
      "5": [
-      155.95,
-      3981.71
+      342.02,
+      4018.52
      ],
      "6": [
-      6004.28,
-      6004.28
+      5511.15,
+      5511.15
      ]
     },
     "score": 10.0,
     "best_price": {
-     "exp_profit": 315.14,
-     "roi": 10.5047,
-     "p_profit": 0.2868
+     "exp_profit": 196.07,
+     "roi": 6.5357,
+     "p_profit": 0.2859
     },
     "rating": 10
    }
@@ -2685,6 +2309,7 @@
    }
   ],
   "notes": [
+   "No single book prices all 6; rated at the best price for each leg.",
    "Same-game picks are treated as independent: Cade Cunningham, Walker Kessler (LAL at DET)."
   ],
   "rules": {
