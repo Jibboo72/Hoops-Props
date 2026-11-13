@@ -1,1320 +1,4697 @@
 {
- "date": "2026-11-12",
- "generated": "2026-11-13T01:30+00:00",
+ "date": "2026-11-13",
+ "generated": "2026-11-13T06:32+00:00",
  "games": [
   {
-   "id": "401909976",
-   "start": "2026-11-13T00:00Z",
-   "away": "TOR",
-   "home": "PHI",
-   "total": 239.5,
-   "spread_home": -6.5
+   "id": "401909296",
+   "start": "2026-11-14T00:00Z",
+   "away": "NYK",
+   "home": "IND",
+   "total": 219.5,
+   "spread_home": 6.5
   },
   {
-   "id": "401909977",
-   "start": "2026-11-13T00:00Z",
-   "away": "DET",
-   "home": "WAS",
-   "total": 236.5,
-   "spread_home": 11.5
+   "id": "401909297",
+   "start": "2026-11-14T00:00Z",
+   "away": "MIL",
+   "home": "ORL",
+   "total": 223.5,
+   "spread_home": -9.5
   },
   {
-   "id": "401909978",
-   "start": "2026-11-13T01:00Z",
-   "away": "DAL",
-   "home": "MIN",
-   "total": 224.5,
+   "id": "401909298",
+   "start": "2026-11-14T01:00Z",
+   "away": "CLE",
+   "home": "MIA",
+   "total": 235.5,
    "spread_home": -2.5
   },
   {
-   "id": "401909979",
-   "start": "2026-11-13T02:00Z",
-   "away": "CHA",
-   "home": "PHX",
-   "total": 214.5,
-   "spread_home": -6.5
+   "id": "401909299",
+   "start": "2026-11-14T01:00Z",
+   "away": "ATL",
+   "home": "CHI",
+   "total": 245.5,
+   "spread_home": 6.5
+  },
+  {
+   "id": "401909300",
+   "start": "2026-11-14T01:00Z",
+   "away": "MEM",
+   "home": "NOP",
+   "total": 235.5,
+   "spread_home": 3.5
+  },
+  {
+   "id": "401909301",
+   "start": "2026-11-14T01:30Z",
+   "away": "UTA",
+   "home": "HOU",
+   "total": 218.5,
+   "spread_home": -17.5
+  },
+  {
+   "id": "401909302",
+   "start": "2026-11-14T02:30Z",
+   "away": "GSW",
+   "home": "SAS",
+   "total": 219.5,
+   "spread_home": -12.5
+  },
+  {
+   "id": "401909303",
+   "start": "2026-11-14T03:00Z",
+   "away": "POR",
+   "home": "SAC",
+   "total": 229.5,
+   "spread_home": 10.5
+  },
+  {
+   "id": "401909304",
+   "start": "2026-11-14T03:30Z",
+   "away": "OKC",
+   "home": "LAC",
+   "total": 222.5,
+   "spread_home": 7.5
   }
  ],
  "players": [
   {
-   "id": 6442,
-   "name": "Kyrie Irving",
-   "team": "DAL",
-   "opp": "MIN",
-   "pos": "G",
-   "game_id": "401909978",
-   "min": 31.3,
-   "exp_thr": 2.38,
-   "exp_reb": 3.91,
-   "exp_ast": 3.99,
-   "env": 0.995,
+   "id": 3202,
+   "name": "Kevin Durant",
+   "team": "HOU",
+   "opp": "UTA",
+   "pos": "W",
+   "game_id": "401909301",
+   "min": 35.4,
+   "exp_thr": 1.73,
+   "exp_reb": 5.99,
+   "exp_ast": 4.2,
+   "env": 0.983,
    "thr_o1.5": {
-    "p_model": 0.6476,
+    "p_model": 0.4948,
     "line": 1.5,
-    "prices": {
-     "FanDuel": -188,
-     "DraftKings": -175,
-     "Hard Rock Bet": -200
-    },
-    "p_mkt": 0.6104,
-    "p": 0.6234,
-    "fair": -166,
-    "price": -175,
-    "book": "DraftKings",
-    "ev": -0.0203,
-    "likely": true
+    "p": 0.4948,
+    "fair": 102
    },
    "thr_u1.5": {
-    "p_model": 0.3524,
+    "p_model": 0.5052,
     "line": 1.5,
-    "prices": {
-     "FanDuel": 140,
-     "DraftKings": 135,
-     "Hard Rock Bet": 140
-    },
-    "p_mkt": 0.3896,
-    "p": 0.3766,
-    "fair": 166,
-    "price": 140,
-    "book": "FanDuel",
-    "ev": -0.0962,
-    "likely": false
+    "p": 0.5052,
+    "fair": -102
    },
    "thr_o2.5": {
-    "p_model": 0.4121,
+    "p_model": 0.257,
     "line": 2.5,
-    "prices": {
-     "BetMGM": 105
-    },
-    "p_mkt": 0.4518,
-    "p": 0.4379,
-    "fair": 128,
-    "price": 105,
-    "book": "BetMGM",
-    "ev": -0.1023,
-    "likely": false
+    "p": 0.257,
+    "fair": 289
    },
    "thr_u2.5": {
-    "p_model": 0.5879,
+    "p_model": 0.743,
     "line": 2.5,
-    "prices": {
-     "BetMGM": -145
-    },
-    "p_mkt": 0.5482,
-    "p": 0.5621,
-    "fair": -128,
-    "price": -145,
-    "book": "BetMGM",
-    "ev": -0.0503,
-    "likely": false
+    "p": 0.743,
+    "fair": -289
    },
-   "reb_o3.5": {
-    "p_model": 0.5232,
-    "line": 3.5,
-    "p": 0.5232,
-    "fair": -110
+   "reb_o5.5": {
+    "p_model": 0.5211,
+    "line": 5.5,
+    "p": 0.5211,
+    "fair": -109
    },
-   "reb_u3.5": {
-    "p_model": 0.4768,
-    "line": 3.5,
-    "p": 0.4768,
-    "fair": 110
+   "reb_u5.5": {
+    "p_model": 0.4789,
+    "line": 5.5,
+    "p": 0.4789,
+    "fair": 109
    },
-   "ast_o3.5": {
-    "p_model": 0.5371,
-    "line": 3.5,
-    "p": 0.5371,
-    "fair": -116
-   },
-   "ast_u3.5": {
-    "p_model": 0.4629,
-    "line": 3.5,
-    "p": 0.4629,
-    "fair": 116
-   }
-  },
-  {
-   "id": 6583,
-   "name": "Anthony Davis",
-   "team": "WAS",
-   "opp": "DET",
-   "pos": "W",
-   "game_id": "401909977",
-   "min": 32.4,
-   "exp_thr": 0.77,
-   "exp_reb": 10.67,
-   "exp_ast": 2.29,
-   "env": 1.052,
-   "thr_o0.5": {
-    "p_model": 0.5199,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": 220,
-     "DraftKings": 195,
-     "Hard Rock Bet": 190
-    },
-    "p_mkt": 0.3194,
-    "p": 0.3896,
-    "fair": 157,
-    "price": 220,
-    "book": "FanDuel",
-    "ev": 0.2466,
-    "likely": false
-   },
-   "thr_u0.5": {
-    "p_model": 0.4801,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": -310,
-     "DraftKings": -260,
-     "Hard Rock Bet": -275
-    },
-    "p_mkt": 0.6806,
-    "p": 0.6104,
-    "fair": -157,
-    "price": -260,
-    "book": "DraftKings",
-    "ev": -0.1548,
-    "likely": false
-   },
-   "reb_o10.5": {
-    "p_model": 0.4733,
-    "line": 10.5,
-    "p": 0.4733,
-    "fair": 111
-   },
-   "reb_u10.5": {
-    "p_model": 0.5267,
-    "line": 10.5,
-    "p": 0.5267,
-    "fair": -111
-   },
-   "ast_o2.5": {
-    "p_model": 0.3941,
-    "line": 2.5,
-    "p": 0.3941,
-    "fair": 154
-   },
-   "ast_u2.5": {
-    "p_model": 0.6059,
-    "line": 2.5,
-    "p": 0.6059,
-    "fair": -154
-   }
-  },
-  {
-   "id": 2581018,
-   "name": "Kentavious Caldwell-Pope",
-   "team": "PHI",
-   "opp": "TOR",
-   "pos": "G",
-   "game_id": "401909976",
-   "min": 20.2,
-   "exp_thr": 0.9,
-   "exp_reb": 2.32,
-   "exp_ast": 1.87,
-   "env": 1.054,
-   "thr_o2.5": {
-    "p_model": 0.0718,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": -112
-    },
-    "p_mkt": 0.4939,
-    "p": 0.3462,
-    "fair": 189,
-    "price": -112,
-    "book": "FanDuel",
-    "ev": -0.3448,
-    "likely": false
-   },
-   "thr_u2.5": {
-    "p_model": 0.9282,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": -118
-    },
-    "p_mkt": 0.5061,
-    "p": 0.6538,
-    "fair": -189,
-    "price": -118,
-    "book": "FanDuel",
-    "ev": 0.2079,
-    "likely": true
-   },
-   "reb_o2.5": {
-    "p_model": 0.4019,
-    "line": 2.5,
-    "p": 0.4019,
-    "fair": 149
-   },
-   "reb_u2.5": {
-    "p_model": 0.5981,
-    "line": 2.5,
-    "p": 0.5981,
-    "fair": -149
-   },
-   "ast_o1.5": {
-    "p_model": 0.5386,
-    "line": 1.5,
-    "p": 0.5386,
-    "fair": -117
-   },
-   "ast_u1.5": {
-    "p_model": 0.4614,
-    "line": 1.5,
-    "p": 0.4614,
-    "fair": 117
-   }
-  },
-  {
-   "id": 2583632,
-   "name": "Royce O'Neale",
-   "team": "CHA",
-   "opp": "PHX",
-   "pos": "W",
-   "game_id": "401909979",
-   "min": 23.7,
-   "exp_thr": 1.89,
-   "exp_reb": 3.94,
-   "exp_ast": 1.6,
-   "env": 0.993,
-   "thr_o1.5": {
-    "p_model": 0.5361,
-    "line": 1.5,
-    "prices": {
-     "DraftKings": -155,
-     "theScore Bet": -150,
-     "betPARX": -132,
-     "BetRivers": -132,
-     "BetMGM": -155,
-     "Hard Rock Bet": -145
-    },
-    "p_mkt": 0.5616,
-    "p": 0.5527,
-    "fair": -124,
-    "price": -132,
-    "book": "betPARX",
-    "ev": -0.0286,
-    "likely": true
-   },
-   "thr_u1.5": {
-    "p_model": 0.4639,
-    "line": 1.5,
-    "prices": {
-     "DraftKings": 117,
-     "theScore Bet": 115,
-     "betPARX": -103,
-     "BetRivers": -103,
-     "BetMGM": 115,
-     "Hard Rock Bet": 115
-    },
-    "p_mkt": 0.4384,
-    "p": 0.4473,
-    "fair": 124,
-    "price": 117,
-    "book": "DraftKings",
-    "ev": -0.0293,
-    "likely": false
-   },
-   "reb_o3.5": {
-    "p_model": 0.5282,
-    "line": 3.5,
-    "p": 0.5282,
-    "fair": -112
-   },
-   "reb_u3.5": {
-    "p_model": 0.4718,
-    "line": 3.5,
-    "p": 0.4718,
-    "fair": 112
-   },
-   "ast_o1.5": {
-    "p_model": 0.4615,
-    "line": 1.5,
-    "p": 0.4615,
-    "fair": 117
-   },
-   "ast_u1.5": {
-    "p_model": 0.5385,
-    "line": 1.5,
-    "p": 0.5385,
-    "fair": -117
-   }
-  },
-  {
-   "id": 3032976,
-   "name": "Rudy Gobert",
-   "team": "MIN",
-   "opp": "DAL",
-   "pos": "B",
-   "game_id": "401909978",
-   "min": 30.6,
-   "exp_thr": 0.09,
-   "exp_reb": 11.77,
-   "exp_ast": 1.64,
-   "env": 0.995,
-   "reb_o11.5": {
-    "p_model": 0.4814,
-    "line": 11.5,
-    "p": 0.4814,
-    "fair": 108
-   },
-   "reb_u11.5": {
-    "p_model": 0.5186,
-    "line": 11.5,
-    "p": 0.5186,
-    "fair": -108
-   },
-   "ast_o1.5": {
-    "p_model": 0.4756,
-    "line": 1.5,
-    "p": 0.4756,
-    "fair": 110
-   },
-   "ast_u1.5": {
-    "p_model": 0.5244,
-    "line": 1.5,
-    "p": 0.5244,
-    "fair": -110
-   }
-  },
-  {
-   "id": 3059318,
-   "name": "Joel Embiid",
-   "team": "PHI",
-   "opp": "TOR",
-   "pos": "B",
-   "game_id": "401909976",
-   "min": 30.7,
-   "exp_thr": 1.01,
-   "exp_reb": 8.39,
-   "exp_ast": 3.74,
-   "env": 1.054,
-   "thr_o0.5": {
-    "p_model": 0.6148,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": 260,
-     "DraftKings": 210,
-     "Hard Rock Bet": 200
-    },
-    "p_mkt": 0.2821,
-    "p": 0.3985,
-    "fair": 151,
-    "price": 260,
-    "book": "FanDuel",
-    "ev": 0.4348,
-    "likely": false
-   },
-   "thr_u0.5": {
-    "p_model": 0.3852,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": -380,
-     "DraftKings": -280
-    },
-    "p_mkt": 0.7179,
-    "p": 0.6015,
-    "fair": -151,
-    "price": -280,
-    "book": "DraftKings",
-    "ev": -0.1837,
-    "likely": false
-   },
-   "reb_o8.5": {
-    "p_model": 0.4463,
-    "line": 8.5,
-    "p": 0.4463,
-    "fair": 124
-   },
-   "reb_u8.5": {
-    "p_model": 0.5537,
-    "line": 8.5,
-    "p": 0.5537,
-    "fair": -124
-   },
-   "ast_o3.5": {
-    "p_model": 0.4925,
-    "line": 3.5,
-    "p": 0.4925,
-    "fair": 103
-   },
-   "ast_u3.5": {
-    "p_model": 0.5075,
-    "line": 3.5,
-    "p": 0.5075,
-    "fair": -103
-   }
-  },
-  {
-   "id": 3134908,
-   "name": "Jakob Poeltl",
-   "team": "TOR",
-   "opp": "PHI",
-   "pos": "B",
-   "game_id": "401909976",
-   "min": 25.4,
-   "exp_thr": 0.05,
-   "exp_reb": 7.78,
-   "exp_ast": 1.78,
-   "env": 1.054,
-   "reb_o7.5": {
-    "p_model": 0.4884,
-    "line": 7.5,
-    "p": 0.4884,
-    "fair": 105
-   },
-   "reb_u7.5": {
-    "p_model": 0.5116,
-    "line": 7.5,
-    "p": 0.5116,
-    "fair": -105
-   },
-   "ast_o1.5": {
-    "p_model": 0.5142,
-    "line": 1.5,
-    "p": 0.5142,
-    "fair": -106
-   },
-   "ast_u1.5": {
-    "p_model": 0.4858,
-    "line": 1.5,
-    "p": 0.4858,
-    "fair": 106
-   }
-  },
-  {
-   "id": 3135045,
-   "name": "Grayson Allen",
-   "team": "CHA",
-   "opp": "PHX",
-   "pos": "G",
-   "game_id": "401909979",
-   "min": 27.5,
-   "exp_thr": 2.89,
-   "exp_reb": 2.88,
-   "exp_ast": 3.26,
-   "env": 0.993,
-   "thr_o3.5": {
-    "p_model": 0.3292,
-    "line": 3.5,
-    "prices": {
-     "FanDuel": -104,
-     "DraftKings": -112,
-     "theScore Bet": -105,
-     "betPARX": -103,
-     "BetRivers": -103,
-     "BetMGM": -105,
-     "Hard Rock Bet": -105
-    },
-    "p_mkt": 0.4797,
-    "p": 0.427,
-    "fair": 134,
-    "price": -103,
-    "book": "betPARX",
-    "ev": -0.1584,
-    "likely": false
-   },
-   "thr_u3.5": {
-    "p_model": 0.6708,
-    "line": 3.5,
-    "prices": {
-     "FanDuel": -122,
-     "DraftKings": -118,
-     "theScore Bet": -125,
-     "betPARX": -134,
-     "BetRivers": -134,
-     "BetMGM": -125,
-     "Hard Rock Bet": -125
-    },
-    "p_mkt": 0.5203,
-    "p": 0.573,
-    "fair": -134,
-    "price": -118,
-    "book": "DraftKings",
-    "ev": 0.0585,
-    "likely": true
-   },
-   "reb_o2.5": {
-    "p_model": 0.5267,
-    "line": 2.5,
-    "p": 0.5267,
-    "fair": -111
-   },
-   "reb_u2.5": {
-    "p_model": 0.4733,
-    "line": 2.5,
-    "p": 0.4733,
-    "fair": 111
-   },
-   "ast_o3.5": {
-    "p_model": 0.4027,
-    "line": 3.5,
-    "p": 0.4027,
+   "ast_o4.5": {
+    "p_model": 0.4039,
+    "line": 4.5,
+    "p": 0.4039,
     "fair": 148
    },
-   "ast_u3.5": {
-    "p_model": 0.5973,
-    "line": 3.5,
-    "p": 0.5973,
+   "ast_u4.5": {
+    "p_model": 0.5961,
+    "line": 4.5,
+    "p": 0.5961,
     "fair": -148
    }
   },
   {
-   "id": 3136193,
-   "name": "Devin Booker",
-   "team": "PHX",
-   "opp": "CHA",
-   "pos": "G",
-   "game_id": "401909979",
-   "min": 33.5,
-   "exp_thr": 2.07,
-   "exp_reb": 3.27,
-   "exp_ast": 5.07,
-   "env": 0.993,
+   "id": 3213,
+   "name": "Al Horford",
+   "team": "GSW",
+   "opp": "SAS",
+   "pos": "B",
+   "game_id": "401909302",
+   "min": 19.5,
+   "exp_thr": 1.24,
+   "exp_reb": 4.39,
+   "exp_ast": 2.4,
+   "env": 0.968,
    "thr_o1.5": {
-    "p_model": 0.5794,
+    "p_model": 0.3442,
     "line": 1.5,
-    "prices": {
-     "FanDuel": -156,
-     "DraftKings": -161,
-     "theScore Bet": -160,
-     "betPARX": -180,
-     "BetRivers": -180,
-     "BetMGM": -190,
-     "Hard Rock Bet": -175
-    },
-    "p_mkt": 0.5986,
-    "p": 0.5919,
-    "fair": -145,
-    "price": -156,
-    "book": "FanDuel",
-    "ev": -0.0287,
-    "likely": true
+    "p": 0.3442,
+    "fair": 191
    },
    "thr_u1.5": {
-    "p_model": 0.4206,
+    "p_model": 0.6558,
     "line": 1.5,
-    "prices": {
-     "FanDuel": 122,
-     "DraftKings": 122,
-     "theScore Bet": 120,
-     "betPARX": 132,
-     "BetRivers": 132,
-     "BetMGM": 140,
-     "Hard Rock Bet": 135
-    },
-    "p_mkt": 0.4014,
-    "p": 0.4081,
-    "fair": 145,
-    "price": 140,
-    "book": "BetMGM",
-    "ev": -0.0205,
-    "likely": false
+    "p": 0.6558,
+    "fair": -191
    },
-   "reb_o3.5": {
-    "p_model": 0.4058,
-    "line": 3.5,
-    "p": 0.4058,
-    "fair": 146
+   "thr_o2.5": {
+    "p_model": 0.1398,
+    "line": 2.5,
+    "p": 0.1398,
+    "fair": 615
    },
-   "reb_u3.5": {
-    "p_model": 0.5942,
-    "line": 3.5,
-    "p": 0.5942,
-    "fair": -146
+   "thr_u2.5": {
+    "p_model": 0.8602,
+    "line": 2.5,
+    "p": 0.8602,
+    "fair": -615
    },
-   "ast_o5.5": {
-    "p_model": 0.3931,
-    "line": 5.5,
-    "p": 0.3931,
-    "fair": 154
+   "reb_o4.5": {
+    "p_model": 0.4351,
+    "line": 4.5,
+    "p": 0.4351,
+    "fair": 130
    },
-   "ast_u5.5": {
-    "p_model": 0.6069,
-    "line": 5.5,
-    "p": 0.6069,
-    "fair": -154
+   "reb_u4.5": {
+    "p_model": 0.5649,
+    "line": 4.5,
+    "p": 0.5649,
+    "fair": -130
+   },
+   "ast_o2.5": {
+    "p_model": 0.421,
+    "line": 2.5,
+    "p": 0.421,
+    "fair": 138
+   },
+   "ast_u2.5": {
+    "p_model": 0.579,
+    "line": 2.5,
+    "p": 0.579,
+    "fair": -138
    }
   },
   {
-   "id": 3136196,
-   "name": "Trey Lyles",
-   "team": "MIN",
-   "opp": "DAL",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 19.4,
-   "exp_thr": 1.09,
-   "exp_reb": 4.19,
-   "exp_ast": 1.44,
-   "env": 0.995,
-   "thr_o0.5": {
-    "p_model": 0.6386,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": -175,
-     "BetMGM": -190,
-     "Hard Rock Bet": -220
-    },
-    "p_mkt": 0.6113,
-    "p": 0.6209,
-    "fair": -164,
-    "price": -175,
-    "book": "DraftKings",
-    "ev": -0.0244,
-    "likely": true
+   "id": 3448,
+   "name": "Brook Lopez",
+   "team": "LAC",
+   "opp": "OKC",
+   "pos": "B",
+   "game_id": "401909304",
+   "min": 23.0,
+   "exp_thr": 1.33,
+   "exp_reb": 4.81,
+   "exp_ast": 1.16,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.3737,
+    "line": 1.5,
+    "p": 0.3737,
+    "fair": 168
    },
-   "thr_u0.5": {
-    "p_model": 0.3614,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": 135,
-     "BetMGM": 140,
-     "Hard Rock Bet": 150
-    },
-    "p_mkt": 0.3887,
-    "p": 0.3791,
-    "fair": 164,
-    "price": 150,
-    "book": "Hard Rock Bet",
-    "ev": -0.0521,
-    "likely": false
+   "thr_u1.5": {
+    "p_model": 0.6263,
+    "line": 1.5,
+    "p": 0.6263,
+    "fair": -168
+   },
+   "thr_o2.5": {
+    "p_model": 0.1602,
+    "line": 2.5,
+    "p": 0.1602,
+    "fair": 524
+   },
+   "thr_u2.5": {
+    "p_model": 0.8398,
+    "line": 2.5,
+    "p": 0.8398,
+    "fair": -524
    },
    "reb_o4.5": {
-    "p_model": 0.4014,
+    "p_model": 0.5016,
     "line": 4.5,
-    "p": 0.4014,
-    "fair": 149
+    "p": 0.5016,
+    "fair": -101
    },
    "reb_u4.5": {
-    "p_model": 0.5986,
+    "p_model": 0.4984,
     "line": 4.5,
-    "p": 0.5986,
-    "fair": -149
+    "p": 0.4984,
+    "fair": 101
    },
    "ast_o1.5": {
-    "p_model": 0.4133,
+    "p_model": 0.3214,
     "line": 1.5,
+    "p": 0.3214,
+    "fair": 211
+   },
+   "ast_u1.5": {
+    "p_model": 0.6786,
+    "line": 1.5,
+    "p": 0.6786,
+    "fair": -211
+   }
+  },
+  {
+   "id": 3992,
+   "name": "James Harden",
+   "team": "CLE",
+   "opp": "MIA",
+   "pos": "G",
+   "game_id": "401909298",
+   "min": 33.2,
+   "exp_thr": 2.87,
+   "exp_reb": 4.78,
+   "exp_ast": 6.37,
+   "env": 0.988,
+   "thr_o1.5": {
+    "p_model": 0.7318,
+    "line": 1.5,
+    "p": 0.7318,
+    "fair": -273
+   },
+   "thr_u1.5": {
+    "p_model": 0.2682,
+    "line": 1.5,
+    "p": 0.2682,
+    "fair": 273
+   },
+   "thr_o2.5": {
+    "p_model": 0.5157,
+    "line": 2.5,
+    "p": 0.5157,
+    "fair": -106
+   },
+   "thr_u2.5": {
+    "p_model": 0.4843,
+    "line": 2.5,
+    "p": 0.4843,
+    "fair": 106
+   },
+   "reb_o4.5": {
+    "p_model": 0.4968,
+    "line": 4.5,
+    "p": 0.4968,
+    "fair": 101
+   },
+   "reb_u4.5": {
+    "p_model": 0.5032,
+    "line": 4.5,
+    "p": 0.5032,
+    "fair": -101
+   },
+   "ast_o6.5": {
+    "p_model": 0.4392,
+    "line": 6.5,
+    "p": 0.4392,
+    "fair": 128
+   },
+   "ast_u6.5": {
+    "p_model": 0.5608,
+    "line": 6.5,
+    "p": 0.5608,
+    "fair": -128
+   }
+  },
+  {
+   "id": 3995,
+   "name": "Jrue Holiday",
+   "team": "POR",
+   "opp": "SAC",
+   "pos": "G",
+   "game_id": "401909303",
+   "min": 27.7,
+   "exp_thr": 2.36,
+   "exp_reb": 3.59,
+   "exp_ast": 4.53,
+   "env": 0.984,
+   "thr_o1.5": {
+    "p_model": 0.6425,
+    "line": 1.5,
+    "p": 0.6425,
+    "fair": -180
+   },
+   "thr_u1.5": {
+    "p_model": 0.3575,
+    "line": 1.5,
+    "p": 0.3575,
+    "fair": 180
+   },
+   "thr_o2.5": {
+    "p_model": 0.4063,
+    "line": 2.5,
+    "p": 0.4063,
+    "fair": 146
+   },
+   "thr_u2.5": {
+    "p_model": 0.5937,
+    "line": 2.5,
+    "p": 0.5937,
+    "fair": -146
+   },
+   "reb_o3.5": {
+    "p_model": 0.4652,
+    "line": 3.5,
+    "p": 0.4652,
+    "fair": 115
+   },
+   "reb_u3.5": {
+    "p_model": 0.5348,
+    "line": 3.5,
+    "p": 0.5348,
+    "fair": -115
+   },
+   "ast_o4.5": {
+    "p_model": 0.4579,
+    "line": 4.5,
+    "p": 0.4579,
+    "fair": 118
+   },
+   "ast_u4.5": {
+    "p_model": 0.5421,
+    "line": 4.5,
+    "p": 0.5421,
+    "fair": -118
+   }
+  },
+  {
+   "id": 6585,
+   "name": "Andre Drummond",
+   "team": "NYK",
+   "opp": "IND",
+   "pos": "B",
+   "game_id": "401909296",
+   "min": 16.1,
+   "exp_thr": 0.18,
+   "exp_reb": 7.69,
+   "exp_ast": 1.35,
+   "env": 0.999,
+   "thr_o1.5": {
+    "p_model": 0.0157,
+    "line": 1.5,
+    "p": 0.0157,
+    "fair": 6269
+   },
+   "thr_u1.5": {
+    "p_model": 0.9843,
+    "line": 1.5,
+    "p": 0.9843,
+    "fair": -6269
+   },
+   "thr_o2.5": {
+    "p_model": 0.0011,
+    "line": 2.5,
+    "p": 0.0011,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9989,
+    "line": 2.5,
+    "p": 0.9989,
+    "fair": -9900
+   },
+   "reb_o7.5": {
+    "p_model": 0.4779,
+    "line": 7.5,
+    "p": 0.4779,
+    "fair": 109
+   },
+   "reb_u7.5": {
+    "p_model": 0.5221,
+    "line": 7.5,
+    "p": 0.5221,
+    "fair": -109
+   },
+   "ast_o1.5": {
+    "p_model": 0.3837,
+    "line": 1.5,
+    "p": 0.3837,
+    "fair": 161
+   },
+   "ast_u1.5": {
+    "p_model": 0.6163,
+    "line": 1.5,
+    "p": 0.6163,
+    "fair": -161
+   }
+  },
+  {
+   "id": 6589,
+   "name": "Draymond Green",
+   "team": "GSW",
+   "opp": "SAS",
+   "pos": "W",
+   "game_id": "401909302",
+   "min": 26.6,
+   "exp_thr": 0.6,
+   "exp_reb": 5.18,
+   "exp_ast": 6.37,
+   "env": 0.968,
+   "thr_o1.5": {
+    "p_model": 0.1278,
+    "line": 1.5,
+    "p": 0.1278,
+    "fair": 682
+   },
+   "thr_u1.5": {
+    "p_model": 0.8722,
+    "line": 1.5,
+    "p": 0.8722,
+    "fair": -682
+   },
+   "thr_o2.5": {
+    "p_model": 0.0286,
+    "line": 2.5,
+    "p": 0.0286,
+    "fair": 3397
+   },
+   "thr_u2.5": {
+    "p_model": 0.9714,
+    "line": 2.5,
+    "p": 0.9714,
+    "fair": -3397
+   },
+   "reb_o5.5": {
+    "p_model": 0.4079,
+    "line": 5.5,
+    "p": 0.4079,
+    "fair": 145
+   },
+   "reb_u5.5": {
+    "p_model": 0.5921,
+    "line": 5.5,
+    "p": 0.5921,
+    "fair": -145
+   },
+   "ast_o6.5": {
+    "p_model": 0.4389,
+    "line": 6.5,
+    "p": 0.4389,
+    "fair": 128
+   },
+   "ast_u6.5": {
+    "p_model": 0.5611,
+    "line": 6.5,
+    "p": 0.5611,
+    "fair": -128
+   }
+  },
+  {
+   "id": 6606,
+   "name": "Damian Lillard",
+   "team": "POR",
+   "opp": "SAC",
+   "pos": "G",
+   "game_id": "401909303",
+   "min": 29.2,
+   "exp_thr": 2.42,
+   "exp_reb": 3.3,
+   "exp_ast": 3.77,
+   "env": 0.984,
+   "thr_o1.5": {
+    "p_model": 0.6557,
+    "line": 1.5,
+    "p": 0.6557,
+    "fair": -190
+   },
+   "thr_u1.5": {
+    "p_model": 0.3443,
+    "line": 1.5,
+    "p": 0.3443,
+    "fair": 190
+   },
+   "thr_o2.5": {
+    "p_model": 0.4214,
+    "line": 2.5,
+    "p": 0.4214,
+    "fair": 137
+   },
+   "thr_u2.5": {
+    "p_model": 0.5786,
+    "line": 2.5,
+    "p": 0.5786,
+    "fair": -137
+   },
+   "reb_o3.5": {
+    "p_model": 0.4119,
+    "line": 3.5,
+    "p": 0.4119,
+    "fair": 143
+   },
+   "reb_u3.5": {
+    "p_model": 0.5881,
+    "line": 3.5,
+    "p": 0.5881,
+    "fair": -143
+   },
+   "ast_o3.5": {
+    "p_model": 0.4994,
+    "line": 3.5,
+    "p": 0.4994,
+    "fair": 100
+   },
+   "ast_u3.5": {
+    "p_model": 0.5006,
+    "line": 3.5,
+    "p": 0.5006,
+    "fair": -100
+   }
+  },
+  {
+   "id": 2991139,
+   "name": "Kris Dunn",
+   "team": "LAC",
+   "opp": "OKC",
+   "pos": "G",
+   "game_id": "401909304",
+   "min": 27.6,
+   "exp_thr": 1.01,
+   "exp_reb": 3.74,
+   "exp_ast": 3.8,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.2657,
+    "line": 1.5,
+    "p": 0.2657,
+    "fair": 276
+   },
+   "thr_u1.5": {
+    "p_model": 0.7343,
+    "line": 1.5,
+    "p": 0.7343,
+    "fair": -276
+   },
+   "thr_o2.5": {
+    "p_model": 0.0916,
+    "line": 2.5,
+    "p": 0.0916,
+    "fair": 992
+   },
+   "thr_u2.5": {
+    "p_model": 0.9084,
+    "line": 2.5,
+    "p": 0.9084,
+    "fair": -992
+   },
+   "reb_o3.5": {
+    "p_model": 0.4928,
+    "line": 3.5,
+    "p": 0.4928,
+    "fair": 103
+   },
+   "reb_u3.5": {
+    "p_model": 0.5072,
+    "line": 3.5,
+    "p": 0.5072,
+    "fair": -103
+   },
+   "ast_o3.5": {
+    "p_model": 0.5044,
+    "line": 3.5,
+    "p": 0.5044,
+    "fair": -102
+   },
+   "ast_u3.5": {
+    "p_model": 0.4956,
+    "line": 3.5,
+    "p": 0.4956,
+    "fair": 102
+   }
+  },
+  {
+   "id": 2991230,
+   "name": "Fred VanVleet",
+   "team": "HOU",
+   "opp": "UTA",
+   "pos": "G",
+   "game_id": "401909301",
+   "min": 30.0,
+   "exp_thr": 2.47,
+   "exp_reb": 3.58,
+   "exp_ast": 4.57,
+   "env": 0.983,
+   "thr_o1.5": {
+    "p_model": 0.6639,
+    "line": 1.5,
+    "p": 0.6639,
+    "fair": -198
+   },
+   "thr_u1.5": {
+    "p_model": 0.3361,
+    "line": 1.5,
+    "p": 0.3361,
+    "fair": 198
+   },
+   "thr_o2.5": {
+    "p_model": 0.431,
+    "line": 2.5,
+    "p": 0.431,
+    "fair": 132
+   },
+   "thr_u2.5": {
+    "p_model": 0.569,
+    "line": 2.5,
+    "p": 0.569,
+    "fair": -132
+   },
+   "reb_o3.5": {
+    "p_model": 0.4647,
+    "line": 3.5,
+    "p": 0.4647,
+    "fair": 115
+   },
+   "reb_u3.5": {
+    "p_model": 0.5353,
+    "line": 3.5,
+    "p": 0.5353,
+    "fair": -115
+   },
+   "ast_o4.5": {
+    "p_model": 0.4635,
+    "line": 4.5,
+    "p": 0.4635,
+    "fair": 116
+   },
+   "ast_u4.5": {
+    "p_model": 0.5365,
+    "line": 4.5,
+    "p": 0.5365,
+    "fair": -116
+   }
+  },
+  {
+   "id": 2995706,
+   "name": "Mario Hezonja",
+   "team": "CLE",
+   "opp": "MIA",
+   "pos": "W",
+   "game_id": "401909298",
+   "min": 18.9,
+   "exp_thr": 1.39,
+   "exp_reb": 4.45,
+   "exp_ast": 1.65,
+   "env": 0.988,
+   "thr_o1.5": {
+    "p_model": 0.3927,
+    "line": 1.5,
+    "p": 0.3927,
+    "fair": 155
+   },
+   "thr_u1.5": {
+    "p_model": 0.6073,
+    "line": 1.5,
+    "p": 0.6073,
+    "fair": -155
+   },
+   "thr_o2.5": {
+    "p_model": 0.174,
+    "line": 2.5,
+    "p": 0.174,
+    "fair": 475
+   },
+   "thr_u2.5": {
+    "p_model": 0.826,
+    "line": 2.5,
+    "p": 0.826,
+    "fair": -475
+   },
+   "reb_o4.5": {
+    "p_model": 0.4448,
+    "line": 4.5,
+    "p": 0.4448,
+    "fair": 125
+   },
+   "reb_u4.5": {
+    "p_model": 0.5552,
+    "line": 4.5,
+    "p": 0.5552,
+    "fair": -125
+   },
+   "ast_o1.5": {
+    "p_model": 0.477,
+    "line": 1.5,
+    "p": 0.477,
+    "fair": 110
+   },
+   "ast_u1.5": {
+    "p_model": 0.523,
+    "line": 1.5,
+    "p": 0.523,
+    "fair": -110
+   }
+  },
+  {
+   "id": 3032977,
+   "name": "Giannis Antetokounmpo",
+   "team": "MIA",
+   "opp": "CLE",
+   "pos": "W",
+   "game_id": "401909298",
+   "min": 31.6,
+   "exp_thr": 0.77,
+   "exp_reb": 11.63,
+   "exp_ast": 5.21,
+   "env": 0.988,
+   "status": "Day-To-Day",
+   "thr_o1.5": {
+    "p_model": 0.1846,
+    "line": 1.5,
+    "p": 0.1846,
+    "fair": 442
+   },
+   "thr_u1.5": {
+    "p_model": 0.8154,
+    "line": 1.5,
+    "p": 0.8154,
+    "fair": -442
+   },
+   "thr_o2.5": {
+    "p_model": 0.0511,
+    "line": 2.5,
+    "p": 0.0511,
+    "fair": 1857
+   },
+   "thr_u2.5": {
+    "p_model": 0.9489,
+    "line": 2.5,
+    "p": 0.9489,
+    "fair": -1857
+   },
+   "reb_o11.5": {
+    "p_model": 0.4699,
+    "line": 11.5,
+    "p": 0.4699,
+    "fair": 113
+   },
+   "reb_u11.5": {
+    "p_model": 0.5301,
+    "line": 11.5,
+    "p": 0.5301,
+    "fair": -113
+   },
+   "ast_o5.5": {
+    "p_model": 0.4133,
+    "line": 5.5,
     "p": 0.4133,
     "fair": 142
    },
-   "ast_u1.5": {
+   "ast_u5.5": {
     "p_model": 0.5867,
-    "line": 1.5,
+    "line": 5.5,
     "p": 0.5867,
     "fair": -142
    }
   },
   {
-   "id": 3138160,
-   "name": "Caleb Martin",
-   "team": "DAL",
-   "opp": "MIN",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 16.5,
-   "exp_thr": 0.33,
-   "exp_reb": 2.63,
-   "exp_ast": 1.42,
-   "env": 0.995,
+   "id": 3062679,
+   "name": "Josh Hart",
+   "team": "NYK",
+   "opp": "IND",
+   "pos": "G",
+   "game_id": "401909296",
+   "min": 30.2,
+   "exp_thr": 1.6,
+   "exp_reb": 6.93,
+   "exp_ast": 4.19,
+   "env": 0.999,
    "thr_o1.5": {
-    "p_model": 0.0458,
+    "p_model": 0.4582,
     "line": 1.5,
-    "prices": {
-     "DraftKings": 250,
-     "Hard Rock Bet": 200
-    },
-    "p_mkt": 0.2885,
-    "p": 0.2036,
-    "fair": 391,
-    "price": 250,
-    "book": "DraftKings",
-    "ev": -0.2876,
-    "likely": false
+    "p": 0.4582,
+    "fair": 118
    },
    "thr_u1.5": {
-    "p_model": 0.9542,
+    "p_model": 0.5418,
     "line": 1.5,
-    "prices": {
-     "DraftKings": -345,
-     "Hard Rock Bet": -300
-    },
-    "p_mkt": 0.7115,
-    "p": 0.7964,
-    "fair": -391,
-    "price": -300,
-    "book": "Hard Rock Bet",
-    "ev": 0.0619,
-    "likely": false
+    "p": 0.5418,
+    "fair": -118
    },
-   "reb_o2.5": {
-    "p_model": 0.4728,
-    "line": 2.5,
-    "p": 0.4728,
-    "fair": 112
-   },
-   "reb_u2.5": {
-    "p_model": 0.5272,
-    "line": 2.5,
-    "p": 0.5272,
-    "fair": -112
-   },
-   "ast_o1.5": {
-    "p_model": 0.4067,
-    "line": 1.5,
-    "p": 0.4067,
-    "fair": 146
-   },
-   "ast_u1.5": {
-    "p_model": 0.5933,
-    "line": 1.5,
-    "p": 0.5933,
-    "fair": -146
-   }
-  },
-  {
-   "id": 3155526,
-   "name": "Dillon Brooks",
-   "team": "PHX",
-   "opp": "CHA",
-   "pos": "W",
-   "game_id": "401909979",
-   "min": 30.1,
-   "exp_thr": 1.75,
-   "exp_reb": 3.83,
-   "exp_ast": 1.89,
-   "env": 0.993,
-   "thr_o1.5": {
-    "p_model": 0.5007,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -132,
-     "DraftKings": -145,
-     "theScore Bet": -130,
-     "betPARX": -162,
-     "BetRivers": -162,
-     "BetMGM": -120,
-     "Hard Rock Bet": -130
-    },
-    "p_mkt": 0.5372,
-    "p": 0.5244,
-    "fair": -110,
-    "price": -120,
-    "book": "BetMGM",
-    "ev": -0.0386,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.4993,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": 104,
-     "DraftKings": 110,
-     "theScore Bet": 100,
-     "betPARX": 118,
-     "BetRivers": 118,
-     "BetMGM": -110,
-     "Hard Rock Bet": 100
-    },
-    "p_mkt": 0.4628,
-    "p": 0.4756,
-    "fair": 110,
-    "price": 118,
-    "book": "betPARX",
-    "ev": 0.0368,
-    "likely": false
-   },
-   "reb_o3.5": {
-    "p_model": 0.5087,
-    "line": 3.5,
-    "p": 0.5087,
-    "fair": -104
-   },
-   "reb_u3.5": {
-    "p_model": 0.4913,
-    "line": 3.5,
-    "p": 0.4913,
-    "fair": 104
-   },
-   "ast_o1.5": {
-    "p_model": 0.5461,
-    "line": 1.5,
-    "p": 0.5461,
-    "fair": -120
-   },
-   "ast_u1.5": {
-    "p_model": 0.4539,
-    "line": 1.5,
-    "p": 0.4539,
-    "fair": 120
-   }
-  },
-  {
-   "id": 3157465,
-   "name": "Duncan Robinson",
-   "team": "DET",
-   "opp": "WAS",
-   "pos": "W",
-   "game_id": "401909977",
-   "min": 29.5,
-   "exp_thr": 3.43,
-   "exp_reb": 2.67,
-   "exp_ast": 2.29,
-   "env": 1.052,
-   "thr_o3.5": {
-    "p_model": 0.4311,
-    "line": 3.5,
-    "prices": {
-     "FanDuel": 124,
-     "DraftKings": 100,
-     "Hard Rock Bet": 120
-    },
-    "p_mkt": 0.417,
-    "p": 0.4219,
-    "fair": 137,
-    "price": 124,
-    "book": "FanDuel",
-    "ev": -0.0549,
-    "likely": false
-   },
-   "thr_u3.5": {
-    "p_model": 0.5689,
-    "line": 3.5,
-    "prices": {
-     "FanDuel": -166,
-     "DraftKings": -130,
-     "Hard Rock Bet": -175
-    },
-    "p_mkt": 0.583,
-    "p": 0.5781,
-    "fair": -137,
-    "price": -130,
-    "book": "DraftKings",
-    "ev": 0.0227,
-    "likely": true
-   },
-   "reb_o2.5": {
-    "p_model": 0.4818,
-    "line": 2.5,
-    "p": 0.4818,
-    "fair": 108
-   },
-   "reb_u2.5": {
-    "p_model": 0.5182,
-    "line": 2.5,
-    "p": 0.5182,
-    "fair": -108
-   },
-   "ast_o2.5": {
-    "p_model": 0.394,
-    "line": 2.5,
-    "p": 0.394,
-    "fair": 154
-   },
-   "ast_u2.5": {
-    "p_model": 0.606,
-    "line": 2.5,
-    "p": 0.606,
-    "fair": -154
-   }
-  },
-  {
-   "id": 3908845,
-   "name": "John Collins",
-   "team": "DET",
-   "opp": "WAS",
-   "pos": "W",
-   "game_id": "401909977",
-   "min": 26.6,
-   "exp_thr": 0.99,
-   "exp_reb": 5.91,
-   "exp_ast": 1.0,
-   "env": 1.052,
-   "thr_o1.5": {
-    "p_model": 0.2602,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": 182,
-     "DraftKings": 154
-    },
-    "p_mkt": 0.3515,
-    "p": 0.3195,
-    "fair": 213,
-    "price": 182,
-    "book": "FanDuel",
-    "ev": -0.0989,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.7398,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -250,
-     "DraftKings": -200
-    },
-    "p_mkt": 0.6485,
-    "p": 0.6805,
-    "fair": -213,
-    "price": -200,
-    "book": "DraftKings",
-    "ev": 0.0207,
-    "likely": true
-   },
-   "reb_o5.5": {
-    "p_model": 0.5106,
-    "line": 5.5,
-    "p": 0.5106,
-    "fair": -104
-   },
-   "reb_u5.5": {
-    "p_model": 0.4894,
-    "line": 5.5,
-    "p": 0.4894,
-    "fair": 104
-   },
-   "ast_o1.5": {
-    "p_model": 0.2647,
-    "line": 1.5,
-    "p": 0.2647,
-    "fair": 278
-   },
-   "ast_u1.5": {
-    "p_model": 0.7353,
-    "line": 1.5,
-    "p": 0.7353,
-    "fair": -278
-   }
-  },
-  {
-   "id": 3912848,
-   "name": "Dean Wade",
-   "team": "PHI",
-   "opp": "TOR",
-   "pos": "W",
-   "game_id": "401909976",
-   "min": 22.7,
-   "exp_thr": 0.85,
-   "exp_reb": 4.07,
-   "exp_ast": 1.56,
-   "env": 1.054,
    "thr_o2.5": {
-    "p_model": 0.0629,
+    "p_model": 0.2255,
     "line": 2.5,
-    "prices": {
-     "FanDuel": 154,
-     "DraftKings": 120,
-     "Hard Rock Bet": 135
-    },
-    "p_mkt": 0.3916,
-    "p": 0.2766,
-    "fair": 262,
-    "price": 154,
-    "book": "FanDuel",
-    "ev": -0.2976,
-    "likely": false
+    "p": 0.2255,
+    "fair": 343
    },
    "thr_u2.5": {
-    "p_model": 0.9371,
+    "p_model": 0.7745,
     "line": 2.5,
-    "prices": {
-     "FanDuel": -210,
-     "DraftKings": -154,
-     "Hard Rock Bet": -195
-    },
-    "p_mkt": 0.6084,
-    "p": 0.7234,
-    "fair": -262,
-    "price": -154,
-    "book": "DraftKings",
-    "ev": 0.1932,
-    "likely": true
-   },
-   "reb_o4.5": {
-    "p_model": 0.3819,
-    "line": 4.5,
-    "p": 0.3819,
-    "fair": 162
-   },
-   "reb_u4.5": {
-    "p_model": 0.6181,
-    "line": 4.5,
-    "p": 0.6181,
-    "fair": -162
-   },
-   "ast_o1.5": {
-    "p_model": 0.45,
-    "line": 1.5,
-    "p": 0.45,
-    "fair": 122
-   },
-   "ast_u1.5": {
-    "p_model": 0.55,
-    "line": 1.5,
-    "p": 0.55,
-    "fair": -122
-   }
-  },
-  {
-   "id": 3917376,
-   "name": "Jaylen Brown",
-   "team": "PHI",
-   "opp": "TOR",
-   "pos": "G",
-   "game_id": "401909976",
-   "min": 34.2,
-   "exp_thr": 1.95,
-   "exp_reb": 6.69,
-   "exp_ast": 4.4,
-   "env": 1.054,
-   "thr_o0.5": {
-    "p_model": 0.8252,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": -132,
-     "DraftKings": -154,
-     "BetMGM": -150,
-     "Hard Rock Bet": -120
-    },
-    "p_mkt": 0.5449,
-    "p": 0.643,
-    "fair": -180,
-    "price": -120,
-    "book": "Hard Rock Bet",
-    "ev": 0.1788,
-    "likely": true
-   },
-   "thr_u0.5": {
-    "p_model": 0.1748,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": 100,
-     "DraftKings": 120,
-     "BetMGM": 110,
-     "Hard Rock Bet": -120
-    },
-    "p_mkt": 0.4551,
-    "p": 0.357,
-    "fair": 180,
-    "price": 120,
-    "book": "DraftKings",
-    "ev": -0.2146,
-    "likely": false
+    "p": 0.7745,
+    "fair": -343
    },
    "reb_o6.5": {
-    "p_model": 0.4789,
+    "p_model": 0.5089,
     "line": 6.5,
-    "p": 0.4789,
-    "fair": 109
+    "p": 0.5089,
+    "fair": -104
    },
    "reb_u6.5": {
-    "p_model": 0.5211,
+    "p_model": 0.4911,
     "line": 6.5,
-    "p": 0.5211,
-    "fair": -109
+    "p": 0.4911,
+    "fair": 104
    },
    "ast_o4.5": {
-    "p_model": 0.4365,
+    "p_model": 0.402,
     "line": 4.5,
-    "p": 0.4365,
-    "fair": 129
+    "p": 0.402,
+    "fair": 149
    },
    "ast_u4.5": {
-    "p_model": 0.5635,
+    "p_model": 0.598,
     "line": 4.5,
-    "p": 0.5635,
-    "fair": -129
+    "p": 0.598,
+    "fair": -149
    }
   },
   {
-   "id": 4066372,
-   "name": "Kevin Huerter",
-   "team": "DET",
-   "opp": "WAS",
+   "id": 3064440,
+   "name": "Zach LaVine",
+   "team": "SAC",
+   "opp": "POR",
    "pos": "G",
-   "game_id": "401909977",
-   "min": 23.8,
-   "exp_thr": 1.59,
-   "exp_reb": 3.27,
-   "exp_ast": 2.6,
-   "env": 1.052,
+   "game_id": "401909303",
+   "min": 31.7,
+   "exp_thr": 2.47,
+   "exp_reb": 3.17,
+   "exp_ast": 2.4,
+   "env": 0.984,
    "thr_o1.5": {
-    "p_model": 0.4538,
+    "p_model": 0.6638,
     "line": 1.5,
-    "prices": {
-     "FanDuel": -172,
-     "DraftKings": -125,
-     "Hard Rock Bet": -140
-    },
-    "p_mkt": 0.5554,
-    "p": 0.5198,
-    "fair": -108,
-    "price": -125,
-    "book": "DraftKings",
-    "ev": -0.0643,
-    "likely": false
+    "p": 0.6638,
+    "fair": -197
    },
    "thr_u1.5": {
-    "p_model": 0.5462,
+    "p_model": 0.3362,
     "line": 1.5,
-    "prices": {
-     "FanDuel": 128,
-     "DraftKings": -105
-    },
-    "p_mkt": 0.4446,
-    "p": 0.4802,
-    "fair": 108,
-    "price": 128,
-    "book": "FanDuel",
-    "ev": 0.0948,
-    "likely": false
+    "p": 0.3362,
+    "fair": 197
+   },
+   "thr_o2.5": {
+    "p_model": 0.4309,
+    "line": 2.5,
+    "p": 0.4309,
+    "fair": 132
+   },
+   "thr_u2.5": {
+    "p_model": 0.5691,
+    "line": 2.5,
+    "p": 0.5691,
+    "fair": -132
    },
    "reb_o3.5": {
-    "p_model": 0.4048,
+    "p_model": 0.3856,
     "line": 3.5,
-    "p": 0.4048,
-    "fair": 147
+    "p": 0.3856,
+    "fair": 159
    },
    "reb_u3.5": {
-    "p_model": 0.5952,
+    "p_model": 0.6144,
     "line": 3.5,
-    "p": 0.5952,
-    "fair": -147
+    "p": 0.6144,
+    "fair": -159
    },
    "ast_o2.5": {
-    "p_model": 0.4656,
+    "p_model": 0.4214,
     "line": 2.5,
-    "p": 0.4656,
+    "p": 0.4214,
+    "fair": 137
+   },
+   "ast_u2.5": {
+    "p_model": 0.5786,
+    "line": 2.5,
+    "p": 0.5786,
+    "fair": -137
+   }
+  },
+  {
+   "id": 3133603,
+   "name": "Kelly Oubre Jr.",
+   "team": "IND",
+   "opp": "NYK",
+   "pos": "G",
+   "game_id": "401909296",
+   "min": 26.8,
+   "exp_thr": 1.54,
+   "exp_reb": 3.96,
+   "exp_ast": 1.46,
+   "env": 0.999,
+   "thr_o1.5": {
+    "p_model": 0.4396,
+    "line": 1.5,
+    "p": 0.4396,
+    "fair": 127
+   },
+   "thr_u1.5": {
+    "p_model": 0.5604,
+    "line": 1.5,
+    "p": 0.5604,
+    "fair": -127
+   },
+   "thr_o2.5": {
+    "p_model": 0.2102,
+    "line": 2.5,
+    "p": 0.2102,
+    "fair": 376
+   },
+   "thr_u2.5": {
+    "p_model": 0.7898,
+    "line": 2.5,
+    "p": 0.7898,
+    "fair": -376
+   },
+   "reb_o3.5": {
+    "p_model": 0.5312,
+    "line": 3.5,
+    "p": 0.5312,
+    "fair": -113
+   },
+   "reb_u3.5": {
+    "p_model": 0.4688,
+    "line": 3.5,
+    "p": 0.4688,
+    "fair": 113
+   },
+   "ast_o1.5": {
+    "p_model": 0.4208,
+    "line": 1.5,
+    "p": 0.4208,
+    "fair": 138
+   },
+   "ast_u1.5": {
+    "p_model": 0.5792,
+    "line": 1.5,
+    "p": 0.5792,
+    "fair": -138
+   }
+  },
+  {
+   "id": 3133626,
+   "name": "Kenrich Williams",
+   "team": "OKC",
+   "opp": "LAC",
+   "pos": "G",
+   "game_id": "401909304",
+   "min": 18.8,
+   "exp_thr": 1.04,
+   "exp_reb": 3.37,
+   "exp_ast": 1.39,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.2764,
+    "line": 1.5,
+    "p": 0.2764,
+    "fair": 262
+   },
+   "thr_u1.5": {
+    "p_model": 0.7236,
+    "line": 1.5,
+    "p": 0.7236,
+    "fair": -262
+   },
+   "thr_o2.5": {
+    "p_model": 0.0977,
+    "line": 2.5,
+    "p": 0.0977,
+    "fair": 924
+   },
+   "thr_u2.5": {
+    "p_model": 0.9023,
+    "line": 2.5,
+    "p": 0.9023,
+    "fair": -924
+   },
+   "reb_o3.5": {
+    "p_model": 0.424,
+    "line": 3.5,
+    "p": 0.424,
+    "fair": 136
+   },
+   "reb_u3.5": {
+    "p_model": 0.576,
+    "line": 3.5,
+    "p": 0.576,
+    "fair": -136
+   },
+   "ast_o1.5": {
+    "p_model": 0.3981,
+    "line": 1.5,
+    "p": 0.3981,
+    "fair": 151
+   },
+   "ast_u1.5": {
+    "p_model": 0.6019,
+    "line": 1.5,
+    "p": 0.6019,
+    "fair": -151
+   }
+  },
+  {
+   "id": 3136195,
+   "name": "Karl-Anthony Towns",
+   "team": "NYK",
+   "opp": "IND",
+   "pos": "B",
+   "game_id": "401909296",
+   "min": 31.1,
+   "exp_thr": 1.67,
+   "exp_reb": 12.72,
+   "exp_ast": 3.37,
+   "env": 0.999,
+   "thr_o1.5": {
+    "p_model": 0.4764,
+    "line": 1.5,
+    "p": 0.4764,
+    "fair": 110
+   },
+   "thr_u1.5": {
+    "p_model": 0.5236,
+    "line": 1.5,
+    "p": 0.5236,
+    "fair": -110
+   },
+   "thr_o2.5": {
+    "p_model": 0.2409,
+    "line": 2.5,
+    "p": 0.2409,
+    "fair": 315
+   },
+   "thr_u2.5": {
+    "p_model": 0.7591,
+    "line": 2.5,
+    "p": 0.7591,
+    "fair": -315
+   },
+   "reb_o12.5": {
+    "p_model": 0.4767,
+    "line": 12.5,
+    "p": 0.4767,
+    "fair": 110
+   },
+   "reb_u12.5": {
+    "p_model": 0.5233,
+    "line": 12.5,
+    "p": 0.5233,
+    "fair": -110
+   },
+   "ast_o3.5": {
+    "p_model": 0.4249,
+    "line": 3.5,
+    "p": 0.4249,
+    "fair": 135
+   },
+   "ast_u3.5": {
+    "p_model": 0.5751,
+    "line": 3.5,
+    "p": 0.5751,
+    "fair": -135
+   }
+  },
+  {
+   "id": 3149673,
+   "name": "Pascal Siakam",
+   "team": "IND",
+   "opp": "NYK",
+   "pos": "W",
+   "game_id": "401909296",
+   "min": 32.9,
+   "exp_thr": 1.99,
+   "exp_reb": 6.67,
+   "exp_ast": 4.13,
+   "env": 0.999,
+   "thr_o1.5": {
+    "p_model": 0.5622,
+    "line": 1.5,
+    "p": 0.5622,
+    "fair": -128
+   },
+   "thr_u1.5": {
+    "p_model": 0.4378,
+    "line": 1.5,
+    "p": 0.4378,
+    "fair": 128
+   },
+   "thr_o2.5": {
+    "p_model": 0.3206,
+    "line": 2.5,
+    "p": 0.3206,
+    "fair": 212
+   },
+   "thr_u2.5": {
+    "p_model": 0.6794,
+    "line": 2.5,
+    "p": 0.6794,
+    "fair": -212
+   },
+   "reb_o6.5": {
+    "p_model": 0.4766,
+    "line": 6.5,
+    "p": 0.4766,
+    "fair": 110
+   },
+   "reb_u6.5": {
+    "p_model": 0.5234,
+    "line": 6.5,
+    "p": 0.5234,
+    "fair": -110
+   },
+   "ast_o4.5": {
+    "p_model": 0.3917,
+    "line": 4.5,
+    "p": 0.3917,
+    "fair": 155
+   },
+   "ast_u4.5": {
+    "p_model": 0.6083,
+    "line": 4.5,
+    "p": 0.6083,
+    "fair": -155
+   }
+  },
+  {
+   "id": 3155942,
+   "name": "Domantas Sabonis",
+   "team": "SAC",
+   "opp": "POR",
+   "pos": "W",
+   "game_id": "401909303",
+   "min": 31.6,
+   "exp_thr": 0.33,
+   "exp_reb": 11.06,
+   "exp_ast": 4.87,
+   "env": 0.984,
+   "thr_o1.5": {
+    "p_model": 0.0465,
+    "line": 1.5,
+    "p": 0.0465,
+    "fair": 2051
+   },
+   "thr_u1.5": {
+    "p_model": 0.9535,
+    "line": 1.5,
+    "p": 0.9535,
+    "fair": -2051
+   },
+   "thr_o2.5": {
+    "p_model": 0.006,
+    "line": 2.5,
+    "p": 0.006,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.994,
+    "line": 2.5,
+    "p": 0.994,
+    "fair": -9900
+   },
+   "reb_o11.5": {
+    "p_model": 0.4216,
+    "line": 11.5,
+    "p": 0.4216,
+    "fair": 137
+   },
+   "reb_u11.5": {
+    "p_model": 0.5784,
+    "line": 11.5,
+    "p": 0.5784,
+    "fair": -137
+   },
+   "ast_o4.5": {
+    "p_model": 0.51,
+    "line": 4.5,
+    "p": 0.51,
+    "fair": -104
+   },
+   "ast_u4.5": {
+    "p_model": 0.49,
+    "line": 4.5,
+    "p": 0.49,
+    "fair": 104
+   }
+  },
+  {
+   "id": 3907497,
+   "name": "Dejounte Murray",
+   "team": "NOP",
+   "opp": "MEM",
+   "pos": "G",
+   "game_id": "401909300",
+   "min": 29.6,
+   "exp_thr": 1.06,
+   "exp_reb": 4.69,
+   "exp_ast": 4.81,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.2837,
+    "line": 1.5,
+    "p": 0.2837,
+    "fair": 252
+   },
+   "thr_u1.5": {
+    "p_model": 0.7163,
+    "line": 1.5,
+    "p": 0.7163,
+    "fair": -252
+   },
+   "thr_o2.5": {
+    "p_model": 0.1019,
+    "line": 2.5,
+    "p": 0.1019,
+    "fair": 881
+   },
+   "thr_u2.5": {
+    "p_model": 0.8981,
+    "line": 2.5,
+    "p": 0.8981,
+    "fair": -881
+   },
+   "reb_o4.5": {
+    "p_model": 0.4823,
+    "line": 4.5,
+    "p": 0.4823,
+    "fair": 107
+   },
+   "reb_u4.5": {
+    "p_model": 0.5177,
+    "line": 4.5,
+    "p": 0.5177,
+    "fair": -107
+   },
+   "ast_o4.5": {
+    "p_model": 0.5014,
+    "line": 4.5,
+    "p": 0.5014,
+    "fair": -101
+   },
+   "ast_u4.5": {
+    "p_model": 0.4986,
+    "line": 4.5,
+    "p": 0.4986,
+    "fair": 101
+   }
+  },
+  {
+   "id": 3908809,
+   "name": "Donovan Mitchell",
+   "team": "CLE",
+   "opp": "MIA",
+   "pos": "G",
+   "game_id": "401909298",
+   "min": 32.9,
+   "exp_thr": 3.03,
+   "exp_reb": 4.72,
+   "exp_ast": 5.62,
+   "env": 0.988,
+   "thr_o1.5": {
+    "p_model": 0.7554,
+    "line": 1.5,
+    "p": 0.7554,
+    "fair": -309
+   },
+   "thr_u1.5": {
+    "p_model": 0.2446,
+    "line": 1.5,
+    "p": 0.2446,
+    "fair": 309
+   },
+   "thr_o2.5": {
+    "p_model": 0.5475,
+    "line": 2.5,
+    "p": 0.5475,
+    "fair": -121
+   },
+   "thr_u2.5": {
+    "p_model": 0.4525,
+    "line": 2.5,
+    "p": 0.4525,
+    "fair": 121
+   },
+   "reb_o4.5": {
+    "p_model": 0.4867,
+    "line": 4.5,
+    "p": 0.4867,
+    "fair": 105
+   },
+   "reb_u4.5": {
+    "p_model": 0.5133,
+    "line": 4.5,
+    "p": 0.5133,
+    "fair": -105
+   },
+   "ast_o5.5": {
+    "p_model": 0.471,
+    "line": 5.5,
+    "p": 0.471,
+    "fair": 112
+   },
+   "ast_u5.5": {
+    "p_model": 0.529,
+    "line": 5.5,
+    "p": 0.529,
+    "fair": -112
+   }
+  },
+  {
+   "id": 3934672,
+   "name": "Jalen Brunson",
+   "team": "NYK",
+   "opp": "IND",
+   "pos": "G",
+   "game_id": "401909296",
+   "min": 33.7,
+   "exp_thr": 2.67,
+   "exp_reb": 3.34,
+   "exp_ast": 5.74,
+   "env": 0.999,
+   "thr_o1.5": {
+    "p_model": 0.7002,
+    "line": 1.5,
+    "p": 0.7002,
+    "fair": -234
+   },
+   "thr_u1.5": {
+    "p_model": 0.2998,
+    "line": 1.5,
+    "p": 0.2998,
+    "fair": 234
+   },
+   "thr_o2.5": {
+    "p_model": 0.4751,
+    "line": 2.5,
+    "p": 0.4751,
+    "fair": 110
+   },
+   "thr_u2.5": {
+    "p_model": 0.5249,
+    "line": 2.5,
+    "p": 0.5249,
+    "fair": -110
+   },
+   "reb_o3.5": {
+    "p_model": 0.4185,
+    "line": 3.5,
+    "p": 0.4185,
+    "fair": 139
+   },
+   "reb_u3.5": {
+    "p_model": 0.5815,
+    "line": 3.5,
+    "p": 0.5815,
+    "fair": -139
+   },
+   "ast_o5.5": {
+    "p_model": 0.488,
+    "line": 5.5,
+    "p": 0.488,
+    "fair": 105
+   },
+   "ast_u5.5": {
+    "p_model": 0.512,
+    "line": 5.5,
+    "p": 0.512,
+    "fair": -105
+   }
+  },
+  {
+   "id": 3934719,
+   "name": "OG Anunoby",
+   "team": "NYK",
+   "opp": "IND",
+   "pos": "W",
+   "game_id": "401909296",
+   "min": 32.7,
+   "exp_thr": 2.46,
+   "exp_reb": 5.35,
+   "exp_ast": 2.26,
+   "env": 0.999,
+   "thr_o1.5": {
+    "p_model": 0.6633,
+    "line": 1.5,
+    "p": 0.6633,
+    "fair": -197
+   },
+   "thr_u1.5": {
+    "p_model": 0.3367,
+    "line": 1.5,
+    "p": 0.3367,
+    "fair": 197
+   },
+   "thr_o2.5": {
+    "p_model": 0.4302,
+    "line": 2.5,
+    "p": 0.4302,
+    "fair": 132
+   },
+   "thr_u2.5": {
+    "p_model": 0.5698,
+    "line": 2.5,
+    "p": 0.5698,
+    "fair": -132
+   },
+   "reb_o5.5": {
+    "p_model": 0.4337,
+    "line": 5.5,
+    "p": 0.4337,
+    "fair": 131
+   },
+   "reb_u5.5": {
+    "p_model": 0.5663,
+    "line": 5.5,
+    "p": 0.5663,
+    "fair": -131
+   },
+   "ast_o2.5": {
+    "p_model": 0.3881,
+    "line": 2.5,
+    "p": 0.3881,
+    "fair": 158
+   },
+   "ast_u2.5": {
+    "p_model": 0.6119,
+    "line": 2.5,
+    "p": 0.6119,
+    "fair": -158
+   }
+  },
+  {
+   "id": 3936099,
+   "name": "Derrick Jones Jr.",
+   "team": "LAC",
+   "opp": "OKC",
+   "pos": "W",
+   "game_id": "401909304",
+   "min": 28.1,
+   "exp_thr": 1.48,
+   "exp_reb": 4.38,
+   "exp_ast": 1.47,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.4215,
+    "line": 1.5,
+    "p": 0.4215,
+    "fair": 137
+   },
+   "thr_u1.5": {
+    "p_model": 0.5785,
+    "line": 1.5,
+    "p": 0.5785,
+    "fair": -137
+   },
+   "thr_o2.5": {
+    "p_model": 0.1958,
+    "line": 2.5,
+    "p": 0.1958,
+    "fair": 411
+   },
+   "thr_u2.5": {
+    "p_model": 0.8042,
+    "line": 2.5,
+    "p": 0.8042,
+    "fair": -411
+   },
+   "reb_o4.5": {
+    "p_model": 0.4334,
+    "line": 4.5,
+    "p": 0.4334,
+    "fair": 131
+   },
+   "reb_u4.5": {
+    "p_model": 0.5666,
+    "line": 4.5,
+    "p": 0.5666,
+    "fair": -131
+   },
+   "ast_o1.5": {
+    "p_model": 0.4222,
+    "line": 1.5,
+    "p": 0.4222,
+    "fair": 137
+   },
+   "ast_u1.5": {
+    "p_model": 0.5778,
+    "line": 1.5,
+    "p": 0.5778,
+    "fair": -137
+   }
+  },
+  {
+   "id": 4017837,
+   "name": "Ivica Zubac",
+   "team": "IND",
+   "opp": "NYK",
+   "pos": "B",
+   "game_id": "401909296",
+   "min": 25.8,
+   "exp_thr": 0.06,
+   "exp_reb": 9.4,
+   "exp_ast": 1.97,
+   "env": 0.999,
+   "thr_o1.5": {
+    "p_model": 0.002,
+    "line": 1.5,
+    "p": 0.002,
+    "fair": 9900
+   },
+   "thr_u1.5": {
+    "p_model": 0.998,
+    "line": 1.5,
+    "p": 0.998,
+    "fair": -9900
+   },
+   "thr_o2.5": {
+    "p_model": 0.0,
+    "line": 2.5,
+    "p": 0.0,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 1.0,
+    "line": 2.5,
+    "p": 1.0,
+    "fair": -9900
+   },
+   "reb_o9.5": {
+    "p_model": 0.4481,
+    "line": 9.5,
+    "p": 0.4481,
+    "fair": 123
+   },
+   "reb_u9.5": {
+    "p_model": 0.5519,
+    "line": 9.5,
+    "p": 0.5519,
+    "fair": -123
+   },
+   "ast_o1.5": {
+    "p_model": 0.565,
+    "line": 1.5,
+    "p": 0.565,
+    "fair": -130
+   },
+   "ast_u1.5": {
+    "p_model": 0.435,
+    "line": 1.5,
+    "p": 0.435,
+    "fair": 130
+   }
+  },
+  {
+   "id": 4065732,
+   "name": "De'Andre Hunter",
+   "team": "SAC",
+   "opp": "POR",
+   "pos": "W",
+   "game_id": "401909303",
+   "min": 30.0,
+   "exp_thr": 1.72,
+   "exp_reb": 4.42,
+   "exp_ast": 1.72,
+   "env": 0.984,
+   "thr_o1.5": {
+    "p_model": 0.4916,
+    "line": 1.5,
+    "p": 0.4916,
+    "fair": 103
+   },
+   "thr_u1.5": {
+    "p_model": 0.5084,
+    "line": 1.5,
+    "p": 0.5084,
+    "fair": -103
+   },
+   "thr_o2.5": {
+    "p_model": 0.2542,
+    "line": 2.5,
+    "p": 0.2542,
+    "fair": 293
+   },
+   "thr_u2.5": {
+    "p_model": 0.7458,
+    "line": 2.5,
+    "p": 0.7458,
+    "fair": -293
+   },
+   "reb_o4.5": {
+    "p_model": 0.4394,
+    "line": 4.5,
+    "p": 0.4394,
+    "fair": 128
+   },
+   "reb_u4.5": {
+    "p_model": 0.5606,
+    "line": 4.5,
+    "p": 0.5606,
+    "fair": -128
+   },
+   "ast_o1.5": {
+    "p_model": 0.4981,
+    "line": 1.5,
+    "p": 0.4981,
+    "fair": 101
+   },
+   "ast_u1.5": {
+    "p_model": 0.5019,
+    "line": 1.5,
+    "p": 0.5019,
+    "fair": -101
+   }
+  },
+  {
+   "id": 4065733,
+   "name": "Ty Jerome",
+   "team": "MEM",
+   "opp": "NOP",
+   "pos": "G",
+   "game_id": "401909300",
+   "min": 27.6,
+   "exp_thr": 2.62,
+   "exp_reb": 3.3,
+   "exp_ast": 4.75,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.6922,
+    "line": 1.5,
+    "p": 0.6922,
+    "fair": -225
+   },
+   "thr_u1.5": {
+    "p_model": 0.3078,
+    "line": 1.5,
+    "p": 0.3078,
+    "fair": 225
+   },
+   "thr_o2.5": {
+    "p_model": 0.4652,
+    "line": 2.5,
+    "p": 0.4652,
+    "fair": 115
+   },
+   "thr_u2.5": {
+    "p_model": 0.5348,
+    "line": 2.5,
+    "p": 0.5348,
+    "fair": -115
+   },
+   "reb_o3.5": {
+    "p_model": 0.4102,
+    "line": 3.5,
+    "p": 0.4102,
+    "fair": 144
+   },
+   "reb_u3.5": {
+    "p_model": 0.5898,
+    "line": 3.5,
+    "p": 0.5898,
+    "fair": -144
+   },
+   "ast_o4.5": {
+    "p_model": 0.4917,
+    "line": 4.5,
+    "p": 0.4917,
+    "fair": 103
+   },
+   "ast_u4.5": {
+    "p_model": 0.5083,
+    "line": 4.5,
+    "p": 0.5083,
+    "fair": -103
+   }
+  },
+  {
+   "id": 4066211,
+   "name": "Robert Williams III",
+   "team": "POR",
+   "opp": "SAC",
+   "pos": "B",
+   "game_id": "401909303",
+   "min": 16.5,
+   "exp_thr": 0.08,
+   "exp_reb": 6.25,
+   "exp_ast": 1.0,
+   "env": 0.984,
+   "thr_o1.5": {
+    "p_model": 0.0033,
+    "line": 1.5,
+    "p": 0.0033,
+    "fair": 9900
+   },
+   "thr_u1.5": {
+    "p_model": 0.9967,
+    "line": 1.5,
+    "p": 0.9967,
+    "fair": -9900
+   },
+   "thr_o2.5": {
+    "p_model": 0.0001,
+    "line": 2.5,
+    "p": 0.0001,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9999,
+    "line": 2.5,
+    "p": 0.9999,
+    "fair": -9900
+   },
+   "reb_o6.5": {
+    "p_model": 0.4239,
+    "line": 6.5,
+    "p": 0.4239,
+    "fair": 136
+   },
+   "reb_u6.5": {
+    "p_model": 0.5761,
+    "line": 6.5,
+    "p": 0.5761,
+    "fair": -136
+   },
+   "ast_o0.5": {
+    "p_model": 0.6163,
+    "line": 0.5,
+    "p": 0.6163,
+    "fair": -161
+   },
+   "ast_u0.5": {
+    "p_model": 0.3837,
+    "line": 0.5,
+    "p": 0.3837,
+    "fair": 161
+   }
+  },
+  {
+   "id": 4066259,
+   "name": "De'Aaron Fox",
+   "team": "SAS",
+   "opp": "GSW",
+   "pos": "G",
+   "game_id": "401909302",
+   "min": 29.7,
+   "exp_thr": 1.27,
+   "exp_reb": 3.84,
+   "exp_ast": 5.96,
+   "env": 0.968,
+   "status": "Day-To-Day",
+   "thr_o1.5": {
+    "p_model": 0.354,
+    "line": 1.5,
+    "p": 0.354,
+    "fair": 182
+   },
+   "thr_u1.5": {
+    "p_model": 0.646,
+    "line": 1.5,
+    "p": 0.646,
+    "fair": -182
+   },
+   "thr_o2.5": {
+    "p_model": 0.1464,
+    "line": 2.5,
+    "p": 0.1464,
+    "fair": 583
+   },
+   "thr_u2.5": {
+    "p_model": 0.8536,
+    "line": 2.5,
+    "p": 0.8536,
+    "fair": -583
+   },
+   "reb_o3.5": {
+    "p_model": 0.5112,
+    "line": 3.5,
+    "p": 0.5112,
+    "fair": -105
+   },
+   "reb_u3.5": {
+    "p_model": 0.4888,
+    "line": 3.5,
+    "p": 0.4888,
+    "fair": 105
+   },
+   "ast_o5.5": {
+    "p_model": 0.517,
+    "line": 5.5,
+    "p": 0.517,
+    "fair": -107
+   },
+   "ast_u5.5": {
+    "p_model": 0.483,
+    "line": 5.5,
+    "p": 0.483,
+    "fair": 107
+   }
+  },
+  {
+   "id": 4066261,
+   "name": "Bam Adebayo",
+   "team": "MIA",
+   "opp": "CLE",
+   "pos": "B",
+   "game_id": "401909298",
+   "min": 33.5,
+   "exp_thr": 1.23,
+   "exp_reb": 9.8,
+   "exp_ast": 3.29,
+   "env": 0.988,
+   "thr_o1.5": {
+    "p_model": 0.3405,
+    "line": 1.5,
+    "p": 0.3405,
+    "fair": 194
+   },
+   "thr_u1.5": {
+    "p_model": 0.6595,
+    "line": 1.5,
+    "p": 0.6595,
+    "fair": -194
+   },
+   "thr_o2.5": {
+    "p_model": 0.1374,
+    "line": 2.5,
+    "p": 0.1374,
+    "fair": 628
+   },
+   "thr_u2.5": {
+    "p_model": 0.8626,
+    "line": 2.5,
+    "p": 0.8626,
+    "fair": -628
+   },
+   "reb_o9.5": {
+    "p_model": 0.4861,
+    "line": 9.5,
+    "p": 0.4861,
+    "fair": 106
+   },
+   "reb_u9.5": {
+    "p_model": 0.5139,
+    "line": 9.5,
+    "p": 0.5139,
+    "fair": -106
+   },
+   "ast_o3.5": {
+    "p_model": 0.4099,
+    "line": 3.5,
+    "p": 0.4099,
+    "fair": 144
+   },
+   "ast_u3.5": {
+    "p_model": 0.5901,
+    "line": 3.5,
+    "p": 0.5901,
+    "fair": -144
+   }
+  },
+  {
+   "id": 4066328,
+   "name": "Jarrett Allen",
+   "team": "CLE",
+   "opp": "MIA",
+   "pos": "B",
+   "game_id": "401909298",
+   "min": 25.1,
+   "exp_thr": 0.17,
+   "exp_reb": 8.24,
+   "exp_ast": 1.66,
+   "env": 0.988,
+   "thr_o1.5": {
+    "p_model": 0.0139,
+    "line": 1.5,
+    "p": 0.0139,
+    "fair": 7094
+   },
+   "thr_u1.5": {
+    "p_model": 0.9861,
+    "line": 1.5,
+    "p": 0.9861,
+    "fair": -7094
+   },
+   "thr_o2.5": {
+    "p_model": 0.0009,
+    "line": 2.5,
+    "p": 0.0009,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9991,
+    "line": 2.5,
+    "p": 0.9991,
+    "fair": -9900
+   },
+   "reb_o8.5": {
+    "p_model": 0.4305,
+    "line": 8.5,
+    "p": 0.4305,
+    "fair": 132
+   },
+   "reb_u8.5": {
+    "p_model": 0.5695,
+    "line": 8.5,
+    "p": 0.5695,
+    "fair": -132
+   },
+   "ast_o1.5": {
+    "p_model": 0.4817,
+    "line": 1.5,
+    "p": 0.4817,
+    "fair": 108
+   },
+   "ast_u1.5": {
+    "p_model": 0.5183,
+    "line": 1.5,
+    "p": 0.5183,
+    "fair": -108
+   }
+  },
+  {
+   "id": 4066436,
+   "name": "De'Anthony Melton",
+   "team": "GSW",
+   "opp": "SAS",
+   "pos": "G",
+   "game_id": "401909302",
+   "min": 22.7,
+   "exp_thr": 1.52,
+   "exp_reb": 3.75,
+   "exp_ast": 2.37,
+   "env": 0.968,
+   "thr_o1.5": {
+    "p_model": 0.4347,
+    "line": 1.5,
+    "p": 0.4347,
+    "fair": 130
+   },
+   "thr_u1.5": {
+    "p_model": 0.5653,
+    "line": 1.5,
+    "p": 0.5653,
+    "fair": -130
+   },
+   "thr_o2.5": {
+    "p_model": 0.2063,
+    "line": 2.5,
+    "p": 0.2063,
+    "fair": 385
+   },
+   "thr_u2.5": {
+    "p_model": 0.7937,
+    "line": 2.5,
+    "p": 0.7937,
+    "fair": -385
+   },
+   "reb_o3.5": {
+    "p_model": 0.4946,
+    "line": 3.5,
+    "p": 0.4946,
+    "fair": 102
+   },
+   "reb_u3.5": {
+    "p_model": 0.5054,
+    "line": 3.5,
+    "p": 0.5054,
+    "fair": -102
+   },
+   "ast_o2.5": {
+    "p_model": 0.4134,
+    "line": 2.5,
+    "p": 0.4134,
+    "fair": 142
+   },
+   "ast_u2.5": {
+    "p_model": 0.5866,
+    "line": 2.5,
+    "p": 0.5866,
+    "fair": -142
+   }
+  },
+  {
+   "id": 4066648,
+   "name": "Rui Hachimura",
+   "team": "LAC",
+   "opp": "OKC",
+   "pos": "W",
+   "game_id": "401909304",
+   "min": 28.6,
+   "exp_thr": 2.45,
+   "exp_reb": 4.65,
+   "exp_ast": 1.37,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.66,
+    "line": 1.5,
+    "p": 0.66,
+    "fair": -194
+   },
+   "thr_u1.5": {
+    "p_model": 0.34,
+    "line": 1.5,
+    "p": 0.34,
+    "fair": 194
+   },
+   "thr_o2.5": {
+    "p_model": 0.4265,
+    "line": 2.5,
+    "p": 0.4265,
+    "fair": 134
+   },
+   "thr_u2.5": {
+    "p_model": 0.5735,
+    "line": 2.5,
+    "p": 0.5735,
+    "fair": -134
+   },
+   "reb_o4.5": {
+    "p_model": 0.4764,
+    "line": 4.5,
+    "p": 0.4764,
+    "fair": 110
+   },
+   "reb_u4.5": {
+    "p_model": 0.5236,
+    "line": 4.5,
+    "p": 0.5236,
+    "fair": -110
+   },
+   "ast_o1.5": {
+    "p_model": 0.3921,
+    "line": 1.5,
+    "p": 0.3921,
+    "fair": 155
+   },
+   "ast_u1.5": {
+    "p_model": 0.6079,
+    "line": 1.5,
+    "p": 0.6079,
+    "fair": -155
+   }
+  },
+  {
+   "id": 4222252,
+   "name": "Isaiah Hartenstein",
+   "team": "OKC",
+   "opp": "LAC",
+   "pos": "B",
+   "game_id": "401909304",
+   "min": 24.9,
+   "exp_thr": 0.07,
+   "exp_reb": 9.3,
+   "exp_ast": 3.78,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.0024,
+    "line": 1.5,
+    "p": 0.0024,
+    "fair": 9900
+   },
+   "thr_u1.5": {
+    "p_model": 0.9976,
+    "line": 1.5,
+    "p": 0.9976,
+    "fair": -9900
+   },
+   "thr_o2.5": {
+    "p_model": 0.0001,
+    "line": 2.5,
+    "p": 0.0001,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9999,
+    "line": 2.5,
+    "p": 0.9999,
+    "fair": -9900
+   },
+   "reb_o9.5": {
+    "p_model": 0.4386,
+    "line": 9.5,
+    "p": 0.4386,
+    "fair": 128
+   },
+   "reb_u9.5": {
+    "p_model": 0.5614,
+    "line": 9.5,
+    "p": 0.5614,
+    "fair": -128
+   },
+   "ast_o3.5": {
+    "p_model": 0.4998,
+    "line": 3.5,
+    "p": 0.4998,
+    "fair": 100
+   },
+   "ast_u3.5": {
+    "p_model": 0.5002,
+    "line": 3.5,
+    "p": 0.5002,
+    "fair": -100
+   }
+  },
+  {
+   "id": 4278053,
+   "name": "Davion Mitchell",
+   "team": "MIA",
+   "opp": "CLE",
+   "pos": "G",
+   "game_id": "401909298",
+   "min": 33.3,
+   "exp_thr": 2.03,
+   "exp_reb": 2.69,
+   "exp_ast": 7.71,
+   "env": 0.988,
+   "thr_o1.5": {
+    "p_model": 0.5702,
+    "line": 1.5,
+    "p": 0.5702,
+    "fair": -133
+   },
+   "thr_u1.5": {
+    "p_model": 0.4298,
+    "line": 1.5,
+    "p": 0.4298,
+    "fair": 133
+   },
+   "thr_o2.5": {
+    "p_model": 0.3286,
+    "line": 2.5,
+    "p": 0.3286,
+    "fair": 204
+   },
+   "thr_u2.5": {
+    "p_model": 0.6714,
+    "line": 2.5,
+    "p": 0.6714,
+    "fair": -204
+   },
+   "reb_o2.5": {
+    "p_model": 0.4863,
+    "line": 2.5,
+    "p": 0.4863,
+    "fair": 106
+   },
+   "reb_u2.5": {
+    "p_model": 0.5137,
+    "line": 2.5,
+    "p": 0.5137,
+    "fair": -106
+   },
+   "ast_o7.5": {
+    "p_model": 0.48,
+    "line": 7.5,
+    "p": 0.48,
+    "fair": 108
+   },
+   "ast_u7.5": {
+    "p_model": 0.52,
+    "line": 7.5,
+    "p": 0.52,
+    "fair": -108
+   }
+  },
+  {
+   "id": 4278073,
+   "name": "Shai Gilgeous-Alexander",
+   "team": "OKC",
+   "opp": "LAC",
+   "pos": "G",
+   "game_id": "401909304",
+   "min": 32.7,
+   "exp_thr": 2.08,
+   "exp_reb": 4.05,
+   "exp_ast": 5.25,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.5824,
+    "line": 1.5,
+    "p": 0.5824,
+    "fair": -139
+   },
+   "thr_u1.5": {
+    "p_model": 0.4176,
+    "line": 1.5,
+    "p": 0.4176,
+    "fair": 139
+   },
+   "thr_o2.5": {
+    "p_model": 0.3411,
+    "line": 2.5,
+    "p": 0.3411,
+    "fair": 193
+   },
+   "thr_u2.5": {
+    "p_model": 0.6589,
+    "line": 2.5,
+    "p": 0.6589,
+    "fair": -193
+   },
+   "reb_o4.5": {
+    "p_model": 0.3787,
+    "line": 4.5,
+    "p": 0.3787,
+    "fair": 164
+   },
+   "reb_u4.5": {
+    "p_model": 0.6213,
+    "line": 4.5,
+    "p": 0.6213,
+    "fair": -164
+   },
+   "ast_o5.5": {
+    "p_model": 0.4183,
+    "line": 5.5,
+    "p": 0.4183,
+    "fair": 139
+   },
+   "ast_u5.5": {
+    "p_model": 0.5817,
+    "line": 5.5,
+    "p": 0.5817,
+    "fair": -139
+   }
+  },
+  {
+   "id": 4278355,
+   "name": "Obi Toppin",
+   "team": "IND",
+   "opp": "NYK",
+   "pos": "W",
+   "game_id": "401909296",
+   "min": 19.2,
+   "exp_thr": 1.53,
+   "exp_reb": 4.44,
+   "exp_ast": 1.8,
+   "env": 0.999,
+   "thr_o1.5": {
+    "p_model": 0.4367,
+    "line": 1.5,
+    "p": 0.4367,
+    "fair": 129
+   },
+   "thr_u1.5": {
+    "p_model": 0.5633,
+    "line": 1.5,
+    "p": 0.5633,
+    "fair": -129
+   },
+   "thr_o2.5": {
+    "p_model": 0.2079,
+    "line": 2.5,
+    "p": 0.2079,
+    "fair": 381
+   },
+   "thr_u2.5": {
+    "p_model": 0.7921,
+    "line": 2.5,
+    "p": 0.7921,
+    "fair": -381
+   },
+   "reb_o4.5": {
+    "p_model": 0.4434,
+    "line": 4.5,
+    "p": 0.4434,
+    "fair": 126
+   },
+   "reb_u4.5": {
+    "p_model": 0.5566,
+    "line": 4.5,
+    "p": 0.5566,
+    "fair": -126
+   },
+   "ast_o1.5": {
+    "p_model": 0.5198,
+    "line": 1.5,
+    "p": 0.5198,
+    "fair": -108
+   },
+   "ast_u1.5": {
+    "p_model": 0.4802,
+    "line": 1.5,
+    "p": 0.4802,
+    "fair": 108
+   }
+  },
+  {
+   "id": 4395628,
+   "name": "Zion Williamson",
+   "team": "NOP",
+   "opp": "MEM",
+   "pos": "W",
+   "game_id": "401909300",
+   "min": 31.9,
+   "exp_thr": 0.16,
+   "exp_reb": 5.74,
+   "exp_ast": 2.96,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.0122,
+    "line": 1.5,
+    "p": 0.0122,
+    "fair": 8097
+   },
+   "thr_u1.5": {
+    "p_model": 0.9878,
+    "line": 1.5,
+    "p": 0.9878,
+    "fair": -8097
+   },
+   "thr_o2.5": {
+    "p_model": 0.0008,
+    "line": 2.5,
+    "p": 0.0008,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9992,
+    "line": 2.5,
+    "p": 0.9992,
+    "fair": -9900
+   },
+   "reb_o5.5": {
+    "p_model": 0.4872,
+    "line": 5.5,
+    "p": 0.4872,
+    "fair": 105
+   },
+   "reb_u5.5": {
+    "p_model": 0.5128,
+    "line": 5.5,
+    "p": 0.5128,
+    "fair": -105
+   },
+   "ast_o2.5": {
+    "p_model": 0.5442,
+    "line": 2.5,
+    "p": 0.5442,
+    "fair": -119
+   },
+   "ast_u2.5": {
+    "p_model": 0.4558,
+    "line": 2.5,
+    "p": 0.4558,
+    "fair": 119
+   }
+  },
+  {
+   "id": 4395630,
+   "name": "Devin Vassell",
+   "team": "SAS",
+   "opp": "GSW",
+   "pos": "G",
+   "game_id": "401909302",
+   "min": 29.9,
+   "exp_thr": 1.71,
+   "exp_reb": 3.74,
+   "exp_ast": 2.72,
+   "env": 0.968,
+   "status": "Day-To-Day",
+   "thr_o1.5": {
+    "p_model": 0.4899,
+    "line": 1.5,
+    "p": 0.4899,
+    "fair": 104
+   },
+   "thr_u1.5": {
+    "p_model": 0.5101,
+    "line": 1.5,
+    "p": 0.5101,
+    "fair": -104
+   },
+   "thr_o2.5": {
+    "p_model": 0.2527,
+    "line": 2.5,
+    "p": 0.2527,
+    "fair": 296
+   },
+   "thr_u2.5": {
+    "p_model": 0.7473,
+    "line": 2.5,
+    "p": 0.7473,
+    "fair": -296
+   },
+   "reb_o3.5": {
+    "p_model": 0.4937,
+    "line": 3.5,
+    "p": 0.4937,
+    "fair": 103
+   },
+   "reb_u3.5": {
+    "p_model": 0.5063,
+    "line": 3.5,
+    "p": 0.5063,
+    "fair": -103
+   },
+   "ast_o2.5": {
+    "p_model": 0.4931,
+    "line": 2.5,
+    "p": 0.4931,
+    "fair": 103
+   },
+   "ast_u2.5": {
+    "p_model": 0.5069,
+    "line": 2.5,
+    "p": 0.5069,
+    "fair": -103
+   }
+  },
+  {
+   "id": 4395712,
+   "name": "Andrew Nembhard",
+   "team": "IND",
+   "opp": "NYK",
+   "pos": "G",
+   "game_id": "401909296",
+   "min": 32.8,
+   "exp_thr": 2.19,
+   "exp_reb": 2.74,
+   "exp_ast": 7.52,
+   "env": 0.999,
+   "thr_o1.5": {
+    "p_model": 0.6077,
+    "line": 1.5,
+    "p": 0.6077,
+    "fair": -155
+   },
+   "thr_u1.5": {
+    "p_model": 0.3923,
+    "line": 1.5,
+    "p": 0.3923,
+    "fair": 155
+   },
+   "thr_o2.5": {
+    "p_model": 0.3677,
+    "line": 2.5,
+    "p": 0.3677,
+    "fair": 172
+   },
+   "thr_u2.5": {
+    "p_model": 0.6323,
+    "line": 2.5,
+    "p": 0.6323,
+    "fair": -172
+   },
+   "reb_o2.5": {
+    "p_model": 0.4975,
+    "line": 2.5,
+    "p": 0.4975,
+    "fair": 101
+   },
+   "reb_u2.5": {
+    "p_model": 0.5025,
+    "line": 2.5,
+    "p": 0.5025,
+    "fair": -101
+   },
+   "ast_o7.5": {
+    "p_model": 0.4596,
+    "line": 7.5,
+    "p": 0.4596,
+    "fair": 118
+   },
+   "ast_u7.5": {
+    "p_model": 0.5404,
+    "line": 7.5,
+    "p": 0.5404,
+    "fair": -118
+   }
+  },
+  {
+   "id": 4395723,
+   "name": "Keldon Johnson",
+   "team": "SAS",
+   "opp": "GSW",
+   "pos": "W",
+   "game_id": "401909302",
+   "min": 24.1,
+   "exp_thr": 0.63,
+   "exp_reb": 5.46,
+   "exp_ast": 2.1,
+   "env": 0.968,
+   "thr_o1.5": {
+    "p_model": 0.1376,
+    "line": 1.5,
+    "p": 0.1376,
+    "fair": 627
+   },
+   "thr_u1.5": {
+    "p_model": 0.8624,
+    "line": 1.5,
+    "p": 0.8624,
+    "fair": -627
+   },
+   "thr_o2.5": {
+    "p_model": 0.0321,
+    "line": 2.5,
+    "p": 0.0321,
+    "fair": 3015
+   },
+   "thr_u2.5": {
+    "p_model": 0.9679,
+    "line": 2.5,
+    "p": 0.9679,
+    "fair": -3015
+   },
+   "reb_o5.5": {
+    "p_model": 0.4485,
+    "line": 5.5,
+    "p": 0.4485,
+    "fair": 123
+   },
+   "reb_u5.5": {
+    "p_model": 0.5515,
+    "line": 5.5,
+    "p": 0.5515,
+    "fair": -123
+   },
+   "ast_o2.5": {
+    "p_model": 0.3487,
+    "line": 2.5,
+    "p": 0.3487,
+    "fair": 187
+   },
+   "ast_u2.5": {
+    "p_model": 0.6513,
+    "line": 2.5,
+    "p": 0.6513,
+    "fair": -187
+   }
+  },
+  {
+   "id": 4396907,
+   "name": "Darius Garland",
+   "team": "LAC",
+   "opp": "OKC",
+   "pos": "G",
+   "game_id": "401909304",
+   "min": 31.6,
+   "exp_thr": 2.75,
+   "exp_reb": 2.39,
+   "exp_ast": 6.81,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.714,
+    "line": 1.5,
+    "p": 0.714,
+    "fair": -250
+   },
+   "thr_u1.5": {
+    "p_model": 0.286,
+    "line": 1.5,
+    "p": 0.286,
+    "fair": 250
+   },
+   "thr_o2.5": {
+    "p_model": 0.4926,
+    "line": 2.5,
+    "p": 0.4926,
+    "fair": 103
+   },
+   "thr_u2.5": {
+    "p_model": 0.5074,
+    "line": 2.5,
+    "p": 0.5074,
+    "fair": -103
+   },
+   "reb_o2.5": {
+    "p_model": 0.4177,
+    "line": 2.5,
+    "p": 0.4177,
+    "fair": 139
+   },
+   "reb_u2.5": {
+    "p_model": 0.5823,
+    "line": 2.5,
+    "p": 0.5823,
+    "fair": -139
+   },
+   "ast_o6.5": {
+    "p_model": 0.4944,
+    "line": 6.5,
+    "p": 0.4944,
+    "fair": 102
+   },
+   "ast_u6.5": {
+    "p_model": 0.5056,
+    "line": 6.5,
+    "p": 0.5056,
+    "fair": -102
+   }
+  },
+  {
+   "id": 4397077,
+   "name": "Jaxson Hayes",
+   "team": "UTA",
+   "opp": "HOU",
+   "pos": "B",
+   "game_id": "401909301",
+   "min": 22.2,
+   "exp_thr": 0.05,
+   "exp_reb": 5.31,
+   "exp_ast": 1.27,
+   "env": 0.983,
+   "thr_o1.5": {
+    "p_model": 0.0012,
+    "line": 1.5,
+    "p": 0.0012,
+    "fair": 9900
+   },
+   "thr_u1.5": {
+    "p_model": 0.9988,
+    "line": 1.5,
+    "p": 0.9988,
+    "fair": -9900
+   },
+   "thr_o2.5": {
+    "p_model": 0.0,
+    "line": 2.5,
+    "p": 0.0,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 1.0,
+    "line": 2.5,
+    "p": 1.0,
+    "fair": -9900
+   },
+   "reb_o5.5": {
+    "p_model": 0.4274,
+    "line": 5.5,
+    "p": 0.4274,
+    "fair": 134
+   },
+   "reb_u5.5": {
+    "p_model": 0.5726,
+    "line": 5.5,
+    "p": 0.5726,
+    "fair": -134
+   },
+   "ast_o1.5": {
+    "p_model": 0.3587,
+    "line": 1.5,
+    "p": 0.3587,
+    "fair": 179
+   },
+   "ast_u1.5": {
+    "p_model": 0.6413,
+    "line": 1.5,
+    "p": 0.6413,
+    "fair": -179
+   }
+  },
+  {
+   "id": 4397136,
+   "name": "Saddiq Bey",
+   "team": "NOP",
+   "opp": "MEM",
+   "pos": "G",
+   "game_id": "401909300",
+   "min": 28.9,
+   "exp_thr": 2.04,
+   "exp_reb": 4.37,
+   "exp_ast": 2.6,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.5742,
+    "line": 1.5,
+    "p": 0.5742,
+    "fair": -135
+   },
+   "thr_u1.5": {
+    "p_model": 0.4258,
+    "line": 1.5,
+    "p": 0.4258,
+    "fair": 135
+   },
+   "thr_o2.5": {
+    "p_model": 0.3327,
+    "line": 2.5,
+    "p": 0.3327,
+    "fair": 201
+   },
+   "thr_u2.5": {
+    "p_model": 0.6673,
+    "line": 2.5,
+    "p": 0.6673,
+    "fair": -201
+   },
+   "reb_o4.5": {
+    "p_model": 0.4311,
+    "line": 4.5,
+    "p": 0.4311,
+    "fair": 132
+   },
+   "reb_u4.5": {
+    "p_model": 0.5689,
+    "line": 4.5,
+    "p": 0.5689,
+    "fair": -132
+   },
+   "ast_o2.5": {
+    "p_model": 0.4658,
+    "line": 2.5,
+    "p": 0.4658,
     "fair": 115
    },
    "ast_u2.5": {
-    "p_model": 0.5344,
+    "p_model": 0.5342,
     "line": 2.5,
-    "p": 0.5344,
+    "p": 0.5342,
     "fair": -115
    }
   },
   {
-   "id": 4066383,
-   "name": "Miles Bridges",
-   "team": "PHX",
-   "opp": "CHA",
+   "id": 4397189,
+   "name": "Jalen Smith",
+   "team": "CHI",
+   "opp": "ATL",
    "pos": "W",
-   "game_id": "401909979",
-   "min": 29.7,
-   "exp_thr": 1.84,
-   "exp_reb": 6.43,
-   "exp_ast": 3.11,
-   "env": 0.993,
+   "game_id": "401909299",
+   "min": 22.6,
+   "exp_thr": 1.49,
+   "exp_reb": 7.09,
+   "exp_ast": 1.74,
+   "env": 0.992,
    "thr_o1.5": {
-    "p_model": 0.524,
+    "p_model": 0.4246,
     "line": 1.5,
-    "prices": {
-     "FanDuel": -138,
-     "DraftKings": -144,
-     "theScore Bet": -140,
-     "betPARX": -165,
-     "BetRivers": -167,
-     "BetMGM": -135,
-     "Hard Rock Bet": -140
-    },
-    "p_mkt": 0.5506,
-    "p": 0.5413,
-    "fair": -118,
-    "price": -135,
-    "book": "BetMGM",
-    "ev": -0.0578,
-    "likely": false
+    "p": 0.4246,
+    "fair": 136
    },
    "thr_u1.5": {
-    "p_model": 0.476,
+    "p_model": 0.5754,
     "line": 1.5,
-    "prices": {
-     "FanDuel": 108,
-     "DraftKings": 110,
-     "theScore Bet": 105,
-     "betPARX": 123,
-     "BetRivers": 123,
-     "BetMGM": 100,
-     "Hard Rock Bet": 110
-    },
-    "p_mkt": 0.4494,
-    "p": 0.4587,
-    "fair": 118,
-    "price": 123,
-    "book": "betPARX",
-    "ev": 0.0229,
-    "likely": false
+    "p": 0.5754,
+    "fair": -136
    },
-   "reb_o6.5": {
-    "p_model": 0.4473,
-    "line": 6.5,
-    "p": 0.4473,
-    "fair": 124
+   "thr_o2.5": {
+    "p_model": 0.1983,
+    "line": 2.5,
+    "p": 0.1983,
+    "fair": 404
    },
-   "reb_u6.5": {
-    "p_model": 0.5527,
-    "line": 6.5,
-    "p": 0.5527,
-    "fair": -124
+   "thr_u2.5": {
+    "p_model": 0.8017,
+    "line": 2.5,
+    "p": 0.8017,
+    "fair": -404
    },
-   "ast_o3.5": {
-    "p_model": 0.3743,
-    "line": 3.5,
-    "p": 0.3743,
-    "fair": 167
+   "reb_o7.5": {
+    "p_model": 0.4093,
+    "line": 7.5,
+    "p": 0.4093,
+    "fair": 144
    },
-   "ast_u3.5": {
-    "p_model": 0.6257,
-    "line": 3.5,
-    "p": 0.6257,
-    "fair": -167
+   "reb_u7.5": {
+    "p_model": 0.5907,
+    "line": 7.5,
+    "p": 0.5907,
+    "fair": -144
+   },
+   "ast_o1.5": {
+    "p_model": 0.5041,
+    "line": 1.5,
+    "p": 0.5041,
+    "fair": -102
+   },
+   "ast_u1.5": {
+    "p_model": 0.4959,
+    "line": 1.5,
+    "p": 0.4959,
+    "fair": 102
    }
   },
   {
-   "id": 4277905,
-   "name": "Trae Young",
-   "team": "WAS",
-   "opp": "DET",
-   "pos": "G",
-   "game_id": "401909977",
-   "min": 31.0,
-   "exp_thr": 1.95,
-   "exp_reb": 3.02,
-   "exp_ast": 7.52,
-   "env": 1.052,
+   "id": 4431679,
+   "name": "Precious Achiuwa",
+   "team": "SAC",
+   "opp": "POR",
+   "pos": "W",
+   "game_id": "401909303",
+   "min": 24.4,
+   "exp_thr": 0.37,
+   "exp_reb": 6.44,
+   "exp_ast": 1.26,
+   "env": 0.984,
+   "status": "Day-To-Day",
+   "thr_o1.5": {
+    "p_model": 0.0559,
+    "line": 1.5,
+    "p": 0.0559,
+    "fair": 1689
+   },
+   "thr_u1.5": {
+    "p_model": 0.9441,
+    "line": 1.5,
+    "p": 0.9441,
+    "fair": -1689
+   },
    "thr_o2.5": {
-    "p_model": 0.3112,
+    "p_model": 0.0079,
     "line": 2.5,
-    "prices": {
-     "FanDuel": -180,
-     "DraftKings": -175,
-     "Hard Rock Bet": -185
-    },
-    "p_mkt": 0.5993,
-    "p": 0.4985,
-    "fair": 101,
-    "price": -175,
-    "book": "DraftKings",
-    "ev": -0.2167,
-    "likely": false
+    "p": 0.0079,
+    "fair": 9900
    },
    "thr_u2.5": {
-    "p_model": 0.6888,
+    "p_model": 0.9921,
     "line": 2.5,
-    "prices": {
-     "FanDuel": 134,
-     "DraftKings": 135,
-     "Hard Rock Bet": 130
-    },
-    "p_mkt": 0.4007,
-    "p": 0.5015,
-    "fair": -101,
-    "price": 135,
-    "book": "DraftKings",
-    "ev": 0.1786,
-    "likely": false
+    "p": 0.9921,
+    "fair": -9900
+   },
+   "reb_o6.5": {
+    "p_model": 0.4484,
+    "line": 6.5,
+    "p": 0.4484,
+    "fair": 123
+   },
+   "reb_u6.5": {
+    "p_model": 0.5516,
+    "line": 6.5,
+    "p": 0.5516,
+    "fair": -123
+   },
+   "ast_o1.5": {
+    "p_model": 0.3526,
+    "line": 1.5,
+    "p": 0.3526,
+    "fair": 184
+   },
+   "ast_u1.5": {
+    "p_model": 0.6474,
+    "line": 1.5,
+    "p": 0.6474,
+    "fair": -184
+   }
+  },
+  {
+   "id": 4431680,
+   "name": "Onyeka Okongwu",
+   "team": "ATL",
+   "opp": "CHI",
+   "pos": "W",
+   "game_id": "401909299",
+   "min": 30.7,
+   "exp_thr": 1.79,
+   "exp_reb": 8.19,
+   "exp_ast": 3.12,
+   "env": 0.992,
+   "thr_o1.5": {
+    "p_model": 0.5108,
+    "line": 1.5,
+    "p": 0.5108,
+    "fair": -104
+   },
+   "thr_u1.5": {
+    "p_model": 0.4892,
+    "line": 1.5,
+    "p": 0.4892,
+    "fair": 104
+   },
+   "thr_o2.5": {
+    "p_model": 0.2715,
+    "line": 2.5,
+    "p": 0.2715,
+    "fair": 268
+   },
+   "thr_u2.5": {
+    "p_model": 0.7285,
+    "line": 2.5,
+    "p": 0.7285,
+    "fair": -268
+   },
+   "reb_o8.5": {
+    "p_model": 0.4251,
+    "line": 8.5,
+    "p": 0.4251,
+    "fair": 135
+   },
+   "reb_u8.5": {
+    "p_model": 0.5749,
+    "line": 8.5,
+    "p": 0.5749,
+    "fair": -135
+   },
+   "ast_o3.5": {
+    "p_model": 0.3759,
+    "line": 3.5,
+    "p": 0.3759,
+    "fair": 166
+   },
+   "ast_u3.5": {
+    "p_model": 0.6241,
+    "line": 3.5,
+    "p": 0.6241,
+    "fair": -166
+   }
+  },
+  {
+   "id": 4431736,
+   "name": "Toumani Camara",
+   "team": "POR",
+   "opp": "SAC",
+   "pos": "W",
+   "game_id": "401909303",
+   "min": 31.0,
+   "exp_thr": 2.38,
+   "exp_reb": 4.3,
+   "exp_ast": 1.94,
+   "env": 0.984,
+   "thr_o1.5": {
+    "p_model": 0.6463,
+    "line": 1.5,
+    "p": 0.6463,
+    "fair": -183
+   },
+   "thr_u1.5": {
+    "p_model": 0.3537,
+    "line": 1.5,
+    "p": 0.3537,
+    "fair": 183
+   },
+   "thr_o2.5": {
+    "p_model": 0.4105,
+    "line": 2.5,
+    "p": 0.4105,
+    "fair": 144
+   },
+   "thr_u2.5": {
+    "p_model": 0.5895,
+    "line": 2.5,
+    "p": 0.5895,
+    "fair": -144
+   },
+   "reb_o4.5": {
+    "p_model": 0.4195,
+    "line": 4.5,
+    "p": 0.4195,
+    "fair": 138
+   },
+   "reb_u4.5": {
+    "p_model": 0.5805,
+    "line": 4.5,
+    "p": 0.5805,
+    "fair": -138
+   },
+   "ast_o1.5": {
+    "p_model": 0.5573,
+    "line": 1.5,
+    "p": 0.5573,
+    "fair": -126
+   },
+   "ast_u1.5": {
+    "p_model": 0.4427,
+    "line": 1.5,
+    "p": 0.4427,
+    "fair": 126
+   }
+  },
+  {
+   "id": 4432639,
+   "name": "Jabari Smith Jr.",
+   "team": "HOU",
+   "opp": "UTA",
+   "pos": "W",
+   "game_id": "401909301",
+   "min": 35.6,
+   "exp_thr": 2.23,
+   "exp_reb": 7.06,
+   "exp_ast": 2.04,
+   "env": 0.983,
+   "thr_o1.5": {
+    "p_model": 0.6153,
+    "line": 1.5,
+    "p": 0.6153,
+    "fair": -160
+   },
+   "thr_u1.5": {
+    "p_model": 0.3847,
+    "line": 1.5,
+    "p": 0.3847,
+    "fair": 160
+   },
+   "thr_o2.5": {
+    "p_model": 0.376,
+    "line": 2.5,
+    "p": 0.376,
+    "fair": 166
+   },
+   "thr_u2.5": {
+    "p_model": 0.624,
+    "line": 2.5,
+    "p": 0.624,
+    "fair": -166
+   },
+   "reb_o7.5": {
+    "p_model": 0.4057,
+    "line": 7.5,
+    "p": 0.4057,
+    "fair": 146
+   },
+   "reb_u7.5": {
+    "p_model": 0.5943,
+    "line": 7.5,
+    "p": 0.5943,
+    "fair": -146
+   },
+   "ast_o2.5": {
+    "p_model": 0.3325,
+    "line": 2.5,
+    "p": 0.3325,
+    "fair": 201
+   },
+   "ast_u2.5": {
+    "p_model": 0.6675,
+    "line": 2.5,
+    "p": 0.6675,
+    "fair": -201
+   }
+  },
+  {
+   "id": 4432810,
+   "name": "Isaiah Stewart",
+   "team": "MEM",
+   "opp": "NOP",
+   "pos": "B",
+   "game_id": "401909300",
+   "min": 20.4,
+   "exp_thr": 0.84,
+   "exp_reb": 4.19,
+   "exp_ast": 1.01,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.2093,
+    "line": 1.5,
+    "p": 0.2093,
+    "fair": 378
+   },
+   "thr_u1.5": {
+    "p_model": 0.7907,
+    "line": 1.5,
+    "p": 0.7907,
+    "fair": -378
+   },
+   "thr_o2.5": {
+    "p_model": 0.0624,
+    "line": 2.5,
+    "p": 0.0624,
+    "fair": 1503
+   },
+   "thr_u2.5": {
+    "p_model": 0.9376,
+    "line": 2.5,
+    "p": 0.9376,
+    "fair": -1503
+   },
+   "reb_o4.5": {
+    "p_model": 0.4024,
+    "line": 4.5,
+    "p": 0.4024,
+    "fair": 149
+   },
+   "reb_u4.5": {
+    "p_model": 0.5976,
+    "line": 4.5,
+    "p": 0.5976,
+    "fair": -149
+   },
+   "ast_o1.5": {
+    "p_model": 0.2675,
+    "line": 1.5,
+    "p": 0.2675,
+    "fair": 274
+   },
+   "ast_u1.5": {
+    "p_model": 0.7325,
+    "line": 1.5,
+    "p": 0.7325,
+    "fair": -274
+   }
+  },
+  {
+   "id": 4433083,
+   "name": "Cam Spencer",
+   "team": "MEM",
+   "opp": "NOP",
+   "pos": "G",
+   "game_id": "401909300",
+   "min": 21.4,
+   "exp_thr": 1.66,
+   "exp_reb": 2.65,
+   "exp_ast": 5.01,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.4746,
+    "line": 1.5,
+    "p": 0.4746,
+    "fair": 111
+   },
+   "thr_u1.5": {
+    "p_model": 0.5254,
+    "line": 1.5,
+    "p": 0.5254,
+    "fair": -111
+   },
+   "thr_o2.5": {
+    "p_model": 0.2394,
+    "line": 2.5,
+    "p": 0.2394,
+    "fair": 318
+   },
+   "thr_u2.5": {
+    "p_model": 0.7606,
+    "line": 2.5,
+    "p": 0.7606,
+    "fair": -318
+   },
+   "reb_o2.5": {
+    "p_model": 0.4788,
+    "line": 2.5,
+    "p": 0.4788,
+    "fair": 109
+   },
+   "reb_u2.5": {
+    "p_model": 0.5212,
+    "line": 2.5,
+    "p": 0.5212,
+    "fair": -109
+   },
+   "ast_o5.5": {
+    "p_model": 0.3834,
+    "line": 5.5,
+    "p": 0.3834,
+    "fair": 161
+   },
+   "ast_u5.5": {
+    "p_model": 0.6166,
+    "line": 5.5,
+    "p": 0.6166,
+    "fair": -161
+   }
+  },
+  {
+   "id": 4433192,
+   "name": "Tari Eason",
+   "team": "HOU",
+   "opp": "UTA",
+   "pos": "W",
+   "game_id": "401909301",
+   "min": 24.4,
+   "exp_thr": 1.47,
+   "exp_reb": 5.82,
+   "exp_ast": 1.46,
+   "env": 0.983,
+   "thr_o1.5": {
+    "p_model": 0.4179,
+    "line": 1.5,
+    "p": 0.4179,
+    "fair": 139
+   },
+   "thr_u1.5": {
+    "p_model": 0.5821,
+    "line": 1.5,
+    "p": 0.5821,
+    "fair": -139
+   },
+   "thr_o2.5": {
+    "p_model": 0.1931,
+    "line": 2.5,
+    "p": 0.1931,
+    "fair": 418
+   },
+   "thr_u2.5": {
+    "p_model": 0.8069,
+    "line": 2.5,
+    "p": 0.8069,
+    "fair": -418
+   },
+   "reb_o5.5": {
+    "p_model": 0.4984,
+    "line": 5.5,
+    "p": 0.4984,
+    "fair": 101
+   },
+   "reb_u5.5": {
+    "p_model": 0.5016,
+    "line": 5.5,
+    "p": 0.5016,
+    "fair": -101
+   },
+   "ast_o1.5": {
+    "p_model": 0.4193,
+    "line": 1.5,
+    "p": 0.4193,
+    "fair": 138
+   },
+   "ast_u1.5": {
+    "p_model": 0.5807,
+    "line": 1.5,
+    "p": 0.5807,
+    "fair": -138
+   }
+  },
+  {
+   "id": 4433627,
+   "name": "Keyonte George",
+   "team": "UTA",
+   "opp": "HOU",
+   "pos": "G",
+   "game_id": "401909301",
+   "min": 32.6,
+   "exp_thr": 2.1,
+   "exp_reb": 4.07,
+   "exp_ast": 6.01,
+   "env": 0.983,
+   "thr_o1.5": {
+    "p_model": 0.5882,
+    "line": 1.5,
+    "p": 0.5882,
+    "fair": -143
+   },
+   "thr_u1.5": {
+    "p_model": 0.4118,
+    "line": 1.5,
+    "p": 0.4118,
+    "fair": 143
+   },
+   "thr_o2.5": {
+    "p_model": 0.3471,
+    "line": 2.5,
+    "p": 0.3471,
+    "fair": 188
+   },
+   "thr_u2.5": {
+    "p_model": 0.6529,
+    "line": 2.5,
+    "p": 0.6529,
+    "fair": -188
+   },
+   "reb_o4.5": {
+    "p_model": 0.381,
+    "line": 4.5,
+    "p": 0.381,
+    "fair": 162
+   },
+   "reb_u4.5": {
+    "p_model": 0.619,
+    "line": 4.5,
+    "p": 0.619,
+    "fair": -162
+   },
+   "ast_o6.5": {
+    "p_model": 0.3924,
+    "line": 6.5,
+    "p": 0.3924,
+    "fair": 155
+   },
+   "ast_u6.5": {
+    "p_model": 0.6076,
+    "line": 6.5,
+    "p": 0.6076,
+    "fair": -155
+   }
+  },
+  {
+   "id": 4576087,
+   "name": "Peyton Watson",
+   "team": "CLE",
+   "opp": "MIA",
+   "pos": "G",
+   "game_id": "401909298",
+   "min": 28.0,
+   "exp_thr": 1.64,
+   "exp_reb": 4.79,
+   "exp_ast": 2.59,
+   "env": 0.988,
+   "thr_o1.5": {
+    "p_model": 0.4693,
+    "line": 1.5,
+    "p": 0.4693,
+    "fair": 113
+   },
+   "thr_u1.5": {
+    "p_model": 0.5307,
+    "line": 1.5,
+    "p": 0.5307,
+    "fair": -113
+   },
+   "thr_o2.5": {
+    "p_model": 0.2349,
+    "line": 2.5,
+    "p": 0.2349,
+    "fair": 326
+   },
+   "thr_u2.5": {
+    "p_model": 0.7651,
+    "line": 2.5,
+    "p": 0.7651,
+    "fair": -326
+   },
+   "reb_o4.5": {
+    "p_model": 0.4974,
+    "line": 4.5,
+    "p": 0.4974,
+    "fair": 101
+   },
+   "reb_u4.5": {
+    "p_model": 0.5026,
+    "line": 4.5,
+    "p": 0.5026,
+    "fair": -101
+   },
+   "ast_o2.5": {
+    "p_model": 0.4647,
+    "line": 2.5,
+    "p": 0.4647,
+    "fair": 115
+   },
+   "ast_u2.5": {
+    "p_model": 0.5353,
+    "line": 2.5,
+    "p": 0.5353,
+    "fair": -115
+   }
+  },
+  {
+   "id": 4592479,
+   "name": "Julian Champagnie",
+   "team": "SAS",
+   "opp": "GSW",
+   "pos": "W",
+   "game_id": "401909302",
+   "min": 26.5,
+   "exp_thr": 2.33,
+   "exp_reb": 4.62,
+   "exp_ast": 1.52,
+   "env": 0.968,
+   "thr_o1.5": {
+    "p_model": 0.6365,
+    "line": 1.5,
+    "p": 0.6365,
+    "fair": -175
+   },
+   "thr_u1.5": {
+    "p_model": 0.3635,
+    "line": 1.5,
+    "p": 0.3635,
+    "fair": 175
+   },
+   "thr_o2.5": {
+    "p_model": 0.3994,
+    "line": 2.5,
+    "p": 0.3994,
+    "fair": 150
+   },
+   "thr_u2.5": {
+    "p_model": 0.6006,
+    "line": 2.5,
+    "p": 0.6006,
+    "fair": -150
+   },
+   "reb_o4.5": {
+    "p_model": 0.4713,
+    "line": 4.5,
+    "p": 0.4713,
+    "fair": 112
+   },
+   "reb_u4.5": {
+    "p_model": 0.5287,
+    "line": 4.5,
+    "p": 0.5287,
+    "fair": -112
+   },
+   "ast_o1.5": {
+    "p_model": 0.4399,
+    "line": 1.5,
+    "p": 0.4399,
+    "fair": 127
+   },
+   "ast_u1.5": {
+    "p_model": 0.5601,
+    "line": 1.5,
+    "p": 0.5601,
+    "fair": -127
+   }
+  },
+  {
+   "id": 4594327,
+   "name": "Keegan Murray",
+   "team": "SAC",
+   "opp": "POR",
+   "pos": "W",
+   "game_id": "401909303",
+   "min": 30.5,
+   "exp_thr": 1.17,
+   "exp_reb": 4.61,
+   "exp_ast": 1.61,
+   "env": 0.984,
+   "thr_o1.5": {
+    "p_model": 0.3234,
+    "line": 1.5,
+    "p": 0.3234,
+    "fair": 209
+   },
+   "thr_u1.5": {
+    "p_model": 0.6766,
+    "line": 1.5,
+    "p": 0.6766,
+    "fair": -209
+   },
+   "thr_o2.5": {
+    "p_model": 0.1262,
+    "line": 2.5,
+    "p": 0.1262,
+    "fair": 692
+   },
+   "thr_u2.5": {
+    "p_model": 0.8738,
+    "line": 2.5,
+    "p": 0.8738,
+    "fair": -692
+   },
+   "reb_o4.5": {
+    "p_model": 0.4702,
+    "line": 4.5,
+    "p": 0.4702,
+    "fair": 113
+   },
+   "reb_u4.5": {
+    "p_model": 0.5298,
+    "line": 4.5,
+    "p": 0.5298,
+    "fair": -113
+   },
+   "ast_o1.5": {
+    "p_model": 0.4649,
+    "line": 1.5,
+    "p": 0.4649,
+    "fair": 115
+   },
+   "ast_u1.5": {
+    "p_model": 0.5351,
+    "line": 1.5,
+    "p": 0.5351,
+    "fair": -115
+   }
+  },
+  {
+   "id": 4601025,
+   "name": "Pelle Larsson",
+   "team": "MIA",
+   "opp": "CLE",
+   "pos": "G",
+   "game_id": "401909298",
+   "min": 28.2,
+   "exp_thr": 1.11,
+   "exp_reb": 3.61,
+   "exp_ast": 3.41,
+   "env": 0.988,
+   "status": "Day-To-Day",
+   "thr_o1.5": {
+    "p_model": 0.3009,
+    "line": 1.5,
+    "p": 0.3009,
+    "fair": 232
+   },
+   "thr_u1.5": {
+    "p_model": 0.6991,
+    "line": 1.5,
+    "p": 0.6991,
+    "fair": -232
+   },
+   "thr_o2.5": {
+    "p_model": 0.1122,
+    "line": 2.5,
+    "p": 0.1122,
+    "fair": 791
+   },
+   "thr_u2.5": {
+    "p_model": 0.8878,
+    "line": 2.5,
+    "p": 0.8878,
+    "fair": -791
+   },
+   "reb_o3.5": {
+    "p_model": 0.4703,
+    "line": 3.5,
+    "p": 0.4703,
+    "fair": 113
+   },
+   "reb_u3.5": {
+    "p_model": 0.5297,
+    "line": 3.5,
+    "p": 0.5297,
+    "fair": -113
+   },
+   "ast_o3.5": {
+    "p_model": 0.4331,
+    "line": 3.5,
+    "p": 0.4331,
+    "fair": 131
+   },
+   "ast_u3.5": {
+    "p_model": 0.5669,
+    "line": 3.5,
+    "p": 0.5669,
+    "fair": -131
+   }
+  },
+  {
+   "id": 4683021,
+   "name": "Deni Avdija",
+   "team": "POR",
+   "opp": "SAC",
+   "pos": "W",
+   "game_id": "401909303",
+   "min": 33.1,
+   "exp_thr": 1.85,
+   "exp_reb": 6.17,
+   "exp_ast": 6.58,
+   "env": 0.984,
+   "thr_o1.5": {
+    "p_model": 0.5251,
+    "line": 1.5,
+    "p": 0.5251,
+    "fair": -111
+   },
+   "thr_u1.5": {
+    "p_model": 0.4749,
+    "line": 1.5,
+    "p": 0.4749,
+    "fair": 111
+   },
+   "thr_o2.5": {
+    "p_model": 0.2848,
+    "line": 2.5,
+    "p": 0.2848,
+    "fair": 251
+   },
+   "thr_u2.5": {
+    "p_model": 0.7152,
+    "line": 2.5,
+    "p": 0.7152,
+    "fair": -251
+   },
+   "reb_o6.5": {
+    "p_model": 0.4135,
+    "line": 6.5,
+    "p": 0.4135,
+    "fair": 142
+   },
+   "reb_u6.5": {
+    "p_model": 0.5865,
+    "line": 6.5,
+    "p": 0.5865,
+    "fair": -142
+   },
+   "ast_o6.5": {
+    "p_model": 0.4652,
+    "line": 6.5,
+    "p": 0.4652,
+    "fair": 115
+   },
+   "ast_u6.5": {
+    "p_model": 0.5348,
+    "line": 6.5,
+    "p": 0.5348,
+    "fair": -115
+   }
+  },
+  {
+   "id": 4683747,
+   "name": "Jaylon Tyson",
+   "team": "CLE",
+   "opp": "MIA",
+   "pos": "G",
+   "game_id": "401909298",
+   "min": 23.9,
+   "exp_thr": 2.06,
+   "exp_reb": 4.13,
+   "exp_ast": 2.41,
+   "env": 0.988,
+   "thr_o1.5": {
+    "p_model": 0.5786,
+    "line": 1.5,
+    "p": 0.5786,
+    "fair": -137
+   },
+   "thr_u1.5": {
+    "p_model": 0.4214,
+    "line": 1.5,
+    "p": 0.4214,
+    "fair": 137
+   },
+   "thr_o2.5": {
+    "p_model": 0.3372,
+    "line": 2.5,
+    "p": 0.3372,
+    "fair": 197
+   },
+   "thr_u2.5": {
+    "p_model": 0.6628,
+    "line": 2.5,
+    "p": 0.6628,
+    "fair": -197
+   },
+   "reb_o4.5": {
+    "p_model": 0.3924,
+    "line": 4.5,
+    "p": 0.3924,
+    "fair": 155
+   },
+   "reb_u4.5": {
+    "p_model": 0.6076,
+    "line": 4.5,
+    "p": 0.6076,
+    "fair": -155
+   },
+   "ast_o2.5": {
+    "p_model": 0.4237,
+    "line": 2.5,
+    "p": 0.4237,
+    "fair": 136
+   },
+   "ast_u2.5": {
+    "p_model": 0.5763,
+    "line": 2.5,
+    "p": 0.5763,
+    "fair": -136
+   }
+  },
+  {
+   "id": 4683778,
+   "name": "Jared McCain",
+   "team": "OKC",
+   "opp": "LAC",
+   "pos": "G",
+   "game_id": "401909304",
+   "min": 23.1,
+   "exp_thr": 1.89,
+   "exp_reb": 2.88,
+   "exp_ast": 1.68,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.5352,
+    "line": 1.5,
+    "p": 0.5352,
+    "fair": -115
+   },
+   "thr_u1.5": {
+    "p_model": 0.4648,
+    "line": 1.5,
+    "p": 0.4648,
+    "fair": 115
+   },
+   "thr_o2.5": {
+    "p_model": 0.2943,
+    "line": 2.5,
+    "p": 0.2943,
+    "fair": 240
+   },
+   "thr_u2.5": {
+    "p_model": 0.7057,
+    "line": 2.5,
+    "p": 0.7057,
+    "fair": -240
+   },
+   "reb_o2.5": {
+    "p_model": 0.5277,
+    "line": 2.5,
+    "p": 0.5277,
+    "fair": -112
+   },
+   "reb_u2.5": {
+    "p_model": 0.4723,
+    "line": 2.5,
+    "p": 0.4723,
+    "fair": 112
+   },
+   "ast_o1.5": {
+    "p_model": 0.4867,
+    "line": 1.5,
+    "p": 0.4867,
+    "fair": 105
+   },
+   "ast_u1.5": {
+    "p_model": 0.5133,
+    "line": 1.5,
+    "p": 0.5133,
+    "fair": -105
+   }
+  },
+  {
+   "id": 4684740,
+   "name": "Amen Thompson",
+   "team": "HOU",
+   "opp": "UTA",
+   "pos": "G",
+   "game_id": "401909301",
+   "min": 34.5,
+   "exp_thr": 0.27,
+   "exp_reb": 7.14,
+   "exp_ast": 3.87,
+   "env": 0.983,
+   "thr_o1.5": {
+    "p_model": 0.0339,
+    "line": 1.5,
+    "p": 0.0339,
+    "fair": 2850
+   },
+   "thr_u1.5": {
+    "p_model": 0.9661,
+    "line": 1.5,
+    "p": 0.9661,
+    "fair": -2850
+   },
+   "thr_o2.5": {
+    "p_model": 0.0037,
+    "line": 2.5,
+    "p": 0.0037,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9963,
+    "line": 2.5,
+    "p": 0.9963,
+    "fair": -9900
+   },
+   "reb_o7.5": {
+    "p_model": 0.4147,
+    "line": 7.5,
+    "p": 0.4147,
+    "fair": 141
+   },
+   "reb_u7.5": {
+    "p_model": 0.5853,
+    "line": 7.5,
+    "p": 0.5853,
+    "fair": -141
+   },
+   "ast_o3.5": {
+    "p_model": 0.5169,
+    "line": 3.5,
+    "p": 0.5169,
+    "fair": -107
+   },
+   "ast_u3.5": {
+    "p_model": 0.4831,
+    "line": 3.5,
+    "p": 0.4831,
+    "fair": 107
+   }
+  },
+  {
+   "id": 4701230,
+   "name": "Jalen Johnson",
+   "team": "ATL",
+   "opp": "CHI",
+   "pos": "W",
+   "game_id": "401909299",
+   "min": 34.6,
+   "exp_thr": 1.5,
+   "exp_reb": 9.58,
+   "exp_ast": 7.55,
+   "env": 0.992,
+   "thr_o1.5": {
+    "p_model": 0.4288,
+    "line": 1.5,
+    "p": 0.4288,
+    "fair": 133
+   },
+   "thr_u1.5": {
+    "p_model": 0.5712,
+    "line": 1.5,
+    "p": 0.5712,
+    "fair": -133
+   },
+   "thr_o2.5": {
+    "p_model": 0.2016,
+    "line": 2.5,
+    "p": 0.2016,
+    "fair": 396
+   },
+   "thr_u2.5": {
+    "p_model": 0.7984,
+    "line": 2.5,
+    "p": 0.7984,
+    "fair": -396
+   },
+   "reb_o9.5": {
+    "p_model": 0.4658,
+    "line": 9.5,
+    "p": 0.4658,
+    "fair": 115
+   },
+   "reb_u9.5": {
+    "p_model": 0.5342,
+    "line": 9.5,
+    "p": 0.5342,
+    "fair": -115
+   },
+   "ast_o7.5": {
+    "p_model": 0.4621,
+    "line": 7.5,
+    "p": 0.4621,
+    "fair": 116
+   },
+   "ast_u7.5": {
+    "p_model": 0.5379,
+    "line": 7.5,
+    "p": 0.5379,
+    "fair": -116
+   }
+  },
+  {
+   "id": 4709138,
+   "name": "Brandin Podziemski",
+   "team": "GSW",
+   "opp": "SAS",
+   "pos": "G",
+   "game_id": "401909302",
+   "min": 31.3,
+   "exp_thr": 2.24,
+   "exp_reb": 5.13,
+   "exp_ast": 3.71,
+   "env": 0.968,
+   "thr_o1.5": {
+    "p_model": 0.6175,
+    "line": 1.5,
+    "p": 0.6175,
+    "fair": -161
+   },
+   "thr_u1.5": {
+    "p_model": 0.3825,
+    "line": 1.5,
+    "p": 0.3825,
+    "fair": 161
+   },
+   "thr_o2.5": {
+    "p_model": 0.3783,
+    "line": 2.5,
+    "p": 0.3783,
+    "fair": 164
+   },
+   "thr_u2.5": {
+    "p_model": 0.6217,
+    "line": 2.5,
+    "p": 0.6217,
+    "fair": -164
+   },
+   "reb_o5.5": {
+    "p_model": 0.4018,
+    "line": 5.5,
+    "p": 0.4018,
+    "fair": 149
+   },
+   "reb_u5.5": {
+    "p_model": 0.5982,
+    "line": 5.5,
+    "p": 0.5982,
+    "fair": -149
+   },
+   "ast_o3.5": {
+    "p_model": 0.4875,
+    "line": 3.5,
+    "p": 0.4875,
+    "fair": 105
+   },
+   "ast_u3.5": {
+    "p_model": 0.5125,
+    "line": 3.5,
+    "p": 0.5125,
+    "fair": -105
+   }
+  },
+  {
+   "id": 4711294,
+   "name": "Matas Buzelis",
+   "team": "CHI",
+   "opp": "ATL",
+   "pos": "W",
+   "game_id": "401909299",
+   "min": 27.5,
+   "exp_thr": 1.8,
+   "exp_reb": 5.25,
+   "exp_ast": 2.13,
+   "env": 0.992,
+   "thr_o1.5": {
+    "p_model": 0.5133,
+    "line": 1.5,
+    "p": 0.5133,
+    "fair": -105
+   },
+   "thr_u1.5": {
+    "p_model": 0.4867,
+    "line": 1.5,
+    "p": 0.4867,
+    "fair": 105
+   },
+   "thr_o2.5": {
+    "p_model": 0.2738,
+    "line": 2.5,
+    "p": 0.2738,
+    "fair": 265
+   },
+   "thr_u2.5": {
+    "p_model": 0.7262,
+    "line": 2.5,
+    "p": 0.7262,
+    "fair": -265
+   },
+   "reb_o5.5": {
+    "p_model": 0.4192,
+    "line": 5.5,
+    "p": 0.4192,
+    "fair": 139
+   },
+   "reb_u5.5": {
+    "p_model": 0.5808,
+    "line": 5.5,
+    "p": 0.5808,
+    "fair": -139
+   },
+   "ast_o2.5": {
+    "p_model": 0.3543,
+    "line": 2.5,
+    "p": 0.3543,
+    "fair": 182
+   },
+   "ast_u2.5": {
+    "p_model": 0.6457,
+    "line": 2.5,
+    "p": 0.6457,
+    "fair": -182
+   }
+  },
+  {
+   "id": 4845367,
+   "name": "Stephon Castle",
+   "team": "SAS",
+   "opp": "GSW",
+   "pos": "G",
+   "game_id": "401909302",
+   "min": 29.5,
+   "exp_thr": 1.56,
+   "exp_reb": 5.28,
+   "exp_ast": 5.81,
+   "env": 0.968,
+   "thr_o1.5": {
+    "p_model": 0.4462,
+    "line": 1.5,
+    "p": 0.4462,
+    "fair": 124
+   },
+   "thr_u1.5": {
+    "p_model": 0.5538,
+    "line": 1.5,
+    "p": 0.5538,
+    "fair": -124
+   },
+   "thr_o2.5": {
+    "p_model": 0.2156,
+    "line": 2.5,
+    "p": 0.2156,
+    "fair": 364
+   },
+   "thr_u2.5": {
+    "p_model": 0.7844,
+    "line": 2.5,
+    "p": 0.7844,
+    "fair": -364
+   },
+   "reb_o5.5": {
+    "p_model": 0.4226,
+    "line": 5.5,
+    "p": 0.4226,
+    "fair": 137
+   },
+   "reb_u5.5": {
+    "p_model": 0.5774,
+    "line": 5.5,
+    "p": 0.5774,
+    "fair": -137
+   },
+   "ast_o5.5": {
+    "p_model": 0.4966,
+    "line": 5.5,
+    "p": 0.4966,
+    "fair": 101
+   },
+   "ast_u5.5": {
+    "p_model": 0.5034,
+    "line": 5.5,
+    "p": 0.5034,
+    "fair": -101
+   }
+  },
+  {
+   "id": 4869342,
+   "name": "Dyson Daniels",
+   "team": "ATL",
+   "opp": "CHI",
+   "pos": "G",
+   "game_id": "401909299",
+   "min": 32.1,
+   "exp_thr": 0.38,
+   "exp_reb": 7.43,
+   "exp_ast": 6.26,
+   "env": 0.992,
+   "thr_o1.5": {
+    "p_model": 0.0611,
+    "line": 1.5,
+    "p": 0.0611,
+    "fair": 1537
+   },
+   "thr_u1.5": {
+    "p_model": 0.9389,
+    "line": 1.5,
+    "p": 0.9389,
+    "fair": -1537
+   },
+   "thr_o2.5": {
+    "p_model": 0.0091,
+    "line": 2.5,
+    "p": 0.0091,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9909,
+    "line": 2.5,
+    "p": 0.9909,
+    "fair": -9900
+   },
+   "reb_o7.5": {
+    "p_model": 0.4483,
+    "line": 7.5,
+    "p": 0.4483,
+    "fair": 123
+   },
+   "reb_u7.5": {
+    "p_model": 0.5517,
+    "line": 7.5,
+    "p": 0.5517,
+    "fair": -123
+   },
+   "ast_o6.5": {
+    "p_model": 0.4251,
+    "line": 6.5,
+    "p": 0.4251,
+    "fair": 135
+   },
+   "ast_u6.5": {
+    "p_model": 0.5749,
+    "line": 6.5,
+    "p": 0.5749,
+    "fair": -135
+   }
+  },
+  {
+   "id": 4869780,
+   "name": "Derik Queen",
+   "team": "NOP",
+   "opp": "MEM",
+   "pos": "B",
+   "game_id": "401909300",
+   "min": 22.1,
+   "exp_thr": 0.31,
+   "exp_reb": 6.25,
+   "exp_ast": 2.77,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.0432,
+    "line": 1.5,
+    "p": 0.0432,
+    "fair": 2215
+   },
+   "thr_u1.5": {
+    "p_model": 0.9568,
+    "line": 1.5,
+    "p": 0.9568,
+    "fair": -2215
+   },
+   "thr_o2.5": {
+    "p_model": 0.0053,
+    "line": 2.5,
+    "p": 0.0053,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9947,
+    "line": 2.5,
+    "p": 0.9947,
+    "fair": -9900
+   },
+   "reb_o6.5": {
+    "p_model": 0.4242,
+    "line": 6.5,
+    "p": 0.4242,
+    "fair": 136
+   },
+   "reb_u6.5": {
+    "p_model": 0.5758,
+    "line": 6.5,
+    "p": 0.5758,
+    "fair": -136
+   },
+   "ast_o2.5": {
+    "p_model": 0.5044,
+    "line": 2.5,
+    "p": 0.5044,
+    "fair": -102
+   },
+   "ast_u2.5": {
+    "p_model": 0.4956,
+    "line": 2.5,
+    "p": 0.4956,
+    "fair": 102
+   }
+  },
+  {
+   "id": 4871144,
+   "name": "Alperen Sengun",
+   "team": "HOU",
+   "opp": "UTA",
+   "pos": "B",
+   "game_id": "401909301",
+   "min": 34.6,
+   "exp_thr": 0.68,
+   "exp_reb": 9.6,
+   "exp_ast": 7.31,
+   "env": 0.983,
+   "thr_o1.5": {
+    "p_model": 0.1533,
+    "line": 1.5,
+    "p": 0.1533,
+    "fair": 552
+   },
+   "thr_u1.5": {
+    "p_model": 0.8467,
+    "line": 1.5,
+    "p": 0.8467,
+    "fair": -552
+   },
+   "thr_o2.5": {
+    "p_model": 0.0381,
+    "line": 2.5,
+    "p": 0.0381,
+    "fair": 2525
+   },
+   "thr_u2.5": {
+    "p_model": 0.9619,
+    "line": 2.5,
+    "p": 0.9619,
+    "fair": -2525
+   },
+   "reb_o9.5": {
+    "p_model": 0.4673,
+    "line": 9.5,
+    "p": 0.4673,
+    "fair": 114
+   },
+   "reb_u9.5": {
+    "p_model": 0.5327,
+    "line": 9.5,
+    "p": 0.5327,
+    "fair": -114
+   },
+   "ast_o7.5": {
+    "p_model": 0.4343,
+    "line": 7.5,
+    "p": 0.4343,
+    "fair": 130
+   },
+   "ast_u7.5": {
+    "p_model": 0.5657,
+    "line": 7.5,
+    "p": 0.5657,
+    "fair": -130
+   }
+  },
+  {
+   "id": 4871145,
+   "name": "Josh Giddey",
+   "team": "CHI",
+   "opp": "ATL",
+   "pos": "G",
+   "game_id": "401909299",
+   "min": 29.9,
+   "exp_thr": 1.44,
+   "exp_reb": 6.42,
+   "exp_ast": 8.86,
+   "env": 0.992,
+   "thr_o1.5": {
+    "p_model": 0.4095,
+    "line": 1.5,
+    "p": 0.4095,
+    "fair": 144
+   },
+   "thr_u1.5": {
+    "p_model": 0.5905,
+    "line": 1.5,
+    "p": 0.5905,
+    "fair": -144
+   },
+   "thr_o2.5": {
+    "p_model": 0.1866,
+    "line": 2.5,
+    "p": 0.1866,
+    "fair": 436
+   },
+   "thr_u2.5": {
+    "p_model": 0.8134,
+    "line": 2.5,
+    "p": 0.8134,
+    "fair": -436
+   },
+   "reb_o6.5": {
+    "p_model": 0.4457,
+    "line": 6.5,
+    "p": 0.4457,
+    "fair": 124
+   },
+   "reb_u6.5": {
+    "p_model": 0.5543,
+    "line": 6.5,
+    "p": 0.5543,
+    "fair": -124
+   },
+   "ast_o8.5": {
+    "p_model": 0.4945,
+    "line": 8.5,
+    "p": 0.4945,
+    "fair": 102
+   },
+   "ast_u8.5": {
+    "p_model": 0.5055,
+    "line": 8.5,
+    "p": 0.5055,
+    "fair": -102
+   }
+  },
+  {
+   "id": 4873138,
+   "name": "Ace Bailey",
+   "team": "UTA",
+   "opp": "HOU",
+   "pos": "G",
+   "game_id": "401909301",
+   "min": 30.0,
+   "exp_thr": 1.88,
+   "exp_reb": 5.09,
+   "exp_ast": 1.81,
+   "env": 0.983,
+   "thr_o1.5": {
+    "p_model": 0.535,
+    "line": 1.5,
+    "p": 0.535,
+    "fair": -115
+   },
+   "thr_u1.5": {
+    "p_model": 0.465,
+    "line": 1.5,
+    "p": 0.465,
+    "fair": 115
+   },
+   "thr_o2.5": {
+    "p_model": 0.2941,
+    "line": 2.5,
+    "p": 0.2941,
+    "fair": 240
+   },
+   "thr_u2.5": {
+    "p_model": 0.7059,
+    "line": 2.5,
+    "p": 0.7059,
+    "fair": -240
+   },
+   "reb_o5.5": {
+    "p_model": 0.3952,
+    "line": 5.5,
+    "p": 0.3952,
+    "fair": 153
+   },
+   "reb_u5.5": {
+    "p_model": 0.6048,
+    "line": 5.5,
+    "p": 0.6048,
+    "fair": -153
+   },
+   "ast_o1.5": {
+    "p_model": 0.5242,
+    "line": 1.5,
+    "p": 0.5242,
+    "fair": -110
+   },
+   "ast_u1.5": {
+    "p_model": 0.4758,
+    "line": 1.5,
+    "p": 0.4758,
+    "fair": 110
+   }
+  },
+  {
+   "id": 4900671,
+   "name": "Ajay Mitchell",
+   "team": "OKC",
+   "opp": "LAC",
+   "pos": "G",
+   "game_id": "401909304",
+   "min": 27.3,
+   "exp_thr": 1.0,
+   "exp_reb": 3.41,
+   "exp_ast": 3.31,
+   "env": 1.004,
+   "status": "Day-To-Day",
+   "thr_o1.5": {
+    "p_model": 0.2636,
+    "line": 1.5,
+    "p": 0.2636,
+    "fair": 279
+   },
+   "thr_u1.5": {
+    "p_model": 0.7364,
+    "line": 1.5,
+    "p": 0.7364,
+    "fair": -279
+   },
+   "thr_o2.5": {
+    "p_model": 0.0905,
+    "line": 2.5,
+    "p": 0.0905,
+    "fair": 1005
+   },
+   "thr_u2.5": {
+    "p_model": 0.9095,
+    "line": 2.5,
+    "p": 0.9095,
+    "fair": -1005
+   },
+   "reb_o3.5": {
+    "p_model": 0.4329,
+    "line": 3.5,
+    "p": 0.4329,
+    "fair": 131
+   },
+   "reb_u3.5": {
+    "p_model": 0.5671,
+    "line": 3.5,
+    "p": 0.5671,
+    "fair": -131
+   },
+   "ast_o3.5": {
+    "p_model": 0.4136,
+    "line": 3.5,
+    "p": 0.4136,
+    "fair": 142
+   },
+   "ast_u3.5": {
+    "p_model": 0.5864,
+    "line": 3.5,
+    "p": 0.5864,
+    "fair": -142
+   }
+  },
+  {
+   "id": 4903027,
+   "name": "Cedric Coward",
+   "team": "MEM",
+   "opp": "NOP",
+   "pos": "W",
+   "game_id": "401909300",
+   "min": 27.3,
+   "exp_thr": 1.88,
+   "exp_reb": 6.85,
+   "exp_ast": 2.77,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.535,
+    "line": 1.5,
+    "p": 0.535,
+    "fair": -115
+   },
+   "thr_u1.5": {
+    "p_model": 0.465,
+    "line": 1.5,
+    "p": 0.465,
+    "fair": 115
+   },
+   "thr_o2.5": {
+    "p_model": 0.2941,
+    "line": 2.5,
+    "p": 0.2941,
+    "fair": 240
+   },
+   "thr_u2.5": {
+    "p_model": 0.7059,
+    "line": 2.5,
+    "p": 0.7059,
+    "fair": -240
+   },
+   "reb_o6.5": {
+    "p_model": 0.4992,
+    "line": 6.5,
+    "p": 0.4992,
+    "fair": 100
+   },
+   "reb_u6.5": {
+    "p_model": 0.5008,
+    "line": 6.5,
+    "p": 0.5008,
+    "fair": -100
+   },
+   "ast_o2.5": {
+    "p_model": 0.5036,
+    "line": 2.5,
+    "p": 0.5036,
+    "fair": -101
+   },
+   "ast_u2.5": {
+    "p_model": 0.4964,
+    "line": 2.5,
+    "p": 0.4964,
+    "fair": 101
+   }
+  },
+  {
+   "id": 4997538,
+   "name": "Karlo Matkovic",
+   "team": "NOP",
+   "opp": "MEM",
+   "pos": "W",
+   "game_id": "401909300",
+   "min": 17.3,
+   "exp_thr": 1.08,
+   "exp_reb": 4.09,
+   "exp_ast": 1.15,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.2899,
+    "line": 1.5,
+    "p": 0.2899,
+    "fair": 245
+   },
+   "thr_u1.5": {
+    "p_model": 0.7101,
+    "line": 1.5,
+    "p": 0.7101,
+    "fair": -245
+   },
+   "thr_o2.5": {
+    "p_model": 0.1056,
+    "line": 2.5,
+    "p": 0.1056,
+    "fair": 847
+   },
+   "thr_u2.5": {
+    "p_model": 0.8944,
+    "line": 2.5,
+    "p": 0.8944,
+    "fair": -847
+   },
+   "reb_o4.5": {
+    "p_model": 0.3844,
+    "line": 4.5,
+    "p": 0.3844,
+    "fair": 160
+   },
+   "reb_u4.5": {
+    "p_model": 0.6156,
+    "line": 4.5,
+    "p": 0.6156,
+    "fair": -160
+   },
+   "ast_o1.5": {
+    "p_model": 0.315,
+    "line": 1.5,
+    "p": 0.315,
+    "fair": 217
+   },
+   "ast_u1.5": {
+    "p_model": 0.685,
+    "line": 1.5,
+    "p": 0.685,
+    "fair": -217
+   }
+  },
+  {
+   "id": 5037871,
+   "name": "Dylan Harper",
+   "team": "SAS",
+   "opp": "GSW",
+   "pos": "G",
+   "game_id": "401909302",
+   "min": 27.8,
+   "exp_thr": 1.0,
+   "exp_reb": 4.36,
+   "exp_ast": 4.16,
+   "env": 0.968,
+   "thr_o1.5": {
+    "p_model": 0.265,
+    "line": 1.5,
+    "p": 0.265,
+    "fair": 277
+   },
+   "thr_u1.5": {
+    "p_model": 0.735,
+    "line": 1.5,
+    "p": 0.735,
+    "fair": -277
+   },
+   "thr_o2.5": {
+    "p_model": 0.0913,
+    "line": 2.5,
+    "p": 0.0913,
+    "fair": 995
+   },
+   "thr_u2.5": {
+    "p_model": 0.9087,
+    "line": 2.5,
+    "p": 0.9087,
+    "fair": -995
+   },
+   "reb_o4.5": {
+    "p_model": 0.4293,
+    "line": 4.5,
+    "p": 0.4293,
+    "fair": 133
+   },
+   "reb_u4.5": {
+    "p_model": 0.5707,
+    "line": 4.5,
+    "p": 0.5707,
+    "fair": -133
+   },
+   "ast_o4.5": {
+    "p_model": 0.3975,
+    "line": 4.5,
+    "p": 0.3975,
+    "fair": 152
+   },
+   "ast_u4.5": {
+    "p_model": 0.6025,
+    "line": 4.5,
+    "p": 0.6025,
+    "fair": -152
+   }
+  },
+  {
+   "id": 5041935,
+   "name": "Cameron Boozer",
+   "team": "MEM",
+   "opp": "NOP",
+   "pos": "W",
+   "game_id": "401909300",
+   "min": 32.6,
+   "exp_thr": 1.95,
+   "exp_reb": 7.6,
+   "exp_ast": 4.66,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.552,
+    "line": 1.5,
+    "p": 0.552,
+    "fair": -123
+   },
+   "thr_u1.5": {
+    "p_model": 0.448,
+    "line": 1.5,
+    "p": 0.448,
+    "fair": 123
+   },
+   "thr_o2.5": {
+    "p_model": 0.3105,
+    "line": 2.5,
+    "p": 0.3105,
+    "fair": 222
+   },
+   "thr_u2.5": {
+    "p_model": 0.6895,
+    "line": 2.5,
+    "p": 0.6895,
+    "fair": -222
+   },
+   "reb_o7.5": {
+    "p_model": 0.4678,
+    "line": 7.5,
+    "p": 0.4678,
+    "fair": 114
+   },
+   "reb_u7.5": {
+    "p_model": 0.5322,
+    "line": 7.5,
+    "p": 0.5322,
+    "fair": -114
+   },
+   "ast_o4.5": {
+    "p_model": 0.4785,
+    "line": 4.5,
+    "p": 0.4785,
+    "fair": 109
+   },
+   "ast_u4.5": {
+    "p_model": 0.5215,
+    "line": 4.5,
+    "p": 0.5215,
+    "fair": -109
+   }
+  },
+  {
+   "id": 5041951,
+   "name": "Meleek Thomas",
+   "team": "CLE",
+   "opp": "MIA",
+   "pos": "G",
+   "game_id": "401909298",
+   "min": 23.1,
+   "exp_thr": 2.11,
+   "exp_reb": 3.02,
+   "exp_ast": 1.89,
+   "env": 0.988,
+   "thr_o1.5": {
+    "p_model": 0.5902,
+    "line": 1.5,
+    "p": 0.5902,
+    "fair": -144
+   },
+   "thr_u1.5": {
+    "p_model": 0.4098,
+    "line": 1.5,
+    "p": 0.4098,
+    "fair": 144
+   },
+   "thr_o2.5": {
+    "p_model": 0.3492,
+    "line": 2.5,
+    "p": 0.3492,
+    "fair": 186
+   },
+   "thr_u2.5": {
+    "p_model": 0.6508,
+    "line": 2.5,
+    "p": 0.6508,
+    "fair": -186
    },
    "reb_o3.5": {
     "p_model": 0.3562,
@@ -1328,2834 +4705,633 @@
     "p": 0.6438,
     "fair": -181
    },
-   "ast_o7.5": {
-    "p_model": 0.4586,
-    "line": 7.5,
-    "p": 0.4586,
-    "fair": 118
-   },
-   "ast_u7.5": {
-    "p_model": 0.5414,
-    "line": 7.5,
-    "p": 0.5414,
-    "fair": -118
-   }
-  },
-  {
-   "id": 4278049,
-   "name": "Daniel Gafford",
-   "team": "DAL",
-   "opp": "MIN",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 21.4,
-   "exp_thr": 0.04,
-   "exp_reb": 5.81,
-   "exp_ast": 1.56,
-   "env": 0.995,
-   "reb_o5.5": {
-    "p_model": 0.4973,
-    "line": 5.5,
-    "p": 0.4973,
-    "fair": 101
-   },
-   "reb_u5.5": {
-    "p_model": 0.5027,
-    "line": 5.5,
-    "p": 0.5027,
-    "fair": -101
-   },
    "ast_o1.5": {
-    "p_model": 0.4512,
+    "p_model": 0.5454,
     "line": 1.5,
-    "p": 0.4512,
-    "fair": 122
-   },
-   "ast_u1.5": {
-    "p_model": 0.5488,
-    "line": 1.5,
-    "p": 0.5488,
-    "fair": -122
-   }
-  },
-  {
-   "id": 4278078,
-   "name": "P.J. Washington",
-   "team": "DAL",
-   "opp": "MIN",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 32.7,
-   "exp_thr": 1.83,
-   "exp_reb": 7.3,
-   "exp_ast": 1.47,
-   "env": 0.995,
-   "thr_o2.5": {
-    "p_model": 0.2821,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": 152,
-     "DraftKings": 165,
-     "Hard Rock Bet": 150
-    },
-    "p_mkt": 0.3678,
-    "p": 0.3378,
-    "fair": 196,
-    "price": 165,
-    "book": "DraftKings",
-    "ev": -0.1048,
-    "likely": false
-   },
-   "thr_u2.5": {
-    "p_model": 0.7179,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": -205,
-     "DraftKings": -215,
-     "Hard Rock Bet": -220
-    },
-    "p_mkt": 0.6322,
-    "p": 0.6622,
-    "fair": -196,
-    "price": -205,
-    "book": "FanDuel",
-    "ev": -0.0148,
-    "likely": true
-   },
-   "reb_o7.5": {
-    "p_model": 0.434,
-    "line": 7.5,
-    "p": 0.434,
-    "fair": 130
-   },
-   "reb_u7.5": {
-    "p_model": 0.566,
-    "line": 7.5,
-    "p": 0.566,
-    "fair": -130
-   },
-   "ast_o1.5": {
-    "p_model": 0.4236,
-    "line": 1.5,
-    "p": 0.4236,
-    "fair": 136
-   },
-   "ast_u1.5": {
-    "p_model": 0.5764,
-    "line": 1.5,
-    "p": 0.5764,
-    "fair": -136
-   }
-  },
-  {
-   "id": 4278402,
-   "name": "Jordan Goodwin",
-   "team": "PHX",
-   "opp": "CHA",
-   "pos": "G",
-   "game_id": "401909979",
-   "min": 20.1,
-   "exp_thr": 1.9,
-   "exp_reb": 3.98,
-   "exp_ast": 2.24,
-   "env": 0.993,
-   "thr_o1.5": {
-    "p_model": 0.5389,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": 114,
-     "DraftKings": 123,
-     "theScore Bet": 110,
-     "betPARX": 110,
-     "BetRivers": 110,
-     "BetMGM": 110,
-     "Hard Rock Bet": 110
-    },
-    "p_mkt": 0.4425,
-    "p": 0.4762,
-    "fair": 110,
-    "price": 123,
-    "book": "DraftKings",
-    "ev": 0.062,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.4611,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -146,
-     "DraftKings": -163,
-     "theScore Bet": -145,
-     "betPARX": -150,
-     "BetRivers": -150,
-     "BetMGM": -150,
-     "Hard Rock Bet": -145
-    },
-    "p_mkt": 0.5575,
-    "p": 0.5238,
-    "fair": -110,
-    "price": -145,
-    "book": "theScore Bet",
-    "ev": -0.115,
-    "likely": false
-   },
-   "reb_o3.5": {
-    "p_model": 0.5351,
-    "line": 3.5,
-    "p": 0.5351,
-    "fair": -115
-   },
-   "reb_u3.5": {
-    "p_model": 0.4649,
-    "line": 3.5,
-    "p": 0.4649,
-    "fair": 115
-   },
-   "ast_o2.5": {
-    "p_model": 0.381,
-    "line": 2.5,
-    "p": 0.381,
-    "fair": 162
-   },
-   "ast_u2.5": {
-    "p_model": 0.619,
-    "line": 2.5,
-    "p": 0.619,
-    "fair": -162
-   }
-  },
-  {
-   "id": 4278562,
-   "name": "Paul Reed",
-   "team": "DET",
-   "opp": "WAS",
-   "pos": "W",
-   "game_id": "401909977",
-   "min": 20.8,
-   "exp_thr": 0.26,
-   "exp_reb": 6.38,
-   "exp_ast": 1.79,
-   "env": 1.052,
-   "reb_o6.5": {
-    "p_model": 0.441,
-    "line": 6.5,
-    "p": 0.441,
-    "fair": 127
-   },
-   "reb_u6.5": {
-    "p_model": 0.559,
-    "line": 6.5,
-    "p": 0.559,
-    "fair": -127
-   },
-   "ast_o1.5": {
-    "p_model": 0.5188,
-    "line": 1.5,
-    "p": 0.5188,
-    "fair": -108
-   },
-   "ast_u1.5": {
-    "p_model": 0.4812,
-    "line": 1.5,
-    "p": 0.4812,
-    "fair": 108
-   }
-  },
-  {
-   "id": 4278585,
-   "name": "Collin Gillespie",
-   "team": "PHX",
-   "opp": "CHA",
-   "pos": "G",
-   "game_id": "401909979",
-   "min": 25.6,
-   "exp_thr": 2.31,
-   "exp_reb": 3.15,
-   "exp_ast": 4.23,
-   "env": 0.993,
-   "thr_o1.5": {
-    "p_model": 0.6331,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -186,
-     "DraftKings": -180,
-     "theScore Bet": -180,
-     "betPARX": -180,
-     "BetRivers": -180,
-     "Hard Rock Bet": -185
-    },
-    "p_mkt": 0.6022,
-    "p": 0.613,
-    "fair": -158,
-    "price": -180,
-    "book": "DraftKings",
-    "ev": -0.0464,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.3669,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": 144,
-     "DraftKings": 136,
-     "theScore Bet": 135,
-     "betPARX": 132,
-     "BetRivers": 132,
-     "Hard Rock Bet": 140
-    },
-    "p_mkt": 0.3978,
-    "p": 0.387,
-    "fair": 158,
-    "price": 144,
-    "book": "FanDuel",
-    "ev": -0.0558,
-    "likely": false
-   },
-   "thr_o2.5": {
-    "p_model": 0.3956,
-    "line": 2.5,
-    "prices": {
-     "BetMGM": 160
-    },
-    "p_mkt": 0.3587,
-    "p": 0.3716,
-    "fair": 169,
-    "price": 160,
-    "book": "BetMGM",
-    "ev": -0.0338,
-    "likely": false
-   },
-   "thr_u2.5": {
-    "p_model": 0.6044,
-    "line": 2.5,
-    "prices": {
-     "BetMGM": -220
-    },
-    "p_mkt": 0.6413,
-    "p": 0.6284,
-    "fair": -169,
-    "price": -220,
-    "book": "BetMGM",
-    "ev": -0.086,
-    "likely": false
-   },
-   "reb_o3.5": {
-    "p_model": 0.3817,
-    "line": 3.5,
-    "p": 0.3817,
-    "fair": 162
-   },
-   "reb_u3.5": {
-    "p_model": 0.6183,
-    "line": 3.5,
-    "p": 0.6183,
-    "fair": -162
-   },
-   "ast_o4.5": {
-    "p_model": 0.4085,
-    "line": 4.5,
-    "p": 0.4085,
-    "fair": 145
-   },
-   "ast_u4.5": {
-    "p_model": 0.5915,
-    "line": 4.5,
-    "p": 0.5915,
-    "fair": -145
-   }
-  },
-  {
-   "id": 4278594,
-   "name": "Naji Marshall",
-   "team": "DAL",
-   "opp": "MIN",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 26.4,
-   "exp_thr": 0.81,
-   "exp_reb": 3.97,
-   "exp_ast": 3.74,
-   "env": 0.995,
-   "thr_o0.5": {
-    "p_model": 0.5382,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": 110,
-     "Hard Rock Bet": -120
-    },
-    "p_mkt": 0.4747,
-    "p": 0.4969,
-    "fair": 101,
-    "price": 110,
-    "book": "DraftKings",
-    "ev": 0.0435,
-    "likely": false
-   },
-   "thr_u0.5": {
-    "p_model": 0.4618,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": -140,
-     "Hard Rock Bet": -120
-    },
-    "p_mkt": 0.5253,
-    "p": 0.5031,
-    "fair": -101,
-    "price": -120,
-    "book": "Hard Rock Bet",
-    "ev": -0.0777,
-    "likely": false
-   },
-   "reb_o3.5": {
-    "p_model": 0.5338,
-    "line": 3.5,
-    "p": 0.5338,
-    "fair": -115
-   },
-   "reb_u3.5": {
-    "p_model": 0.4662,
-    "line": 3.5,
-    "p": 0.4662,
-    "fair": 115
-   },
-   "ast_o3.5": {
-    "p_model": 0.4938,
-    "line": 3.5,
-    "p": 0.4938,
-    "fair": 103
-   },
-   "ast_u3.5": {
-    "p_model": 0.5062,
-    "line": 3.5,
-    "p": 0.5062,
-    "fair": -103
-   }
-  },
-  {
-   "id": 4351851,
-   "name": "Anfernee Simons",
-   "team": "PHI",
-   "opp": "TOR",
-   "pos": "G",
-   "game_id": "401909976",
-   "min": 21.7,
-   "exp_thr": 2.07,
-   "exp_reb": 2.34,
-   "exp_ast": 1.67,
-   "env": 1.054,
-   "thr_o2.5": {
-    "p_model": 0.3391,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": -130,
-     "DraftKings": -105,
-     "Hard Rock Bet": -140
-    },
-    "p_mkt": 0.5282,
-    "p": 0.462,
-    "fair": 116,
-    "price": -105,
-    "book": "DraftKings",
-    "ev": -0.098,
-    "likely": false
-   },
-   "thr_u2.5": {
-    "p_model": 0.6609,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": -102,
-     "DraftKings": -125,
-     "Hard Rock Bet": -105
-    },
-    "p_mkt": 0.4718,
-    "p": 0.538,
-    "fair": -116,
-    "price": -102,
-    "book": "FanDuel",
-    "ev": 0.0654,
-    "likely": false
-   },
-   "reb_o2.5": {
-    "p_model": 0.4056,
-    "line": 2.5,
-    "p": 0.4056,
-    "fair": 147
-   },
-   "reb_u2.5": {
-    "p_model": 0.5944,
-    "line": 2.5,
-    "p": 0.5944,
-    "fair": -147
-   },
-   "ast_o1.5": {
-    "p_model": 0.4824,
-    "line": 1.5,
-    "p": 0.4824,
-    "fair": 107
-   },
-   "ast_u1.5": {
-    "p_model": 0.5176,
-    "line": 1.5,
-    "p": 0.5176,
-    "fair": -107
-   }
-  },
-  {
-   "id": 4395651,
-   "name": "Coby White",
-   "team": "CHA",
-   "opp": "PHX",
-   "pos": "G",
-   "game_id": "401909979",
-   "min": 21.7,
-   "exp_thr": 1.96,
-   "exp_reb": 2.74,
-   "exp_ast": 3.66,
-   "env": 0.993,
-   "thr_o2.5": {
-    "p_model": 0.3133,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": 164
-    },
-    "p_mkt": 0.3569,
-    "p": 0.3416,
-    "fair": 193,
-    "price": 164,
-    "book": "FanDuel",
-    "ev": -0.0981,
-    "likely": false
-   },
-   "thr_u2.5": {
-    "p_model": 0.6867,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": -215
-    },
-    "p_mkt": 0.6431,
-    "p": 0.6584,
-    "fair": -193,
-    "price": -215,
-    "book": "FanDuel",
-    "ev": -0.0354,
-    "likely": false
-   },
-   "thr_o1.5": {
-    "p_model": 0.5548,
-    "line": 1.5,
-    "prices": {
-     "DraftKings": -136,
-     "theScore Bet": -125,
-     "betPARX": -165,
-     "BetRivers": -167,
-     "BetMGM": -150,
-     "Hard Rock Bet": -150
-    },
-    "p_mkt": 0.5604,
-    "p": 0.5584,
-    "fair": -126,
-    "price": -125,
-    "book": "theScore Bet",
-    "ev": 0.0052,
-    "likely": true
-   },
-   "thr_u1.5": {
-    "p_model": 0.4452,
-    "line": 1.5,
-    "prices": {
-     "DraftKings": 104,
-     "theScore Bet": -105,
-     "betPARX": 123,
-     "BetRivers": 123,
-     "BetMGM": 110,
-     "Hard Rock Bet": 115
-    },
-    "p_mkt": 0.4396,
-    "p": 0.4416,
-    "fair": 126,
-    "price": 123,
-    "book": "betPARX",
-    "ev": -0.0153,
-    "likely": false
-   },
-   "reb_o2.5": {
-    "p_model": 0.4987,
-    "line": 2.5,
-    "p": 0.4987,
-    "fair": 101
-   },
-   "reb_u2.5": {
-    "p_model": 0.5013,
-    "line": 2.5,
-    "p": 0.5013,
-    "fair": -101
-   },
-   "ast_o3.5": {
-    "p_model": 0.4794,
-    "line": 3.5,
-    "p": 0.4794,
-    "fair": 109
-   },
-   "ast_u3.5": {
-    "p_model": 0.5206,
-    "line": 3.5,
-    "p": 0.5206,
-    "fair": -109
-   }
-  },
-  {
-   "id": 4395724,
-   "name": "Immanuel Quickley",
-   "team": "TOR",
-   "opp": "PHI",
-   "pos": "G",
-   "game_id": "401909976",
-   "min": 32.3,
-   "exp_thr": 2.72,
-   "exp_reb": 4.15,
-   "exp_ast": 5.85,
-   "env": 1.054,
-   "thr_o2.5": {
-    "p_model": 0.4849,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": -230,
-     "DraftKings": -200,
-     "BetMGM": -200,
-     "Hard Rock Bet": -210
-    },
-    "p_mkt": 0.6269,
-    "p": 0.5772,
-    "fair": -137,
-    "price": -200,
-    "book": "DraftKings",
-    "ev": -0.1342,
-    "likely": false
-   },
-   "thr_u2.5": {
-    "p_model": 0.5151,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": 168,
-     "DraftKings": 154,
-     "BetMGM": 150,
-     "Hard Rock Bet": 145
-    },
-    "p_mkt": 0.3731,
-    "p": 0.4228,
-    "fair": 137,
-    "price": 168,
-    "book": "FanDuel",
-    "ev": 0.1331,
-    "likely": false
-   },
-   "reb_o4.5": {
-    "p_model": 0.3947,
-    "line": 4.5,
-    "p": 0.3947,
-    "fair": 153
-   },
-   "reb_u4.5": {
-    "p_model": 0.6053,
-    "line": 4.5,
-    "p": 0.6053,
-    "fair": -153
-   },
-   "ast_o5.5": {
-    "p_model": 0.5019,
-    "line": 5.5,
-    "p": 0.5019,
-    "fair": -101
-   },
-   "ast_u5.5": {
-    "p_model": 0.4981,
-    "line": 5.5,
-    "p": 0.4981,
-    "fair": 101
-   }
-  },
-  {
-   "id": 4396971,
-   "name": "Naz Reid",
-   "team": "CHA",
-   "opp": "PHX",
-   "pos": "B",
-   "game_id": "401909979",
-   "min": 28.7,
-   "exp_thr": 2.17,
-   "exp_reb": 7.24,
-   "exp_ast": 2.17,
-   "env": 0.993,
-   "thr_o2.5": {
-    "p_model": 0.3638,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": 136,
-     "DraftKings": 139,
-     "theScore Bet": 140,
-     "betPARX": 120,
-     "BetRivers": 120,
-     "BetMGM": 120,
-     "Hard Rock Bet": 145
-    },
-    "p_mkt": 0.4002,
-    "p": 0.3875,
-    "fair": 158,
-    "price": 145,
-    "book": "Hard Rock Bet",
-    "ev": -0.0507,
-    "likely": false
-   },
-   "thr_u2.5": {
-    "p_model": 0.6362,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": -174,
-     "DraftKings": -184,
-     "theScore Bet": -190,
-     "betPARX": -162,
-     "BetRivers": -162,
-     "BetMGM": -160,
-     "Hard Rock Bet": -185
-    },
-    "p_mkt": 0.5998,
-    "p": 0.6125,
-    "fair": -158,
-    "price": -160,
-    "book": "BetMGM",
-    "ev": -0.0046,
-    "likely": true
-   },
-   "reb_o7.5": {
-    "p_model": 0.4263,
-    "line": 7.5,
-    "p": 0.4263,
-    "fair": 135
-   },
-   "reb_u7.5": {
-    "p_model": 0.5737,
-    "line": 7.5,
-    "p": 0.5737,
-    "fair": -135
-   },
-   "ast_o2.5": {
-    "p_model": 0.3653,
-    "line": 2.5,
-    "p": 0.3653,
-    "fair": 174
-   },
-   "ast_u2.5": {
-    "p_model": 0.6347,
-    "line": 2.5,
-    "p": 0.6347,
-    "fair": -174
-   }
-  },
-  {
-   "id": 4397002,
-   "name": "Ayo Dosunmu",
-   "team": "MIN",
-   "opp": "DAL",
-   "pos": "G",
-   "game_id": "401909978",
-   "min": 30.9,
-   "exp_thr": 1.75,
-   "exp_reb": 4.38,
-   "exp_ast": 4.02,
-   "env": 0.995,
-   "thr_o1.5": {
-    "p_model": 0.4997,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": 118,
-     "DraftKings": 130,
-     "BetMGM": -105,
-     "Hard Rock Bet": 125
-    },
-    "p_mkt": 0.4197,
-    "p": 0.4477,
-    "fair": 123,
-    "price": 130,
-    "book": "DraftKings",
-    "ev": 0.0297,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.5003,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -158,
-     "DraftKings": -166,
-     "BetMGM": -125,
-     "Hard Rock Bet": -175
-    },
-    "p_mkt": 0.5803,
-    "p": 0.5523,
-    "fair": -123,
-    "price": -125,
-    "book": "BetMGM",
-    "ev": -0.0059,
-    "likely": true
-   },
-   "reb_o4.5": {
-    "p_model": 0.4333,
-    "line": 4.5,
-    "p": 0.4333,
-    "fair": 131
-   },
-   "reb_u4.5": {
-    "p_model": 0.5667,
-    "line": 4.5,
-    "p": 0.5667,
-    "fair": -131
-   },
-   "ast_o4.5": {
-    "p_model": 0.3735,
-    "line": 4.5,
-    "p": 0.3735,
-    "fair": 168
-   },
-   "ast_u4.5": {
-    "p_model": 0.6265,
-    "line": 4.5,
-    "p": 0.6265,
-    "fair": -168
-   }
-  },
-  {
-   "id": 4431671,
-   "name": "Jaden McDaniels",
-   "team": "MIN",
-   "opp": "DAL",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 33.5,
-   "exp_thr": 1.61,
-   "exp_reb": 5.37,
-   "exp_ast": 3.35,
-   "env": 0.995,
-   "thr_o0.5": {
-    "p_model": 0.7692,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": -250,
-     "DraftKings": -220,
-     "Hard Rock Bet": -210
-    },
-    "p_mkt": 0.6499,
-    "p": 0.6917,
-    "fair": -224,
-    "price": -210,
-    "book": "Hard Rock Bet",
-    "ev": 0.021,
-    "likely": true
-   },
-   "thr_u0.5": {
-    "p_model": 0.2308,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": 182,
-     "DraftKings": 170,
-     "Hard Rock Bet": 145
-    },
-    "p_mkt": 0.3501,
-    "p": 0.3083,
-    "fair": 224,
-    "price": 182,
-    "book": "FanDuel",
-    "ev": -0.1305,
-    "likely": false
-   },
-   "thr_o1.5": {
-    "p_model": 0.46,
-    "line": 1.5,
-    "prices": {
-     "BetMGM": 165
-    },
-    "p_mkt": 0.3528,
-    "p": 0.3903,
-    "fair": 156,
-    "price": 165,
-    "book": "BetMGM",
-    "ev": 0.0343,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.54,
-    "line": 1.5,
-    "prices": {
-     "BetMGM": -225
-    },
-    "p_mkt": 0.6472,
-    "p": 0.6097,
-    "fair": -156,
-    "price": -225,
-    "book": "BetMGM",
-    "ev": -0.1194,
-    "likely": false
-   },
-   "reb_o5.5": {
-    "p_model": 0.4365,
-    "line": 5.5,
-    "p": 0.4365,
-    "fair": 129
-   },
-   "reb_u5.5": {
-    "p_model": 0.5635,
-    "line": 5.5,
-    "p": 0.5635,
-    "fair": -129
-   },
-   "ast_o3.5": {
-    "p_model": 0.42,
-    "line": 3.5,
-    "p": 0.42,
-    "fair": 138
-   },
-   "ast_u3.5": {
-    "p_model": 0.58,
-    "line": 3.5,
-    "p": 0.58,
-    "fair": -138
-   }
-  },
-  {
-   "id": 4431678,
-   "name": "Tyrese Maxey",
-   "team": "PHI",
-   "opp": "TOR",
-   "pos": "G",
-   "game_id": "401909976",
-   "min": 36.4,
-   "exp_thr": 2.6,
-   "exp_reb": 3.74,
-   "exp_ast": 6.13,
-   "env": 1.054,
-   "thr_o2.5": {
-    "p_model": 0.46,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": 168,
-     "DraftKings": 140
-    },
-    "p_mkt": 0.371,
-    "p": 0.4022,
-    "fair": 149,
-    "price": 168,
-    "book": "FanDuel",
-    "ev": 0.0778,
-    "likely": false
-   },
-   "thr_u2.5": {
-    "p_model": 0.54,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": -230,
-     "DraftKings": -180
-    },
-    "p_mkt": 0.629,
-    "p": 0.5978,
-    "fair": -149,
-    "price": -180,
-    "book": "DraftKings",
-    "ev": -0.07,
-    "likely": false
-   },
-   "thr_o1.5": {
-    "p_model": 0.6881,
-    "line": 1.5,
-    "prices": {
-     "Hard Rock Bet": -240
-    },
-    "p_mkt": 0.6516,
-    "p": 0.6644,
-    "fair": -198,
-    "price": -240,
-    "book": "Hard Rock Bet",
-    "ev": -0.0588,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.3119,
-    "line": 1.5,
-    "prices": {
-     "Hard Rock Bet": 165
-    },
-    "p_mkt": 0.3484,
-    "p": 0.3356,
-    "fair": 198,
-    "price": 165,
-    "book": "Hard Rock Bet",
-    "ev": -0.1106,
-    "likely": false
-   },
-   "reb_o3.5": {
-    "p_model": 0.4925,
-    "line": 3.5,
-    "p": 0.4925,
-    "fair": 103
-   },
-   "reb_u3.5": {
-    "p_model": 0.5075,
-    "line": 3.5,
-    "p": 0.5075,
-    "fair": -103
-   },
-   "ast_o6.5": {
-    "p_model": 0.4082,
-    "line": 6.5,
-    "p": 0.4082,
-    "fair": 145
-   },
-   "ast_u6.5": {
-    "p_model": 0.5918,
-    "line": 6.5,
-    "p": 0.5918,
-    "fair": -145
-   }
-  },
-  {
-   "id": 4431893,
-   "name": "Jamison Battle",
-   "team": "TOR",
-   "opp": "PHI",
-   "pos": "W",
-   "game_id": "401909976",
-   "min": 15.9,
-   "exp_thr": 1.51,
-   "exp_reb": 1.94,
-   "exp_ast": 0.52,
-   "env": 1.054,
-   "thr_o2.5": {
-    "p_model": 0.2026,
-    "line": 2.5,
-    "prices": {
-     "DraftKings": -166,
-     "Hard Rock Bet": -140
-    },
-    "p_mkt": 0.5609,
-    "p": 0.4355,
-    "fair": 130,
-    "price": -140,
-    "book": "Hard Rock Bet",
-    "ev": -0.2534,
-    "likely": false
-   },
-   "thr_u2.5": {
-    "p_model": 0.7974,
-    "line": 2.5,
-    "prices": {
-     "DraftKings": 130,
-     "Hard Rock Bet": -105
-    },
-    "p_mkt": 0.4391,
-    "p": 0.5645,
-    "fair": -130,
-    "price": 130,
-    "book": "DraftKings",
-    "ev": 0.2984,
-    "likely": true
-   },
-   "reb_o1.5": {
-    "p_model": 0.5576,
-    "line": 1.5,
-    "p": 0.5576,
-    "fair": -126
-   },
-   "reb_u1.5": {
-    "p_model": 0.4424,
-    "line": 1.5,
-    "p": 0.4424,
-    "fair": 126
-   },
-   "ast_o0.5": {
-    "p_model": 0.4018,
-    "line": 0.5,
-    "p": 0.4018,
-    "fair": 149
-   },
-   "ast_u0.5": {
-    "p_model": 0.5982,
-    "line": 0.5,
-    "p": 0.5982,
-    "fair": -149
-   }
-  },
-  {
-   "id": 4432166,
-   "name": "Cade Cunningham",
-   "team": "DET",
-   "opp": "WAS",
-   "pos": "G",
-   "game_id": "401909977",
-   "min": 33.2,
-   "exp_thr": 2.13,
-   "exp_reb": 5.5,
-   "exp_ast": 8.52,
-   "env": 1.052,
-   "thr_o1.5": {
-    "p_model": 0.5952,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -140,
-     "DraftKings": -180,
-     "Hard Rock Bet": -195
-    },
-    "p_mkt": 0.6067,
-    "p": 0.6027,
-    "fair": -152,
-    "price": -140,
-    "book": "FanDuel",
-    "ev": 0.0332,
-    "likely": true
-   },
-   "thr_u1.5": {
-    "p_model": 0.4048,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": 106,
-     "DraftKings": 140,
-     "Hard Rock Bet": 135
-    },
-    "p_mkt": 0.3933,
-    "p": 0.3973,
-    "fair": 152,
-    "price": 140,
-    "book": "DraftKings",
-    "ev": -0.0464,
-    "likely": false
-   },
-   "reb_o5.5": {
-    "p_model": 0.4545,
-    "line": 5.5,
-    "p": 0.4545,
-    "fair": 120
-   },
-   "reb_u5.5": {
-    "p_model": 0.5455,
-    "line": 5.5,
-    "p": 0.5455,
+    "p": 0.5454,
     "fair": -120
    },
-   "ast_o8.5": {
-    "p_model": 0.4593,
-    "line": 8.5,
-    "p": 0.4593,
-    "fair": 118
-   },
-   "ast_u8.5": {
-    "p_model": 0.5407,
-    "line": 8.5,
-    "p": 0.5407,
-    "fair": -118
-   }
-  },
-  {
-   "id": 4432241,
-   "name": "Jamal Shead",
-   "team": "TOR",
-   "opp": "PHI",
-   "pos": "G",
-   "game_id": "401909976",
-   "min": 24.1,
-   "exp_thr": 1.24,
-   "exp_reb": 2.21,
-   "exp_ast": 6.68,
-   "env": 1.054,
-   "thr_o0.5": {
-    "p_model": 0.683,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": 154,
-     "Hard Rock Bet": 125
-    },
-    "p_mkt": 0.3894,
-    "p": 0.4922,
-    "fair": 103,
-    "price": 154,
-    "book": "FanDuel",
-    "ev": 0.2501,
-    "likely": false
-   },
-   "thr_u0.5": {
-    "p_model": 0.317,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": -210,
-     "Hard Rock Bet": -175
-    },
-    "p_mkt": 0.6106,
-    "p": 0.5078,
-    "fair": -103,
-    "price": -175,
-    "book": "Hard Rock Bet",
-    "ev": -0.202,
-    "likely": false
-   },
-   "reb_o2.5": {
-    "p_model": 0.3755,
-    "line": 2.5,
-    "p": 0.3755,
-    "fair": 166
-   },
-   "reb_u2.5": {
-    "p_model": 0.6245,
-    "line": 2.5,
-    "p": 0.6245,
-    "fair": -166
-   },
-   "ast_o6.5": {
-    "p_model": 0.4778,
-    "line": 6.5,
-    "p": 0.4778,
-    "fair": 109
-   },
-   "ast_u6.5": {
-    "p_model": 0.5222,
-    "line": 6.5,
-    "p": 0.5222,
-    "fair": -109
-   }
-  },
-  {
-   "id": 4432247,
-   "name": "Jaylen Clark",
-   "team": "MIN",
-   "opp": "DAL",
-   "pos": "G",
-   "game_id": "401909978",
-   "min": 15.8,
-   "exp_thr": 0.74,
-   "exp_reb": 2.15,
-   "exp_ast": 0.78,
-   "env": 0.995,
-   "thr_o0.5": {
-    "p_model": 0.5076,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": 114,
-     "BetMGM": -125,
-     "Hard Rock Bet": 100
-    },
-    "p_mkt": 0.4808,
-    "p": 0.4902,
-    "fair": 104,
-    "price": 114,
-    "book": "DraftKings",
-    "ev": 0.049,
-    "likely": false
-   },
-   "thr_u0.5": {
-    "p_model": 0.4924,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": -145,
-     "BetMGM": -105
-    },
-    "p_mkt": 0.5192,
-    "p": 0.5098,
-    "fair": -104,
-    "price": -105,
-    "book": "BetMGM",
-    "ev": -0.0046,
-    "likely": false
-   },
-   "reb_o2.5": {
-    "p_model": 0.3611,
-    "line": 2.5,
-    "p": 0.3611,
-    "fair": 177
-   },
-   "reb_u2.5": {
-    "p_model": 0.6389,
-    "line": 2.5,
-    "p": 0.6389,
-    "fair": -177
-   },
-   "ast_o0.5": {
-    "p_model": 0.5304,
-    "line": 0.5,
-    "p": 0.5304,
-    "fair": -113
-   },
-   "ast_u0.5": {
-    "p_model": 0.4696,
-    "line": 0.5,
-    "p": 0.4696,
-    "fair": 113
-   }
-  },
-  {
-   "id": 4432816,
-   "name": "LaMelo Ball",
-   "team": "MIN",
-   "opp": "DAL",
-   "pos": "G",
-   "game_id": "401909978",
-   "min": 28.5,
-   "exp_thr": 3.15,
-   "exp_reb": 4.39,
-   "exp_ast": 6.43,
-   "env": 0.995,
-   "thr_o4.5": {
-    "p_model": 0.2317,
-    "line": 4.5,
-    "prices": {
-     "FanDuel": -110,
-     "DraftKings": -125,
-     "Hard Rock Bet": -145
-    },
-    "p_mkt": 0.5203,
-    "p": 0.4193,
-    "fair": 138,
-    "price": -110,
-    "book": "FanDuel",
-    "ev": -0.1995,
-    "likely": false
-   },
-   "thr_u4.5": {
-    "p_model": 0.7683,
-    "line": 4.5,
-    "prices": {
-     "FanDuel": -120,
-     "DraftKings": -105,
-     "Hard Rock Bet": 100
-    },
-    "p_mkt": 0.4797,
-    "p": 0.5807,
-    "fair": -138,
-    "price": 100,
-    "book": "Hard Rock Bet",
-    "ev": 0.1614,
-    "likely": true
-   },
-   "reb_o4.5": {
-    "p_model": 0.4352,
-    "line": 4.5,
-    "p": 0.4352,
-    "fair": 130
-   },
-   "reb_u4.5": {
-    "p_model": 0.5648,
-    "line": 4.5,
-    "p": 0.5648,
-    "fair": -130
-   },
-   "ast_o6.5": {
-    "p_model": 0.447,
-    "line": 6.5,
-    "p": 0.447,
-    "fair": 124
-   },
-   "ast_u6.5": {
-    "p_model": 0.553,
-    "line": 6.5,
-    "p": 0.553,
-    "fair": -124
-   }
-  },
-  {
-   "id": 4432847,
-   "name": "Terrence Shannon Jr.",
-   "team": "MIN",
-   "opp": "DAL",
-   "pos": "G",
-   "game_id": "401909978",
-   "min": 17.2,
-   "exp_thr": 1.19,
-   "exp_reb": 2.41,
-   "exp_ast": 1.93,
-   "env": 0.995,
-   "thr_o0.5": {
-    "p_model": 0.6714,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": -200,
-     "Hard Rock Bet": -210
-    },
-    "p_mkt": 0.6239,
-    "p": 0.6405,
-    "fair": -178,
-    "price": -200,
-    "book": "DraftKings",
-    "ev": -0.0392,
-    "likely": false
-   },
-   "thr_u0.5": {
-    "p_model": 0.3286,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": 154,
-     "Hard Rock Bet": 140
-    },
-    "p_mkt": 0.3761,
-    "p": 0.3595,
-    "fair": 178,
-    "price": 154,
-    "book": "DraftKings",
-    "ev": -0.0869,
-    "likely": false
-   },
-   "reb_o2.5": {
-    "p_model": 0.4233,
-    "line": 2.5,
-    "p": 0.4233,
-    "fair": 136
-   },
-   "reb_u2.5": {
-    "p_model": 0.5767,
-    "line": 2.5,
-    "p": 0.5767,
-    "fair": -136
-   },
-   "ast_o1.5": {
-    "p_model": 0.5551,
-    "line": 1.5,
-    "p": 0.5551,
-    "fair": -125
-   },
    "ast_u1.5": {
-    "p_model": 0.4449,
+    "p_model": 0.4546,
     "line": 1.5,
-    "p": 0.4449,
-    "fair": 125
+    "p": 0.4546,
+    "fair": 120
    }
   },
   {
-   "id": 4433247,
-   "name": "Jonathan Kuminga",
-   "team": "MIN",
-   "opp": "DAL",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 28.2,
-   "exp_thr": 1.4,
-   "exp_reb": 5.94,
-   "exp_ast": 2.68,
-   "env": 0.995,
-   "thr_o0.5": {
-    "p_model": 0.724,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": -174,
-     "DraftKings": -166
-    },
-    "p_mkt": 0.5915,
-    "p": 0.6379,
-    "fair": -176,
-    "price": -166,
-    "book": "DraftKings",
-    "ev": 0.0221,
-    "likely": true
-   },
-   "thr_u0.5": {
-    "p_model": 0.276,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": 130,
-     "DraftKings": 130
-    },
-    "p_mkt": 0.4085,
-    "p": 0.3621,
-    "fair": 176,
-    "price": 130,
-    "book": "FanDuel",
-    "ev": -0.1671,
-    "likely": false
-   },
+   "id": 5041955,
+   "name": "Darryn Peterson",
+   "team": "UTA",
+   "opp": "HOU",
+   "pos": "G",
+   "game_id": "401909301",
+   "min": 31.2,
+   "exp_thr": 2.1,
+   "exp_reb": 3.98,
+   "exp_ast": 3.75,
+   "env": 0.983,
    "thr_o1.5": {
-    "p_model": 0.3957,
+    "p_model": 0.5883,
     "line": 1.5,
-    "prices": {
-     "BetMGM": 160
-    },
-    "p_mkt": 0.3587,
-    "p": 0.3717,
-    "fair": 169,
-    "price": 160,
-    "book": "BetMGM",
-    "ev": -0.0337,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.6043,
-    "line": 1.5,
-    "prices": {
-     "BetMGM": -220
-    },
-    "p_mkt": 0.6413,
-    "p": 0.6283,
-    "fair": -169,
-    "price": -220,
-    "book": "BetMGM",
-    "ev": -0.086,
-    "likely": false
-   },
-   "reb_o5.5": {
-    "p_model": 0.5144,
-    "line": 5.5,
-    "p": 0.5144,
-    "fair": -106
-   },
-   "reb_u5.5": {
-    "p_model": 0.4856,
-    "line": 5.5,
-    "p": 0.4856,
-    "fair": 106
-   },
-   "ast_o2.5": {
-    "p_model": 0.4836,
-    "line": 2.5,
-    "p": 0.4836,
-    "fair": 107
-   },
-   "ast_u2.5": {
-    "p_model": 0.5164,
-    "line": 2.5,
-    "p": 0.5164,
-    "fair": -107
-   }
-  },
-  {
-   "id": 4433249,
-   "name": "Moussa Diabate",
-   "team": "CHA",
-   "opp": "PHX",
-   "pos": "W",
-   "game_id": "401909979",
-   "min": 27.7,
-   "exp_thr": 0.04,
-   "exp_reb": 8.62,
-   "exp_ast": 1.96,
-   "env": 0.993,
-   "reb_o8.5": {
-    "p_model": 0.4704,
-    "line": 8.5,
-    "p": 0.4704,
-    "fair": 113
-   },
-   "reb_u8.5": {
-    "p_model": 0.5296,
-    "line": 8.5,
-    "p": 0.5296,
-    "fair": -113
-   },
-   "ast_o1.5": {
-    "p_model": 0.564,
-    "line": 1.5,
-    "p": 0.564,
-    "fair": -129
-   },
-   "ast_u1.5": {
-    "p_model": 0.436,
-    "line": 1.5,
-    "p": 0.436,
-    "fair": 129
-   }
-  },
-  {
-   "id": 4437244,
-   "name": "Jalen Green",
-   "team": "PHX",
-   "opp": "CHA",
-   "pos": "G",
-   "game_id": "401909979",
-   "min": 26.7,
-   "exp_thr": 1.32,
-   "exp_reb": 3.44,
-   "exp_ast": 3.04,
-   "env": 0.993,
-   "thr_o1.5": {
-    "p_model": 0.371,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": 106,
-     "DraftKings": 122,
-     "theScore Bet": 110,
-     "betPARX": -106,
-     "BetRivers": -106,
-     "BetMGM": 120,
-     "Hard Rock Bet": 110
-    },
-    "p_mkt": 0.4459,
-    "p": 0.4197,
-    "fair": 138,
-    "price": 122,
-    "book": "DraftKings",
-    "ev": -0.0683,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.629,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -136,
-     "DraftKings": -161,
-     "theScore Bet": -145,
-     "betPARX": -129,
-     "BetRivers": -129,
-     "BetMGM": -160,
-     "Hard Rock Bet": -145
-    },
-    "p_mkt": 0.5541,
-    "p": 0.5803,
-    "fair": -138,
-    "price": -129,
-    "book": "betPARX",
-    "ev": 0.0302,
-    "likely": true
-   },
-   "reb_o3.5": {
-    "p_model": 0.4375,
-    "line": 3.5,
-    "p": 0.4375,
-    "fair": 129
-   },
-   "reb_u3.5": {
-    "p_model": 0.5625,
-    "line": 3.5,
-    "p": 0.5625,
-    "fair": -129
-   },
-   "ast_o3.5": {
-    "p_model": 0.3604,
-    "line": 3.5,
-    "p": 0.3604,
-    "fair": 177
-   },
-   "ast_u3.5": {
-    "p_model": 0.6396,
-    "line": 3.5,
-    "p": 0.6396,
-    "fair": -177
-   }
-  },
-  {
-   "id": 4576060,
-   "name": "Ryan Kalkbrenner",
-   "team": "CHA",
-   "opp": "PHX",
-   "pos": "B",
-   "game_id": "401909979",
-   "min": 20.9,
-   "exp_thr": 0.04,
-   "exp_reb": 5.6,
-   "exp_ast": 1.32,
-   "env": 0.993,
-   "reb_o5.5": {
-    "p_model": 0.4683,
-    "line": 5.5,
-    "p": 0.4683,
-    "fair": 114
-   },
-   "reb_u5.5": {
-    "p_model": 0.5317,
-    "line": 5.5,
-    "p": 0.5317,
-    "fair": -114
-   },
-   "ast_o1.5": {
-    "p_model": 0.3743,
-    "line": 1.5,
-    "p": 0.3743,
-    "fair": 167
-   },
-   "ast_u1.5": {
-    "p_model": 0.6257,
-    "line": 1.5,
-    "p": 0.6257,
-    "fair": -167
-   }
-  },
-  {
-   "id": 4593125,
-   "name": "Santi Aldama",
-   "team": "DAL",
-   "opp": "MIN",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 22.8,
-   "exp_thr": 1.25,
-   "exp_reb": 5.69,
-   "exp_ast": 2.08,
-   "env": 0.995,
-   "thr_o0.5": {
-    "p_model": 0.6866,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": -105,
-     "Hard Rock Bet": -140
-    },
-    "p_mkt": 0.5091,
-    "p": 0.5712,
-    "fair": -133,
-    "price": -105,
-    "book": "DraftKings",
-    "ev": 0.1152,
-    "likely": true
-   },
-   "thr_u0.5": {
-    "p_model": 0.3134,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": -125,
-     "Hard Rock Bet": 100
-    },
-    "p_mkt": 0.4909,
-    "p": 0.4288,
-    "fair": 133,
-    "price": 100,
-    "book": "Hard Rock Bet",
-    "ev": -0.1424,
-    "likely": false
-   },
-   "reb_o5.5": {
-    "p_model": 0.4803,
-    "line": 5.5,
-    "p": 0.4803,
-    "fair": 108
-   },
-   "reb_u5.5": {
-    "p_model": 0.5197,
-    "line": 5.5,
-    "p": 0.5197,
-    "fair": -108
-   },
-   "ast_o2.5": {
-    "p_model": 0.3434,
-    "line": 2.5,
-    "p": 0.3434,
-    "fair": 191
-   },
-   "ast_u2.5": {
-    "p_model": 0.6566,
-    "line": 2.5,
-    "p": 0.6566,
-    "fair": -191
-   }
-  },
-  {
-   "id": 4601023,
-   "name": "Oso Ighodaro",
-   "team": "PHX",
-   "opp": "CHA",
-   "pos": "W",
-   "game_id": "401909979",
-   "min": 21.7,
-   "exp_thr": 0.03,
-   "exp_reb": 5.2,
-   "exp_ast": 2.64,
-   "env": 0.993,
-   "reb_o5.5": {
-    "p_model": 0.4113,
-    "line": 5.5,
-    "p": 0.4113,
-    "fair": 143
-   },
-   "reb_u5.5": {
-    "p_model": 0.5887,
-    "line": 5.5,
-    "p": 0.5887,
+    "p": 0.5883,
     "fair": -143
    },
-   "ast_o2.5": {
-    "p_model": 0.4754,
-    "line": 2.5,
-    "p": 0.4754,
-    "fair": 110
-   },
-   "ast_u2.5": {
-    "p_model": 0.5246,
-    "line": 2.5,
-    "p": 0.5246,
-    "fair": -110
-   }
-  },
-  {
-   "id": 4602025,
-   "name": "Sion James",
-   "team": "CHA",
-   "opp": "PHX",
-   "pos": "G",
-   "game_id": "401909979",
-   "min": 24.1,
-   "exp_thr": 1.3,
-   "exp_reb": 3.27,
-   "exp_ast": 2.21,
-   "env": 0.993,
-   "thr_o1.5": {
-    "p_model": 0.3655,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -102,
-     "DraftKings": -116,
-     "theScore Bet": -105,
-     "betPARX": 100,
-     "BetRivers": 100,
-     "BetMGM": -110,
-     "Hard Rock Bet": -105
-    },
-    "p_mkt": 0.4797,
-    "p": 0.4397,
-    "fair": 127,
-    "price": 100,
-    "book": "betPARX",
-    "ev": -0.1205,
-    "likely": false
-   },
    "thr_u1.5": {
-    "p_model": 0.6345,
+    "p_model": 0.4117,
     "line": 1.5,
-    "prices": {
-     "FanDuel": -125,
-     "DraftKings": -113,
-     "theScore Bet": -125,
-     "betPARX": -134,
-     "BetRivers": -136,
-     "BetMGM": -120,
-     "Hard Rock Bet": -125
-    },
-    "p_mkt": 0.5203,
-    "p": 0.5603,
-    "fair": -127,
-    "price": -113,
-    "book": "DraftKings",
-    "ev": 0.0561,
-    "likely": true
+    "p": 0.4117,
+    "fair": 143
    },
-   "reb_o3.5": {
-    "p_model": 0.4059,
-    "line": 3.5,
-    "p": 0.4059,
-    "fair": 146
-   },
-   "reb_u3.5": {
-    "p_model": 0.5941,
-    "line": 3.5,
-    "p": 0.5941,
-    "fair": -146
-   },
-   "ast_o2.5": {
-    "p_model": 0.375,
-    "line": 2.5,
-    "p": 0.375,
-    "fair": 167
-   },
-   "ast_u2.5": {
-    "p_model": 0.625,
-    "line": 2.5,
-    "p": 0.625,
-    "fair": -167
-   }
-  },
-  {
-   "id": 4684272,
-   "name": "Ja'Kobe Walter",
-   "team": "TOR",
-   "opp": "PHI",
-   "pos": "G",
-   "game_id": "401909976",
-   "min": 26.7,
-   "exp_thr": 2.12,
-   "exp_reb": 3.72,
-   "exp_ast": 1.81,
-   "env": 1.054,
-   "thr_o1.5": {
-    "p_model": 0.5924,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -180,
-     "DraftKings": -166,
-     "BetMGM": -140,
-     "Hard Rock Bet": -170
-    },
-    "p_mkt": 0.5823,
-    "p": 0.5858,
-    "fair": -141,
-    "price": -140,
-    "book": "BetMGM",
-    "ev": 0.0043,
-    "likely": true
-   },
-   "thr_u1.5": {
-    "p_model": 0.4076,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": 134,
-     "DraftKings": 130,
-     "BetMGM": 105,
-     "Hard Rock Bet": 115
-    },
-    "p_mkt": 0.4177,
-    "p": 0.4142,
-    "fair": 141,
-    "price": 134,
-    "book": "FanDuel",
-    "ev": -0.0309,
-    "likely": false
-   },
-   "reb_o3.5": {
-    "p_model": 0.4897,
-    "line": 3.5,
-    "p": 0.4897,
-    "fair": 104
-   },
-   "reb_u3.5": {
-    "p_model": 0.5103,
-    "line": 3.5,
-    "p": 0.5103,
-    "fair": -104
-   },
-   "ast_o1.5": {
-    "p_model": 0.5225,
-    "line": 1.5,
-    "p": 0.5225,
-    "fair": -109
-   },
-   "ast_u1.5": {
-    "p_model": 0.4775,
-    "line": 1.5,
-    "p": 0.4775,
-    "fair": 109
-   }
-  },
-  {
-   "id": 4684742,
-   "name": "Ausar Thompson",
-   "team": "DET",
-   "opp": "WAS",
-   "pos": "G",
-   "game_id": "401909977",
-   "min": 26.8,
-   "exp_thr": 0.1,
-   "exp_reb": 7.25,
-   "exp_ast": 3.86,
-   "env": 1.052,
-   "reb_o7.5": {
-    "p_model": 0.428,
-    "line": 7.5,
-    "p": 0.428,
-    "fair": 134
-   },
-   "reb_u7.5": {
-    "p_model": 0.572,
-    "line": 7.5,
-    "p": 0.572,
-    "fair": -134
-   },
-   "ast_o3.5": {
-    "p_model": 0.5151,
-    "line": 3.5,
-    "p": 0.5151,
-    "fair": -106
-   },
-   "ast_u3.5": {
-    "p_model": 0.4849,
-    "line": 3.5,
-    "p": 0.4849,
-    "fair": 106
-   }
-  },
-  {
-   "id": 4873153,
-   "name": "Morez Johnson Jr.",
-   "team": "DAL",
-   "opp": "MIN",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 17.7,
-   "exp_thr": 0.48,
-   "exp_reb": 4.39,
-   "exp_ast": 1.57,
-   "env": 0.995,
-   "thr_o0.5": {
-    "p_model": 0.3708,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": 340,
-     "Hard Rock Bet": 300
-    },
-    "p_mkt": 0.2233,
-    "p": 0.2749,
-    "fair": 264,
-    "price": 340,
-    "book": "DraftKings",
-    "ev": 0.2097,
-    "likely": false
-   },
-   "thr_u0.5": {
-    "p_model": 0.6292,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": -500,
-     "Hard Rock Bet": -475
-    },
-    "p_mkt": 0.7767,
-    "p": 0.7251,
-    "fair": -264,
-    "price": -475,
-    "book": "Hard Rock Bet",
-    "ev": -0.1223,
-    "likely": false
-   },
-   "reb_o4.5": {
-    "p_model": 0.434,
-    "line": 4.5,
-    "p": 0.434,
-    "fair": 130
-   },
-   "reb_u4.5": {
-    "p_model": 0.566,
-    "line": 4.5,
-    "p": 0.566,
-    "fair": -130
-   },
-   "ast_o1.5": {
-    "p_model": 0.4554,
-    "line": 1.5,
-    "p": 0.4554,
-    "fair": 120
-   },
-   "ast_u1.5": {
-    "p_model": 0.5446,
-    "line": 1.5,
-    "p": 0.5446,
-    "fair": -120
-   }
-  },
-  {
-   "id": 5041939,
-   "name": "Cooper Flagg",
-   "team": "DAL",
-   "opp": "MIN",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 34.5,
-   "exp_thr": 1.17,
-   "exp_reb": 6.97,
-   "exp_ast": 5.89,
-   "env": 0.995,
-   "thr_o0.5": {
-    "p_model": 0.6634,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": -250,
-     "DraftKings": -238,
-     "Hard Rock Bet": -240
-    },
-    "p_mkt": 0.6635,
-    "p": 0.6635,
-    "fair": -197,
-    "price": -238,
-    "book": "DraftKings",
-    "ev": -0.0578,
-    "likely": false
-   },
-   "thr_u0.5": {
-    "p_model": 0.3366,
-    "line": 0.5,
-    "prices": {
-     "FanDuel": 182,
-     "DraftKings": 180,
-     "Hard Rock Bet": 160
-    },
-    "p_mkt": 0.3365,
-    "p": 0.3365,
-    "fair": 197,
-    "price": 182,
-    "book": "FanDuel",
-    "ev": -0.051,
-    "likely": false
-   },
-   "thr_o1.5": {
-    "p_model": 0.3207,
-    "line": 1.5,
-    "prices": {
-     "BetMGM": 160
-    },
-    "p_mkt": 0.3587,
-    "p": 0.3454,
-    "fair": 190,
-    "price": 160,
-    "book": "BetMGM",
-    "ev": -0.102,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.6793,
-    "line": 1.5,
-    "prices": {
-     "BetMGM": -220
-    },
-    "p_mkt": 0.6413,
-    "p": 0.6546,
-    "fair": -190,
-    "price": -220,
-    "book": "BetMGM",
-    "ev": -0.0479,
-    "likely": false
-   },
-   "reb_o6.5": {
-    "p_model": 0.5138,
-    "line": 6.5,
-    "p": 0.5138,
-    "fair": -106
-   },
-   "reb_u6.5": {
-    "p_model": 0.4862,
-    "line": 6.5,
-    "p": 0.4862,
-    "fair": 106
-   },
-   "ast_o5.5": {
-    "p_model": 0.5083,
-    "line": 5.5,
-    "p": 0.5083,
-    "fair": -103
-   },
-   "ast_u5.5": {
-    "p_model": 0.4917,
-    "line": 5.5,
-    "p": 0.4917,
-    "fair": 103
-   }
-  },
-  {
-   "id": 5093267,
-   "name": "Collin Murray-Boyles",
-   "team": "TOR",
-   "opp": "PHI",
-   "pos": "W",
-   "game_id": "401909976",
-   "min": 22.8,
-   "exp_thr": 0.69,
-   "exp_reb": 5.21,
-   "exp_ast": 1.77,
-   "env": 1.054,
-   "reb_o5.5": {
-    "p_model": 0.4135,
-    "line": 5.5,
-    "p": 0.4135,
-    "fair": 142
-   },
-   "reb_u5.5": {
-    "p_model": 0.5865,
-    "line": 5.5,
-    "p": 0.5865,
-    "fair": -142
-   },
-   "ast_o1.5": {
-    "p_model": 0.5133,
-    "line": 1.5,
-    "p": 0.5133,
-    "fair": -105
-   },
-   "ast_u1.5": {
-    "p_model": 0.4867,
-    "line": 1.5,
-    "p": 0.4867,
-    "fair": 105
-   }
-  },
-  {
-   "id": 5104155,
-   "name": "Bilal Coulibaly",
-   "team": "WAS",
-   "opp": "DET",
-   "pos": "G",
-   "game_id": "401909977",
-   "min": 25.7,
-   "exp_thr": 0.9,
-   "exp_reb": 4.28,
-   "exp_ast": 1.66,
-   "env": 1.052,
-   "thr_o0.5": {
-    "p_model": 0.5731,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": 230,
-     "Hard Rock Bet": 190
-    },
-    "p_mkt": 0.3001,
-    "p": 0.3957,
-    "fair": 153,
-    "price": 230,
-    "book": "DraftKings",
-    "ev": 0.3056,
-    "likely": false
-   },
-   "thr_u0.5": {
-    "p_model": 0.4269,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": -315,
-     "Hard Rock Bet": -300
-    },
-    "p_mkt": 0.6999,
-    "p": 0.6043,
-    "fair": -153,
-    "price": -300,
-    "book": "Hard Rock Bet",
-    "ev": -0.1942,
-    "likely": false
-   },
-   "reb_o4.5": {
-    "p_model": 0.4159,
-    "line": 4.5,
-    "p": 0.4159,
-    "fair": 140
-   },
-   "reb_u4.5": {
-    "p_model": 0.5841,
-    "line": 4.5,
-    "p": 0.5841,
-    "fair": -140
-   },
-   "ast_o1.5": {
-    "p_model": 0.4798,
-    "line": 1.5,
-    "p": 0.4798,
-    "fair": 108
-   },
-   "ast_u1.5": {
-    "p_model": 0.5202,
-    "line": 1.5,
-    "p": 0.5202,
-    "fair": -108
-   }
-  },
-  {
-   "id": 5107199,
-   "name": "Daniss Jenkins",
-   "team": "DET",
-   "opp": "WAS",
-   "pos": "G",
-   "game_id": "401909977",
-   "min": 23.8,
-   "exp_thr": 1.75,
-   "exp_reb": 3.14,
-   "exp_ast": 4.51,
-   "env": 1.052,
    "thr_o2.5": {
-    "p_model": 0.262,
+    "p_model": 0.3472,
     "line": 2.5,
-    "prices": {
-     "FanDuel": -138,
-     "DraftKings": -115,
-     "Hard Rock Bet": -155
-    },
-    "p_mkt": 0.5419,
-    "p": 0.4439,
-    "fair": 125,
-    "price": -115,
-    "book": "DraftKings",
-    "ev": -0.17,
-    "likely": false
+    "p": 0.3472,
+    "fair": 188
    },
    "thr_u2.5": {
-    "p_model": 0.738,
+    "p_model": 0.6528,
     "line": 2.5,
-    "prices": {
-     "FanDuel": 104,
-     "DraftKings": -115,
-     "Hard Rock Bet": 105
-    },
-    "p_mkt": 0.4581,
-    "p": 0.5561,
-    "fair": -125,
-    "price": 105,
-    "book": "Hard Rock Bet",
-    "ev": 0.1399,
-    "likely": true
+    "p": 0.6528,
+    "fair": -188
    },
    "reb_o3.5": {
-    "p_model": 0.3803,
+    "p_model": 0.5346,
     "line": 3.5,
-    "p": 0.3803,
-    "fair": 163
+    "p": 0.5346,
+    "fair": -115
    },
    "reb_u3.5": {
-    "p_model": 0.6197,
+    "p_model": 0.4654,
     "line": 3.5,
-    "p": 0.6197,
-    "fair": -163
-   },
-   "ast_o4.5": {
-    "p_model": 0.454,
-    "line": 4.5,
-    "p": 0.454,
-    "fair": 120
-   },
-   "ast_u4.5": {
-    "p_model": 0.546,
-    "line": 4.5,
-    "p": 0.546,
-    "fair": -120
-   }
-  },
-  {
-   "id": 5124612,
-   "name": "VJ Edgecombe",
-   "team": "PHI",
-   "opp": "TOR",
-   "pos": "G",
-   "game_id": "401909976",
-   "min": 34.1,
-   "exp_thr": 1.7,
-   "exp_reb": 5.61,
-   "exp_ast": 3.75,
-   "env": 1.054,
-   "thr_o1.5": {
-    "p_model": 0.4871,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -148,
-     "DraftKings": -145,
-     "BetMGM": -165,
-     "Hard Rock Bet": -125
-    },
-    "p_mkt": 0.5587,
-    "p": 0.5336,
-    "fair": -114,
-    "price": -125,
-    "book": "Hard Rock Bet",
-    "ev": -0.0394,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.5129,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": 112,
-     "DraftKings": 114,
-     "BetMGM": 125,
-     "Hard Rock Bet": -115
-    },
-    "p_mkt": 0.4413,
-    "p": 0.4664,
-    "fair": 114,
-    "price": 125,
-    "book": "BetMGM",
-    "ev": 0.0493,
-    "likely": false
-   },
-   "reb_o5.5": {
-    "p_model": 0.4693,
-    "line": 5.5,
-    "p": 0.4693,
-    "fair": 113
-   },
-   "reb_u5.5": {
-    "p_model": 0.5307,
-    "line": 5.5,
-    "p": 0.5307,
-    "fair": -113
+    "p": 0.4654,
+    "fair": 115
    },
    "ast_o3.5": {
-    "p_model": 0.4959,
+    "p_model": 0.4955,
     "line": 3.5,
-    "p": 0.4959,
+    "p": 0.4955,
     "fair": 102
    },
    "ast_u3.5": {
-    "p_model": 0.5041,
+    "p_model": 0.5045,
     "line": 3.5,
-    "p": 0.5041,
+    "p": 0.5045,
     "fair": -102
    }
   },
   {
-   "id": 5142718,
-   "name": "AJ Dybantsa",
-   "team": "WAS",
-   "opp": "DET",
-   "pos": "W",
-   "game_id": "401909977",
-   "min": 33.0,
-   "exp_thr": 1.23,
-   "exp_reb": 6.7,
-   "exp_ast": 2.99,
-   "env": 1.052,
+   "id": 5081727,
+   "name": "Sidy Cissoko",
+   "team": "POR",
+   "opp": "SAC",
+   "pos": "G",
+   "game_id": "401909303",
+   "min": 21.7,
+   "exp_thr": 1.21,
+   "exp_reb": 2.71,
+   "exp_ast": 1.83,
+   "env": 0.984,
    "thr_o1.5": {
-    "p_model": 0.3414,
+    "p_model": 0.3365,
     "line": 1.5,
-    "prices": {
-     "FanDuel": 142,
-     "DraftKings": 120,
-     "Hard Rock Bet": 135
-    },
-    "p_mkt": 0.3916,
-    "p": 0.374,
-    "fair": 167,
-    "price": 142,
-    "book": "FanDuel",
-    "ev": -0.0948,
-    "likely": false
+    "p": 0.3365,
+    "fair": 197
    },
    "thr_u1.5": {
-    "p_model": 0.6586,
+    "p_model": 0.6635,
     "line": 1.5,
-    "prices": {
-     "FanDuel": -192,
-     "DraftKings": -154,
-     "Hard Rock Bet": -195
-    },
-    "p_mkt": 0.6084,
-    "p": 0.626,
-    "fair": -167,
-    "price": -154,
-    "book": "DraftKings",
-    "ev": 0.0324,
-    "likely": true
+    "p": 0.6635,
+    "fair": -197
    },
-   "reb_o6.5": {
-    "p_model": 0.4805,
-    "line": 6.5,
-    "p": 0.4805,
-    "fair": 108
+   "thr_o2.5": {
+    "p_model": 0.1347,
+    "line": 2.5,
+    "p": 0.1347,
+    "fair": 642
    },
-   "reb_u6.5": {
-    "p_model": 0.5195,
-    "line": 6.5,
-    "p": 0.5195,
-    "fair": -108
+   "thr_u2.5": {
+    "p_model": 0.8653,
+    "line": 2.5,
+    "p": 0.8653,
+    "fair": -642
+   },
+   "reb_o2.5": {
+    "p_model": 0.4903,
+    "line": 2.5,
+    "p": 0.4903,
+    "fair": 104
+   },
+   "reb_u2.5": {
+    "p_model": 0.5097,
+    "line": 2.5,
+    "p": 0.5097,
+    "fair": -104
+   },
+   "ast_o1.5": {
+    "p_model": 0.5279,
+    "line": 1.5,
+    "p": 0.5279,
+    "fair": -112
+   },
+   "ast_u1.5": {
+    "p_model": 0.4721,
+    "line": 1.5,
+    "p": 0.4721,
+    "fair": 112
+   }
+  },
+  {
+   "id": 5104157,
+   "name": "Victor Wembanyama",
+   "team": "SAS",
+   "opp": "GSW",
+   "pos": "W",
+   "game_id": "401909302",
+   "min": 29.1,
+   "exp_thr": 1.91,
+   "exp_reb": 11.09,
+   "exp_ast": 2.79,
+   "env": 0.968,
+   "thr_o1.5": {
+    "p_model": 0.5416,
+    "line": 1.5,
+    "p": 0.5416,
+    "fair": -118
+   },
+   "thr_u1.5": {
+    "p_model": 0.4584,
+    "line": 1.5,
+    "p": 0.4584,
+    "fair": 118
+   },
+   "thr_o2.5": {
+    "p_model": 0.3005,
+    "line": 2.5,
+    "p": 0.3005,
+    "fair": 233
+   },
+   "thr_u2.5": {
+    "p_model": 0.6995,
+    "line": 2.5,
+    "p": 0.6995,
+    "fair": -233
+   },
+   "reb_o11.5": {
+    "p_model": 0.4244,
+    "line": 11.5,
+    "p": 0.4244,
+    "fair": 136
+   },
+   "reb_u11.5": {
+    "p_model": 0.5756,
+    "line": 11.5,
+    "p": 0.5756,
+    "fair": -136
    },
    "ast_o2.5": {
-    "p_model": 0.5505,
+    "p_model": 0.5087,
     "line": 2.5,
+    "p": 0.5087,
+    "fair": -104
+   },
+   "ast_u2.5": {
+    "p_model": 0.4913,
+    "line": 2.5,
+    "p": 0.4913,
+    "fair": 104
+   }
+  },
+  {
+   "id": 5105565,
+   "name": "Donovan Clingan",
+   "team": "POR",
+   "opp": "SAC",
+   "pos": "B",
+   "game_id": "401909303",
+   "min": 26.6,
+   "exp_thr": 0.94,
+   "exp_reb": 10.4,
+   "exp_ast": 1.79,
+   "env": 0.984,
+   "thr_o1.5": {
+    "p_model": 0.244,
+    "line": 1.5,
+    "p": 0.244,
+    "fair": 310
+   },
+   "thr_u1.5": {
+    "p_model": 0.756,
+    "line": 1.5,
+    "p": 0.756,
+    "fair": -310
+   },
+   "thr_o2.5": {
+    "p_model": 0.0799,
+    "line": 2.5,
+    "p": 0.0799,
+    "fair": 1152
+   },
+   "thr_u2.5": {
+    "p_model": 0.9201,
+    "line": 2.5,
+    "p": 0.9201,
+    "fair": -1152
+   },
+   "reb_o10.5": {
+    "p_model": 0.4495,
+    "line": 10.5,
+    "p": 0.4495,
+    "fair": 122
+   },
+   "reb_u10.5": {
+    "p_model": 0.5505,
+    "line": 10.5,
     "p": 0.5505,
     "fair": -122
    },
-   "ast_u2.5": {
-    "p_model": 0.4495,
-    "line": 2.5,
-    "p": 0.4495,
-    "fair": 122
-   }
-  },
-  {
-   "id": 5160992,
-   "name": "Alex Sarr",
-   "team": "WAS",
-   "opp": "DET",
-   "pos": "B",
-   "game_id": "401909977",
-   "min": 26.5,
-   "exp_thr": 1.07,
-   "exp_reb": 7.8,
-   "exp_ast": 2.08,
-   "env": 1.052,
-   "thr_o2.5": {
-    "p_model": 0.1053,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": 198,
-     "DraftKings": 190,
-     "Hard Rock Bet": 175
-    },
-    "p_mkt": 0.3198,
-    "p": 0.2447,
-    "fair": 309,
-    "price": 198,
-    "book": "FanDuel",
-    "ev": -0.2707,
-    "likely": false
-   },
-   "thr_u2.5": {
-    "p_model": 0.8947,
-    "line": 2.5,
-    "prices": {
-     "FanDuel": -275,
-     "DraftKings": -250
-    },
-    "p_mkt": 0.6802,
-    "p": 0.7553,
-    "fair": -309,
-    "price": -250,
-    "book": "DraftKings",
-    "ev": 0.0574,
-    "likely": true
-   },
-   "reb_o7.5": {
-    "p_model": 0.4904,
-    "line": 7.5,
-    "p": 0.4904,
-    "fair": 104
-   },
-   "reb_u7.5": {
-    "p_model": 0.5096,
-    "line": 7.5,
-    "p": 0.5096,
-    "fair": -104
-   },
-   "ast_o2.5": {
-    "p_model": 0.3437,
-    "line": 2.5,
-    "p": 0.3437,
-    "fair": 191
-   },
-   "ast_u2.5": {
-    "p_model": 0.6563,
-    "line": 2.5,
-    "p": 0.6563,
-    "fair": -191
-   }
-  },
-  {
-   "id": 5174563,
-   "name": "Kyshawn George",
-   "team": "WAS",
-   "opp": "DET",
-   "pos": "W",
-   "game_id": "401909977",
-   "min": 32.4,
-   "exp_thr": 2.28,
-   "exp_reb": 5.4,
-   "exp_ast": 4.83,
-   "env": 1.052,
-   "thr_o1.5": {
-    "p_model": 0.6277,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": 112,
-     "DraftKings": 114,
-     "Hard Rock Bet": -125
-    },
-    "p_mkt": 0.4415,
-    "p": 0.5067,
-    "fair": -103,
-    "price": 114,
-    "book": "DraftKings",
-    "ev": 0.0843,
-    "likely": false
-   },
-   "thr_u1.5": {
-    "p_model": 0.3723,
-    "line": 1.5,
-    "prices": {
-     "FanDuel": -148,
-     "DraftKings": -145,
-     "Hard Rock Bet": -115
-    },
-    "p_mkt": 0.5585,
-    "p": 0.4933,
-    "fair": 103,
-    "price": -115,
-    "book": "Hard Rock Bet",
-    "ev": -0.0777,
-    "likely": false
-   },
-   "reb_o5.5": {
-    "p_model": 0.4399,
-    "line": 5.5,
-    "p": 0.4399,
-    "fair": 127
-   },
-   "reb_u5.5": {
-    "p_model": 0.5601,
-    "line": 5.5,
-    "p": 0.5601,
-    "fair": -127
-   },
-   "ast_o4.5": {
-    "p_model": 0.5043,
-    "line": 4.5,
-    "p": 0.5043,
-    "fair": -102
-   },
-   "ast_u4.5": {
-    "p_model": 0.4957,
-    "line": 4.5,
-    "p": 0.4957,
-    "fair": 102
-   }
-  },
-  {
-   "id": 5203685,
-   "name": "Khaman Maluach",
-   "team": "PHX",
-   "opp": "CHA",
-   "pos": "B",
-   "game_id": "401909979",
-   "min": 15.1,
-   "exp_thr": 0.22,
-   "exp_reb": 4.85,
-   "exp_ast": 0.96,
-   "env": 0.993,
-   "reb_o4.5": {
-    "p_model": 0.5065,
-    "line": 4.5,
-    "p": 0.5065,
-    "fair": -103
-   },
-   "reb_u4.5": {
-    "p_model": 0.4935,
-    "line": 4.5,
-    "p": 0.4935,
-    "fair": 103
-   },
-   "ast_o0.5": {
-    "p_model": 0.6032,
-    "line": 0.5,
-    "p": 0.6032,
-    "fair": -152
-   },
-   "ast_u0.5": {
-    "p_model": 0.3968,
-    "line": 0.5,
-    "p": 0.3968,
-    "fair": 152
-   }
-  },
-  {
-   "id": 5211175,
-   "name": "Zaccharie Risacher",
-   "team": "DAL",
-   "opp": "MIN",
-   "pos": "W",
-   "game_id": "401909978",
-   "min": 21.6,
-   "exp_thr": 0.93,
-   "exp_reb": 4.11,
-   "exp_ast": 1.2,
-   "env": 0.995,
-   "thr_o0.5": {
-    "p_model": 0.584,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": 105,
-     "Hard Rock Bet": 100
-    },
-    "p_mkt": 0.4604,
-    "p": 0.5037,
-    "fair": -101,
-    "price": 105,
-    "book": "DraftKings",
-    "ev": 0.0325,
-    "likely": false
-   },
-   "thr_u0.5": {
-    "p_model": 0.416,
-    "line": 0.5,
-    "prices": {
-     "DraftKings": -135,
-     "Hard Rock Bet": -140
-    },
-    "p_mkt": 0.5396,
-    "p": 0.4963,
-    "fair": 101,
-    "price": -135,
-    "book": "DraftKings",
-    "ev": -0.136,
-    "likely": false
-   },
-   "reb_o4.5": {
-    "p_model": 0.3879,
-    "line": 4.5,
-    "p": 0.3879,
-    "fair": 158
-   },
-   "reb_u4.5": {
-    "p_model": 0.6121,
-    "line": 4.5,
-    "p": 0.6121,
-    "fair": -158
-   },
    "ast_o1.5": {
-    "p_model": 0.3353,
+    "p_model": 0.5169,
     "line": 1.5,
-    "p": 0.3353,
-    "fair": 198
+    "p": 0.5169,
+    "fair": -107
    },
    "ast_u1.5": {
-    "p_model": 0.6647,
+    "p_model": 0.4831,
     "line": 1.5,
-    "p": 0.6647,
-    "fair": -198
+    "p": 0.4831,
+    "fair": 107
    }
   },
   {
-   "id": 5211176,
-   "name": "Tidjane Salaun",
-   "team": "CHA",
-   "opp": "PHX",
-   "pos": "W",
-   "game_id": "401909979",
-   "min": 15.7,
-   "exp_thr": 1.33,
-   "exp_reb": 3.56,
-   "exp_ast": 0.45,
-   "env": 0.993,
-   "thr_o0.5": {
-    "p_model": 0.7074,
-    "line": 0.5,
-    "prices": {
-     "theScore Bet": -225,
-     "betPARX": -210,
-     "BetRivers": -210,
-     "Hard Rock Bet": -200
-    },
-    "p_mkt": 0.6287,
-    "p": 0.6562,
-    "fair": -191,
-    "price": -200,
-    "book": "Hard Rock Bet",
-    "ev": -0.0156,
-    "likely": true
-   },
-   "thr_u0.5": {
-    "p_model": 0.2926,
-    "line": 0.5,
-    "prices": {
-     "theScore Bet": 165,
-     "betPARX": 150,
-     "BetRivers": 150,
-     "Hard Rock Bet": 150
-    },
-    "p_mkt": 0.3713,
-    "p": 0.3438,
-    "fair": 191,
-    "price": 165,
-    "book": "theScore Bet",
-    "ev": -0.089,
-    "likely": false
-   },
-   "reb_o3.5": {
-    "p_model": 0.4597,
-    "line": 3.5,
-    "p": 0.4597,
-    "fair": 118
-   },
-   "reb_u3.5": {
-    "p_model": 0.5403,
-    "line": 3.5,
-    "p": 0.5403,
-    "fair": -118
-   },
-   "ast_o0.5": {
-    "p_model": 0.3579,
-    "line": 0.5,
-    "p": 0.3579,
-    "fair": 179
-   },
-   "ast_u0.5": {
-    "p_model": 0.6421,
-    "line": 0.5,
-    "p": 0.6421,
-    "fair": -179
-   }
-  },
-  {
-   "id": 5238230,
-   "name": "Tre Johnson",
-   "team": "WAS",
-   "opp": "DET",
+   "id": 5142620,
+   "name": "Darius Acuff Jr.",
+   "team": "SAC",
+   "opp": "POR",
    "pos": "G",
-   "game_id": "401909977",
-   "min": 24.1,
-   "exp_thr": 1.89,
-   "exp_reb": 2.54,
-   "exp_ast": 1.44,
-   "env": 1.052,
+   "game_id": "401909303",
+   "min": 37.6,
+   "exp_thr": 2.56,
+   "exp_reb": 4.5,
+   "exp_ast": 6.2,
+   "env": 0.984,
    "thr_o1.5": {
-    "p_model": 0.5365,
+    "p_model": 0.682,
     "line": 1.5,
-    "prices": {
-     "FanDuel": -158,
-     "DraftKings": -166,
-     "Hard Rock Bet": -130
-    },
-    "p_mkt": 0.5717,
-    "p": 0.5594,
-    "fair": -127,
-    "price": -130,
-    "book": "Hard Rock Bet",
-    "ev": -0.0103,
-    "likely": true
+    "p": 0.682,
+    "fair": -214
    },
    "thr_u1.5": {
-    "p_model": 0.4635,
+    "p_model": 0.318,
     "line": 1.5,
-    "prices": {
-     "FanDuel": 118,
-     "DraftKings": 130,
-     "Hard Rock Bet": -110
-    },
-    "p_mkt": 0.4283,
-    "p": 0.4406,
-    "fair": 127,
-    "price": 130,
-    "book": "DraftKings",
-    "ev": 0.0134,
-    "likely": false
+    "p": 0.318,
+    "fair": 214
+   },
+   "thr_o2.5": {
+    "p_model": 0.4526,
+    "line": 2.5,
+    "p": 0.4526,
+    "fair": 121
+   },
+   "thr_u2.5": {
+    "p_model": 0.5474,
+    "line": 2.5,
+    "p": 0.5474,
+    "fair": -121
+   },
+   "reb_o4.5": {
+    "p_model": 0.453,
+    "line": 4.5,
+    "p": 0.453,
+    "fair": 121
+   },
+   "reb_u4.5": {
+    "p_model": 0.547,
+    "line": 4.5,
+    "p": 0.547,
+    "fair": -121
+   },
+   "ast_o6.5": {
+    "p_model": 0.4172,
+    "line": 6.5,
+    "p": 0.4172,
+    "fair": 140
+   },
+   "ast_u6.5": {
+    "p_model": 0.5828,
+    "line": 6.5,
+    "p": 0.5828,
+    "fair": -140
+   }
+  },
+  {
+   "id": 5144091,
+   "name": "Jeremiah Fears",
+   "team": "NOP",
+   "opp": "MEM",
+   "pos": "G",
+   "game_id": "401909300",
+   "min": 28.3,
+   "exp_thr": 1.22,
+   "exp_reb": 4.24,
+   "exp_ast": 4.43,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.3396,
+    "line": 1.5,
+    "p": 0.3396,
+    "fair": 194
+   },
+   "thr_u1.5": {
+    "p_model": 0.6604,
+    "line": 1.5,
+    "p": 0.6604,
+    "fair": -194
+   },
+   "thr_o2.5": {
+    "p_model": 0.1368,
+    "line": 2.5,
+    "p": 0.1368,
+    "fair": 631
+   },
+   "thr_u2.5": {
+    "p_model": 0.8632,
+    "line": 2.5,
+    "p": 0.8632,
+    "fair": -631
+   },
+   "reb_o4.5": {
+    "p_model": 0.4101,
+    "line": 4.5,
+    "p": 0.4101,
+    "fair": 144
+   },
+   "reb_u4.5": {
+    "p_model": 0.5899,
+    "line": 4.5,
+    "p": 0.5899,
+    "fair": -144
+   },
+   "ast_o4.5": {
+    "p_model": 0.4417,
+    "line": 4.5,
+    "p": 0.4417,
+    "fair": 126
+   },
+   "ast_u4.5": {
+    "p_model": 0.5583,
+    "line": 4.5,
+    "p": 0.5583,
+    "fair": -126
+   }
+  },
+  {
+   "id": 5149077,
+   "name": "Kingston Flemings",
+   "team": "ATL",
+   "opp": "CHI",
+   "pos": "G",
+   "game_id": "401909299",
+   "min": 22.8,
+   "exp_thr": 0.89,
+   "exp_reb": 2.95,
+   "exp_ast": 3.72,
+   "env": 0.992,
+   "status": "Day-To-Day",
+   "thr_o1.5": {
+    "p_model": 0.2247,
+    "line": 1.5,
+    "p": 0.2247,
+    "fair": 345
+   },
+   "thr_u1.5": {
+    "p_model": 0.7753,
+    "line": 1.5,
+    "p": 0.7753,
+    "fair": -345
+   },
+   "thr_o2.5": {
+    "p_model": 0.07,
+    "line": 2.5,
+    "p": 0.07,
+    "fair": 1329
+   },
+   "thr_u2.5": {
+    "p_model": 0.93,
+    "line": 2.5,
+    "p": 0.93,
+    "fair": -1329
    },
    "reb_o2.5": {
-    "p_model": 0.4537,
+    "p_model": 0.542,
     "line": 2.5,
-    "p": 0.4537,
-    "fair": 120
+    "p": 0.542,
+    "fair": -118
    },
    "reb_u2.5": {
-    "p_model": 0.5463,
+    "p_model": 0.458,
     "line": 2.5,
-    "p": 0.5463,
+    "p": 0.458,
+    "fair": 118
+   },
+   "ast_o3.5": {
+    "p_model": 0.4895,
+    "line": 3.5,
+    "p": 0.4895,
+    "fair": 104
+   },
+   "ast_u3.5": {
+    "p_model": 0.5105,
+    "line": 3.5,
+    "p": 0.5105,
+    "fair": -104
+   }
+  },
+  {
+   "id": 5174983,
+   "name": "Aday Mara",
+   "team": "OKC",
+   "opp": "LAC",
+   "pos": "B",
+   "game_id": "401909304",
+   "min": 22.6,
+   "exp_thr": 0.37,
+   "exp_reb": 6.48,
+   "exp_ast": 1.89,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.056,
+    "line": 1.5,
+    "p": 0.056,
+    "fair": 1686
+   },
+   "thr_u1.5": {
+    "p_model": 0.944,
+    "line": 1.5,
+    "p": 0.944,
+    "fair": -1686
+   },
+   "thr_o2.5": {
+    "p_model": 0.0079,
+    "line": 2.5,
+    "p": 0.0079,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9921,
+    "line": 2.5,
+    "p": 0.9921,
+    "fair": -9900
+   },
+   "reb_o6.5": {
+    "p_model": 0.4538,
+    "line": 6.5,
+    "p": 0.4538,
+    "fair": 120
+   },
+   "reb_u6.5": {
+    "p_model": 0.5462,
+    "line": 6.5,
+    "p": 0.5462,
     "fair": -120
    },
    "ast_o1.5": {
-    "p_model": 0.4144,
+    "p_model": 0.5436,
     "line": 1.5,
-    "p": 0.4144,
-    "fair": 141
+    "p": 0.5436,
+    "fair": -119
    },
    "ast_u1.5": {
-    "p_model": 0.5856,
+    "p_model": 0.4564,
     "line": 1.5,
-    "p": 0.5856,
-    "fair": -141
+    "p": 0.4564,
+    "fair": 119
    }
   },
   {
-   "id": 5279133,
-   "name": "Joan Beringer",
-   "team": "MIN",
-   "opp": "DAL",
+   "id": 5175737,
+   "name": "Yaxel Lendeborg",
+   "team": "GSW",
+   "opp": "SAS",
    "pos": "W",
-   "game_id": "401909978",
-   "min": 13.0,
-   "exp_thr": 0.04,
-   "exp_reb": 4.21,
-   "exp_ast": 0.6,
-   "env": 0.995,
-   "reb_o4.5": {
-    "p_model": 0.4057,
-    "line": 4.5,
-    "p": 0.4057,
-    "fair": 146
+   "game_id": "401909302",
+   "min": 32.0,
+   "exp_thr": 1.76,
+   "exp_reb": 6.79,
+   "exp_ast": 3.52,
+   "env": 0.968,
+   "thr_o1.5": {
+    "p_model": 0.5017,
+    "line": 1.5,
+    "p": 0.5017,
+    "fair": -101
    },
-   "reb_u4.5": {
-    "p_model": 0.5943,
-    "line": 4.5,
-    "p": 0.5943,
-    "fair": -146
+   "thr_u1.5": {
+    "p_model": 0.4983,
+    "line": 1.5,
+    "p": 0.4983,
+    "fair": 101
    },
-   "ast_o0.5": {
-    "p_model": 0.4456,
-    "line": 0.5,
-    "p": 0.4456,
-    "fair": 124
+   "thr_o2.5": {
+    "p_model": 0.2632,
+    "line": 2.5,
+    "p": 0.2632,
+    "fair": 280
    },
-   "ast_u0.5": {
-    "p_model": 0.5544,
-    "line": 0.5,
-    "p": 0.5544,
-    "fair": -124
+   "thr_u2.5": {
+    "p_model": 0.7368,
+    "line": 2.5,
+    "p": 0.7368,
+    "fair": -280
+   },
+   "reb_o6.5": {
+    "p_model": 0.4913,
+    "line": 6.5,
+    "p": 0.4913,
+    "fair": 104
+   },
+   "reb_u6.5": {
+    "p_model": 0.5087,
+    "line": 6.5,
+    "p": 0.5087,
+    "fair": -104
+   },
+   "ast_o3.5": {
+    "p_model": 0.4524,
+    "line": 3.5,
+    "p": 0.4524,
+    "fair": 121
+   },
+   "ast_u3.5": {
+    "p_model": 0.5476,
+    "line": 3.5,
+    "p": 0.5476,
+    "fair": -121
+   }
+  },
+  {
+   "id": 5254165,
+   "name": "Keaton Wagler",
+   "team": "LAC",
+   "opp": "OKC",
+   "pos": "G",
+   "game_id": "401909304",
+   "min": 22.2,
+   "exp_thr": 1.67,
+   "exp_reb": 3.13,
+   "exp_ast": 3.0,
+   "env": 1.004,
+   "thr_o1.5": {
+    "p_model": 0.4762,
+    "line": 1.5,
+    "p": 0.4762,
+    "fair": 110
+   },
+   "thr_u1.5": {
+    "p_model": 0.5238,
+    "line": 1.5,
+    "p": 0.5238,
+    "fair": -110
+   },
+   "thr_o2.5": {
+    "p_model": 0.2407,
+    "line": 2.5,
+    "p": 0.2407,
+    "fair": 315
+   },
+   "thr_u2.5": {
+    "p_model": 0.7593,
+    "line": 2.5,
+    "p": 0.7593,
+    "fair": -315
+   },
+   "reb_o3.5": {
+    "p_model": 0.3772,
+    "line": 3.5,
+    "p": 0.3772,
+    "fair": 165
+   },
+   "reb_u3.5": {
+    "p_model": 0.6228,
+    "line": 3.5,
+    "p": 0.6228,
+    "fair": -165
+   },
+   "ast_o2.5": {
+    "p_model": 0.5514,
+    "line": 2.5,
+    "p": 0.5514,
+    "fair": -123
+   },
+   "ast_u2.5": {
+    "p_model": 0.4486,
+    "line": 2.5,
+    "p": 0.4486,
+    "fair": 123
    }
   }
  ],
- "odds_status": "Odds from 4 games (double-doubles and threes). 204 odds credits left this month. Game lines for 4 games.",
- "unmatched": [
-  "r j barrett"
- ],
+ "odds_status": "Odds from 9 games (double-doubles). 194 odds credits left this month. Credit budget (202 left, 15 days to reset): skipped threes prices. Game lines for 9 games.",
+ "unmatched": [],
  "markets": [
   "ast_o0.5",
   "ast_u0.5",
@@ -4175,8 +5351,6 @@
   "ast_u7.5",
   "ast_o8.5",
   "ast_u8.5",
-  "reb_o1.5",
-  "reb_u1.5",
   "reb_o2.5",
   "reb_u2.5",
   "reb_o3.5",
@@ -4191,20 +5365,18 @@
   "reb_u7.5",
   "reb_o8.5",
   "reb_u8.5",
+  "reb_o9.5",
+  "reb_u9.5",
   "reb_o10.5",
   "reb_u10.5",
   "reb_o11.5",
   "reb_u11.5",
-  "thr_o0.5",
-  "thr_u0.5",
+  "reb_o12.5",
+  "reb_u12.5",
   "thr_o1.5",
   "thr_u1.5",
   "thr_o2.5",
-  "thr_u2.5",
-  "thr_o3.5",
-  "thr_u3.5",
-  "thr_o4.5",
-  "thr_u4.5"
+  "thr_u2.5"
  ],
  "max_price": 500,
  "likely_rules": {
