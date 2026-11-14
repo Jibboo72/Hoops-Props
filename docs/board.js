@@ -113,7 +113,8 @@
         "<span class='ev'><b>"+pct(x.chance)+"</b><span>#"+x.rank+"</span></span>";
       ol.appendChild(li);
     });
-    $("sixNote").textContent="The model's 6 most likely plays in this market, each on the line closest to a coin flip. Plays priced worse than -198 are skipped. Saved before tip-off and graded after the games.";
+    $("sixNote").textContent="The model's 6 most likely plays in this market, each on the line closest to a coin flip. Plays priced worse than -198 are skipped. Saved before tip-off and graded after the games."+
+      ((SIX.replaced||[]).filter(function(x){return x.market===market}).length?" Replaced because they are out: "+SIX.replaced.filter(function(x){return x.market===market}).map(function(x){return x.name+" ("+x.team+", "+x.source+")"}).join(", ")+".":"");
   }
   function render(){
     $("straights").hidden=view!=="straight"; $("parlays").hidden=view!=="parlay";

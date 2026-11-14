@@ -120,6 +120,8 @@ def track(board):
     if board.get("games") and date:
         starts = [g.get("start") for g in board["games"]]
         slate_started = any(sim.started({"x": s}, "x", now) for s in starts)
+        out_names = {o["name"]: o for o in board.get("out", [])}
+        before = {(r["market"], r["name"]) for r in log if r["date"] == date}
         if not slate_started:   # until the first tip the six keep updating (injury news, new prices)
             log = [r for r in log if r["date"] != date]
         have = {r["market"] for r in log if r["date"] == date}
@@ -128,6 +130,13 @@ def track(board):
                 continue
             for p in picks:
                 log.append({"date": date, "market": fam, **p, "logged": now.isoformat(timespec="minutes"), "hit": None})
+        now_in = {(r["market"], r["name"]) for r in log if r["date"] == date}
+        replaced = [{"market": mk, "name": nm, "source": out_names[nm]["source"], "team": out_names[nm]["team"]}
+                    for mk, nm in sorted(before - now_in) if nm in out_names]
+        prev = sim.load(OUT, {})   # keep earlier notes for tonight (the six was already fixed on a previous run)
+        if prev.get("date") == date:
+            seen = {(x["market"], x["name"]) for x in replaced}
+            replaced += [x for x in prev.get("replaced", []) if (x["market"], x["name"]) not in seen and x["name"] in out_names]
         tonight = {fam: sorted([r for r in log if r["date"] == date and r["market"] == fam], key=lambda r: r["rank"]) for fam in FAMS}
     LOG.parent.mkdir(parents=True, exist_ok=True)
     LOG.write_text(json.dumps(log, separators=(",", ":")))
@@ -136,7 +145,7 @@ def track(board):
         rt = parlay.rate_legs([{"p": r["chance"], "price": r.get("price"), "prices": r.get("prices")} for r in rows])
         if rt:
             ratings[fam] = rt
-    OUT.write_text(json.dumps({"date": date, "generated": now.isoformat(timespec="minutes"), "markets": tonight, "ratings": ratings}, separators=(",", ":")))
+    OUT.write_text(json.dumps({"date": date, "generated": now.isoformat(timespec="minutes"), "markets": tonight, "ratings": ratings, "replaced": replaced if board.get("games") and date else []}, separators=(",", ":")))
     s = summary(log)
     SUMMARY.write_text(json.dumps(s, separators=(",", ":")))
     print("Best 6: " + ", ".join(f"{v['label']} {v['hits']}/{v['picks']}" for v in s["markets"].values()))

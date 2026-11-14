@@ -36,7 +36,8 @@
     var juiced=function(p){return kind==="dd"&&p.odds&&typeof p.odds.price==="number"&&p.odds.price<MAX_JUICE};   // too expensive to be worth a parlay leg
     var elig=all.filter(function(p){return !juiced(p)}), skipped=all.slice(0,12).filter(juiced).slice(0,4);
     var six=elig.slice(0,6), o6=$("six"); o6.innerHTML=""; six.forEach(function(p){o6.appendChild(item(p))});
-    $("sixNote").textContent="The 6 players most likely to get a "+name()+" tonight"+(kind==="dd"?", leaving out anyone priced worse than "+MAX_JUICE:"")+". They are saved before tip-off and graded after the games."+(skipped.length?" Left out for price: "+skipped.map(function(p){return p.name+" ("+p.odds.price+")"}).join(", ")+".":"");
+    $("sixNote").textContent="The 6 players most likely to get a "+name()+" tonight"+(kind==="dd"?", leaving out anyone priced worse than "+MAX_JUICE:"")+". They are saved before tip-off and graded after the games."+(skipped.length?" Left out for price: "+skipped.map(function(p){return p.name+" ("+p.odds.price+")"}).join(", ")+".":"")+
+      ((DATA.out||[]).filter(function(o){return o.typ_dd>=0.15}).length?" Ruled out, so replaced: "+DATA.out.filter(function(o){return o.typ_dd>=0.15}).slice(0,6).map(function(o){return o.name+" ("+o.team+", "+o.source+")"}).join(", ")+".":"");
     var o1=$("top"); o1.innerHTML=""; top.forEach(function(p){o1.appendChild(item(p))});
     var o2=$("boost"); o2.innerHTML=""; bo.forEach(function(p){o2.appendChild(item(p))});
     $("topNote").textContent="The players most likely to get a "+name()+" tonight.";

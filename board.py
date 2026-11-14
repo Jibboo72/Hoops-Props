@@ -224,7 +224,21 @@ def _load(path, default):
         return default
 
 
-def write_doubles(date, generated, games, players):
+INACTIVES = m.ROOT / "docs" / "data" / "inactives.json"   # {"date", "checked", "source", "players": [...]} from the 5 and 6 pm Underdog check
+
+
+def manual_inactives(date, alias):
+    """Players someone has marked inactive for tonight by hand (the scheduled Underdog check): {normalized name: source}."""
+    try:
+        j = json.loads(INACTIVES.read_text())
+    except Exception:
+        return {}
+    if j.get("date") != date:
+        return {}
+    return {norm(n, alias): j.get("source", "Underdog") for n in j.get("players", [])}
+
+
+def write_doubles(date, generated, games, players, out_list=None):
     """doubles.json, with tonight's round-robin rating for the Best 6 (parlay.py) under "parlay"."""
     DOUBLES_OUT.parent.mkdir(parents=True, exist_ok=True)
     data = DOUBLES_OUT.parent
@@ -234,7 +248,7 @@ def write_doubles(date, generated, games, players):
         print(f"Parlay rating skipped ({exc.__class__.__name__}: {exc})")
         rr = None
     DOUBLES_OUT.write_text(json.dumps({"date": date, "generated": generated, "games": games,
-                                       "players": sorted(players, key=lambda x: -x["p_dd"]), "parlay": rr}, indent=1))
+                                       "players": sorted(players, key=lambda x: -x["p_dd"]), "out": out_list or [], "parlay": rr}, indent=1))
 
 
 def main():
@@ -314,13 +328,18 @@ def main():
         inj = {t: {norm(n, alias): s for n, s in ps.items()} for t, ps in d.fetch_injuries(games).items()}
     except Exception:
         inj = {}
+    manual = manual_inactives(date, alias)
+    outs = []   # ruled out tonight (ESPN's report or the Underdog check): left off every list, shown as a note
     dbl = []
     exp_env, bd = cfg["env_exponent"], cfg["blowout_drop"]
     nb = cfg["nb_r"]
 
     for _, r in proj.iterrows():
         status = inj.get(r["team"], {}).get(norm(r["name"], alias), "")
-        if status.lower() == "out":
+        src = "ESPN" if status.lower() == "out" else manual.get(norm(r["name"], alias), "")
+        if src:
+            outs.append({"name": r["name"], "team": r["team"], "opp": r["opp"], "source": src,
+                         "min": round(float(r["proj_min"]), 1), "typ_dd": round(float(r["typ_dd"]), 4)})
             continue
         gl = lines.get(r["team"], {})
         ratio = market.env_ratio(gl.get("total"), r["pts_pred"])
@@ -384,7 +403,9 @@ def main():
                            "min_price": market.LIKELY_MIN_PRICE, "price_check": market.PRICE_CHECK}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, indent=1))
-    write_doubles(date, out["generated"], games, dbl)
+    out["out"] = sorted(outs, key=lambda o: -o["min"])
+    OUT.write_text(json.dumps(out, indent=1))
+    write_doubles(date, out["generated"], games, dbl, out["out"])
     print(f"{date}: {len(games)} games, {len(out['players'])} players. {out['odds_status']}"
           + (f" {len(out['unmatched'])} priced names not matched." if out["unmatched"] else ""))
 

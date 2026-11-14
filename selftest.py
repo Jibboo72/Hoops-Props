@@ -546,6 +546,7 @@ def stage_season(cdn):
           {m_ for _, m_ in b6days} == {"thr", "reb", "ast"} and all(sum(1 for r in b6 if (r["date"], r["market"]) == k) == 6 for k in b6days),
           f"{len(b6)} rows over {len(b6days)} night-markets")
     b6t = json.loads(best6.OUT.read_text())
+    check("Best 6 file carries a replaced-by-injury list", isinstance(b6t.get("replaced"), list))
     check("Best 6 grades 1-10 for threes, rebounds and assists on the same scale as the round robin",
           set(b6t.get("ratings", {})) == {"thr", "reb", "ast"} and all(1 <= v["rating"] <= 10 and v["better"] in ("2", "3") for v in b6t["ratings"].values()),
           str({k: v["rating"] for k, v in b6t.get("ratings", {}).items()}))
