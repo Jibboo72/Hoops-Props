@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated": "2026-11-14T18:43+00:00",
+ "generated": "2026-11-14T22:46+00:00",
  "games": [
   {
    "id": "401909980",
@@ -16,7 +16,7 @@
    "away": "DAL",
    "home": "CLE",
    "total": 227.5,
-   "spread_home": 4.5
+   "spread_home": 5.5
   },
   {
    "id": "401909982",
@@ -24,15 +24,15 @@
    "away": "DET",
    "home": "MIA",
    "total": 229.5,
-   "spread_home": 3.5
+   "spread_home": 4.5
   },
   {
    "id": "401909983",
    "start": "2026-11-15T01:00Z",
    "away": "BKN",
    "home": "MEM",
-   "total": 228.5,
-   "spread_home": -2.5
+   "total": 226.5,
+   "spread_home": -1.5
   },
   {
    "id": "401909984",
@@ -353,6 +353,67 @@
    }
   },
   {
+   "id": 3059319,
+   "name": "Andrew Wiggins",
+   "team": "MIA",
+   "opp": "DET",
+   "pos": "W",
+   "game_id": "401909982",
+   "min": 27.6,
+   "exp_thr": 1.44,
+   "exp_reb": 3.91,
+   "exp_ast": 2.12,
+   "env": 0.994,
+   "thr_o1.5": {
+    "p_model": 0.4099,
+    "line": 1.5,
+    "p": 0.4099,
+    "fair": 144
+   },
+   "thr_u1.5": {
+    "p_model": 0.5901,
+    "line": 1.5,
+    "p": 0.5901,
+    "fair": -144
+   },
+   "thr_o2.5": {
+    "p_model": 0.1869,
+    "line": 2.5,
+    "p": 0.1869,
+    "fair": 435
+   },
+   "thr_u2.5": {
+    "p_model": 0.8131,
+    "line": 2.5,
+    "p": 0.8131,
+    "fair": -435
+   },
+   "reb_o3.5": {
+    "p_model": 0.524,
+    "line": 3.5,
+    "p": 0.524,
+    "fair": -110
+   },
+   "reb_u3.5": {
+    "p_model": 0.476,
+    "line": 3.5,
+    "p": 0.476,
+    "fair": 110
+   },
+   "ast_o2.5": {
+    "p_model": 0.3522,
+    "line": 2.5,
+    "p": 0.3522,
+    "fair": 184
+   },
+   "ast_u2.5": {
+    "p_model": 0.6478,
+    "line": 2.5,
+    "p": 0.6478,
+    "fair": -184
+   }
+  },
+  {
    "id": 3064290,
    "name": "Aaron Gordon",
    "team": "DEN",
@@ -414,6 +475,67 @@
    }
   },
   {
+   "id": 3064482,
+   "name": "Bobby Portis",
+   "team": "MIA",
+   "opp": "DET",
+   "pos": "W",
+   "game_id": "401909982",
+   "min": 20.7,
+   "exp_thr": 1.59,
+   "exp_reb": 5.59,
+   "exp_ast": 1.69,
+   "env": 0.994,
+   "thr_o1.5": {
+    "p_model": 0.4535,
+    "line": 1.5,
+    "p": 0.4535,
+    "fair": 121
+   },
+   "thr_u1.5": {
+    "p_model": 0.5465,
+    "line": 1.5,
+    "p": 0.5465,
+    "fair": -121
+   },
+   "thr_o2.5": {
+    "p_model": 0.2216,
+    "line": 2.5,
+    "p": 0.2216,
+    "fair": 351
+   },
+   "thr_u2.5": {
+    "p_model": 0.7784,
+    "line": 2.5,
+    "p": 0.7784,
+    "fair": -351
+   },
+   "reb_o5.5": {
+    "p_model": 0.4673,
+    "line": 5.5,
+    "p": 0.4673,
+    "fair": 114
+   },
+   "reb_u5.5": {
+    "p_model": 0.5327,
+    "line": 5.5,
+    "p": 0.5327,
+    "fair": -114
+   },
+   "ast_o1.5": {
+    "p_model": 0.4888,
+    "line": 1.5,
+    "p": 0.4888,
+    "fair": 105
+   },
+   "ast_u1.5": {
+    "p_model": 0.5112,
+    "line": 1.5,
+    "p": 0.5112,
+    "fair": -105
+   }
+  },
+  {
    "id": 3064514,
    "name": "Julius Randle",
    "team": "BKN",
@@ -421,57 +543,57 @@
    "pos": "W",
    "game_id": "401909983",
    "min": 32.7,
-   "exp_thr": 1.24,
-   "exp_reb": 6.38,
-   "exp_ast": 4.92,
-   "env": 1.002,
+   "exp_thr": 1.23,
+   "exp_reb": 6.36,
+   "exp_ast": 4.91,
+   "env": 0.996,
    "thr_o1.5": {
-    "p_model": 0.3445,
+    "p_model": 0.3432,
     "line": 1.5,
-    "p": 0.3445,
-    "fair": 190
+    "p": 0.3432,
+    "fair": 191
    },
    "thr_u1.5": {
-    "p_model": 0.6555,
+    "p_model": 0.6568,
     "line": 1.5,
-    "p": 0.6555,
-    "fair": -190
+    "p": 0.6568,
+    "fair": -191
    },
    "thr_o2.5": {
-    "p_model": 0.14,
+    "p_model": 0.1392,
     "line": 2.5,
-    "p": 0.14,
-    "fair": 614
+    "p": 0.1392,
+    "fair": 618
    },
    "thr_u2.5": {
-    "p_model": 0.86,
+    "p_model": 0.8608,
     "line": 2.5,
-    "p": 0.86,
-    "fair": -614
+    "p": 0.8608,
+    "fair": -618
    },
    "reb_o6.5": {
-    "p_model": 0.441,
+    "p_model": 0.4385,
     "line": 6.5,
-    "p": 0.441,
-    "fair": 127
+    "p": 0.4385,
+    "fair": 128
    },
    "reb_u6.5": {
-    "p_model": 0.559,
+    "p_model": 0.5615,
     "line": 6.5,
-    "p": 0.559,
-    "fair": -127
+    "p": 0.5615,
+    "fair": -128
    },
    "ast_o4.5": {
-    "p_model": 0.5178,
+    "p_model": 0.5155,
     "line": 4.5,
-    "p": 0.5178,
-    "fair": -107
+    "p": 0.5155,
+    "fair": -106
    },
    "ast_u4.5": {
-    "p_model": 0.4822,
+    "p_model": 0.4845,
     "line": 4.5,
-    "p": 0.4822,
-    "fair": 107
+    "p": 0.4845,
+    "fair": 106
    }
   },
   {
@@ -781,67 +903,6 @@
    }
   },
   {
-   "id": 4065733,
-   "name": "Ty Jerome",
-   "team": "MEM",
-   "opp": "BKN",
-   "pos": "G",
-   "game_id": "401909983",
-   "min": 27.2,
-   "exp_thr": 2.6,
-   "exp_reb": 3.15,
-   "exp_ast": 4.99,
-   "env": 1.002,
-   "thr_o1.5": {
-    "p_model": 0.6882,
-    "line": 1.5,
-    "p": 0.6882,
-    "fair": -221
-   },
-   "thr_u1.5": {
-    "p_model": 0.3118,
-    "line": 1.5,
-    "p": 0.3118,
-    "fair": 221
-   },
-   "thr_o2.5": {
-    "p_model": 0.4602,
-    "line": 2.5,
-    "p": 0.4602,
-    "fair": 117
-   },
-   "thr_u2.5": {
-    "p_model": 0.5398,
-    "line": 2.5,
-    "p": 0.5398,
-    "fair": -117
-   },
-   "reb_o3.5": {
-    "p_model": 0.3825,
-    "line": 3.5,
-    "p": 0.3825,
-    "fair": 161
-   },
-   "reb_u3.5": {
-    "p_model": 0.6175,
-    "line": 3.5,
-    "p": 0.6175,
-    "fair": -161
-   },
-   "ast_o4.5": {
-    "p_model": 0.5283,
-    "line": 4.5,
-    "p": 0.5283,
-    "fair": -112
-   },
-   "ast_u4.5": {
-    "p_model": 0.4717,
-    "line": 4.5,
-    "p": 0.4717,
-    "fair": 112
-   }
-  },
-  {
    "id": 4066261,
    "name": "Bam Adebayo",
    "team": "MIA",
@@ -962,6 +1023,67 @@
     "line": 1.5,
     "p": 0.5503,
     "fair": -122
+   }
+  },
+  {
+   "id": 4277956,
+   "name": "Jordan Poole",
+   "team": "NOP",
+   "opp": "DEN",
+   "pos": "G",
+   "game_id": "401909980",
+   "min": 22.3,
+   "exp_thr": 1.73,
+   "exp_reb": 1.96,
+   "exp_ast": 2.92,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.4933,
+    "line": 1.5,
+    "p": 0.4933,
+    "fair": 103
+   },
+   "thr_u1.5": {
+    "p_model": 0.5067,
+    "line": 1.5,
+    "p": 0.5067,
+    "fair": -103
+   },
+   "thr_o2.5": {
+    "p_model": 0.2557,
+    "line": 2.5,
+    "p": 0.2557,
+    "fair": 291
+   },
+   "thr_u2.5": {
+    "p_model": 0.7443,
+    "line": 2.5,
+    "p": 0.7443,
+    "fair": -291
+   },
+   "reb_o1.5": {
+    "p_model": 0.5624,
+    "line": 1.5,
+    "p": 0.5624,
+    "fair": -129
+   },
+   "reb_u1.5": {
+    "p_model": 0.4376,
+    "line": 1.5,
+    "p": 0.4376,
+    "fair": 129
+   },
+   "ast_o2.5": {
+    "p_model": 0.5348,
+    "line": 2.5,
+    "p": 0.5348,
+    "fair": -115
+   },
+   "ast_u2.5": {
+    "p_model": 0.4652,
+    "line": 2.5,
+    "p": 0.4652,
+    "fair": 115
    }
   },
   {
@@ -1217,57 +1339,57 @@
    "pos": "W",
    "game_id": "401909983",
    "min": 32.8,
-   "exp_thr": 3.38,
-   "exp_reb": 7.39,
-   "exp_ast": 2.04,
-   "env": 1.002,
+   "exp_thr": 3.37,
+   "exp_reb": 7.37,
+   "exp_ast": 2.03,
+   "env": 0.996,
    "thr_o1.5": {
-    "p_model": 0.7986,
+    "p_model": 0.7975,
     "line": 1.5,
-    "p": 0.7986,
-    "fair": -397
+    "p": 0.7975,
+    "fair": -394
    },
    "thr_u1.5": {
-    "p_model": 0.2014,
+    "p_model": 0.2025,
     "line": 1.5,
-    "p": 0.2014,
-    "fair": 397
+    "p": 0.2025,
+    "fair": 394
    },
    "thr_o2.5": {
-    "p_model": 0.6092,
+    "p_model": 0.6075,
     "line": 2.5,
-    "p": 0.6092,
-    "fair": -156
+    "p": 0.6075,
+    "fair": -155
    },
    "thr_u2.5": {
-    "p_model": 0.3908,
+    "p_model": 0.3925,
     "line": 2.5,
-    "p": 0.3908,
-    "fair": 156
+    "p": 0.3925,
+    "fair": 155
    },
    "reb_o7.5": {
-    "p_model": 0.4444,
+    "p_model": 0.4418,
     "line": 7.5,
-    "p": 0.4444,
-    "fair": 125
+    "p": 0.4418,
+    "fair": 126
    },
    "reb_u7.5": {
-    "p_model": 0.5556,
+    "p_model": 0.5582,
     "line": 7.5,
-    "p": 0.5556,
-    "fair": -125
+    "p": 0.5582,
+    "fair": -126
    },
    "ast_o2.5": {
-    "p_model": 0.3324,
+    "p_model": 0.3309,
     "line": 2.5,
-    "p": 0.3324,
-    "fair": 201
+    "p": 0.3309,
+    "fair": 202
    },
    "ast_u2.5": {
-    "p_model": 0.6676,
+    "p_model": 0.6691,
     "line": 2.5,
-    "p": 0.6676,
-    "fair": -201
+    "p": 0.6691,
+    "fair": -202
    }
   },
   {
@@ -1829,56 +1951,56 @@
    "game_id": "401909983",
    "min": 21.6,
    "exp_thr": 0.37,
-   "exp_reb": 6.82,
-   "exp_ast": 3.72,
-   "env": 1.002,
+   "exp_reb": 6.8,
+   "exp_ast": 3.7,
+   "env": 0.996,
    "thr_o1.5": {
-    "p_model": 0.0567,
+    "p_model": 0.0564,
     "line": 1.5,
-    "p": 0.0567,
-    "fair": 1664
+    "p": 0.0564,
+    "fair": 1673
    },
    "thr_u1.5": {
-    "p_model": 0.9433,
+    "p_model": 0.9436,
     "line": 1.5,
-    "p": 0.9433,
-    "fair": -1664
+    "p": 0.9436,
+    "fair": -1673
    },
    "thr_o2.5": {
-    "p_model": 0.0081,
+    "p_model": 0.008,
     "line": 2.5,
-    "p": 0.0081,
+    "p": 0.008,
     "fair": 9900
    },
    "thr_u2.5": {
-    "p_model": 0.9919,
+    "p_model": 0.992,
     "line": 2.5,
-    "p": 0.9919,
+    "p": 0.992,
     "fair": -9900
    },
    "reb_o6.5": {
-    "p_model": 0.4955,
+    "p_model": 0.4929,
     "line": 6.5,
-    "p": 0.4955,
-    "fair": 102
+    "p": 0.4929,
+    "fair": 103
    },
    "reb_u6.5": {
-    "p_model": 0.5045,
+    "p_model": 0.5071,
     "line": 6.5,
-    "p": 0.5045,
-    "fair": -102
+    "p": 0.5071,
+    "fair": -103
    },
    "ast_o3.5": {
-    "p_model": 0.4891,
+    "p_model": 0.487,
     "line": 3.5,
-    "p": 0.4891,
-    "fair": 104
+    "p": 0.487,
+    "fair": 105
    },
    "ast_u3.5": {
-    "p_model": 0.5109,
+    "p_model": 0.513,
     "line": 3.5,
-    "p": 0.5109,
-    "fair": -104
+    "p": 0.513,
+    "fair": -105
    }
   },
   {
@@ -1940,6 +2062,67 @@
     "line": 6.5,
     "p": 0.4898,
     "fair": 104
+   }
+  },
+  {
+   "id": 4433083,
+   "name": "Cam Spencer",
+   "team": "MEM",
+   "opp": "BKN",
+   "pos": "G",
+   "game_id": "401909983",
+   "min": 21.7,
+   "exp_thr": 1.67,
+   "exp_reb": 2.67,
+   "exp_ast": 5.0,
+   "env": 0.996,
+   "thr_o1.5": {
+    "p_model": 0.4775,
+    "line": 1.5,
+    "p": 0.4775,
+    "fair": 109
+   },
+   "thr_u1.5": {
+    "p_model": 0.5225,
+    "line": 1.5,
+    "p": 0.5225,
+    "fair": -109
+   },
+   "thr_o2.5": {
+    "p_model": 0.2419,
+    "line": 2.5,
+    "p": 0.2419,
+    "fair": 313
+   },
+   "thr_u2.5": {
+    "p_model": 0.7581,
+    "line": 2.5,
+    "p": 0.7581,
+    "fair": -313
+   },
+   "reb_o2.5": {
+    "p_model": 0.4824,
+    "line": 2.5,
+    "p": 0.4824,
+    "fair": 107
+   },
+   "reb_u2.5": {
+    "p_model": 0.5176,
+    "line": 2.5,
+    "p": 0.5176,
+    "fair": -107
+   },
+   "ast_o5.5": {
+    "p_model": 0.3825,
+    "line": 5.5,
+    "p": 0.3825,
+    "fair": 161
+   },
+   "ast_u5.5": {
+    "p_model": 0.6175,
+    "line": 5.5,
+    "p": 0.6175,
+    "fair": -161
    }
   },
   {
@@ -2066,6 +2249,67 @@
    }
   },
   {
+   "id": 4593125,
+   "name": "Santi Aldama",
+   "team": "DAL",
+   "opp": "CLE",
+   "pos": "W",
+   "game_id": "401909981",
+   "min": 21.9,
+   "exp_thr": 1.5,
+   "exp_reb": 5.24,
+   "exp_ast": 1.99,
+   "env": 0.986,
+   "thr_o1.5": {
+    "p_model": 0.4266,
+    "line": 1.5,
+    "p": 0.4266,
+    "fair": 134
+   },
+   "thr_u1.5": {
+    "p_model": 0.5734,
+    "line": 1.5,
+    "p": 0.5734,
+    "fair": -134
+   },
+   "thr_o2.5": {
+    "p_model": 0.1999,
+    "line": 2.5,
+    "p": 0.1999,
+    "fair": 400
+   },
+   "thr_u2.5": {
+    "p_model": 0.8001,
+    "line": 2.5,
+    "p": 0.8001,
+    "fair": -400
+   },
+   "reb_o5.5": {
+    "p_model": 0.4178,
+    "line": 5.5,
+    "p": 0.4178,
+    "fair": 139
+   },
+   "reb_u5.5": {
+    "p_model": 0.5822,
+    "line": 5.5,
+    "p": 0.5822,
+    "fair": -139
+   },
+   "ast_o1.5": {
+    "p_model": 0.5704,
+    "line": 1.5,
+    "p": 0.5704,
+    "fair": -133
+   },
+   "ast_u1.5": {
+    "p_model": 0.4296,
+    "line": 1.5,
+    "p": 0.4296,
+    "fair": 133
+   }
+  },
+  {
    "id": 4600663,
    "name": "Zach Edey",
    "team": "MEM",
@@ -2074,57 +2318,57 @@
    "game_id": "401909983",
    "min": 23.1,
    "exp_thr": 0.2,
-   "exp_reb": 8.5,
-   "exp_ast": 1.25,
-   "env": 1.002,
+   "exp_reb": 8.47,
+   "exp_ast": 1.24,
+   "env": 0.996,
    "status": "Day-To-Day",
    "thr_o1.5": {
-    "p_model": 0.0193,
+    "p_model": 0.0192,
     "line": 1.5,
-    "p": 0.0193,
-    "fair": 5081
+    "p": 0.0192,
+    "fair": 5108
    },
    "thr_u1.5": {
-    "p_model": 0.9807,
+    "p_model": 0.9808,
     "line": 1.5,
-    "p": 0.9807,
-    "fair": -5081
+    "p": 0.9808,
+    "fair": -5108
    },
    "thr_o2.5": {
-    "p_model": 0.0016,
+    "p_model": 0.0015,
     "line": 2.5,
-    "p": 0.0016,
+    "p": 0.0015,
     "fair": 9900
    },
    "thr_u2.5": {
-    "p_model": 0.9984,
+    "p_model": 0.9985,
     "line": 2.5,
-    "p": 0.9984,
+    "p": 0.9985,
     "fair": -9900
    },
    "reb_o8.5": {
-    "p_model": 0.4571,
+    "p_model": 0.4544,
     "line": 8.5,
-    "p": 0.4571,
-    "fair": 119
+    "p": 0.4544,
+    "fair": 120
    },
    "reb_u8.5": {
-    "p_model": 0.5429,
+    "p_model": 0.5456,
     "line": 8.5,
-    "p": 0.5429,
-    "fair": -119
+    "p": 0.5456,
+    "fair": -120
    },
    "ast_o1.5": {
-    "p_model": 0.3499,
+    "p_model": 0.3486,
     "line": 1.5,
-    "p": 0.3499,
-    "fair": 186
+    "p": 0.3486,
+    "fair": 187
    },
    "ast_u1.5": {
-    "p_model": 0.6501,
+    "p_model": 0.6514,
     "line": 1.5,
-    "p": 0.6501,
-    "fair": -186
+    "p": 0.6514,
+    "fair": -187
    }
   },
   {
@@ -2318,57 +2562,118 @@
    "pos": "W",
    "game_id": "401909983",
    "min": 27.3,
-   "exp_thr": 1.83,
-   "exp_reb": 6.8,
-   "exp_ast": 2.99,
-   "env": 1.002,
+   "exp_thr": 1.82,
+   "exp_reb": 6.78,
+   "exp_ast": 2.98,
+   "env": 0.996,
    "thr_o1.5": {
-    "p_model": 0.5211,
+    "p_model": 0.5196,
     "line": 1.5,
-    "p": 0.5211,
-    "fair": -109
+    "p": 0.5196,
+    "fair": -108
    },
    "thr_u1.5": {
-    "p_model": 0.4789,
+    "p_model": 0.4804,
     "line": 1.5,
-    "p": 0.4789,
-    "fair": 109
+    "p": 0.4804,
+    "fair": 108
    },
    "thr_o2.5": {
-    "p_model": 0.281,
+    "p_model": 0.2796,
     "line": 2.5,
-    "p": 0.281,
-    "fair": 256
+    "p": 0.2796,
+    "fair": 258
    },
    "thr_u2.5": {
-    "p_model": 0.719,
+    "p_model": 0.7204,
     "line": 2.5,
-    "p": 0.719,
-    "fair": -256
+    "p": 0.7204,
+    "fair": -258
    },
    "reb_o6.5": {
-    "p_model": 0.4928,
+    "p_model": 0.4903,
     "line": 6.5,
-    "p": 0.4928,
-    "fair": 103
+    "p": 0.4903,
+    "fair": 104
    },
    "reb_u6.5": {
-    "p_model": 0.5072,
+    "p_model": 0.5097,
     "line": 6.5,
-    "p": 0.5072,
-    "fair": -103
+    "p": 0.5097,
+    "fair": -104
    },
    "ast_o2.5": {
-    "p_model": 0.5498,
+    "p_model": 0.5479,
     "line": 2.5,
-    "p": 0.5498,
-    "fair": -122
+    "p": 0.5479,
+    "fair": -121
    },
    "ast_u2.5": {
-    "p_model": 0.4502,
+    "p_model": 0.4521,
     "line": 2.5,
-    "p": 0.4502,
-    "fair": 122
+    "p": 0.4521,
+    "fair": 121
+   }
+  },
+  {
+   "id": 4997538,
+   "name": "Karlo Matkovic",
+   "team": "NOP",
+   "opp": "DEN",
+   "pos": "W",
+   "game_id": "401909980",
+   "min": 17.2,
+   "exp_thr": 1.15,
+   "exp_reb": 3.88,
+   "exp_ast": 1.02,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.3157,
+    "line": 1.5,
+    "p": 0.3157,
+    "fair": 217
+   },
+   "thr_u1.5": {
+    "p_model": 0.6843,
+    "line": 1.5,
+    "p": 0.6843,
+    "fair": -217
+   },
+   "thr_o2.5": {
+    "p_model": 0.1213,
+    "line": 2.5,
+    "p": 0.1213,
+    "fair": 724
+   },
+   "thr_u2.5": {
+    "p_model": 0.8787,
+    "line": 2.5,
+    "p": 0.8787,
+    "fair": -724
+   },
+   "reb_o3.5": {
+    "p_model": 0.5174,
+    "line": 3.5,
+    "p": 0.5174,
+    "fair": -107
+   },
+   "reb_u3.5": {
+    "p_model": 0.4826,
+    "line": 3.5,
+    "p": 0.4826,
+    "fair": 107
+   },
+   "ast_o1.5": {
+    "p_model": 0.2707,
+    "line": 1.5,
+    "p": 0.2707,
+    "fair": 269
+   },
+   "ast_u1.5": {
+    "p_model": 0.7293,
+    "line": 1.5,
+    "p": 0.7293,
+    "fair": -269
    }
   },
   {
@@ -2379,57 +2684,57 @@
    "pos": "W",
    "game_id": "401909983",
    "min": 31.4,
-   "exp_thr": 1.82,
-   "exp_reb": 7.56,
-   "exp_ast": 4.51,
-   "env": 1.002,
+   "exp_thr": 1.81,
+   "exp_reb": 7.53,
+   "exp_ast": 4.5,
+   "env": 0.996,
    "thr_o1.5": {
-    "p_model": 0.5172,
+    "p_model": 0.5157,
     "line": 1.5,
-    "p": 0.5172,
-    "fair": -107
+    "p": 0.5157,
+    "fair": -106
    },
    "thr_u1.5": {
-    "p_model": 0.4828,
+    "p_model": 0.4843,
     "line": 1.5,
-    "p": 0.4828,
-    "fair": 107
+    "p": 0.4843,
+    "fair": 106
    },
    "thr_o2.5": {
-    "p_model": 0.2774,
+    "p_model": 0.276,
     "line": 2.5,
-    "p": 0.2774,
-    "fair": 260
+    "p": 0.276,
+    "fair": 262
    },
    "thr_u2.5": {
-    "p_model": 0.7226,
+    "p_model": 0.724,
     "line": 2.5,
-    "p": 0.7226,
-    "fair": -260
+    "p": 0.724,
+    "fair": -262
    },
    "reb_o7.5": {
-    "p_model": 0.4631,
+    "p_model": 0.4604,
     "line": 7.5,
-    "p": 0.4631,
-    "fair": 116
+    "p": 0.4604,
+    "fair": 117
    },
    "reb_u7.5": {
-    "p_model": 0.5369,
+    "p_model": 0.5396,
     "line": 7.5,
-    "p": 0.5369,
-    "fair": -116
+    "p": 0.5396,
+    "fair": -117
    },
    "ast_o4.5": {
-    "p_model": 0.4538,
+    "p_model": 0.4516,
     "line": 4.5,
-    "p": 0.4538,
-    "fair": 120
+    "p": 0.4516,
+    "fair": 121
    },
    "ast_u4.5": {
-    "p_model": 0.5462,
+    "p_model": 0.5484,
     "line": 4.5,
-    "p": 0.5462,
-    "fair": -120
+    "p": 0.5484,
+    "fair": -121
    }
   },
   {
@@ -2491,6 +2796,128 @@
     "line": 5.5,
     "p": 0.532,
     "fair": -114
+   }
+  },
+  {
+   "id": 5061589,
+   "name": "Yves Missi",
+   "team": "NOP",
+   "opp": "DEN",
+   "pos": "B",
+   "game_id": "401909980",
+   "min": 19.6,
+   "exp_thr": 0.1,
+   "exp_reb": 5.67,
+   "exp_ast": 1.53,
+   "env": 0.993,
+   "thr_o1.5": {
+    "p_model": 0.0053,
+    "line": 1.5,
+    "p": 0.0053,
+    "fair": 9900
+   },
+   "thr_u1.5": {
+    "p_model": 0.9947,
+    "line": 1.5,
+    "p": 0.9947,
+    "fair": -9900
+   },
+   "thr_o2.5": {
+    "p_model": 0.0002,
+    "line": 2.5,
+    "p": 0.0002,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9998,
+    "line": 2.5,
+    "p": 0.9998,
+    "fair": -9900
+   },
+   "reb_o5.5": {
+    "p_model": 0.4779,
+    "line": 5.5,
+    "p": 0.4779,
+    "fair": 109
+   },
+   "reb_u5.5": {
+    "p_model": 0.5221,
+    "line": 5.5,
+    "p": 0.5221,
+    "fair": -109
+   },
+   "ast_o1.5": {
+    "p_model": 0.4422,
+    "line": 1.5,
+    "p": 0.4422,
+    "fair": 126
+   },
+   "ast_u1.5": {
+    "p_model": 0.5578,
+    "line": 1.5,
+    "p": 0.5578,
+    "fair": -126
+   }
+  },
+  {
+   "id": 5107173,
+   "name": "Danny Wolf",
+   "team": "BKN",
+   "opp": "MEM",
+   "pos": "W",
+   "game_id": "401909983",
+   "min": 22.8,
+   "exp_thr": 1.25,
+   "exp_reb": 5.53,
+   "exp_ast": 2.28,
+   "env": 0.996,
+   "thr_o1.5": {
+    "p_model": 0.3486,
+    "line": 1.5,
+    "p": 0.3486,
+    "fair": 187
+   },
+   "thr_u1.5": {
+    "p_model": 0.6514,
+    "line": 1.5,
+    "p": 0.6514,
+    "fair": -187
+   },
+   "thr_o2.5": {
+    "p_model": 0.1428,
+    "line": 2.5,
+    "p": 0.1428,
+    "fair": 600
+   },
+   "thr_u2.5": {
+    "p_model": 0.8572,
+    "line": 2.5,
+    "p": 0.8572,
+    "fair": -600
+   },
+   "reb_o5.5": {
+    "p_model": 0.4581,
+    "line": 5.5,
+    "p": 0.4581,
+    "fair": 118
+   },
+   "reb_u5.5": {
+    "p_model": 0.5419,
+    "line": 5.5,
+    "p": 0.5419,
+    "fair": -118
+   },
+   "ast_o2.5": {
+    "p_model": 0.3911,
+    "line": 2.5,
+    "p": 0.3911,
+    "fair": 156
+   },
+   "ast_u2.5": {
+    "p_model": 0.6089,
+    "line": 2.5,
+    "p": 0.6089,
+    "fair": -156
    }
   },
   {
@@ -2624,60 +3051,183 @@
    "game_id": "401909983",
    "min": 23.7,
    "exp_thr": 2.08,
-   "exp_reb": 2.78,
+   "exp_reb": 2.77,
    "exp_ast": 2.89,
-   "env": 1.002,
+   "env": 0.996,
    "thr_o1.5": {
-    "p_model": 0.5838,
+    "p_model": 0.5823,
     "line": 1.5,
-    "p": 0.5838,
-    "fair": -140
+    "p": 0.5823,
+    "fair": -139
    },
    "thr_u1.5": {
-    "p_model": 0.4162,
+    "p_model": 0.4177,
     "line": 1.5,
-    "p": 0.4162,
-    "fair": 140
+    "p": 0.4177,
+    "fair": 139
    },
    "thr_o2.5": {
-    "p_model": 0.3425,
+    "p_model": 0.341,
     "line": 2.5,
-    "p": 0.3425,
-    "fair": 192
+    "p": 0.341,
+    "fair": 193
    },
    "thr_u2.5": {
-    "p_model": 0.6575,
+    "p_model": 0.659,
     "line": 2.5,
-    "p": 0.6575,
-    "fair": -192
+    "p": 0.659,
+    "fair": -193
    },
    "reb_o2.5": {
-    "p_model": 0.5068,
+    "p_model": 0.505,
     "line": 2.5,
-    "p": 0.5068,
-    "fair": -103
+    "p": 0.505,
+    "fair": -102
    },
    "reb_u2.5": {
-    "p_model": 0.4932,
+    "p_model": 0.495,
     "line": 2.5,
-    "p": 0.4932,
-    "fair": 103
+    "p": 0.495,
+    "fair": 102
    },
    "ast_o2.5": {
-    "p_model": 0.5305,
+    "p_model": 0.5287,
     "line": 2.5,
-    "p": 0.5305,
-    "fair": -113
+    "p": 0.5287,
+    "fair": -112
    },
    "ast_u2.5": {
-    "p_model": 0.4695,
+    "p_model": 0.4713,
     "line": 2.5,
-    "p": 0.4695,
-    "fair": 113
+    "p": 0.4713,
+    "fair": 112
+   }
+  },
+  {
+   "id": 5279130,
+   "name": "Nolan Traore",
+   "team": "BKN",
+   "opp": "MEM",
+   "pos": "G",
+   "game_id": "401909983",
+   "min": 23.0,
+   "exp_thr": 1.46,
+   "exp_reb": 2.06,
+   "exp_ast": 3.21,
+   "env": 0.996,
+   "status": "Day-To-Day",
+   "thr_o1.5": {
+    "p_model": 0.417,
+    "line": 1.5,
+    "p": 0.417,
+    "fair": 140
+   },
+   "thr_u1.5": {
+    "p_model": 0.583,
+    "line": 1.5,
+    "p": 0.583,
+    "fair": -140
+   },
+   "thr_o2.5": {
+    "p_model": 0.1924,
+    "line": 2.5,
+    "p": 0.1924,
+    "fair": 420
+   },
+   "thr_u2.5": {
+    "p_model": 0.8076,
+    "line": 2.5,
+    "p": 0.8076,
+    "fair": -420
+   },
+   "reb_o2.5": {
+    "p_model": 0.3367,
+    "line": 2.5,
+    "p": 0.3367,
+    "fair": 197
+   },
+   "reb_u2.5": {
+    "p_model": 0.6633,
+    "line": 2.5,
+    "p": 0.6633,
+    "fair": -197
+   },
+   "ast_o3.5": {
+    "p_model": 0.3939,
+    "line": 3.5,
+    "p": 0.3939,
+    "fair": 154
+   },
+   "ast_u3.5": {
+    "p_model": 0.6061,
+    "line": 3.5,
+    "p": 0.6061,
+    "fair": -154
+   }
+  },
+  {
+   "id": 5279133,
+   "name": "Joan Beringer",
+   "team": "MIN",
+   "opp": "CHI",
+   "pos": "W",
+   "game_id": "401909984",
+   "min": 12.5,
+   "exp_thr": 0.04,
+   "exp_reb": 4.41,
+   "exp_ast": 0.53,
+   "env": 0.987,
+   "thr_o1.5": {
+    "p_model": 0.0008,
+    "line": 1.5,
+    "p": 0.0008,
+    "fair": 9900
+   },
+   "thr_u1.5": {
+    "p_model": 0.9992,
+    "line": 1.5,
+    "p": 0.9992,
+    "fair": -9900
+   },
+   "thr_o2.5": {
+    "p_model": 0.0,
+    "line": 2.5,
+    "p": 0.0,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 1.0,
+    "line": 2.5,
+    "p": 1.0,
+    "fair": -9900
+   },
+   "reb_o4.5": {
+    "p_model": 0.4386,
+    "line": 4.5,
+    "p": 0.4386,
+    "fair": 128
+   },
+   "reb_u4.5": {
+    "p_model": 0.5614,
+    "line": 4.5,
+    "p": 0.5614,
+    "fair": -128
+   },
+   "ast_o0.5": {
+    "p_model": 0.4032,
+    "line": 0.5,
+    "p": 0.4032,
+    "fair": 148
+   },
+   "ast_u0.5": {
+    "p_model": 0.5968,
+    "line": 0.5,
+    "p": 0.5968,
+    "fair": -148
    }
   }
  ],
- "odds_status": "Odds from 5 games (double-doubles). 169 odds credits left this month. Credit budget (174 left, 14 days to reset): skipped threes prices. Game lines for 5 games.",
+ "odds_status": "Odds from 5 games (double-doubles). 162 odds credits left this month. Credit budget (167 left, 14 days to reset): skipped threes prices. Game lines for 5 games.",
  "unmatched": [
   "herb jones"
  ],
@@ -2700,6 +3250,8 @@
   "ast_u8.5",
   "ast_o9.5",
   "ast_u9.5",
+  "reb_o1.5",
+  "reb_u1.5",
   "reb_o2.5",
   "reb_u2.5",
   "reb_o3.5",
