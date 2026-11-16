@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated": "2026-11-16T06:17+00:00",
+ "generated": "2026-11-16T22:50+00:00",
  "games": [
   {
    "id": "401909994",
@@ -538,6 +538,67 @@
     "line": 2.5,
     "p": 0.6536,
     "fair": -189
+   }
+  },
+  {
+   "id": 2991230,
+   "name": "Fred VanVleet",
+   "team": "HOU",
+   "opp": "MIA",
+   "pos": "G",
+   "game_id": "401909998",
+   "min": 30.6,
+   "exp_thr": 2.64,
+   "exp_reb": 3.53,
+   "exp_ast": 4.42,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.6952,
+    "line": 1.5,
+    "p": 0.6952,
+    "fair": -228
+   },
+   "thr_u1.5": {
+    "p_model": 0.3048,
+    "line": 1.5,
+    "p": 0.3048,
+    "fair": 228
+   },
+   "thr_o2.5": {
+    "p_model": 0.4689,
+    "line": 2.5,
+    "p": 0.4689,
+    "fair": 113
+   },
+   "thr_u2.5": {
+    "p_model": 0.5311,
+    "line": 2.5,
+    "p": 0.5311,
+    "fair": -113
+   },
+   "reb_o3.5": {
+    "p_model": 0.4546,
+    "line": 3.5,
+    "p": 0.4546,
+    "fair": 120
+   },
+   "reb_u3.5": {
+    "p_model": 0.5454,
+    "line": 3.5,
+    "p": 0.5454,
+    "fair": -120
+   },
+   "ast_o4.5": {
+    "p_model": 0.4396,
+    "line": 4.5,
+    "p": 0.4396,
+    "fair": 127
+   },
+   "ast_u4.5": {
+    "p_model": 0.5604,
+    "line": 4.5,
+    "p": 0.5604,
+    "fair": -127
    }
   },
   {
@@ -2372,6 +2433,128 @@
    }
   },
   {
+   "id": 4351852,
+   "name": "Mitchell Robinson",
+   "team": "BOS",
+   "opp": "ORL",
+   "pos": "B",
+   "game_id": "401909994",
+   "min": 17.7,
+   "exp_thr": 0.03,
+   "exp_reb": 6.76,
+   "exp_ast": 0.88,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.0006,
+    "line": 1.5,
+    "p": 0.0006,
+    "fair": 9900
+   },
+   "thr_u1.5": {
+    "p_model": 0.9994,
+    "line": 1.5,
+    "p": 0.9994,
+    "fair": -9900
+   },
+   "thr_o2.5": {
+    "p_model": 0.0,
+    "line": 2.5,
+    "p": 0.0,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 1.0,
+    "line": 2.5,
+    "p": 1.0,
+    "fair": -9900
+   },
+   "reb_o6.5": {
+    "p_model": 0.4884,
+    "line": 6.5,
+    "p": 0.4884,
+    "fair": 105
+   },
+   "reb_u6.5": {
+    "p_model": 0.5116,
+    "line": 6.5,
+    "p": 0.5116,
+    "fair": -105
+   },
+   "ast_o0.5": {
+    "p_model": 0.5727,
+    "line": 0.5,
+    "p": 0.5727,
+    "fair": -134
+   },
+   "ast_u0.5": {
+    "p_model": 0.4273,
+    "line": 0.5,
+    "p": 0.4273,
+    "fair": 134
+   }
+  },
+  {
+   "id": 4395626,
+   "name": "Tre Jones",
+   "team": "CHI",
+   "opp": "CLE",
+   "pos": "G",
+   "game_id": "401909995",
+   "min": 22.4,
+   "exp_thr": 0.57,
+   "exp_reb": 2.53,
+   "exp_ast": 3.87,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.1172,
+    "line": 1.5,
+    "p": 0.1172,
+    "fair": 753
+   },
+   "thr_u1.5": {
+    "p_model": 0.8828,
+    "line": 1.5,
+    "p": 0.8828,
+    "fair": -753
+   },
+   "thr_o2.5": {
+    "p_model": 0.025,
+    "line": 2.5,
+    "p": 0.025,
+    "fair": 3900
+   },
+   "thr_u2.5": {
+    "p_model": 0.975,
+    "line": 2.5,
+    "p": 0.975,
+    "fair": -3900
+   },
+   "reb_o2.5": {
+    "p_model": 0.4504,
+    "line": 2.5,
+    "p": 0.4504,
+    "fair": 122
+   },
+   "reb_u2.5": {
+    "p_model": 0.5496,
+    "line": 2.5,
+    "p": 0.5496,
+    "fair": -122
+   },
+   "ast_o3.5": {
+    "p_model": 0.5167,
+    "line": 3.5,
+    "p": 0.5167,
+    "fair": -107
+   },
+   "ast_u3.5": {
+    "p_model": 0.4833,
+    "line": 3.5,
+    "p": 0.4833,
+    "fair": 107
+   }
+  },
+  {
    "id": 4395628,
    "name": "Zion Williamson",
    "team": "NOP",
@@ -2566,7 +2749,6 @@
    "exp_reb": 7.22,
    "exp_ast": 1.77,
    "env": 1.0,
-   "status": "Day-To-Day",
    "thr_o1.5": {
     "p_model": 0.4787,
     "line": 1.5,
@@ -2614,67 +2796,6 @@
     "line": 1.5,
     "p": 0.4867,
     "fair": 105
-   }
-  },
-  {
-   "id": 4397424,
-   "name": "Neemias Queta",
-   "team": "BOS",
-   "opp": "ORL",
-   "pos": "B",
-   "game_id": "401909994",
-   "min": 23.0,
-   "exp_thr": 0.14,
-   "exp_reb": 7.3,
-   "exp_ast": 1.91,
-   "env": 1.0,
-   "thr_o1.5": {
-    "p_model": 0.0095,
-    "line": 1.5,
-    "p": 0.0095,
-    "fair": 9900
-   },
-   "thr_u1.5": {
-    "p_model": 0.9905,
-    "line": 1.5,
-    "p": 0.9905,
-    "fair": -9900
-   },
-   "thr_o2.5": {
-    "p_model": 0.0005,
-    "line": 2.5,
-    "p": 0.0005,
-    "fair": 9900
-   },
-   "thr_u2.5": {
-    "p_model": 0.9995,
-    "line": 2.5,
-    "p": 0.9995,
-    "fair": -9900
-   },
-   "reb_o7.5": {
-    "p_model": 0.4337,
-    "line": 7.5,
-    "p": 0.4337,
-    "fair": 131
-   },
-   "reb_u7.5": {
-    "p_model": 0.5663,
-    "line": 7.5,
-    "p": 0.5663,
-    "fair": -131
-   },
-   "ast_o1.5": {
-    "p_model": 0.5493,
-    "line": 1.5,
-    "p": 0.5493,
-    "fair": -122
-   },
-   "ast_u1.5": {
-    "p_model": 0.4507,
-    "line": 1.5,
-    "p": 0.4507,
-    "fair": 122
    }
   },
   {
@@ -3227,6 +3348,67 @@
    }
   },
   {
+   "id": 4432847,
+   "name": "Terrence Shannon Jr.",
+   "team": "MIN",
+   "opp": "POR",
+   "pos": "G",
+   "game_id": "401909999",
+   "min": 17.1,
+   "exp_thr": 0.89,
+   "exp_reb": 2.44,
+   "exp_ast": 1.86,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.2272,
+    "line": 1.5,
+    "p": 0.2272,
+    "fair": 340
+   },
+   "thr_u1.5": {
+    "p_model": 0.7728,
+    "line": 1.5,
+    "p": 0.7728,
+    "fair": -340
+   },
+   "thr_o2.5": {
+    "p_model": 0.0712,
+    "line": 2.5,
+    "p": 0.0712,
+    "fair": 1304
+   },
+   "thr_u2.5": {
+    "p_model": 0.9288,
+    "line": 2.5,
+    "p": 0.9288,
+    "fair": -1304
+   },
+   "reb_o2.5": {
+    "p_model": 0.4289,
+    "line": 2.5,
+    "p": 0.4289,
+    "fair": 133
+   },
+   "reb_u2.5": {
+    "p_model": 0.5711,
+    "line": 2.5,
+    "p": 0.5711,
+    "fair": -133
+   },
+   "ast_o1.5": {
+    "p_model": 0.5358,
+    "line": 1.5,
+    "p": 0.5358,
+    "fair": -115
+   },
+   "ast_u1.5": {
+    "p_model": 0.4642,
+    "line": 1.5,
+    "p": 0.4642,
+    "fair": 115
+   }
+  },
+  {
    "id": 4433083,
    "name": "Cam Spencer",
    "team": "MEM",
@@ -3543,7 +3725,6 @@
    "exp_reb": 5.13,
    "exp_ast": 2.58,
    "env": 1.0,
-   "status": "Day-To-Day",
    "thr_o1.5": {
     "p_model": 0.4567,
     "line": 1.5,
@@ -3594,6 +3775,67 @@
    }
   },
   {
+   "id": 4592492,
+   "name": "Bones Hyland",
+   "team": "MIN",
+   "opp": "POR",
+   "pos": "G",
+   "game_id": "401909999",
+   "min": 15.8,
+   "exp_thr": 1.71,
+   "exp_reb": 1.73,
+   "exp_ast": 2.94,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.4894,
+    "line": 1.5,
+    "p": 0.4894,
+    "fair": 104
+   },
+   "thr_u1.5": {
+    "p_model": 0.5106,
+    "line": 1.5,
+    "p": 0.5106,
+    "fair": -104
+   },
+   "thr_o2.5": {
+    "p_model": 0.2523,
+    "line": 2.5,
+    "p": 0.2523,
+    "fair": 296
+   },
+   "thr_u2.5": {
+    "p_model": 0.7477,
+    "line": 2.5,
+    "p": 0.7477,
+    "fair": -296
+   },
+   "reb_o1.5": {
+    "p_model": 0.5,
+    "line": 1.5,
+    "p": 0.5,
+    "fair": -100
+   },
+   "reb_u1.5": {
+    "p_model": 0.5,
+    "line": 1.5,
+    "p": 0.5,
+    "fair": -100
+   },
+   "ast_o2.5": {
+    "p_model": 0.5396,
+    "line": 2.5,
+    "p": 0.5396,
+    "fair": -117
+   },
+   "ast_u2.5": {
+    "p_model": 0.4604,
+    "line": 2.5,
+    "p": 0.4604,
+    "fair": 117
+   }
+  },
+  {
    "id": 4600663,
    "name": "Zach Edey",
    "team": "MEM",
@@ -3605,7 +3847,6 @@
    "exp_reb": 8.91,
    "exp_ast": 1.23,
    "env": 1.0,
-   "status": "Day-To-Day",
    "thr_o1.5": {
     "p_model": 0.0179,
     "line": 1.5,
@@ -3717,68 +3958,6 @@
    }
   },
   {
-   "id": 4601025,
-   "name": "Pelle Larsson",
-   "team": "MIA",
-   "opp": "HOU",
-   "pos": "G",
-   "game_id": "401909998",
-   "min": 28.2,
-   "exp_thr": 1.04,
-   "exp_reb": 3.49,
-   "exp_ast": 3.35,
-   "env": 1.0,
-   "status": "Day-To-Day",
-   "thr_o1.5": {
-    "p_model": 0.2782,
-    "line": 1.5,
-    "p": 0.2782,
-    "fair": 259
-   },
-   "thr_u1.5": {
-    "p_model": 0.7218,
-    "line": 1.5,
-    "p": 0.7218,
-    "fair": -259
-   },
-   "thr_o2.5": {
-    "p_model": 0.0987,
-    "line": 2.5,
-    "p": 0.0987,
-    "fair": 913
-   },
-   "thr_u2.5": {
-    "p_model": 0.9013,
-    "line": 2.5,
-    "p": 0.9013,
-    "fair": -913
-   },
-   "reb_o3.5": {
-    "p_model": 0.4466,
-    "line": 3.5,
-    "p": 0.4466,
-    "fair": 124
-   },
-   "reb_u3.5": {
-    "p_model": 0.5534,
-    "line": 3.5,
-    "p": 0.5534,
-    "fair": -124
-   },
-   "ast_o3.5": {
-    "p_model": 0.4205,
-    "line": 3.5,
-    "p": 0.4205,
-    "fair": 138
-   },
-   "ast_u3.5": {
-    "p_model": 0.5795,
-    "line": 3.5,
-    "p": 0.5795,
-    "fair": -138
-   }
-  },
-  {
    "id": 4683021,
    "name": "Deni Avdija",
    "team": "POR",
@@ -3840,68 +4019,6 @@
    }
   },
   {
-   "id": 4683747,
-   "name": "Jaylon Tyson",
-   "team": "CLE",
-   "opp": "CHI",
-   "pos": "G",
-   "game_id": "401909995",
-   "min": 25.7,
-   "exp_thr": 2.1,
-   "exp_reb": 4.49,
-   "exp_ast": 2.45,
-   "env": 1.0,
-   "status": "Day-To-Day",
-   "thr_o1.5": {
-    "p_model": 0.5862,
-    "line": 1.5,
-    "p": 0.5862,
-    "fair": -142
-   },
-   "thr_u1.5": {
-    "p_model": 0.4138,
-    "line": 1.5,
-    "p": 0.4138,
-    "fair": 142
-   },
-   "thr_o2.5": {
-    "p_model": 0.3451,
-    "line": 2.5,
-    "p": 0.3451,
-    "fair": 190
-   },
-   "thr_u2.5": {
-    "p_model": 0.6549,
-    "line": 2.5,
-    "p": 0.6549,
-    "fair": -190
-   },
-   "reb_o4.5": {
-    "p_model": 0.4508,
-    "line": 4.5,
-    "p": 0.4508,
-    "fair": 122
-   },
-   "reb_u4.5": {
-    "p_model": 0.5492,
-    "line": 4.5,
-    "p": 0.5492,
-    "fair": -122
-   },
-   "ast_o2.5": {
-    "p_model": 0.4332,
-    "line": 2.5,
-    "p": 0.4332,
-    "fair": 131
-   },
-   "ast_u2.5": {
-    "p_model": 0.5668,
-    "line": 2.5,
-    "p": 0.5668,
-    "fair": -131
-   }
-  },
-  {
    "id": 4684740,
    "name": "Amen Thompson",
    "team": "HOU",
@@ -3913,6 +4030,7 @@
    "exp_reb": 7.3,
    "exp_ast": 4.17,
    "env": 1.0,
+   "status": "Day-To-Day",
    "thr_o1.5": {
     "p_model": 0.056,
     "line": 1.5,
@@ -3960,6 +4078,67 @@
     "line": 4.5,
     "p": 0.601,
     "fair": -151
+   }
+  },
+  {
+   "id": 4684806,
+   "name": "Taylor Hendricks",
+   "team": "MEM",
+   "opp": "WAS",
+   "pos": "W",
+   "game_id": "401909996",
+   "min": 16.3,
+   "exp_thr": 0.76,
+   "exp_reb": 3.84,
+   "exp_ast": 1.06,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.1816,
+    "line": 1.5,
+    "p": 0.1816,
+    "fair": 451
+   },
+   "thr_u1.5": {
+    "p_model": 0.8184,
+    "line": 1.5,
+    "p": 0.8184,
+    "fair": -451
+   },
+   "thr_o2.5": {
+    "p_model": 0.0498,
+    "line": 2.5,
+    "p": 0.0498,
+    "fair": 1908
+   },
+   "thr_u2.5": {
+    "p_model": 0.9502,
+    "line": 2.5,
+    "p": 0.9502,
+    "fair": -1908
+   },
+   "reb_o3.5": {
+    "p_model": 0.5112,
+    "line": 3.5,
+    "p": 0.5112,
+    "fair": -105
+   },
+   "reb_u3.5": {
+    "p_model": 0.4888,
+    "line": 3.5,
+    "p": 0.4888,
+    "fair": 105
+   },
+   "ast_o1.5": {
+    "p_model": 0.2867,
+    "line": 1.5,
+    "p": 0.2867,
+    "fair": 249
+   },
+   "ast_u1.5": {
+    "p_model": 0.7133,
+    "line": 1.5,
+    "p": 0.7133,
+    "fair": -249
    }
   },
   {
@@ -4573,6 +4752,67 @@
    }
   },
   {
+   "id": 5023693,
+   "name": "Tyrese Proctor",
+   "team": "CLE",
+   "opp": "CHI",
+   "pos": "G",
+   "game_id": "401909995",
+   "min": 18.1,
+   "exp_thr": 1.54,
+   "exp_reb": 3.02,
+   "exp_ast": 2.77,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.4403,
+    "line": 1.5,
+    "p": 0.4403,
+    "fair": 127
+   },
+   "thr_u1.5": {
+    "p_model": 0.5597,
+    "line": 1.5,
+    "p": 0.5597,
+    "fair": -127
+   },
+   "thr_o2.5": {
+    "p_model": 0.2108,
+    "line": 2.5,
+    "p": 0.2108,
+    "fair": 374
+   },
+   "thr_u2.5": {
+    "p_model": 0.7892,
+    "line": 2.5,
+    "p": 0.7892,
+    "fair": -374
+   },
+   "reb_o3.5": {
+    "p_model": 0.3556,
+    "line": 3.5,
+    "p": 0.3556,
+    "fair": 181
+   },
+   "reb_u3.5": {
+    "p_model": 0.6444,
+    "line": 3.5,
+    "p": 0.6444,
+    "fair": -181
+   },
+   "ast_o2.5": {
+    "p_model": 0.5038,
+    "line": 2.5,
+    "p": 0.5038,
+    "fair": -102
+   },
+   "ast_u2.5": {
+    "p_model": 0.4962,
+    "line": 2.5,
+    "p": 0.4962,
+    "fair": 102
+   }
+  },
+  {
    "id": 5041935,
    "name": "Cameron Boozer",
    "team": "MEM",
@@ -4936,6 +5176,67 @@
     "line": 2.5,
     "p": 0.6115,
     "fair": -157
+   }
+  },
+  {
+   "id": 5112087,
+   "name": "Jaylen Wells",
+   "team": "MEM",
+   "opp": "WAS",
+   "pos": "W",
+   "game_id": "401909996",
+   "min": 26.7,
+   "exp_thr": 1.92,
+   "exp_reb": 3.06,
+   "exp_ast": 1.41,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.5439,
+    "line": 1.5,
+    "p": 0.5439,
+    "fair": -119
+   },
+   "thr_u1.5": {
+    "p_model": 0.4561,
+    "line": 1.5,
+    "p": 0.4561,
+    "fair": 119
+   },
+   "thr_o2.5": {
+    "p_model": 0.3026,
+    "line": 2.5,
+    "p": 0.3026,
+    "fair": 230
+   },
+   "thr_u2.5": {
+    "p_model": 0.6974,
+    "line": 2.5,
+    "p": 0.6974,
+    "fair": -230
+   },
+   "reb_o3.5": {
+    "p_model": 0.3638,
+    "line": 3.5,
+    "p": 0.3638,
+    "fair": 175
+   },
+   "reb_u3.5": {
+    "p_model": 0.6362,
+    "line": 3.5,
+    "p": 0.6362,
+    "fair": -175
+   },
+   "ast_o1.5": {
+    "p_model": 0.4031,
+    "line": 1.5,
+    "p": 0.4031,
+    "fair": 148
+   },
+   "ast_u1.5": {
+    "p_model": 0.5969,
+    "line": 1.5,
+    "p": 0.5969,
+    "fair": -148
    }
   },
   {
@@ -5366,7 +5667,7 @@
    }
   }
  ],
- "odds_status": "Odds from 8 games (double-doubles). 131 odds credits left this month. Credit budget (139 left, 12 days to reset): skipped threes prices. Game lines skipped to save credits.",
+ "odds_status": "Odds from 8 games (double-doubles). 123 odds credits left this month. Credit budget (131 left, 12 days to reset): skipped threes prices. Game lines skipped to save credits.",
  "unmatched": [],
  "markets": [
   "ast_o0.5",
@@ -5389,6 +5690,8 @@
   "ast_u8.5",
   "ast_o9.5",
   "ast_u9.5",
+  "reb_o1.5",
+  "reb_u1.5",
   "reb_o2.5",
   "reb_u2.5",
   "reb_o3.5",
@@ -5426,14 +5729,5 @@
   "min_price": -250,
   "price_check": -0.03
  },
- "out": [
-  {
-   "name": "Fred VanVleet",
-   "team": "HOU",
-   "opp": "MIA",
-   "source": "ESPN",
-   "min": 30.6,
-   "typ_dd": 0.0466
-  }
- ]
+ "out": []
 }
