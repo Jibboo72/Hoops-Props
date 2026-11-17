@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated": "2026-11-17T07:48+00:00",
+ "generated": "2026-11-17T21:41+00:00",
  "games": [
   {
    "id": "401910002",
@@ -215,6 +215,67 @@
     "line": 3.5,
     "p": 0.4801,
     "fair": 108
+   }
+  },
+  {
+   "id": 2991139,
+   "name": "Kris Dunn",
+   "team": "LAC",
+   "opp": "UTA",
+   "pos": "G",
+   "game_id": "401910006",
+   "min": 26.0,
+   "exp_thr": 0.73,
+   "exp_reb": 3.56,
+   "exp_ast": 3.8,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.1709,
+    "line": 1.5,
+    "p": 0.1709,
+    "fair": 485
+   },
+   "thr_u1.5": {
+    "p_model": 0.8291,
+    "line": 1.5,
+    "p": 0.8291,
+    "fair": -485
+   },
+   "thr_o2.5": {
+    "p_model": 0.0452,
+    "line": 2.5,
+    "p": 0.0452,
+    "fair": 2112
+   },
+   "thr_u2.5": {
+    "p_model": 0.9548,
+    "line": 2.5,
+    "p": 0.9548,
+    "fair": -2112
+   },
+   "reb_o3.5": {
+    "p_model": 0.4601,
+    "line": 3.5,
+    "p": 0.4601,
+    "fair": 117
+   },
+   "reb_u3.5": {
+    "p_model": 0.5399,
+    "line": 3.5,
+    "p": 0.5399,
+    "fair": -117
+   },
+   "ast_o3.5": {
+    "p_model": 0.5044,
+    "line": 3.5,
+    "p": 0.5044,
+    "fair": -102
+   },
+   "ast_u3.5": {
+    "p_model": 0.4956,
+    "line": 3.5,
+    "p": 0.4956,
+    "fair": 102
    }
   },
   {
@@ -950,6 +1011,67 @@
    }
   },
   {
+   "id": 4065663,
+   "name": "Josh Okogie",
+   "team": "UTA",
+   "opp": "LAC",
+   "pos": "G",
+   "game_id": "401910006",
+   "min": 18.9,
+   "exp_thr": 0.85,
+   "exp_reb": 2.84,
+   "exp_ast": 0.99,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.2126,
+    "line": 1.5,
+    "p": 0.2126,
+    "fair": 370
+   },
+   "thr_u1.5": {
+    "p_model": 0.7874,
+    "line": 1.5,
+    "p": 0.7874,
+    "fair": -370
+   },
+   "thr_o2.5": {
+    "p_model": 0.064,
+    "line": 2.5,
+    "p": 0.064,
+    "fair": 1462
+   },
+   "thr_u2.5": {
+    "p_model": 0.936,
+    "line": 2.5,
+    "p": 0.936,
+    "fair": -1463
+   },
+   "reb_o2.5": {
+    "p_model": 0.5188,
+    "line": 2.5,
+    "p": 0.5188,
+    "fair": -108
+   },
+   "reb_u2.5": {
+    "p_model": 0.4812,
+    "line": 2.5,
+    "p": 0.4812,
+    "fair": 108
+   },
+   "ast_o0.5": {
+    "p_model": 0.6129,
+    "line": 0.5,
+    "p": 0.6129,
+    "fair": -158
+   },
+   "ast_u0.5": {
+    "p_model": 0.3871,
+    "line": 0.5,
+    "p": 0.3871,
+    "fair": 158
+   }
+  },
+  {
    "id": 4066259,
    "name": "De'Aaron Fox",
    "team": "SAS",
@@ -1133,6 +1255,128 @@
    }
   },
   {
+   "id": 4277811,
+   "name": "Collin Sexton",
+   "team": "LAL",
+   "opp": "CHA",
+   "pos": "G",
+   "game_id": "401910005",
+   "min": 20.8,
+   "exp_thr": 1.32,
+   "exp_reb": 1.82,
+   "exp_ast": 2.88,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.372,
+    "line": 1.5,
+    "p": 0.372,
+    "fair": 169
+   },
+   "thr_u1.5": {
+    "p_model": 0.628,
+    "line": 1.5,
+    "p": 0.628,
+    "fair": -169
+   },
+   "thr_o2.5": {
+    "p_model": 0.159,
+    "line": 2.5,
+    "p": 0.159,
+    "fair": 529
+   },
+   "thr_u2.5": {
+    "p_model": 0.841,
+    "line": 2.5,
+    "p": 0.841,
+    "fair": -529
+   },
+   "reb_o1.5": {
+    "p_model": 0.5254,
+    "line": 1.5,
+    "p": 0.5254,
+    "fair": -111
+   },
+   "reb_u1.5": {
+    "p_model": 0.4746,
+    "line": 1.5,
+    "p": 0.4746,
+    "fair": 111
+   },
+   "ast_o2.5": {
+    "p_model": 0.5272,
+    "line": 2.5,
+    "p": 0.5272,
+    "fair": -112
+   },
+   "ast_u2.5": {
+    "p_model": 0.4728,
+    "line": 2.5,
+    "p": 0.4728,
+    "fair": 112
+   }
+  },
+  {
+   "id": 4277919,
+   "name": "Mo Bamba",
+   "team": "UTA",
+   "opp": "LAC",
+   "pos": "B",
+   "game_id": "401910006",
+   "min": 16.5,
+   "exp_thr": 0.37,
+   "exp_reb": 4.79,
+   "exp_ast": 1.06,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.0571,
+    "line": 1.5,
+    "p": 0.0571,
+    "fair": 1651
+   },
+   "thr_u1.5": {
+    "p_model": 0.9429,
+    "line": 1.5,
+    "p": 0.9429,
+    "fair": -1651
+   },
+   "thr_o2.5": {
+    "p_model": 0.0082,
+    "line": 2.5,
+    "p": 0.0082,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 0.9918,
+    "line": 2.5,
+    "p": 0.9918,
+    "fair": -9900
+   },
+   "reb_o4.5": {
+    "p_model": 0.4985,
+    "line": 4.5,
+    "p": 0.4985,
+    "fair": 101
+   },
+   "reb_u4.5": {
+    "p_model": 0.5015,
+    "line": 4.5,
+    "p": 0.5015,
+    "fair": -101
+   },
+   "ast_o1.5": {
+    "p_model": 0.284,
+    "line": 1.5,
+    "p": 0.284,
+    "fair": 252
+   },
+   "ast_u1.5": {
+    "p_model": 0.716,
+    "line": 1.5,
+    "p": 0.716,
+    "fair": -252
+   }
+  },
+  {
    "id": 4278562,
    "name": "Paul Reed",
    "team": "DET",
@@ -1252,6 +1496,67 @@
     "line": 1.5,
     "p": 0.4893,
     "fair": 104
+   }
+  },
+  {
+   "id": 4395630,
+   "name": "Devin Vassell",
+   "team": "SAS",
+   "opp": "DET",
+   "pos": "G",
+   "game_id": "401910004",
+   "min": 29.5,
+   "exp_thr": 1.73,
+   "exp_reb": 3.92,
+   "exp_ast": 2.65,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.4943,
+    "line": 1.5,
+    "p": 0.4943,
+    "fair": 102
+   },
+   "thr_u1.5": {
+    "p_model": 0.5057,
+    "line": 1.5,
+    "p": 0.5057,
+    "fair": -102
+   },
+   "thr_o2.5": {
+    "p_model": 0.2566,
+    "line": 2.5,
+    "p": 0.2566,
+    "fair": 290
+   },
+   "thr_u2.5": {
+    "p_model": 0.7434,
+    "line": 2.5,
+    "p": 0.7434,
+    "fair": -290
+   },
+   "reb_o3.5": {
+    "p_model": 0.5246,
+    "line": 3.5,
+    "p": 0.5246,
+    "fair": -110
+   },
+   "reb_u3.5": {
+    "p_model": 0.4754,
+    "line": 3.5,
+    "p": 0.4754,
+    "fair": 110
+   },
+   "ast_o2.5": {
+    "p_model": 0.4782,
+    "line": 2.5,
+    "p": 0.4782,
+    "fair": 109
+   },
+   "ast_u2.5": {
+    "p_model": 0.5218,
+    "line": 2.5,
+    "p": 0.5218,
+    "fair": -109
    }
   },
   {
@@ -2059,6 +2364,7 @@
    "exp_reb": 7.83,
    "exp_ast": 5.39,
    "env": 1.0,
+   "status": "Day-To-Day",
    "thr_o1.5": {
     "p_model": 0.299,
     "line": 1.5,
@@ -2109,65 +2415,64 @@
    }
   },
   {
-   "id": 4433247,
-   "name": "Jonathan Kuminga",
-   "team": "MIN",
-   "opp": "POR",
+   "id": 4433137,
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "opp": "CHA",
    "pos": "W",
-   "game_id": "401910003",
-   "min": 27.4,
-   "exp_thr": 1.08,
-   "exp_reb": 5.79,
-   "exp_ast": 2.63,
+   "game_id": "401910005",
+   "min": 22.7,
+   "exp_thr": 1.43,
+   "exp_reb": 2.52,
+   "exp_ast": 1.69,
    "env": 1.0,
-   "status": "Day-To-Day",
    "thr_o1.5": {
-    "p_model": 0.2902,
+    "p_model": 0.4065,
     "line": 1.5,
-    "p": 0.2902,
-    "fair": 245
+    "p": 0.4065,
+    "fair": 146
    },
    "thr_u1.5": {
-    "p_model": 0.7098,
+    "p_model": 0.5935,
     "line": 1.5,
-    "p": 0.7098,
-    "fair": -245
+    "p": 0.5935,
+    "fair": -146
    },
    "thr_o2.5": {
-    "p_model": 0.1058,
+    "p_model": 0.1843,
     "line": 2.5,
-    "p": 0.1058,
-    "fair": 845
+    "p": 0.1843,
+    "fair": 443
    },
    "thr_u2.5": {
-    "p_model": 0.8942,
+    "p_model": 0.8157,
     "line": 2.5,
-    "p": 0.8942,
-    "fair": -845
+    "p": 0.8157,
+    "fair": -443
    },
-   "reb_o5.5": {
-    "p_model": 0.495,
-    "line": 5.5,
-    "p": 0.495,
-    "fair": 102
-   },
-   "reb_u5.5": {
-    "p_model": 0.505,
-    "line": 5.5,
-    "p": 0.505,
-    "fair": -102
-   },
-   "ast_o2.5": {
-    "p_model": 0.4733,
+   "reb_o2.5": {
+    "p_model": 0.4481,
     "line": 2.5,
-    "p": 0.4733,
-    "fair": 111
+    "p": 0.4481,
+    "fair": 123
    },
-   "ast_u2.5": {
-    "p_model": 0.5267,
+   "reb_u2.5": {
+    "p_model": 0.5519,
     "line": 2.5,
-    "p": 0.5267,
-    "fair": -111
+    "p": 0.5519,
+    "fair": -123
+   },
+   "ast_o1.5": {
+    "p_model": 0.4884,
+    "line": 1.5,
+    "p": 0.4884,
+    "fair": 105
+   },
+   "ast_u1.5": {
+    "p_model": 0.5116,
+    "line": 1.5,
+    "p": 0.5116,
+    "fair": -105
    }
   },
   {
@@ -2537,6 +2842,67 @@
    }
   },
   {
+   "id": 4602025,
+   "name": "Sion James",
+   "team": "CHA",
+   "opp": "LAL",
+   "pos": "G",
+   "game_id": "401910005",
+   "min": 26.2,
+   "exp_thr": 1.4,
+   "exp_reb": 3.7,
+   "exp_ast": 2.68,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.3971,
+    "line": 1.5,
+    "p": 0.3971,
+    "fair": 152
+   },
+   "thr_u1.5": {
+    "p_model": 0.6029,
+    "line": 1.5,
+    "p": 0.6029,
+    "fair": -152
+   },
+   "thr_o2.5": {
+    "p_model": 0.1772,
+    "line": 2.5,
+    "p": 0.1772,
+    "fair": 464
+   },
+   "thr_u2.5": {
+    "p_model": 0.8228,
+    "line": 2.5,
+    "p": 0.8228,
+    "fair": -464
+   },
+   "reb_o3.5": {
+    "p_model": 0.4869,
+    "line": 3.5,
+    "p": 0.4869,
+    "fair": 105
+   },
+   "reb_u3.5": {
+    "p_model": 0.5131,
+    "line": 3.5,
+    "p": 0.5131,
+    "fair": -105
+   },
+   "ast_o2.5": {
+    "p_model": 0.4855,
+    "line": 2.5,
+    "p": 0.4855,
+    "fair": 106
+   },
+   "ast_u2.5": {
+    "p_model": 0.5145,
+    "line": 2.5,
+    "p": 0.5145,
+    "fair": -106
+   }
+  },
+  {
    "id": 4683021,
    "name": "Deni Avdija",
    "team": "POR",
@@ -2548,6 +2914,7 @@
    "exp_reb": 6.51,
    "exp_ast": 6.04,
    "env": 1.0,
+   "status": "Day-To-Day",
    "thr_o1.5": {
     "p_model": 0.484,
     "line": 1.5,
@@ -2964,6 +3331,67 @@
    }
   },
   {
+   "id": 5081727,
+   "name": "Sidy Cissoko",
+   "team": "POR",
+   "opp": "MIN",
+   "pos": "G",
+   "game_id": "401910003",
+   "min": 22.7,
+   "exp_thr": 1.11,
+   "exp_reb": 3.06,
+   "exp_ast": 1.82,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.3031,
+    "line": 1.5,
+    "p": 0.3031,
+    "fair": 230
+   },
+   "thr_u1.5": {
+    "p_model": 0.6969,
+    "line": 1.5,
+    "p": 0.6969,
+    "fair": -230
+   },
+   "thr_o2.5": {
+    "p_model": 0.1135,
+    "line": 2.5,
+    "p": 0.1135,
+    "fair": 781
+   },
+   "thr_u2.5": {
+    "p_model": 0.8865,
+    "line": 2.5,
+    "p": 0.8865,
+    "fair": -781
+   },
+   "reb_o3.5": {
+    "p_model": 0.364,
+    "line": 3.5,
+    "p": 0.364,
+    "fair": 175
+   },
+   "reb_u3.5": {
+    "p_model": 0.636,
+    "line": 3.5,
+    "p": 0.636,
+    "fair": -175
+   },
+   "ast_o1.5": {
+    "p_model": 0.5265,
+    "line": 1.5,
+    "p": 0.5265,
+    "fair": -111
+   },
+   "ast_u1.5": {
+    "p_model": 0.4735,
+    "line": 1.5,
+    "p": 0.4735,
+    "fair": 111
+   }
+  },
+  {
    "id": 5093267,
    "name": "Collin Murray-Boyles",
    "team": "TOR",
@@ -3330,7 +3758,7 @@
    }
   }
  ],
- "odds_status": "Odds from 5 games (double-doubles). 116 odds credits left this month. Credit budget (121 left, 11 days to reset): skipped threes prices. Game lines skipped to save credits.",
+ "odds_status": "Odds from 5 games (double-doubles). 111 odds credits left this month. Credit budget (116 left, 11 days to reset): skipped threes prices. Game lines skipped to save credits.",
  "unmatched": [
   "r j barrett"
  ],
@@ -3353,6 +3781,8 @@
   "ast_u7.5",
   "ast_o8.5",
   "ast_u8.5",
+  "reb_o1.5",
+  "reb_u1.5",
   "reb_o2.5",
   "reb_u2.5",
   "reb_o3.5",
