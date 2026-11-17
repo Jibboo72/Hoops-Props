@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated": "2026-11-17T05:02+00:00",
+ "generated": "2026-11-17T07:48+00:00",
  "games": [
   {
    "id": "401910002",
@@ -34,6 +34,250 @@
   }
  ],
  "players": [
+  {
+   "id": 3448,
+   "name": "Brook Lopez",
+   "team": "LAC",
+   "opp": "UTA",
+   "pos": "B",
+   "game_id": "401910006",
+   "min": 24.5,
+   "exp_thr": 1.38,
+   "exp_reb": 5.04,
+   "exp_ast": 1.87,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.3902,
+    "line": 1.5,
+    "p": 0.3902,
+    "fair": 156
+   },
+   "thr_u1.5": {
+    "p_model": 0.6098,
+    "line": 1.5,
+    "p": 0.6098,
+    "fair": -156
+   },
+   "thr_o2.5": {
+    "p_model": 0.1721,
+    "line": 2.5,
+    "p": 0.1721,
+    "fair": 481
+   },
+   "thr_u2.5": {
+    "p_model": 0.8279,
+    "line": 2.5,
+    "p": 0.8279,
+    "fair": -481
+   },
+   "reb_o5.5": {
+    "p_model": 0.3879,
+    "line": 5.5,
+    "p": 0.3879,
+    "fair": 158
+   },
+   "reb_u5.5": {
+    "p_model": 0.6121,
+    "line": 5.5,
+    "p": 0.6121,
+    "fair": -158
+   },
+   "ast_o1.5": {
+    "p_model": 0.5384,
+    "line": 1.5,
+    "p": 0.5384,
+    "fair": -117
+   },
+   "ast_u1.5": {
+    "p_model": 0.4616,
+    "line": 1.5,
+    "p": 0.4616,
+    "fair": 117
+   }
+  },
+  {
+   "id": 3995,
+   "name": "Jrue Holiday",
+   "team": "POR",
+   "opp": "MIN",
+   "pos": "G",
+   "game_id": "401910003",
+   "min": 27.2,
+   "exp_thr": 1.92,
+   "exp_reb": 3.93,
+   "exp_ast": 4.52,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.5435,
+    "line": 1.5,
+    "p": 0.5435,
+    "fair": -119
+   },
+   "thr_u1.5": {
+    "p_model": 0.4565,
+    "line": 1.5,
+    "p": 0.4565,
+    "fair": 119
+   },
+   "thr_o2.5": {
+    "p_model": 0.3022,
+    "line": 2.5,
+    "p": 0.3022,
+    "fair": 231
+   },
+   "thr_u2.5": {
+    "p_model": 0.6978,
+    "line": 2.5,
+    "p": 0.6978,
+    "fair": -231
+   },
+   "reb_o3.5": {
+    "p_model": 0.5268,
+    "line": 3.5,
+    "p": 0.5268,
+    "fair": -111
+   },
+   "reb_u3.5": {
+    "p_model": 0.4732,
+    "line": 3.5,
+    "p": 0.4732,
+    "fair": 111
+   },
+   "ast_o4.5": {
+    "p_model": 0.455,
+    "line": 4.5,
+    "p": 0.455,
+    "fair": 120
+   },
+   "ast_u4.5": {
+    "p_model": 0.545,
+    "line": 4.5,
+    "p": 0.545,
+    "fair": -120
+   }
+  },
+  {
+   "id": 6606,
+   "name": "Damian Lillard",
+   "team": "POR",
+   "opp": "MIN",
+   "pos": "G",
+   "game_id": "401910003",
+   "min": 28.3,
+   "exp_thr": 2.43,
+   "exp_reb": 3.41,
+   "exp_ast": 3.89,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.6565,
+    "line": 1.5,
+    "p": 0.6565,
+    "fair": -191
+   },
+   "thr_u1.5": {
+    "p_model": 0.3435,
+    "line": 1.5,
+    "p": 0.3435,
+    "fair": 191
+   },
+   "thr_o2.5": {
+    "p_model": 0.4223,
+    "line": 2.5,
+    "p": 0.4223,
+    "fair": 137
+   },
+   "thr_u2.5": {
+    "p_model": 0.5777,
+    "line": 2.5,
+    "p": 0.5777,
+    "fair": -137
+   },
+   "reb_o3.5": {
+    "p_model": 0.4317,
+    "line": 3.5,
+    "p": 0.4317,
+    "fair": 132
+   },
+   "reb_u3.5": {
+    "p_model": 0.5683,
+    "line": 3.5,
+    "p": 0.5683,
+    "fair": -132
+   },
+   "ast_o3.5": {
+    "p_model": 0.5199,
+    "line": 3.5,
+    "p": 0.5199,
+    "fair": -108
+   },
+   "ast_u3.5": {
+    "p_model": 0.4801,
+    "line": 3.5,
+    "p": 0.4801,
+    "fair": 108
+   }
+  },
+  {
+   "id": 3032976,
+   "name": "Rudy Gobert",
+   "team": "MIN",
+   "opp": "POR",
+   "pos": "B",
+   "game_id": "401910003",
+   "min": 29.6,
+   "exp_thr": 0.05,
+   "exp_reb": 11.43,
+   "exp_ast": 1.79,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.0015,
+    "line": 1.5,
+    "p": 0.0015,
+    "fair": 9900
+   },
+   "thr_u1.5": {
+    "p_model": 0.9985,
+    "line": 1.5,
+    "p": 0.9985,
+    "fair": -9900
+   },
+   "thr_o2.5": {
+    "p_model": 0.0,
+    "line": 2.5,
+    "p": 0.0,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 1.0,
+    "line": 2.5,
+    "p": 1.0,
+    "fair": -9900
+   },
+   "reb_o11.5": {
+    "p_model": 0.4534,
+    "line": 11.5,
+    "p": 0.4534,
+    "fair": 121
+   },
+   "reb_u11.5": {
+    "p_model": 0.5466,
+    "line": 11.5,
+    "p": 0.5466,
+    "fair": -121
+   },
+   "ast_o1.5": {
+    "p_model": 0.5168,
+    "line": 1.5,
+    "p": 0.5168,
+    "fair": -107
+   },
+   "ast_u1.5": {
+    "p_model": 0.4832,
+    "line": 1.5,
+    "p": 0.4832,
+    "fair": 107
+   }
+  },
   {
    "id": 3062679,
    "name": "Josh Hart",
@@ -157,6 +401,67 @@
    }
   },
   {
+   "id": 3135045,
+   "name": "Grayson Allen",
+   "team": "CHA",
+   "opp": "LAL",
+   "pos": "G",
+   "game_id": "401910005",
+   "min": 28.2,
+   "exp_thr": 3.0,
+   "exp_reb": 2.93,
+   "exp_ast": 3.66,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.7512,
+    "line": 1.5,
+    "p": 0.7512,
+    "fair": -302
+   },
+   "thr_u1.5": {
+    "p_model": 0.2488,
+    "line": 1.5,
+    "p": 0.2488,
+    "fair": 302
+   },
+   "thr_o2.5": {
+    "p_model": 0.5417,
+    "line": 2.5,
+    "p": 0.5417,
+    "fair": -118
+   },
+   "thr_u2.5": {
+    "p_model": 0.4583,
+    "line": 2.5,
+    "p": 0.4583,
+    "fair": 118
+   },
+   "reb_o2.5": {
+    "p_model": 0.5381,
+    "line": 2.5,
+    "p": 0.5381,
+    "fair": -116
+   },
+   "reb_u2.5": {
+    "p_model": 0.4619,
+    "line": 2.5,
+    "p": 0.4619,
+    "fair": 116
+   },
+   "ast_o3.5": {
+    "p_model": 0.4788,
+    "line": 3.5,
+    "p": 0.4788,
+    "fair": 109
+   },
+   "ast_u3.5": {
+    "p_model": 0.5212,
+    "line": 3.5,
+    "p": 0.5212,
+    "fair": -109
+   }
+  },
+  {
    "id": 3136195,
    "name": "Karl-Anthony Towns",
    "team": "NYK",
@@ -276,6 +581,67 @@
     "line": 2.5,
     "p": 0.4835,
     "fair": 107
+   }
+  },
+  {
+   "id": 3907498,
+   "name": "Matisse Thybulle",
+   "team": "LAL",
+   "opp": "CHA",
+   "pos": "G",
+   "game_id": "401910005",
+   "min": 21.4,
+   "exp_thr": 1.36,
+   "exp_reb": 2.33,
+   "exp_ast": 0.95,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.3846,
+    "line": 1.5,
+    "p": 0.3846,
+    "fair": 160
+   },
+   "thr_u1.5": {
+    "p_model": 0.6154,
+    "line": 1.5,
+    "p": 0.6154,
+    "fair": -160
+   },
+   "thr_o2.5": {
+    "p_model": 0.1681,
+    "line": 2.5,
+    "p": 0.1681,
+    "fair": 495
+   },
+   "thr_u2.5": {
+    "p_model": 0.8319,
+    "line": 2.5,
+    "p": 0.8319,
+    "fair": -495
+   },
+   "reb_o2.5": {
+    "p_model": 0.4038,
+    "line": 2.5,
+    "p": 0.4038,
+    "fair": 148
+   },
+   "reb_u2.5": {
+    "p_model": 0.5962,
+    "line": 2.5,
+    "p": 0.5962,
+    "fair": -148
+   },
+   "ast_o0.5": {
+    "p_model": 0.6003,
+    "line": 0.5,
+    "p": 0.6003,
+    "fair": -150
+   },
+   "ast_u0.5": {
+    "p_model": 0.3997,
+    "line": 0.5,
+    "p": 0.3997,
+    "fair": 150
    }
   },
   {
@@ -462,6 +828,128 @@
    }
   },
   {
+   "id": 3936099,
+   "name": "Derrick Jones Jr.",
+   "team": "LAC",
+   "opp": "UTA",
+   "pos": "W",
+   "game_id": "401910006",
+   "min": 28.1,
+   "exp_thr": 1.45,
+   "exp_reb": 4.36,
+   "exp_ast": 1.38,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.4131,
+    "line": 1.5,
+    "p": 0.4131,
+    "fair": 142
+   },
+   "thr_u1.5": {
+    "p_model": 0.5869,
+    "line": 1.5,
+    "p": 0.5869,
+    "fair": -142
+   },
+   "thr_o2.5": {
+    "p_model": 0.1893,
+    "line": 2.5,
+    "p": 0.1893,
+    "fair": 428
+   },
+   "thr_u2.5": {
+    "p_model": 0.8107,
+    "line": 2.5,
+    "p": 0.8107,
+    "fair": -428
+   },
+   "reb_o4.5": {
+    "p_model": 0.4305,
+    "line": 4.5,
+    "p": 0.4305,
+    "fair": 132
+   },
+   "reb_u4.5": {
+    "p_model": 0.5695,
+    "line": 4.5,
+    "p": 0.5695,
+    "fair": -132
+   },
+   "ast_o1.5": {
+    "p_model": 0.393,
+    "line": 1.5,
+    "p": 0.393,
+    "fair": 154
+   },
+   "ast_u1.5": {
+    "p_model": 0.607,
+    "line": 1.5,
+    "p": 0.607,
+    "fair": -154
+   }
+  },
+  {
+   "id": 3945274,
+   "name": "Luka Doncic",
+   "team": "LAL",
+   "opp": "CHA",
+   "pos": "G",
+   "game_id": "401910005",
+   "min": 35.9,
+   "exp_thr": 4.51,
+   "exp_reb": 7.11,
+   "exp_ast": 7.64,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.8914,
+    "line": 1.5,
+    "p": 0.8914,
+    "fair": -821
+   },
+   "thr_u1.5": {
+    "p_model": 0.1086,
+    "line": 1.5,
+    "p": 0.1086,
+    "fair": 821
+   },
+   "thr_o2.5": {
+    "p_model": 0.7606,
+    "line": 2.5,
+    "p": 0.7606,
+    "fair": -318
+   },
+   "thr_u2.5": {
+    "p_model": 0.2394,
+    "line": 2.5,
+    "p": 0.2394,
+    "fair": 318
+   },
+   "reb_o7.5": {
+    "p_model": 0.4113,
+    "line": 7.5,
+    "p": 0.4113,
+    "fair": 143
+   },
+   "reb_u7.5": {
+    "p_model": 0.5887,
+    "line": 7.5,
+    "p": 0.5887,
+    "fair": -143
+   },
+   "ast_o7.5": {
+    "p_model": 0.4721,
+    "line": 7.5,
+    "p": 0.4721,
+    "fair": 112
+   },
+   "ast_u7.5": {
+    "p_model": 0.5279,
+    "line": 7.5,
+    "p": 0.5279,
+    "fair": -112
+   }
+  },
+  {
    "id": 4066259,
    "name": "De'Aaron Fox",
    "team": "SAS",
@@ -584,6 +1072,67 @@
    }
   },
   {
+   "id": 4066648,
+   "name": "Rui Hachimura",
+   "team": "LAC",
+   "opp": "UTA",
+   "pos": "W",
+   "game_id": "401910006",
+   "min": 28.4,
+   "exp_thr": 2.02,
+   "exp_reb": 4.73,
+   "exp_ast": 1.49,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.568,
+    "line": 1.5,
+    "p": 0.568,
+    "fair": -131
+   },
+   "thr_u1.5": {
+    "p_model": 0.432,
+    "line": 1.5,
+    "p": 0.432,
+    "fair": 131
+   },
+   "thr_o2.5": {
+    "p_model": 0.3264,
+    "line": 2.5,
+    "p": 0.3264,
+    "fair": 206
+   },
+   "thr_u2.5": {
+    "p_model": 0.6736,
+    "line": 2.5,
+    "p": 0.6736,
+    "fair": -206
+   },
+   "reb_o4.5": {
+    "p_model": 0.4883,
+    "line": 4.5,
+    "p": 0.4883,
+    "fair": 105
+   },
+   "reb_u4.5": {
+    "p_model": 0.5117,
+    "line": 4.5,
+    "p": 0.5117,
+    "fair": -105
+   },
+   "ast_o1.5": {
+    "p_model": 0.4277,
+    "line": 1.5,
+    "p": 0.4277,
+    "fair": 134
+   },
+   "ast_u1.5": {
+    "p_model": 0.5723,
+    "line": 1.5,
+    "p": 0.5723,
+    "fair": -134
+   }
+  },
+  {
    "id": 4278562,
    "name": "Paul Reed",
    "team": "DET",
@@ -642,6 +1191,128 @@
     "line": 1.5,
     "p": 0.5009,
     "fair": -100
+   }
+  },
+  {
+   "id": 4278580,
+   "name": "Sandro Mamukelashvili",
+   "team": "LAL",
+   "opp": "CHA",
+   "pos": "W",
+   "game_id": "401910005",
+   "min": 22.9,
+   "exp_thr": 1.61,
+   "exp_reb": 4.44,
+   "exp_ast": 1.76,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.4614,
+    "line": 1.5,
+    "p": 0.4614,
+    "fair": 117
+   },
+   "thr_u1.5": {
+    "p_model": 0.5386,
+    "line": 1.5,
+    "p": 0.5386,
+    "fair": -117
+   },
+   "thr_o2.5": {
+    "p_model": 0.2282,
+    "line": 2.5,
+    "p": 0.2282,
+    "fair": 338
+   },
+   "thr_u2.5": {
+    "p_model": 0.7718,
+    "line": 2.5,
+    "p": 0.7718,
+    "fair": -338
+   },
+   "reb_o4.5": {
+    "p_model": 0.4427,
+    "line": 4.5,
+    "p": 0.4427,
+    "fair": 126
+   },
+   "reb_u4.5": {
+    "p_model": 0.5573,
+    "line": 4.5,
+    "p": 0.5573,
+    "fair": -126
+   },
+   "ast_o1.5": {
+    "p_model": 0.5107,
+    "line": 1.5,
+    "p": 0.5107,
+    "fair": -104
+   },
+   "ast_u1.5": {
+    "p_model": 0.4893,
+    "line": 1.5,
+    "p": 0.4893,
+    "fair": 104
+   }
+  },
+  {
+   "id": 4395651,
+   "name": "Coby White",
+   "team": "CHA",
+   "opp": "LAL",
+   "pos": "G",
+   "game_id": "401910005",
+   "min": 21.9,
+   "exp_thr": 2.23,
+   "exp_reb": 2.57,
+   "exp_ast": 3.52,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.6153,
+    "line": 1.5,
+    "p": 0.6153,
+    "fair": -160
+   },
+   "thr_u1.5": {
+    "p_model": 0.3847,
+    "line": 1.5,
+    "p": 0.3847,
+    "fair": 160
+   },
+   "thr_o2.5": {
+    "p_model": 0.376,
+    "line": 2.5,
+    "p": 0.376,
+    "fair": 166
+   },
+   "thr_u2.5": {
+    "p_model": 0.624,
+    "line": 2.5,
+    "p": 0.624,
+    "fair": -166
+   },
+   "reb_o2.5": {
+    "p_model": 0.4604,
+    "line": 2.5,
+    "p": 0.4604,
+    "fair": 117
+   },
+   "reb_u2.5": {
+    "p_model": 0.5396,
+    "line": 2.5,
+    "p": 0.5396,
+    "fair": -117
+   },
+   "ast_o3.5": {
+    "p_model": 0.4528,
+    "line": 3.5,
+    "p": 0.4528,
+    "fair": 121
+   },
+   "ast_u3.5": {
+    "p_model": 0.5472,
+    "line": 3.5,
+    "p": 0.5472,
+    "fair": -121
    }
   },
   {
@@ -767,6 +1438,372 @@
    }
   },
   {
+   "id": 4396907,
+   "name": "Darius Garland",
+   "team": "LAC",
+   "opp": "UTA",
+   "pos": "G",
+   "game_id": "401910006",
+   "min": 32.0,
+   "exp_thr": 2.48,
+   "exp_reb": 2.65,
+   "exp_ast": 6.88,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.6668,
+    "line": 1.5,
+    "p": 0.6668,
+    "fair": -200
+   },
+   "thr_u1.5": {
+    "p_model": 0.3332,
+    "line": 1.5,
+    "p": 0.3332,
+    "fair": 200
+   },
+   "thr_o2.5": {
+    "p_model": 0.4345,
+    "line": 2.5,
+    "p": 0.4345,
+    "fair": 130
+   },
+   "thr_u2.5": {
+    "p_model": 0.5655,
+    "line": 2.5,
+    "p": 0.5655,
+    "fair": -130
+   },
+   "reb_o2.5": {
+    "p_model": 0.4784,
+    "line": 2.5,
+    "p": 0.4784,
+    "fair": 109
+   },
+   "reb_u2.5": {
+    "p_model": 0.5216,
+    "line": 2.5,
+    "p": 0.5216,
+    "fair": -109
+   },
+   "ast_o6.5": {
+    "p_model": 0.5031,
+    "line": 6.5,
+    "p": 0.5031,
+    "fair": -101
+   },
+   "ast_u6.5": {
+    "p_model": 0.4969,
+    "line": 6.5,
+    "p": 0.4969,
+    "fair": 101
+   }
+  },
+  {
+   "id": 4396971,
+   "name": "Naz Reid",
+   "team": "CHA",
+   "opp": "LAL",
+   "pos": "B",
+   "game_id": "401910005",
+   "min": 28.7,
+   "exp_thr": 2.45,
+   "exp_reb": 6.81,
+   "exp_ast": 2.32,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.6602,
+    "line": 1.5,
+    "p": 0.6602,
+    "fair": -194
+   },
+   "thr_u1.5": {
+    "p_model": 0.3398,
+    "line": 1.5,
+    "p": 0.3398,
+    "fair": 194
+   },
+   "thr_o2.5": {
+    "p_model": 0.4266,
+    "line": 2.5,
+    "p": 0.4266,
+    "fair": 134
+   },
+   "thr_u2.5": {
+    "p_model": 0.5734,
+    "line": 2.5,
+    "p": 0.5734,
+    "fair": -134
+   },
+   "reb_o6.5": {
+    "p_model": 0.4937,
+    "line": 6.5,
+    "p": 0.4937,
+    "fair": 103
+   },
+   "reb_u6.5": {
+    "p_model": 0.5063,
+    "line": 6.5,
+    "p": 0.5063,
+    "fair": -103
+   },
+   "ast_o2.5": {
+    "p_model": 0.4011,
+    "line": 2.5,
+    "p": 0.4011,
+    "fair": 149
+   },
+   "ast_u2.5": {
+    "p_model": 0.5989,
+    "line": 2.5,
+    "p": 0.5989,
+    "fair": -149
+   }
+  },
+  {
+   "id": 4397002,
+   "name": "Ayo Dosunmu",
+   "team": "MIN",
+   "opp": "POR",
+   "pos": "G",
+   "game_id": "401910003",
+   "min": 29.9,
+   "exp_thr": 1.66,
+   "exp_reb": 4.05,
+   "exp_ast": 3.3,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.4754,
+    "line": 1.5,
+    "p": 0.4754,
+    "fair": 110
+   },
+   "thr_u1.5": {
+    "p_model": 0.5246,
+    "line": 1.5,
+    "p": 0.5246,
+    "fair": -110
+   },
+   "thr_o2.5": {
+    "p_model": 0.2401,
+    "line": 2.5,
+    "p": 0.2401,
+    "fair": 316
+   },
+   "thr_u2.5": {
+    "p_model": 0.7599,
+    "line": 2.5,
+    "p": 0.7599,
+    "fair": -316
+   },
+   "reb_o4.5": {
+    "p_model": 0.379,
+    "line": 4.5,
+    "p": 0.379,
+    "fair": 164
+   },
+   "reb_u4.5": {
+    "p_model": 0.621,
+    "line": 4.5,
+    "p": 0.621,
+    "fair": -164
+   },
+   "ast_o3.5": {
+    "p_model": 0.4102,
+    "line": 3.5,
+    "p": 0.4102,
+    "fair": 144
+   },
+   "ast_u3.5": {
+    "p_model": 0.5898,
+    "line": 3.5,
+    "p": 0.5898,
+    "fair": -144
+   }
+  },
+  {
+   "id": 4397014,
+   "name": "Quentin Grimes",
+   "team": "LAL",
+   "opp": "CHA",
+   "pos": "G",
+   "game_id": "401910005",
+   "min": 28.1,
+   "exp_thr": 1.33,
+   "exp_reb": 3.04,
+   "exp_ast": 2.65,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.3757,
+    "line": 1.5,
+    "p": 0.3757,
+    "fair": 166
+   },
+   "thr_u1.5": {
+    "p_model": 0.6243,
+    "line": 1.5,
+    "p": 0.6243,
+    "fair": -166
+   },
+   "thr_o2.5": {
+    "p_model": 0.1617,
+    "line": 2.5,
+    "p": 0.1617,
+    "fair": 518
+   },
+   "thr_u2.5": {
+    "p_model": 0.8383,
+    "line": 2.5,
+    "p": 0.8383,
+    "fair": -518
+   },
+   "reb_o3.5": {
+    "p_model": 0.3596,
+    "line": 3.5,
+    "p": 0.3596,
+    "fair": 178
+   },
+   "reb_u3.5": {
+    "p_model": 0.6404,
+    "line": 3.5,
+    "p": 0.6404,
+    "fair": -178
+   },
+   "ast_o2.5": {
+    "p_model": 0.4777,
+    "line": 2.5,
+    "p": 0.4777,
+    "fair": 109
+   },
+   "ast_u2.5": {
+    "p_model": 0.5223,
+    "line": 2.5,
+    "p": 0.5223,
+    "fair": -109
+   }
+  },
+  {
+   "id": 4431671,
+   "name": "Jaden McDaniels",
+   "team": "MIN",
+   "opp": "POR",
+   "pos": "W",
+   "game_id": "401910003",
+   "min": 32.7,
+   "exp_thr": 1.39,
+   "exp_reb": 5.5,
+   "exp_ast": 3.47,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.3937,
+    "line": 1.5,
+    "p": 0.3937,
+    "fair": 154
+   },
+   "thr_u1.5": {
+    "p_model": 0.6063,
+    "line": 1.5,
+    "p": 0.6063,
+    "fair": -154
+   },
+   "thr_o2.5": {
+    "p_model": 0.1747,
+    "line": 2.5,
+    "p": 0.1747,
+    "fair": 472
+   },
+   "thr_u2.5": {
+    "p_model": 0.8253,
+    "line": 2.5,
+    "p": 0.8253,
+    "fair": -472
+   },
+   "reb_o5.5": {
+    "p_model": 0.4549,
+    "line": 5.5,
+    "p": 0.4549,
+    "fair": 120
+   },
+   "reb_u5.5": {
+    "p_model": 0.5451,
+    "line": 5.5,
+    "p": 0.5451,
+    "fair": -120
+   },
+   "ast_o3.5": {
+    "p_model": 0.4433,
+    "line": 3.5,
+    "p": 0.4433,
+    "fair": 126
+   },
+   "ast_u3.5": {
+    "p_model": 0.5567,
+    "line": 3.5,
+    "p": 0.5567,
+    "fair": -126
+   }
+  },
+  {
+   "id": 4431736,
+   "name": "Toumani Camara",
+   "team": "POR",
+   "opp": "MIN",
+   "pos": "W",
+   "game_id": "401910003",
+   "min": 31.0,
+   "exp_thr": 2.1,
+   "exp_reb": 4.21,
+   "exp_ast": 1.8,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.5877,
+    "line": 1.5,
+    "p": 0.5877,
+    "fair": -143
+   },
+   "thr_u1.5": {
+    "p_model": 0.4123,
+    "line": 1.5,
+    "p": 0.4123,
+    "fair": 143
+   },
+   "thr_o2.5": {
+    "p_model": 0.3465,
+    "line": 2.5,
+    "p": 0.3465,
+    "fair": 189
+   },
+   "thr_u2.5": {
+    "p_model": 0.6535,
+    "line": 2.5,
+    "p": 0.6535,
+    "fair": -189
+   },
+   "reb_o4.5": {
+    "p_model": 0.4053,
+    "line": 4.5,
+    "p": 0.4053,
+    "fair": 147
+   },
+   "reb_u4.5": {
+    "p_model": 0.5947,
+    "line": 4.5,
+    "p": 0.5947,
+    "fair": -147
+   },
+   "ast_o1.5": {
+    "p_model": 0.5201,
+    "line": 1.5,
+    "p": 0.5201,
+    "fair": -108
+   },
+   "ast_u1.5": {
+    "p_model": 0.4799,
+    "line": 1.5,
+    "p": 0.4799,
+    "fair": 108
+   }
+  },
+  {
    "id": 4432166,
    "name": "Cade Cunningham",
    "team": "DET",
@@ -889,6 +1926,128 @@
    }
   },
   {
+   "id": 4432816,
+   "name": "LaMelo Ball",
+   "team": "MIN",
+   "opp": "POR",
+   "pos": "G",
+   "game_id": "401910003",
+   "min": 28.1,
+   "exp_thr": 3.46,
+   "exp_reb": 4.46,
+   "exp_ast": 6.33,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.807,
+    "line": 1.5,
+    "p": 0.807,
+    "fair": -418
+   },
+   "thr_u1.5": {
+    "p_model": 0.193,
+    "line": 1.5,
+    "p": 0.193,
+    "fair": 418
+   },
+   "thr_o2.5": {
+    "p_model": 0.6217,
+    "line": 2.5,
+    "p": 0.6217,
+    "fair": -164
+   },
+   "thr_u2.5": {
+    "p_model": 0.3783,
+    "line": 2.5,
+    "p": 0.3783,
+    "fair": 164
+   },
+   "reb_o4.5": {
+    "p_model": 0.4459,
+    "line": 4.5,
+    "p": 0.4459,
+    "fair": 124
+   },
+   "reb_u4.5": {
+    "p_model": 0.5541,
+    "line": 4.5,
+    "p": 0.5541,
+    "fair": -124
+   },
+   "ast_o6.5": {
+    "p_model": 0.4337,
+    "line": 6.5,
+    "p": 0.4337,
+    "fair": 131
+   },
+   "ast_u6.5": {
+    "p_model": 0.5663,
+    "line": 6.5,
+    "p": 0.5663,
+    "fair": -131
+   }
+  },
+  {
+   "id": 4432847,
+   "name": "Terrence Shannon Jr.",
+   "team": "MIN",
+   "opp": "POR",
+   "pos": "G",
+   "game_id": "401910003",
+   "min": 18.5,
+   "exp_thr": 0.92,
+   "exp_reb": 2.51,
+   "exp_ast": 2.16,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.2348,
+    "line": 1.5,
+    "p": 0.2348,
+    "fair": 326
+   },
+   "thr_u1.5": {
+    "p_model": 0.7652,
+    "line": 1.5,
+    "p": 0.7652,
+    "fair": -326
+   },
+   "thr_o2.5": {
+    "p_model": 0.0751,
+    "line": 2.5,
+    "p": 0.0751,
+    "fair": 1232
+   },
+   "thr_u2.5": {
+    "p_model": 0.9249,
+    "line": 2.5,
+    "p": 0.9249,
+    "fair": -1232
+   },
+   "reb_o2.5": {
+    "p_model": 0.4471,
+    "line": 2.5,
+    "p": 0.4471,
+    "fair": 124
+   },
+   "reb_u2.5": {
+    "p_model": 0.5529,
+    "line": 2.5,
+    "p": 0.5529,
+    "fair": -124
+   },
+   "ast_o2.5": {
+    "p_model": 0.3624,
+    "line": 2.5,
+    "p": 0.3624,
+    "fair": 176
+   },
+   "ast_u2.5": {
+    "p_model": 0.6376,
+    "line": 2.5,
+    "p": 0.6376,
+    "fair": -176
+   }
+  },
+  {
    "id": 4433134,
    "name": "Scottie Barnes",
    "team": "TOR",
@@ -950,6 +2109,312 @@
    }
   },
   {
+   "id": 4433247,
+   "name": "Jonathan Kuminga",
+   "team": "MIN",
+   "opp": "POR",
+   "pos": "W",
+   "game_id": "401910003",
+   "min": 27.4,
+   "exp_thr": 1.08,
+   "exp_reb": 5.79,
+   "exp_ast": 2.63,
+   "env": 1.0,
+   "status": "Day-To-Day",
+   "thr_o1.5": {
+    "p_model": 0.2902,
+    "line": 1.5,
+    "p": 0.2902,
+    "fair": 245
+   },
+   "thr_u1.5": {
+    "p_model": 0.7098,
+    "line": 1.5,
+    "p": 0.7098,
+    "fair": -245
+   },
+   "thr_o2.5": {
+    "p_model": 0.1058,
+    "line": 2.5,
+    "p": 0.1058,
+    "fair": 845
+   },
+   "thr_u2.5": {
+    "p_model": 0.8942,
+    "line": 2.5,
+    "p": 0.8942,
+    "fair": -845
+   },
+   "reb_o5.5": {
+    "p_model": 0.495,
+    "line": 5.5,
+    "p": 0.495,
+    "fair": 102
+   },
+   "reb_u5.5": {
+    "p_model": 0.505,
+    "line": 5.5,
+    "p": 0.505,
+    "fair": -102
+   },
+   "ast_o2.5": {
+    "p_model": 0.4733,
+    "line": 2.5,
+    "p": 0.4733,
+    "fair": 111
+   },
+   "ast_u2.5": {
+    "p_model": 0.5267,
+    "line": 2.5,
+    "p": 0.5267,
+    "fair": -111
+   }
+  },
+  {
+   "id": 4433249,
+   "name": "Moussa Diabate",
+   "team": "CHA",
+   "opp": "LAL",
+   "pos": "W",
+   "game_id": "401910005",
+   "min": 27.4,
+   "exp_thr": 0.04,
+   "exp_reb": 8.48,
+   "exp_ast": 2.01,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.0007,
+    "line": 1.5,
+    "p": 0.0007,
+    "fair": 9900
+   },
+   "thr_u1.5": {
+    "p_model": 0.9993,
+    "line": 1.5,
+    "p": 0.9993,
+    "fair": -9900
+   },
+   "thr_o2.5": {
+    "p_model": 0.0,
+    "line": 2.5,
+    "p": 0.0,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 1.0,
+    "line": 2.5,
+    "p": 1.0,
+    "fair": -9900
+   },
+   "reb_o8.5": {
+    "p_model": 0.4553,
+    "line": 8.5,
+    "p": 0.4553,
+    "fair": 120
+   },
+   "reb_u8.5": {
+    "p_model": 0.5447,
+    "line": 8.5,
+    "p": 0.5447,
+    "fair": -120
+   },
+   "ast_o2.5": {
+    "p_model": 0.3244,
+    "line": 2.5,
+    "p": 0.3244,
+    "fair": 208
+   },
+   "ast_u2.5": {
+    "p_model": 0.6756,
+    "line": 2.5,
+    "p": 0.6756,
+    "fair": -208
+   }
+  },
+  {
+   "id": 4433287,
+   "name": "Brandon Miller",
+   "team": "CHA",
+   "opp": "LAL",
+   "pos": "W",
+   "game_id": "401910005",
+   "min": 28.9,
+   "exp_thr": 3.37,
+   "exp_reb": 4.2,
+   "exp_ast": 2.77,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.798,
+    "line": 1.5,
+    "p": 0.798,
+    "fair": -395
+   },
+   "thr_u1.5": {
+    "p_model": 0.202,
+    "line": 1.5,
+    "p": 0.202,
+    "fair": 395
+   },
+   "thr_o2.5": {
+    "p_model": 0.6082,
+    "line": 2.5,
+    "p": 0.6082,
+    "fair": -155
+   },
+   "thr_u2.5": {
+    "p_model": 0.3918,
+    "line": 2.5,
+    "p": 0.3918,
+    "fair": 155
+   },
+   "reb_o4.5": {
+    "p_model": 0.4041,
+    "line": 4.5,
+    "p": 0.4041,
+    "fair": 147
+   },
+   "reb_u4.5": {
+    "p_model": 0.5959,
+    "line": 4.5,
+    "p": 0.5959,
+    "fair": -147
+   },
+   "ast_o2.5": {
+    "p_model": 0.5044,
+    "line": 2.5,
+    "p": 0.5044,
+    "fair": -102
+   },
+   "ast_u2.5": {
+    "p_model": 0.4956,
+    "line": 2.5,
+    "p": 0.4956,
+    "fair": 102
+   }
+  },
+  {
+   "id": 4433627,
+   "name": "Keyonte George",
+   "team": "UTA",
+   "opp": "LAC",
+   "pos": "G",
+   "game_id": "401910006",
+   "min": 33.1,
+   "exp_thr": 2.08,
+   "exp_reb": 3.99,
+   "exp_ast": 6.42,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.5823,
+    "line": 1.5,
+    "p": 0.5823,
+    "fair": -139
+   },
+   "thr_u1.5": {
+    "p_model": 0.4177,
+    "line": 1.5,
+    "p": 0.4177,
+    "fair": 139
+   },
+   "thr_o2.5": {
+    "p_model": 0.341,
+    "line": 2.5,
+    "p": 0.341,
+    "fair": 193
+   },
+   "thr_u2.5": {
+    "p_model": 0.659,
+    "line": 2.5,
+    "p": 0.659,
+    "fair": -193
+   },
+   "reb_o3.5": {
+    "p_model": 0.5362,
+    "line": 3.5,
+    "p": 0.5362,
+    "fair": -116
+   },
+   "reb_u3.5": {
+    "p_model": 0.4638,
+    "line": 3.5,
+    "p": 0.4638,
+    "fair": 116
+   },
+   "ast_o6.5": {
+    "p_model": 0.4456,
+    "line": 6.5,
+    "p": 0.4456,
+    "fair": 124
+   },
+   "ast_u6.5": {
+    "p_model": 0.5544,
+    "line": 6.5,
+    "p": 0.5544,
+    "fair": -124
+   }
+  },
+  {
+   "id": 4576060,
+   "name": "Ryan Kalkbrenner",
+   "team": "CHA",
+   "opp": "LAL",
+   "pos": "B",
+   "game_id": "401910005",
+   "min": 20.6,
+   "exp_thr": 0.04,
+   "exp_reb": 5.35,
+   "exp_ast": 1.28,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.0008,
+    "line": 1.5,
+    "p": 0.0008,
+    "fair": 9900
+   },
+   "thr_u1.5": {
+    "p_model": 0.9992,
+    "line": 1.5,
+    "p": 0.9992,
+    "fair": -9900
+   },
+   "thr_o2.5": {
+    "p_model": 0.0,
+    "line": 2.5,
+    "p": 0.0,
+    "fair": 9900
+   },
+   "thr_u2.5": {
+    "p_model": 1.0,
+    "line": 2.5,
+    "p": 1.0,
+    "fair": -9900
+   },
+   "reb_o5.5": {
+    "p_model": 0.4335,
+    "line": 5.5,
+    "p": 0.4335,
+    "fair": 131
+   },
+   "reb_u5.5": {
+    "p_model": 0.5665,
+    "line": 5.5,
+    "p": 0.5665,
+    "fair": -131
+   },
+   "ast_o1.5": {
+    "p_model": 0.3621,
+    "line": 1.5,
+    "p": 0.3621,
+    "fair": 176
+   },
+   "ast_u1.5": {
+    "p_model": 0.6379,
+    "line": 1.5,
+    "p": 0.6379,
+    "fair": -176
+   }
+  },
+  {
    "id": 4592479,
    "name": "Julian Champagnie",
    "team": "SAS",
@@ -1008,6 +2473,128 @@
     "line": 1.5,
     "p": 0.5461,
     "fair": -120
+   }
+  },
+  {
+   "id": 4592691,
+   "name": "Jake LaRavia",
+   "team": "LAL",
+   "opp": "CHA",
+   "pos": "W",
+   "game_id": "401910005",
+   "min": 25.9,
+   "exp_thr": 0.85,
+   "exp_reb": 4.1,
+   "exp_ast": 2.21,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.21,
+    "line": 1.5,
+    "p": 0.21,
+    "fair": 376
+   },
+   "thr_u1.5": {
+    "p_model": 0.79,
+    "line": 1.5,
+    "p": 0.79,
+    "fair": -376
+   },
+   "thr_o2.5": {
+    "p_model": 0.0628,
+    "line": 2.5,
+    "p": 0.0628,
+    "fair": 1492
+   },
+   "thr_u2.5": {
+    "p_model": 0.9372,
+    "line": 2.5,
+    "p": 0.9372,
+    "fair": -1492
+   },
+   "reb_o4.5": {
+    "p_model": 0.3873,
+    "line": 4.5,
+    "p": 0.3873,
+    "fair": 158
+   },
+   "reb_u4.5": {
+    "p_model": 0.6127,
+    "line": 4.5,
+    "p": 0.6127,
+    "fair": -158
+   },
+   "ast_o2.5": {
+    "p_model": 0.3756,
+    "line": 2.5,
+    "p": 0.3756,
+    "fair": 166
+   },
+   "ast_u2.5": {
+    "p_model": 0.6244,
+    "line": 2.5,
+    "p": 0.6244,
+    "fair": -166
+   }
+  },
+  {
+   "id": 4683021,
+   "name": "Deni Avdija",
+   "team": "POR",
+   "opp": "MIN",
+   "pos": "W",
+   "game_id": "401910003",
+   "min": 32.6,
+   "exp_thr": 1.69,
+   "exp_reb": 6.51,
+   "exp_ast": 6.04,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.484,
+    "line": 1.5,
+    "p": 0.484,
+    "fair": 107
+   },
+   "thr_u1.5": {
+    "p_model": 0.516,
+    "line": 1.5,
+    "p": 0.516,
+    "fair": -107
+   },
+   "thr_o2.5": {
+    "p_model": 0.2475,
+    "line": 2.5,
+    "p": 0.2475,
+    "fair": 304
+   },
+   "thr_u2.5": {
+    "p_model": 0.7525,
+    "line": 2.5,
+    "p": 0.7525,
+    "fair": -304
+   },
+   "reb_o6.5": {
+    "p_model": 0.4572,
+    "line": 6.5,
+    "p": 0.4572,
+    "fair": 119
+   },
+   "reb_u6.5": {
+    "p_model": 0.5428,
+    "line": 6.5,
+    "p": 0.5428,
+    "fair": -119
+   },
+   "ast_o6.5": {
+    "p_model": 0.3962,
+    "line": 6.5,
+    "p": 0.3962,
+    "fair": 152
+   },
+   "ast_u6.5": {
+    "p_model": 0.6038,
+    "line": 6.5,
+    "p": 0.6038,
+    "fair": -152
    }
   },
   {
@@ -1194,6 +2781,67 @@
    }
   },
   {
+   "id": 4873138,
+   "name": "Ace Bailey",
+   "team": "UTA",
+   "opp": "LAC",
+   "pos": "G",
+   "game_id": "401910006",
+   "min": 30.3,
+   "exp_thr": 1.9,
+   "exp_reb": 5.01,
+   "exp_ast": 1.99,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.5378,
+    "line": 1.5,
+    "p": 0.5378,
+    "fair": -116
+   },
+   "thr_u1.5": {
+    "p_model": 0.4622,
+    "line": 1.5,
+    "p": 0.4622,
+    "fair": 116
+   },
+   "thr_o2.5": {
+    "p_model": 0.2967,
+    "line": 2.5,
+    "p": 0.2967,
+    "fair": 237
+   },
+   "thr_u2.5": {
+    "p_model": 0.7033,
+    "line": 2.5,
+    "p": 0.7033,
+    "fair": -237
+   },
+   "reb_o5.5": {
+    "p_model": 0.3831,
+    "line": 5.5,
+    "p": 0.3831,
+    "fair": 161
+   },
+   "reb_u5.5": {
+    "p_model": 0.6169,
+    "line": 5.5,
+    "p": 0.6169,
+    "fair": -161
+   },
+   "ast_o1.5": {
+    "p_model": 0.5714,
+    "line": 1.5,
+    "p": 0.5714,
+    "fair": -133
+   },
+   "ast_u1.5": {
+    "p_model": 0.4286,
+    "line": 1.5,
+    "p": 0.4286,
+    "fair": 133
+   }
+  },
+  {
    "id": 5037871,
    "name": "Dylan Harper",
    "team": "SAS",
@@ -1252,6 +2900,67 @@
     "line": 4.5,
     "p": 0.5797,
     "fair": -138
+   }
+  },
+  {
+   "id": 5041955,
+   "name": "Darryn Peterson",
+   "team": "UTA",
+   "opp": "LAC",
+   "pos": "G",
+   "game_id": "401910006",
+   "min": 32.0,
+   "exp_thr": 2.38,
+   "exp_reb": 4.23,
+   "exp_ast": 3.69,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.6466,
+    "line": 1.5,
+    "p": 0.6466,
+    "fair": -183
+   },
+   "thr_u1.5": {
+    "p_model": 0.3534,
+    "line": 1.5,
+    "p": 0.3534,
+    "fair": 183
+   },
+   "thr_o2.5": {
+    "p_model": 0.4109,
+    "line": 2.5,
+    "p": 0.4109,
+    "fair": 143
+   },
+   "thr_u2.5": {
+    "p_model": 0.5891,
+    "line": 2.5,
+    "p": 0.5891,
+    "fair": -143
+   },
+   "reb_o4.5": {
+    "p_model": 0.4082,
+    "line": 4.5,
+    "p": 0.4082,
+    "fair": 145
+   },
+   "reb_u4.5": {
+    "p_model": 0.5918,
+    "line": 4.5,
+    "p": 0.5918,
+    "fair": -145
+   },
+   "ast_o3.5": {
+    "p_model": 0.484,
+    "line": 3.5,
+    "p": 0.484,
+    "fair": 107
+   },
+   "ast_u3.5": {
+    "p_model": 0.516,
+    "line": 3.5,
+    "p": 0.516,
+    "fair": -107
    }
   },
   {
@@ -1377,6 +3086,128 @@
    }
   },
   {
+   "id": 5105565,
+   "name": "Donovan Clingan",
+   "team": "POR",
+   "opp": "MIN",
+   "pos": "B",
+   "game_id": "401910003",
+   "min": 26.0,
+   "exp_thr": 0.79,
+   "exp_reb": 10.98,
+   "exp_ast": 1.79,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.1894,
+    "line": 1.5,
+    "p": 0.1894,
+    "fair": 428
+   },
+   "thr_u1.5": {
+    "p_model": 0.8106,
+    "line": 1.5,
+    "p": 0.8106,
+    "fair": -428
+   },
+   "thr_o2.5": {
+    "p_model": 0.0533,
+    "line": 2.5,
+    "p": 0.0533,
+    "fair": 1776
+   },
+   "thr_u2.5": {
+    "p_model": 0.9467,
+    "line": 2.5,
+    "p": 0.9467,
+    "fair": -1776
+   },
+   "reb_o10.5": {
+    "p_model": 0.5004,
+    "line": 10.5,
+    "p": 0.5004,
+    "fair": -100
+   },
+   "reb_u10.5": {
+    "p_model": 0.4996,
+    "line": 10.5,
+    "p": 0.4996,
+    "fair": 100
+   },
+   "ast_o1.5": {
+    "p_model": 0.5181,
+    "line": 1.5,
+    "p": 0.5181,
+    "fair": -108
+   },
+   "ast_u1.5": {
+    "p_model": 0.4819,
+    "line": 1.5,
+    "p": 0.4819,
+    "fair": 108
+   }
+  },
+  {
+   "id": 5105839,
+   "name": "Brice Sensabaugh",
+   "team": "UTA",
+   "opp": "LAC",
+   "pos": "W",
+   "game_id": "401910006",
+   "min": 20.8,
+   "exp_thr": 1.6,
+   "exp_reb": 3.16,
+   "exp_ast": 1.62,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.4566,
+    "line": 1.5,
+    "p": 0.4566,
+    "fair": 119
+   },
+   "thr_u1.5": {
+    "p_model": 0.5434,
+    "line": 1.5,
+    "p": 0.5434,
+    "fair": -119
+   },
+   "thr_o2.5": {
+    "p_model": 0.2242,
+    "line": 2.5,
+    "p": 0.2242,
+    "fair": 346
+   },
+   "thr_u2.5": {
+    "p_model": 0.7758,
+    "line": 2.5,
+    "p": 0.7758,
+    "fair": -346
+   },
+   "reb_o3.5": {
+    "p_model": 0.3836,
+    "line": 3.5,
+    "p": 0.3836,
+    "fair": 161
+   },
+   "reb_u3.5": {
+    "p_model": 0.6164,
+    "line": 3.5,
+    "p": 0.6164,
+    "fair": -161
+   },
+   "ast_o1.5": {
+    "p_model": 0.4693,
+    "line": 1.5,
+    "p": 0.4693,
+    "fair": 113
+   },
+   "ast_u1.5": {
+    "p_model": 0.5307,
+    "line": 1.5,
+    "p": 0.5307,
+    "fair": -113
+   }
+  },
+  {
    "id": 5107199,
    "name": "Daniss Jenkins",
    "team": "DET",
@@ -1436,9 +3267,70 @@
     "p": 0.5991,
     "fair": -149
    }
+  },
+  {
+   "id": 5254165,
+   "name": "Keaton Wagler",
+   "team": "LAC",
+   "opp": "UTA",
+   "pos": "G",
+   "game_id": "401910006",
+   "min": 22.4,
+   "exp_thr": 1.6,
+   "exp_reb": 3.02,
+   "exp_ast": 2.99,
+   "env": 1.0,
+   "thr_o1.5": {
+    "p_model": 0.4564,
+    "line": 1.5,
+    "p": 0.4564,
+    "fair": 119
+   },
+   "thr_u1.5": {
+    "p_model": 0.5436,
+    "line": 1.5,
+    "p": 0.5436,
+    "fair": -119
+   },
+   "thr_o2.5": {
+    "p_model": 0.224,
+    "line": 2.5,
+    "p": 0.224,
+    "fair": 346
+   },
+   "thr_u2.5": {
+    "p_model": 0.776,
+    "line": 2.5,
+    "p": 0.776,
+    "fair": -346
+   },
+   "reb_o3.5": {
+    "p_model": 0.3557,
+    "line": 3.5,
+    "p": 0.3557,
+    "fair": 181
+   },
+   "reb_u3.5": {
+    "p_model": 0.6443,
+    "line": 3.5,
+    "p": 0.6443,
+    "fair": -181
+   },
+   "ast_o2.5": {
+    "p_model": 0.549,
+    "line": 2.5,
+    "p": 0.549,
+    "fair": -122
+   },
+   "ast_u2.5": {
+    "p_model": 0.451,
+    "line": 2.5,
+    "p": 0.451,
+    "fair": 122
+   }
   }
  ],
- "odds_status": "Odds from 5 games (double-doubles). 121 odds credits left this month. Credit budget (123 left, 11 days to reset): skipped threes prices. Game lines skipped to save credits.",
+ "odds_status": "Odds from 5 games (double-doubles). 116 odds credits left this month. Credit budget (121 left, 11 days to reset): skipped threes prices. Game lines skipped to save credits.",
  "unmatched": [
   "r j barrett"
  ],
@@ -1457,6 +3349,8 @@
   "ast_u5.5",
   "ast_o6.5",
   "ast_u6.5",
+  "ast_o7.5",
+  "ast_u7.5",
   "ast_o8.5",
   "ast_u8.5",
   "reb_o2.5",
@@ -1471,6 +3365,10 @@
   "reb_u6.5",
   "reb_o7.5",
   "reb_u7.5",
+  "reb_o8.5",
+  "reb_u8.5",
+  "reb_o10.5",
+  "reb_u10.5",
   "reb_o11.5",
   "reb_u11.5",
   "reb_o12.5",
