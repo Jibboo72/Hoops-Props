@@ -160732,7 +160732,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -161020,7 +161020,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -161044,7 +161044,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -161116,7 +161116,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -161236,7 +161236,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -161284,7 +161284,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -161308,7 +161308,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -161356,7 +161356,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -161404,7 +161404,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -161452,7 +161452,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -161500,7 +161500,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -161572,7 +161572,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -161740,7 +161740,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -161764,7 +161764,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -161908,7 +161908,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -162220,7 +162220,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -162244,7 +162244,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -162268,7 +162268,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -162364,7 +162364,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -162412,7 +162412,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -162436,7 +162436,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -162484,7 +162484,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -162532,7 +162532,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -162628,7 +162628,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -162772,7 +162772,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -162796,7 +162796,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -162988,7 +162988,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -163012,7 +163012,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -163036,7 +163036,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -163060,7 +163060,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -163108,7 +163108,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -163132,7 +163132,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -163228,7 +163228,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -163324,7 +163324,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -163348,7 +163348,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -163396,7 +163396,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -163468,7 +163468,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -163540,7 +163540,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -163948,7 +163948,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -164212,7 +164212,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -164260,7 +164260,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -164284,7 +164284,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -164308,7 +164308,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -164332,7 +164332,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -164548,7 +164548,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -164596,7 +164596,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -164644,7 +164644,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -164692,7 +164692,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -164812,7 +164812,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -164932,7 +164932,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -165100,7 +165100,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -165148,7 +165148,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -165196,7 +165196,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -165220,7 +165220,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -165244,7 +165244,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -165412,7 +165412,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -165580,7 +165580,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "void",
   "units": null
  },
  {
@@ -165892,7 +165892,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -165916,7 +165916,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -166012,7 +166012,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -166060,7 +166060,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -166204,7 +166204,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -166300,7 +166300,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -166324,7 +166324,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -166468,7 +166468,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -166540,7 +166540,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -166564,7 +166564,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -166588,7 +166588,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -166612,7 +166612,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -166636,7 +166636,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -166660,7 +166660,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -166684,7 +166684,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -166780,7 +166780,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -166804,7 +166804,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -166900,7 +166900,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -167212,7 +167212,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -167404,7 +167404,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -167428,7 +167428,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -167596,7 +167596,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -167716,7 +167716,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -167764,7 +167764,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T07:16+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -167908,7 +167908,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T21:21+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -168052,7 +168052,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T21:21+00:00",
-  "status": "pending",
+  "status": "loss",
   "units": null
  },
  {
@@ -168220,7 +168220,7 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T21:21+00:00",
-  "status": "pending",
+  "status": "win",
   "units": null
  },
  {
@@ -168364,6 +168364,30 @@
   "flag": false,
   "likely": false,
   "logged": "2026-11-18T21:21+00:00",
+  "status": "pending",
+  "units": null
+ },
+ {
+  "date": "2026-11-18",
+  "game_id": "401910017",
+  "player_id": 4277919,
+  "name": "Mo Bamba",
+  "team": "UTA",
+  "opp": "LAL",
+  "market": "reb_u5.5",
+  "kind": "watch",
+  "p": 0.5913,
+  "p_model": 0.5913,
+  "p_mkt": null,
+  "fair": -145,
+  "price": null,
+  "book": null,
+  "prices": null,
+  "ev": null,
+  "min": 17.8,
+  "flag": false,
+  "likely": false,
+  "logged": "2026-11-19T02:41+00:00",
   "status": "pending",
   "units": null
  }
