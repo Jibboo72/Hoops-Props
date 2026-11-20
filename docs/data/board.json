@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated": "2026-11-19T21:24+00:00",
+ "generated": "2026-11-20T02:28+00:00",
  "games": [
   {
    "id": "401910019",
@@ -270,128 +270,6 @@
     "line": 3.5,
     "p": 0.481,
     "fair": 108
-   }
-  },
-  {
-   "id": 2991070,
-   "name": "Jerami Grant",
-   "team": "MEM",
-   "opp": "GSW",
-   "pos": "W",
-   "game_id": "401910019",
-   "min": 25.4,
-   "exp_thr": 1.83,
-   "exp_reb": 2.65,
-   "exp_ast": 2.0,
-   "env": 1.0,
-   "thr_o1.5": {
-    "p_model": 0.5218,
-    "line": 1.5,
-    "p": 0.5218,
-    "fair": -109
-   },
-   "thr_u1.5": {
-    "p_model": 0.4782,
-    "line": 1.5,
-    "p": 0.4782,
-    "fair": 109
-   },
-   "thr_o2.5": {
-    "p_model": 0.2817,
-    "line": 2.5,
-    "p": 0.2817,
-    "fair": 255
-   },
-   "thr_u2.5": {
-    "p_model": 0.7183,
-    "line": 2.5,
-    "p": 0.7183,
-    "fair": -255
-   },
-   "reb_o2.5": {
-    "p_model": 0.4773,
-    "line": 2.5,
-    "p": 0.4773,
-    "fair": 110
-   },
-   "reb_u2.5": {
-    "p_model": 0.5227,
-    "line": 2.5,
-    "p": 0.5227,
-    "fair": -110
-   },
-   "ast_o1.5": {
-    "p_model": 0.5726,
-    "line": 1.5,
-    "p": 0.5726,
-    "fair": -134
-   },
-   "ast_u1.5": {
-    "p_model": 0.4274,
-    "line": 1.5,
-    "p": 0.4274,
-    "fair": 134
-   }
-  },
-  {
-   "id": 2991139,
-   "name": "Kris Dunn",
-   "team": "LAC",
-   "opp": "SAS",
-   "pos": "G",
-   "game_id": "401910022",
-   "min": 25.4,
-   "exp_thr": 0.67,
-   "exp_reb": 3.56,
-   "exp_ast": 3.73,
-   "env": 1.0,
-   "thr_o1.5": {
-    "p_model": 0.1493,
-    "line": 1.5,
-    "p": 0.1493,
-    "fair": 570
-   },
-   "thr_u1.5": {
-    "p_model": 0.8507,
-    "line": 1.5,
-    "p": 0.8507,
-    "fair": -570
-   },
-   "thr_o2.5": {
-    "p_model": 0.0365,
-    "line": 2.5,
-    "p": 0.0365,
-    "fair": 2640
-   },
-   "thr_u2.5": {
-    "p_model": 0.9635,
-    "line": 2.5,
-    "p": 0.9635,
-    "fair": -2640
-   },
-   "reb_o3.5": {
-    "p_model": 0.4614,
-    "line": 3.5,
-    "p": 0.4614,
-    "fair": 117
-   },
-   "reb_u3.5": {
-    "p_model": 0.5386,
-    "line": 3.5,
-    "p": 0.5386,
-    "fair": -117
-   },
-   "ast_o3.5": {
-    "p_model": 0.4924,
-    "line": 3.5,
-    "p": 0.4924,
-    "fair": 103
-   },
-   "ast_u3.5": {
-    "p_model": 0.5076,
-    "line": 3.5,
-    "p": 0.5076,
-    "fair": -103
    }
   },
   {
@@ -697,67 +575,6 @@
     "line": 1.5,
     "p": 0.5535,
     "fair": -124
-   }
-  },
-  {
-   "id": 3147657,
-   "name": "Mikal Bridges",
-   "team": "NYK",
-   "opp": "MIN",
-   "pos": "G",
-   "game_id": "401910021",
-   "min": 28.3,
-   "exp_thr": 1.13,
-   "exp_reb": 3.82,
-   "exp_ast": 2.73,
-   "env": 1.0,
-   "thr_o1.5": {
-    "p_model": 0.3091,
-    "line": 1.5,
-    "p": 0.3091,
-    "fair": 224
-   },
-   "thr_u1.5": {
-    "p_model": 0.6909,
-    "line": 1.5,
-    "p": 0.6909,
-    "fair": -224
-   },
-   "thr_o2.5": {
-    "p_model": 0.1172,
-    "line": 2.5,
-    "p": 0.1172,
-    "fair": 753
-   },
-   "thr_u2.5": {
-    "p_model": 0.8828,
-    "line": 2.5,
-    "p": 0.8828,
-    "fair": -753
-   },
-   "reb_o3.5": {
-    "p_model": 0.507,
-    "line": 3.5,
-    "p": 0.507,
-    "fair": -103
-   },
-   "reb_u3.5": {
-    "p_model": 0.493,
-    "line": 3.5,
-    "p": 0.493,
-    "fair": 103
-   },
-   "ast_o2.5": {
-    "p_model": 0.4945,
-    "line": 2.5,
-    "p": 0.4945,
-    "fair": 102
-   },
-   "ast_u2.5": {
-    "p_model": 0.5055,
-    "line": 2.5,
-    "p": 0.5055,
-    "fair": -102
    }
   },
   {
@@ -1565,7 +1382,6 @@
    "exp_reb": 4.52,
    "exp_ast": 1.8,
    "env": 1.0,
-   "status": "Day-To-Day",
    "thr_o1.5": {
     "p_model": 0.7041,
     "line": 1.5,
@@ -1627,7 +1443,6 @@
    "exp_reb": 4.33,
    "exp_ast": 1.14,
    "env": 1.0,
-   "status": "Day-To-Day",
    "thr_o1.5": {
     "p_model": 0.1903,
     "line": 1.5,
@@ -1933,7 +1748,6 @@
    "exp_reb": 5.8,
    "exp_ast": 2.51,
    "env": 1.0,
-   "status": "Day-To-Day",
    "thr_o1.5": {
     "p_model": 0.3333,
     "line": 1.5,
@@ -2103,68 +1917,6 @@
     "line": 1.5,
     "p": 0.5592,
     "fair": -127
-   }
-  },
-  {
-   "id": 4683021,
-   "name": "Deni Avdija",
-   "team": "POR",
-   "opp": "MIL",
-   "pos": "W",
-   "game_id": "401910020",
-   "min": 32.6,
-   "exp_thr": 2.05,
-   "exp_reb": 6.59,
-   "exp_ast": 5.97,
-   "env": 1.0,
-   "status": "Day-To-Day",
-   "thr_o1.5": {
-    "p_model": 0.5766,
-    "line": 1.5,
-    "p": 0.5766,
-    "fair": -136
-   },
-   "thr_u1.5": {
-    "p_model": 0.4234,
-    "line": 1.5,
-    "p": 0.4234,
-    "fair": 136
-   },
-   "thr_o2.5": {
-    "p_model": 0.3351,
-    "line": 2.5,
-    "p": 0.3351,
-    "fair": 198
-   },
-   "thr_u2.5": {
-    "p_model": 0.6649,
-    "line": 2.5,
-    "p": 0.6649,
-    "fair": -198
-   },
-   "reb_o6.5": {
-    "p_model": 0.4676,
-    "line": 6.5,
-    "p": 0.4676,
-    "fair": 114
-   },
-   "reb_u6.5": {
-    "p_model": 0.5324,
-    "line": 6.5,
-    "p": 0.5324,
-    "fair": -114
-   },
-   "ast_o5.5": {
-    "p_model": 0.5181,
-    "line": 5.5,
-    "p": 0.5181,
-    "fair": -108
-   },
-   "ast_u5.5": {
-    "p_model": 0.4819,
-    "line": 5.5,
-    "p": 0.4819,
-    "fair": 108
    }
   },
   {
@@ -2839,67 +2591,6 @@
    }
   },
   {
-   "id": 5105623,
-   "name": "Kel'el Ware",
-   "team": "MIL",
-   "opp": "POR",
-   "pos": "B",
-   "game_id": "401910020",
-   "min": 20.1,
-   "exp_thr": 0.88,
-   "exp_reb": 7.4,
-   "exp_ast": 0.94,
-   "env": 1.0,
-   "thr_o1.5": {
-    "p_model": 0.2232,
-    "line": 1.5,
-    "p": 0.2232,
-    "fair": 348
-   },
-   "thr_u1.5": {
-    "p_model": 0.7768,
-    "line": 1.5,
-    "p": 0.7768,
-    "fair": -348
-   },
-   "thr_o2.5": {
-    "p_model": 0.0692,
-    "line": 2.5,
-    "p": 0.0692,
-    "fair": 1345
-   },
-   "thr_u2.5": {
-    "p_model": 0.9308,
-    "line": 2.5,
-    "p": 0.9308,
-    "fair": -1345
-   },
-   "reb_o7.5": {
-    "p_model": 0.4458,
-    "line": 7.5,
-    "p": 0.4458,
-    "fair": 124
-   },
-   "reb_u7.5": {
-    "p_model": 0.5542,
-    "line": 7.5,
-    "p": 0.5542,
-    "fair": -124
-   },
-   "ast_o0.5": {
-    "p_model": 0.5971,
-    "line": 0.5,
-    "p": 0.5971,
-    "fair": -148
-   },
-   "ast_u0.5": {
-    "p_model": 0.4029,
-    "line": 0.5,
-    "p": 0.4029,
-    "fair": 148
-   }
-  },
-  {
    "id": 5112087,
    "name": "Jaylen Wells",
    "team": "MEM",
@@ -3083,68 +2774,68 @@
    }
   },
   {
-   "id": 5254165,
-   "name": "Keaton Wagler",
-   "team": "LAC",
-   "opp": "SAS",
-   "pos": "G",
-   "game_id": "401910022",
-   "min": 22.2,
-   "exp_thr": 1.42,
-   "exp_reb": 2.97,
-   "exp_ast": 2.75,
+   "id": 5279133,
+   "name": "Joan Beringer",
+   "team": "MIN",
+   "opp": "NYK",
+   "pos": "W",
+   "game_id": "401910021",
+   "min": 14.3,
+   "exp_thr": 0.04,
+   "exp_reb": 4.9,
+   "exp_ast": 0.42,
    "env": 1.0,
    "thr_o1.5": {
-    "p_model": 0.4023,
+    "p_model": 0.0007,
     "line": 1.5,
-    "p": 0.4023,
-    "fair": 149
+    "p": 0.0007,
+    "fair": 9900
    },
    "thr_u1.5": {
-    "p_model": 0.5977,
+    "p_model": 0.9993,
     "line": 1.5,
-    "p": 0.5977,
-    "fair": -149
+    "p": 0.9993,
+    "fair": -9900
    },
    "thr_o2.5": {
-    "p_model": 0.1811,
+    "p_model": 0.0,
     "line": 2.5,
-    "p": 0.1811,
-    "fair": 452
+    "p": 0.0,
+    "fair": 9900
    },
    "thr_u2.5": {
-    "p_model": 0.8189,
+    "p_model": 1.0,
     "line": 2.5,
-    "p": 0.8189,
-    "fair": -452
+    "p": 1.0,
+    "fair": -9900
    },
-   "reb_o2.5": {
-    "p_model": 0.5469,
-    "line": 2.5,
-    "p": 0.5469,
-    "fair": -121
+   "reb_o4.5": {
+    "p_model": 0.515,
+    "line": 4.5,
+    "p": 0.515,
+    "fair": -106
    },
-   "reb_u2.5": {
-    "p_model": 0.4531,
-    "line": 2.5,
-    "p": 0.4531,
-    "fair": 121
+   "reb_u4.5": {
+    "p_model": 0.485,
+    "line": 4.5,
+    "p": 0.485,
+    "fair": 106
    },
-   "ast_o2.5": {
-    "p_model": 0.5003,
-    "line": 2.5,
-    "p": 0.5003,
-    "fair": -100
+   "ast_o0.5": {
+    "p_model": 0.3387,
+    "line": 0.5,
+    "p": 0.3387,
+    "fair": 195
    },
-   "ast_u2.5": {
-    "p_model": 0.4997,
-    "line": 2.5,
-    "p": 0.4997,
-    "fair": 100
+   "ast_u0.5": {
+    "p_model": 0.6613,
+    "line": 0.5,
+    "p": 0.6613,
+    "fair": -195
    }
   }
  ],
- "odds_status": "Odds from 4 games (double-doubles). 91 odds credits left this month. Credit budget (95 left, 9 days to reset): skipped threes prices. Game lines skipped to save credits.",
+ "odds_status": "Odds from 4 games (double-doubles). 87 odds credits left this month. Credit budget (91 left, 9 days to reset): skipped threes prices. Game lines skipped to save credits.",
  "unmatched": [],
  "markets": [
   "ast_o0.5",
