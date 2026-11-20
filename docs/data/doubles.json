@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "generated": "2026-11-20T07:04+00:00",
+ "generated": "2026-11-20T19:53+00:00",
  "games": [
   {
    "id": "401909305",
@@ -16,7 +16,7 @@
    "away": "ORL",
    "home": "BKN",
    "total": 222.5,
-   "spread_home": 5.5
+   "spread_home": 6.5
   },
   {
    "id": "401909307",
@@ -24,30 +24,30 @@
    "away": "IND",
    "home": "CLE",
    "total": 234.5,
-   "spread_home": -6.5
+   "spread_home": -5.5
   },
   {
    "id": "401909308",
    "start": "2026-11-21T00:30Z",
    "away": "TOR",
    "home": "DET",
-   "total": 216.5,
-   "spread_home": -7.5
+   "total": 215.5,
+   "spread_home": -6.5
   },
   {
    "id": "401909309",
    "start": "2026-11-21T01:00Z",
    "away": "WAS",
    "home": "CHI",
-   "total": 240.5,
-   "spread_home": -3.5
+   "total": 237.5,
+   "spread_home": -2.5
   },
   {
    "id": "401909310",
    "start": "2026-11-21T01:00Z",
    "away": "NOP",
    "home": "OKC",
-   "total": 228.5,
+   "total": 227.5,
    "spread_home": -11.5
   },
   {
@@ -55,7 +55,7 @@
    "start": "2026-11-21T02:30Z",
    "away": "PHX",
    "home": "UTA",
-   "total": 227.5,
+   "total": 225.5,
    "spread_home": 4.5
   },
   {
@@ -63,7 +63,7 @@
    "start": "2026-11-21T03:00Z",
    "away": "HOU",
    "home": "DEN",
-   "total": 225.5,
+   "total": 226.5,
    "spread_home": -1.5
   },
   {
@@ -71,7 +71,7 @@
    "start": "2026-11-21T03:00Z",
    "away": "SAC",
    "home": "LAL",
-   "total": 230.5,
+   "total": 229.5,
    "spread_home": -14.5
   }
  ],
@@ -84,13 +84,13 @@
    "game_id": "401909312",
    "min": 36.4,
    "status": "",
-   "p_dd": 0.7965,
-   "p_td": 0.379,
+   "p_dd": 0.7973,
+   "p_td": 0.3806,
    "typ_dd": 0.7823,
    "typ_td": 0.3855,
    "exp_pts": 25.5,
    "exp_reb": 12.0,
-   "exp_ast": 9.3
+   "exp_ast": 9.4
   },
   {
    "id": 4701230,
@@ -116,11 +116,11 @@
    "game_id": "401909309",
    "min": 33.5,
    "status": "",
-   "p_dd": 0.5432,
+   "p_dd": 0.5405,
    "p_td": 0.0008,
    "typ_dd": 0.5497,
    "typ_td": 0.0006,
-   "exp_pts": 22.6,
+   "exp_pts": 22.4,
    "exp_reb": 10.5,
    "exp_ast": 2.5
   },
@@ -132,11 +132,11 @@
    "game_id": "401909313",
    "min": 30.5,
    "status": "",
-   "p_dd": 0.4861,
-   "p_td": 0.0269,
+   "p_dd": 0.4848,
+   "p_td": 0.0267,
    "typ_dd": 0.5849,
    "typ_td": 0.0309,
-   "exp_pts": 13.4,
+   "exp_pts": 13.3,
    "exp_reb": 10.2,
    "exp_ast": 4.8
   },
@@ -148,8 +148,8 @@
    "game_id": "401909312",
    "min": 31.9,
    "status": "Day-To-Day",
-   "p_dd": 0.4482,
-   "p_td": 0.058,
+   "p_dd": 0.4492,
+   "p_td": 0.0584,
    "typ_dd": 0.4684,
    "typ_td": 0.0602,
    "exp_pts": 20.9,
@@ -164,13 +164,13 @@
    "game_id": "401909313",
    "min": 36.4,
    "status": "",
-   "p_dd": 0.4219,
-   "p_td": 0.0725,
+   "p_dd": 0.4209,
+   "p_td": 0.0719,
    "typ_dd": 0.4106,
    "typ_td": 0.0684,
    "exp_pts": 34.6,
    "exp_reb": 6.8,
-   "exp_ast": 7.9
+   "exp_ast": 7.8
   },
   {
    "id": 4871145,
@@ -180,12 +180,12 @@
    "game_id": "401909309",
    "min": 29.7,
    "status": "",
-   "p_dd": 0.4189,
-   "p_td": 0.1005,
+   "p_dd": 0.415,
+   "p_td": 0.0985,
    "typ_dd": 0.4298,
    "typ_td": 0.1593,
-   "exp_pts": 13.1,
-   "exp_reb": 7.3,
+   "exp_pts": 13.0,
+   "exp_reb": 7.2,
    "exp_ast": 8.7
   },
   {
@@ -196,11 +196,11 @@
    "game_id": "401909308",
    "min": 35.3,
    "status": "Day-To-Day",
-   "p_dd": 0.3978,
-   "p_td": 0.0297,
+   "p_dd": 0.3968,
+   "p_td": 0.0294,
    "typ_dd": 0.3976,
    "typ_td": 0.0266,
-   "exp_pts": 25.6,
+   "exp_pts": 25.5,
    "exp_reb": 5.1,
    "exp_ast": 8.5
   },
@@ -212,12 +212,12 @@
    "game_id": "401909313",
    "min": 30.7,
    "status": "",
-   "p_dd": 0.3906,
+   "p_dd": 0.3895,
    "p_td": 0.0007,
    "typ_dd": 0.3921,
    "typ_td": 0.0015,
    "exp_pts": 14.1,
-   "exp_reb": 9.9,
+   "exp_reb": 9.8,
    "exp_ast": 2.5
   },
   {
@@ -260,12 +260,12 @@
    "game_id": "401909308",
    "min": 34.1,
    "status": "",
-   "p_dd": 0.2965,
-   "p_td": 0.0217,
+   "p_dd": 0.2956,
+   "p_td": 0.0215,
    "typ_dd": 0.3048,
    "typ_td": 0.0237,
    "exp_pts": 20.6,
-   "exp_reb": 7.5,
+   "exp_reb": 7.4,
    "exp_ast": 5.1
   },
   {
@@ -276,11 +276,11 @@
    "game_id": "401909309",
    "min": 31.4,
    "status": "",
-   "p_dd": 0.2878,
-   "p_td": 0.0009,
+   "p_dd": 0.2852,
+   "p_td": 0.0008,
    "typ_dd": 0.26,
    "typ_td": 0.0007,
-   "exp_pts": 16.9,
+   "exp_pts": 16.8,
    "exp_reb": 2.7,
    "exp_ast": 8.3
   },
@@ -292,11 +292,11 @@
    "game_id": "401909310",
    "min": 25.2,
    "status": "",
-   "p_dd": 0.284,
-   "p_td": 0.0082,
+   "p_dd": 0.2828,
+   "p_td": 0.0081,
    "typ_dd": 0.2677,
    "typ_td": 0.0113,
-   "exp_pts": 10.1,
+   "exp_pts": 10.0,
    "exp_reb": 10.6,
    "exp_ast": 4.0
   },
@@ -356,12 +356,12 @@
    "game_id": "401909312",
    "min": 34.6,
    "status": "",
-   "p_dd": 0.2268,
+   "p_dd": 0.2276,
    "p_td": 0.0041,
    "typ_dd": 0.2528,
    "typ_td": 0.0002,
-   "exp_pts": 16.2,
-   "exp_reb": 7.1,
+   "exp_pts": 16.3,
+   "exp_reb": 7.2,
    "exp_ast": 4.0
   },
   {
@@ -387,12 +387,12 @@
    "opp": "WAS",
    "game_id": "401909309",
    "min": 24.2,
-   "status": "",
-   "p_dd": 0.2198,
+   "status": "Day-To-Day",
+   "p_dd": 0.2173,
    "p_td": 0.0001,
    "typ_dd": 0.219,
    "typ_td": 0.0003,
-   "exp_pts": 13.5,
+   "exp_pts": 13.4,
    "exp_reb": 7.8,
    "exp_ast": 2.0
   },
@@ -436,11 +436,11 @@
    "game_id": "401909311",
    "min": 34.0,
    "status": "",
-   "p_dd": 0.1931,
-   "p_td": 0.004,
+   "p_dd": 0.1917,
+   "p_td": 0.0039,
    "typ_dd": 0.1565,
    "typ_td": 0.0002,
-   "exp_pts": 22.4,
+   "exp_pts": 22.3,
    "exp_reb": 3.9,
    "exp_ast": 7.0
   },
@@ -452,12 +452,12 @@
    "game_id": "401909309",
    "min": 28.0,
    "status": "",
-   "p_dd": 0.1891,
+   "p_dd": 0.1869,
    "p_td": 0.0002,
    "typ_dd": 0.1618,
    "typ_td": 0.0003,
-   "exp_pts": 15.2,
-   "exp_reb": 7.4,
+   "exp_pts": 15.1,
+   "exp_reb": 7.3,
    "exp_ast": 2.2
   },
   {
@@ -532,29 +532,13 @@
    "game_id": "401909312",
    "min": 36.0,
    "status": "",
-   "p_dd": 0.1545,
-   "p_td": 0.0062,
+   "p_dd": 0.1551,
+   "p_td": 0.0063,
    "typ_dd": 0.1391,
    "typ_td": 0.0002,
    "exp_pts": 25.9,
    "exp_reb": 4.8,
    "exp_ast": 6.0
-  },
-  {
-   "id": 5142718,
-   "name": "AJ Dybantsa",
-   "team": "WAS",
-   "opp": "CHI",
-   "game_id": "401909309",
-   "min": 34.2,
-   "status": "",
-   "p_dd": 0.1443,
-   "p_td": 0.0014,
-   "typ_dd": 0.0764,
-   "typ_td": 0.0032,
-   "exp_pts": 16.5,
-   "exp_reb": 7.0,
-   "exp_ast": 3.0
   },
   {
    "id": 4684742,
@@ -564,13 +548,29 @@
    "game_id": "401909308",
    "min": 28.1,
    "status": "",
-   "p_dd": 0.1436,
-   "p_td": 0.0122,
+   "p_dd": 0.1428,
+   "p_td": 0.0121,
    "typ_dd": 0.1473,
    "typ_td": 0.0305,
    "exp_pts": 10.6,
    "exp_reb": 6.9,
    "exp_ast": 4.8
+  },
+  {
+   "id": 5142718,
+   "name": "AJ Dybantsa",
+   "team": "WAS",
+   "opp": "CHI",
+   "game_id": "401909309",
+   "min": 34.2,
+   "status": "",
+   "p_dd": 0.1423,
+   "p_td": 0.0014,
+   "typ_dd": 0.0764,
+   "typ_td": 0.0032,
+   "exp_pts": 16.4,
+   "exp_reb": 7.0,
+   "exp_ast": 3.0
   },
   {
    "id": 4432639,
@@ -580,7 +580,7 @@
    "game_id": "401909312",
    "min": 32.7,
    "status": "",
-   "p_dd": 0.1382,
+   "p_dd": 0.1387,
    "p_td": 0.0001,
    "typ_dd": 0.1806,
    "typ_td": 0.0002,
@@ -612,7 +612,7 @@
    "game_id": "401909310",
    "min": 22.5,
    "status": "",
-   "p_dd": 0.1304,
+   "p_dd": 0.1299,
    "p_td": 0.0027,
    "typ_dd": 0.1761,
    "typ_td": 0.0131,
@@ -628,29 +628,13 @@
    "game_id": "401909313",
    "min": 36.6,
    "status": "",
-   "p_dd": 0.1269,
+   "p_dd": 0.1264,
    "p_td": 0.0027,
    "typ_dd": 0.1307,
    "typ_td": 0.003,
-   "exp_pts": 23.3,
+   "exp_pts": 23.2,
    "exp_reb": 3.9,
    "exp_ast": 5.8
-  },
-  {
-   "id": 4066383,
-   "name": "Miles Bridges",
-   "team": "PHX",
-   "opp": "UTA",
-   "game_id": "401909311",
-   "min": 28.6,
-   "status": "",
-   "p_dd": 0.1246,
-   "p_td": 0.0005,
-   "typ_dd": 0.1482,
-   "typ_td": 0.0002,
-   "exp_pts": 14.7,
-   "exp_reb": 6.1,
-   "exp_ast": 3.1
   },
   {
    "id": 5174983,
@@ -660,13 +644,29 @@
    "game_id": "401909310",
    "min": 23.3,
    "status": "",
-   "p_dd": 0.1245,
+   "p_dd": 0.1239,
    "p_td": 0.0007,
    "typ_dd": 0.127,
    "typ_td": 0.0029,
    "exp_pts": 10.6,
    "exp_reb": 7.1,
    "exp_ast": 2.3
+  },
+  {
+   "id": 4066383,
+   "name": "Miles Bridges",
+   "team": "PHX",
+   "opp": "UTA",
+   "game_id": "401909311",
+   "min": 28.6,
+   "status": "",
+   "p_dd": 0.1236,
+   "p_td": 0.0005,
+   "typ_dd": 0.1482,
+   "typ_td": 0.0002,
+   "exp_pts": 14.7,
+   "exp_reb": 6.0,
+   "exp_ast": 3.1
   },
   {
    "id": 3908809,
@@ -692,11 +692,11 @@
    "game_id": "401909309",
    "min": 23.7,
    "status": "",
-   "p_dd": 0.1093,
+   "p_dd": 0.1077,
    "p_td": 0.0047,
    "typ_dd": 0.1228,
    "typ_td": 0.0219,
-   "exp_pts": 10.7,
+   "exp_pts": 10.6,
    "exp_reb": 6.6,
    "exp_ast": 2.8
   },
@@ -724,7 +724,7 @@
    "game_id": "401909308",
    "min": 24.2,
    "status": "",
-   "p_dd": 0.1017,
+   "p_dd": 0.1012,
    "p_td": 0.0001,
    "typ_dd": 0.1481,
    "typ_td": 0.0003,
@@ -740,29 +740,13 @@
    "game_id": "401909310",
    "min": 18.4,
    "status": "",
-   "p_dd": 0.0978,
+   "p_dd": 0.0977,
    "p_td": 0.0002,
    "typ_dd": 0.2291,
    "typ_td": 0.0011,
    "exp_pts": 6.3,
    "exp_reb": 5.2,
    "exp_ast": 1.2
-  },
-  {
-   "id": 4395628,
-   "name": "Zion Williamson",
-   "team": "NOP",
-   "opp": "OKC",
-   "game_id": "401909310",
-   "min": 30.7,
-   "status": "",
-   "p_dd": 0.0894,
-   "p_td": 0.0002,
-   "typ_dd": 0.0828,
-   "typ_td": 0.0002,
-   "exp_pts": 21.7,
-   "exp_reb": 5.6,
-   "exp_ast": 2.7
   },
   {
    "id": 6478,
@@ -781,6 +765,22 @@
    "exp_ast": 1.9
   },
   {
+   "id": 4395628,
+   "name": "Zion Williamson",
+   "team": "NOP",
+   "opp": "OKC",
+   "game_id": "401909310",
+   "min": 30.7,
+   "status": "",
+   "p_dd": 0.089,
+   "p_td": 0.0002,
+   "typ_dd": 0.0828,
+   "typ_td": 0.0002,
+   "exp_pts": 21.6,
+   "exp_reb": 5.6,
+   "exp_ast": 2.7
+  },
+  {
    "id": 4433192,
    "name": "Tari Eason",
    "team": "HOU",
@@ -788,7 +788,7 @@
    "game_id": "401909312",
    "min": 26.0,
    "status": "",
-   "p_dd": 0.0875,
+   "p_dd": 0.0879,
    "p_td": 0.0,
    "typ_dd": 0.1099,
    "typ_td": 0.0002,
@@ -804,29 +804,13 @@
    "game_id": "401909311",
    "min": 33.2,
    "status": "",
-   "p_dd": 0.0859,
-   "p_td": 0.0009,
+   "p_dd": 0.0851,
+   "p_td": 0.0008,
    "typ_dd": 0.0542,
    "typ_td": 0.0002,
-   "exp_pts": 24.2,
-   "exp_reb": 3.4,
+   "exp_pts": 24.1,
+   "exp_reb": 3.3,
    "exp_ast": 5.7
-  },
-  {
-   "id": 4395724,
-   "name": "Immanuel Quickley",
-   "team": "TOR",
-   "opp": "DET",
-   "game_id": "401909308",
-   "min": 32.1,
-   "status": "",
-   "p_dd": 0.085,
-   "p_td": 0.0013,
-   "typ_dd": 0.0676,
-   "typ_td": 0.0002,
-   "exp_pts": 17.0,
-   "exp_reb": 3.7,
-   "exp_ast": 5.6
   },
   {
    "id": 3202,
@@ -836,13 +820,29 @@
    "game_id": "401909312",
    "min": 34.0,
    "status": "",
-   "p_dd": 0.0842,
-   "p_td": 0.0011,
+   "p_dd": 0.0845,
+   "p_td": 0.0012,
    "typ_dd": 0.1048,
    "typ_td": 0.0002,
-   "exp_pts": 22.4,
+   "exp_pts": 22.5,
    "exp_reb": 4.9,
    "exp_ast": 4.0
+  },
+  {
+   "id": 4395724,
+   "name": "Immanuel Quickley",
+   "team": "TOR",
+   "opp": "DET",
+   "game_id": "401909308",
+   "min": 32.1,
+   "status": "",
+   "p_dd": 0.0845,
+   "p_td": 0.0013,
+   "typ_dd": 0.0676,
+   "typ_td": 0.0002,
+   "exp_pts": 16.9,
+   "exp_reb": 3.7,
+   "exp_ast": 5.6
   },
   {
    "id": 4278073,
@@ -852,11 +852,11 @@
    "game_id": "401909310",
    "min": 33.5,
    "status": "",
-   "p_dd": 0.0791,
+   "p_dd": 0.0788,
    "p_td": 0.0019,
    "typ_dd": 0.0654,
    "typ_td": 0.0002,
-   "exp_pts": 32.4,
+   "exp_pts": 32.3,
    "exp_reb": 4.3,
    "exp_ast": 5.0
   },
@@ -868,7 +868,7 @@
    "game_id": "401909308",
    "min": 21.3,
    "status": "",
-   "p_dd": 0.0775,
+   "p_dd": 0.077,
    "p_td": 0.0001,
    "typ_dd": 0.0871,
    "typ_td": 0.0002,
@@ -884,7 +884,7 @@
    "game_id": "401909310",
    "min": 28.7,
    "status": "",
-   "p_dd": 0.0751,
+   "p_dd": 0.0747,
    "p_td": 0.0073,
    "typ_dd": 0.077,
    "typ_td": 0.0279,
@@ -900,7 +900,7 @@
    "game_id": "401909310",
    "min": 32.1,
    "status": "",
-   "p_dd": 0.0747,
+   "p_dd": 0.0743,
    "p_td": 0.0002,
    "typ_dd": 0.0809,
    "typ_td": 0.0002,
@@ -916,7 +916,7 @@
    "game_id": "401909308",
    "min": 26.6,
    "status": "",
-   "p_dd": 0.0718,
+   "p_dd": 0.0714,
    "p_td": 0.0,
    "typ_dd": 0.0855,
    "typ_td": 0.0002,
@@ -932,7 +932,7 @@
    "game_id": "401909309",
    "min": 16.8,
    "status": "",
-   "p_dd": 0.0715,
+   "p_dd": 0.0712,
    "p_td": 0.0,
    "typ_dd": 0.1613,
    "typ_td": 0.0002,
@@ -948,7 +948,7 @@
    "game_id": "401909313",
    "min": 22.9,
    "status": "Day-To-Day",
-   "p_dd": 0.0704,
+   "p_dd": 0.0702,
    "p_td": 0.0,
    "typ_dd": 0.1303,
    "typ_td": 0.0002,
@@ -964,7 +964,7 @@
    "game_id": "401909312",
    "min": 28.6,
    "status": "",
-   "p_dd": 0.0683,
+   "p_dd": 0.0686,
    "p_td": 0.0001,
    "typ_dd": 0.0948,
    "typ_td": 0.0004,
@@ -980,29 +980,13 @@
    "game_id": "401909309",
    "min": 28.9,
    "status": "",
-   "p_dd": 0.0644,
+   "p_dd": 0.0633,
    "p_td": 0.0001,
    "typ_dd": 0.0313,
    "typ_td": 0.0002,
-   "exp_pts": 16.6,
+   "exp_pts": 16.5,
    "exp_reb": 5.6,
    "exp_ast": 2.1
-  },
-  {
-   "id": 5174563,
-   "name": "Kyshawn George",
-   "team": "WAS",
-   "opp": "CHI",
-   "game_id": "401909309",
-   "min": 32.3,
-   "status": "",
-   "p_dd": 0.0609,
-   "p_td": 0.0018,
-   "typ_dd": 0.0352,
-   "typ_td": 0.0003,
-   "exp_pts": 17.2,
-   "exp_reb": 4.9,
-   "exp_ast": 4.4
   },
   {
    "id": 4712849,
@@ -1021,6 +1005,22 @@
    "exp_ast": 4.9
   },
   {
+   "id": 5174563,
+   "name": "Kyshawn George",
+   "team": "WAS",
+   "opp": "CHI",
+   "game_id": "401909309",
+   "min": 32.3,
+   "status": "",
+   "p_dd": 0.0598,
+   "p_td": 0.0017,
+   "typ_dd": 0.0352,
+   "typ_td": 0.0003,
+   "exp_pts": 17.1,
+   "exp_reb": 4.9,
+   "exp_ast": 4.4
+  },
+  {
    "id": 4873138,
    "name": "Ace Bailey",
    "team": "UTA",
@@ -1028,29 +1028,13 @@
    "game_id": "401909311",
    "min": 29.1,
    "status": "",
-   "p_dd": 0.0574,
+   "p_dd": 0.0569,
    "p_td": 0.0001,
    "typ_dd": 0.0654,
    "typ_td": 0.0002,
    "exp_pts": 13.7,
    "exp_reb": 5.1,
-   "exp_ast": 2.2
-  },
-  {
-   "id": 5159925,
-   "name": "Nikola Topic",
-   "team": "OKC",
-   "opp": "NOP",
-   "game_id": "401909310",
-   "min": 14.1,
-   "status": "",
-   "p_dd": 0.0548,
-   "p_td": 0.0003,
-   "typ_dd": 0.1369,
-   "typ_td": 0.0015,
-   "exp_pts": 4.9,
-   "exp_reb": 1.8,
-   "exp_ast": 2.5
+   "exp_ast": 2.1
   },
   {
    "id": 5061589,
@@ -1060,7 +1044,7 @@
    "game_id": "401909310",
    "min": 19.9,
    "status": "",
-   "p_dd": 0.0541,
+   "p_dd": 0.0539,
    "p_td": 0.0001,
    "typ_dd": 0.1004,
    "typ_td": 0.0003,
@@ -1076,12 +1060,12 @@
    "game_id": "401909311",
    "min": 18.4,
    "status": "",
-   "p_dd": 0.0509,
+   "p_dd": 0.0502,
    "p_td": 0.0004,
    "typ_dd": 0.0563,
    "typ_td": 0.0018,
    "exp_pts": 8.3,
-   "exp_reb": 6.2,
+   "exp_reb": 6.1,
    "exp_ast": 1.2
   },
   {
@@ -1108,7 +1092,7 @@
    "game_id": "401909311",
    "min": 19.4,
    "status": "",
-   "p_dd": 0.05,
+   "p_dd": 0.0497,
    "p_td": 0.0001,
    "typ_dd": 0.0952,
    "typ_td": 0.0002,
@@ -1124,11 +1108,11 @@
    "game_id": "401909308",
    "min": 23.0,
    "status": "",
-   "p_dd": 0.0491,
+   "p_dd": 0.0489,
    "p_td": 0.0,
    "typ_dd": 0.0727,
    "typ_td": 0.0002,
-   "exp_pts": 8.2,
+   "exp_pts": 8.1,
    "exp_reb": 1.8,
    "exp_ast": 5.7
   },
@@ -1140,11 +1124,11 @@
    "game_id": "401909311",
    "min": 14.5,
    "status": "",
-   "p_dd": 0.0464,
+   "p_dd": 0.0463,
    "p_td": 0.0,
    "typ_dd": 0.1086,
    "typ_td": 0.0002,
-   "exp_pts": 6.8,
+   "exp_pts": 6.7,
    "exp_reb": 4.2,
    "exp_ast": 1.3
   },
@@ -1188,7 +1172,7 @@
    "game_id": "401909313",
    "min": 31.0,
    "status": "",
-   "p_dd": 0.0407,
+   "p_dd": 0.0405,
    "p_td": 0.0001,
    "typ_dd": 0.0625,
    "typ_td": 0.0007,
@@ -1213,6 +1197,22 @@
    "exp_ast": 2.0
   },
   {
+   "id": 2991230,
+   "name": "Fred VanVleet",
+   "team": "HOU",
+   "opp": "DEN",
+   "game_id": "401909312",
+   "min": 29.7,
+   "status": "",
+   "p_dd": 0.0364,
+   "p_td": 0.0008,
+   "typ_dd": 0.0438,
+   "typ_td": 0.0031,
+   "exp_pts": 13.6,
+   "exp_reb": 3.4,
+   "exp_ast": 4.4
+  },
+  {
    "id": 3133603,
    "name": "Kelly Oubre Jr.",
    "team": "IND",
@@ -1227,22 +1227,6 @@
    "exp_pts": 13.7,
    "exp_reb": 4.2,
    "exp_ast": 1.4
-  },
-  {
-   "id": 2991230,
-   "name": "Fred VanVleet",
-   "team": "HOU",
-   "opp": "DEN",
-   "game_id": "401909312",
-   "min": 29.7,
-   "status": "",
-   "p_dd": 0.0362,
-   "p_td": 0.0008,
-   "typ_dd": 0.0438,
-   "typ_td": 0.0031,
-   "exp_pts": 13.6,
-   "exp_reb": 3.4,
-   "exp_ast": 4.4
   },
   {
    "id": 5105854,
@@ -1268,11 +1252,11 @@
    "game_id": "401909311",
    "min": 30.5,
    "status": "",
-   "p_dd": 0.035,
+   "p_dd": 0.0347,
    "p_td": 0.0008,
    "typ_dd": 0.0401,
    "typ_td": 0.0028,
-   "exp_pts": 16.5,
+   "exp_pts": 16.4,
    "exp_reb": 4.2,
    "exp_ast": 3.5
   },
@@ -1284,13 +1268,13 @@
    "game_id": "401909308",
    "min": 28.3,
    "status": "",
-   "p_dd": 0.034,
+   "p_dd": 0.0338,
    "p_td": 0.0003,
    "typ_dd": 0.0257,
    "typ_td": 0.0002,
    "exp_pts": 13.7,
    "exp_reb": 3.4,
-   "exp_ast": 4.7
+   "exp_ast": 4.6
   },
   {
    "id": 4278585,
@@ -1300,11 +1284,11 @@
    "game_id": "401909311",
    "min": 25.8,
    "status": "",
-   "p_dd": 0.0323,
+   "p_dd": 0.032,
    "p_td": 0.0001,
    "typ_dd": 0.0527,
    "typ_td": 0.0002,
-   "exp_pts": 12.4,
+   "exp_pts": 12.3,
    "exp_reb": 3.2,
    "exp_ast": 4.0
   },
@@ -1316,11 +1300,11 @@
    "game_id": "401909309",
    "min": 22.6,
    "status": "",
-   "p_dd": 0.0315,
+   "p_dd": 0.0311,
    "p_td": 0.0001,
    "typ_dd": 0.0451,
    "typ_td": 0.0002,
-   "exp_pts": 12.4,
+   "exp_pts": 12.3,
    "exp_reb": 2.6,
    "exp_ast": 4.3
   },
@@ -1348,7 +1332,7 @@
    "game_id": "401909313",
    "min": 19.2,
    "status": "",
-   "p_dd": 0.0291,
+   "p_dd": 0.0289,
    "p_td": 0.0001,
    "typ_dd": 0.0508,
    "typ_td": 0.0004,
@@ -1401,7 +1385,7 @@
    "typ_dd": 0.0626,
    "typ_td": 0.0012,
    "exp_pts": 5.8,
-   "exp_reb": 3.8,
+   "exp_reb": 3.7,
    "exp_ast": 1.5
   },
   {
@@ -1412,7 +1396,7 @@
    "game_id": "401909311",
    "min": 21.5,
    "status": "",
-   "p_dd": 0.0247,
+   "p_dd": 0.0242,
    "p_td": 0.0,
    "typ_dd": 0.0116,
    "typ_td": 0.0002,
@@ -1508,11 +1492,11 @@
    "game_id": "401909312",
    "min": 17.9,
    "status": "",
-   "p_dd": 0.0205,
+   "p_dd": 0.0206,
    "p_td": 0.0006,
    "typ_dd": 0.0438,
    "typ_td": 0.0031,
-   "exp_pts": 6.9,
+   "exp_pts": 7.0,
    "exp_reb": 4.1,
    "exp_ast": 0.9
   },
@@ -1572,11 +1556,11 @@
    "game_id": "401909311",
    "min": 22.3,
    "status": "",
-   "p_dd": 0.0198,
+   "p_dd": 0.0197,
    "p_td": 0.0,
    "typ_dd": 0.0303,
    "typ_td": 0.0002,
-   "exp_pts": 14.2,
+   "exp_pts": 14.1,
    "exp_reb": 3.8,
    "exp_ast": 1.9
   },
@@ -1588,11 +1572,11 @@
    "game_id": "401909311",
    "min": 21.4,
    "status": "",
-   "p_dd": 0.0196,
+   "p_dd": 0.0193,
    "p_td": 0.0001,
    "typ_dd": 0.021,
    "typ_td": 0.0002,
-   "exp_pts": 9.4,
+   "exp_pts": 9.3,
    "exp_reb": 4.6,
    "exp_ast": 2.5
   },
@@ -1604,13 +1588,29 @@
    "game_id": "401909313",
    "min": 23.2,
    "status": "",
-   "p_dd": 0.0193,
+   "p_dd": 0.0192,
    "p_td": 0.0,
    "typ_dd": 0.022,
    "typ_td": 0.0002,
    "exp_pts": 10.9,
    "exp_reb": 4.3,
    "exp_ast": 1.8
+  },
+  {
+   "id": 4431767,
+   "name": "Christian Braun",
+   "team": "DEN",
+   "opp": "HOU",
+   "game_id": "401909312",
+   "min": 32.8,
+   "status": "",
+   "p_dd": 0.019,
+   "p_td": 0.0001,
+   "typ_dd": 0.0045,
+   "typ_td": 0.0003,
+   "exp_pts": 12.0,
+   "exp_reb": 4.6,
+   "exp_ast": 2.6
   },
   {
    "id": 4576060,
@@ -1636,29 +1636,13 @@
    "game_id": "401909311",
    "min": 23.0,
    "status": "",
-   "p_dd": 0.019,
+   "p_dd": 0.0188,
    "p_td": 0.0001,
    "typ_dd": 0.0313,
    "typ_td": 0.0002,
-   "exp_pts": 6.1,
+   "exp_pts": 6.0,
    "exp_reb": 5.3,
-   "exp_ast": 3.0
-  },
-  {
-   "id": 4431767,
-   "name": "Christian Braun",
-   "team": "DEN",
-   "opp": "HOU",
-   "game_id": "401909312",
-   "min": 32.8,
-   "status": "",
-   "p_dd": 0.0188,
-   "p_td": 0.0001,
-   "typ_dd": 0.0045,
-   "typ_td": 0.0003,
-   "exp_pts": 12.0,
-   "exp_reb": 4.6,
-   "exp_ast": 2.5
+   "exp_ast": 2.9
   },
   {
    "id": 5023693,
@@ -1677,22 +1661,6 @@
    "exp_ast": 2.5
   },
   {
-   "id": 4900671,
-   "name": "Ajay Mitchell",
-   "team": "OKC",
-   "opp": "NOP",
-   "game_id": "401909310",
-   "min": 27.1,
-   "status": "",
-   "p_dd": 0.0182,
-   "p_td": 0.0002,
-   "typ_dd": 0.0133,
-   "typ_td": 0.0003,
-   "exp_pts": 16.4,
-   "exp_reb": 3.6,
-   "exp_ast": 3.7
-  },
-  {
    "id": 4278039,
    "name": "Nickeil Alexander-Walker",
    "team": "ATL",
@@ -1707,6 +1675,22 @@
    "exp_pts": 19.7,
    "exp_reb": 3.7,
    "exp_ast": 3.3
+  },
+  {
+   "id": 4900671,
+   "name": "Ajay Mitchell",
+   "team": "OKC",
+   "opp": "NOP",
+   "game_id": "401909310",
+   "min": 27.1,
+   "status": "",
+   "p_dd": 0.0181,
+   "p_td": 0.0002,
+   "typ_dd": 0.0133,
+   "typ_td": 0.0003,
+   "exp_pts": 16.4,
+   "exp_reb": 3.5,
+   "exp_ast": 3.7
   },
   {
    "id": 2530530,
@@ -1769,7 +1753,7 @@
    "typ_dd": 0.0412,
    "typ_td": 0.0003,
    "exp_pts": 5.2,
-   "exp_reb": 3.2,
+   "exp_reb": 3.1,
    "exp_ast": 1.0
   },
   {
@@ -1832,7 +1816,7 @@
    "p_td": 0.0,
    "typ_dd": 0.0336,
    "typ_td": 0.0002,
-   "exp_pts": 9.4,
+   "exp_pts": 9.3,
    "exp_reb": 1.6,
    "exp_ast": 3.4
   },
@@ -1869,22 +1853,6 @@
    "exp_ast": 1.0
   },
   {
-   "id": 4397449,
-   "name": "Elijah Harkless",
-   "team": "DET",
-   "opp": "TOR",
-   "game_id": "401909308",
-   "min": 14.3,
-   "status": "",
-   "p_dd": 0.0147,
-   "p_td": 0.0001,
-   "typ_dd": 0.0366,
-   "typ_td": 0.0007,
-   "exp_pts": 5.0,
-   "exp_reb": 1.5,
-   "exp_ast": 2.1
-  },
-  {
    "id": 5174655,
    "name": "Chaney Johnson",
    "team": "BKN",
@@ -1899,6 +1867,22 @@
    "exp_pts": 4.8,
    "exp_reb": 3.0,
    "exp_ast": 1.3
+  },
+  {
+   "id": 4397449,
+   "name": "Elijah Harkless",
+   "team": "DET",
+   "opp": "TOR",
+   "game_id": "401909308",
+   "min": 14.3,
+   "status": "",
+   "p_dd": 0.0146,
+   "p_td": 0.0001,
+   "typ_dd": 0.0366,
+   "typ_td": 0.0007,
+   "exp_pts": 5.0,
+   "exp_reb": 1.5,
+   "exp_ast": 2.1
   },
   {
    "id": 4278572,
@@ -1924,11 +1908,11 @@
    "game_id": "401909313",
    "min": 30.3,
    "status": "",
-   "p_dd": 0.0131,
+   "p_dd": 0.013,
    "p_td": 0.0001,
    "typ_dd": 0.0174,
    "typ_td": 0.0002,
-   "exp_pts": 15.7,
+   "exp_pts": 15.6,
    "exp_reb": 3.4,
    "exp_ast": 2.9
   },
@@ -1940,7 +1924,7 @@
    "game_id": "401909312",
    "min": 29.5,
    "status": "",
-   "p_dd": 0.0125,
+   "p_dd": 0.0126,
    "p_td": 0.0001,
    "typ_dd": 0.0154,
    "typ_td": 0.0003,
@@ -1972,7 +1956,7 @@
    "game_id": "401909310",
    "min": 15.4,
    "status": "",
-   "p_dd": 0.0112,
+   "p_dd": 0.0111,
    "p_td": 0.0002,
    "typ_dd": 0.017,
    "typ_td": 0.0012,
@@ -1988,7 +1972,7 @@
    "game_id": "401909313",
    "min": 31.1,
    "status": "Day-To-Day",
-   "p_dd": 0.0112,
+   "p_dd": 0.0111,
    "p_td": 0.0001,
    "typ_dd": 0.0045,
    "typ_td": 0.0003,
@@ -2004,11 +1988,11 @@
    "game_id": "401909311",
    "min": 25.7,
    "status": "",
-   "p_dd": 0.0109,
+   "p_dd": 0.0107,
    "p_td": 0.0001,
    "typ_dd": 0.0057,
    "typ_td": 0.0004,
-   "exp_pts": 14.6,
+   "exp_pts": 14.5,
    "exp_reb": 3.7,
    "exp_ast": 2.9
   },
@@ -2024,7 +2008,7 @@
    "p_td": 0.0001,
    "typ_dd": 0.0248,
    "typ_td": 0.0003,
-   "exp_pts": 7.9,
+   "exp_pts": 7.8,
    "exp_reb": 2.9,
    "exp_ast": 2.0
   },
@@ -2036,11 +2020,11 @@
    "game_id": "401909309",
    "min": 29.2,
    "status": "",
-   "p_dd": 0.0104,
+   "p_dd": 0.0102,
    "p_td": 0.0001,
    "typ_dd": 0.0135,
    "typ_td": 0.0003,
-   "exp_pts": 22.0,
+   "exp_pts": 21.9,
    "exp_reb": 3.3,
    "exp_ast": 2.6
   },
@@ -2068,11 +2052,11 @@
    "game_id": "401909309",
    "min": 25.0,
    "status": "",
-   "p_dd": 0.01,
+   "p_dd": 0.0097,
    "p_td": 0.0,
    "typ_dd": 0.0034,
    "typ_td": 0.0002,
-   "exp_pts": 8.8,
+   "exp_pts": 8.7,
    "exp_reb": 4.5,
    "exp_ast": 1.4
   },
@@ -2136,25 +2120,9 @@
    "p_td": 0.0,
    "typ_dd": 0.0185,
    "typ_td": 0.0002,
-   "exp_pts": 5.4,
+   "exp_pts": 5.3,
    "exp_reb": 4.1,
    "exp_ast": 1.3
-  },
-  {
-   "id": 5203685,
-   "name": "Khaman Maluach",
-   "team": "PHX",
-   "opp": "UTA",
-   "game_id": "401909311",
-   "min": 14.4,
-   "status": "",
-   "p_dd": 0.0085,
-   "p_td": 0.0001,
-   "typ_dd": 0.0157,
-   "typ_td": 0.0003,
-   "exp_pts": 5.9,
-   "exp_reb": 4.3,
-   "exp_ast": 0.8
   },
   {
    "id": 5211176,
@@ -2173,6 +2141,22 @@
    "exp_ast": 0.4
   },
   {
+   "id": 5203685,
+   "name": "Khaman Maluach",
+   "team": "PHX",
+   "opp": "UTA",
+   "game_id": "401909311",
+   "min": 14.4,
+   "status": "",
+   "p_dd": 0.0084,
+   "p_td": 0.0001,
+   "typ_dd": 0.0157,
+   "typ_td": 0.0003,
+   "exp_pts": 5.9,
+   "exp_reb": 4.3,
+   "exp_ast": 0.8
+  },
+  {
    "id": 3155526,
    "name": "Dillon Brooks",
    "team": "PHX",
@@ -2180,11 +2164,11 @@
    "game_id": "401909311",
    "min": 28.8,
    "status": "",
-   "p_dd": 0.0081,
+   "p_dd": 0.008,
    "p_td": 0.0001,
    "typ_dd": 0.0035,
    "typ_td": 0.0002,
-   "exp_pts": 16.2,
+   "exp_pts": 16.1,
    "exp_reb": 3.6,
    "exp_ast": 2.1
   },
@@ -2205,22 +2189,6 @@
    "exp_ast": 2.9
   },
   {
-   "id": 4066372,
-   "name": "Kevin Huerter",
-   "team": "DET",
-   "opp": "TOR",
-   "game_id": "401909308",
-   "min": 26.9,
-   "status": "",
-   "p_dd": 0.0078,
-   "p_td": 0.0001,
-   "typ_dd": 0.0108,
-   "typ_td": 0.0002,
-   "exp_pts": 10.8,
-   "exp_reb": 3.3,
-   "exp_ast": 2.9
-  },
-  {
    "id": 4278355,
    "name": "Obi Toppin",
    "team": "IND",
@@ -2235,6 +2203,38 @@
    "exp_pts": 9.7,
    "exp_reb": 3.8,
    "exp_ast": 1.7
+  },
+  {
+   "id": 4683771,
+   "name": "Ronald Holland II",
+   "team": "DET",
+   "opp": "TOR",
+   "game_id": "401909308",
+   "min": 17.3,
+   "status": "Day-To-Day",
+   "p_dd": 0.0078,
+   "p_td": 0.0,
+   "typ_dd": 0.0178,
+   "typ_td": 0.0002,
+   "exp_pts": 5.5,
+   "exp_reb": 3.7,
+   "exp_ast": 1.6
+  },
+  {
+   "id": 4066372,
+   "name": "Kevin Huerter",
+   "team": "DET",
+   "opp": "TOR",
+   "game_id": "401909308",
+   "min": 26.9,
+   "status": "",
+   "p_dd": 0.0077,
+   "p_td": 0.0001,
+   "typ_dd": 0.0108,
+   "typ_td": 0.0002,
+   "exp_pts": 10.7,
+   "exp_reb": 3.3,
+   "exp_ast": 2.9
   },
   {
    "id": 5279130,
@@ -2312,7 +2312,7 @@
    "p_td": 0.0,
    "typ_dd": 0.0181,
    "typ_td": 0.0002,
-   "exp_pts": 6.4,
+   "exp_pts": 6.3,
    "exp_reb": 1.7,
    "exp_ast": 0.9
   },
@@ -2365,22 +2365,6 @@
    "exp_ast": 0.9
   },
   {
-   "id": 4277956,
-   "name": "Jordan Poole",
-   "team": "NOP",
-   "opp": "OKC",
-   "game_id": "401909310",
-   "min": 24.0,
-   "status": "",
-   "p_dd": 0.0061,
-   "p_td": 0.0001,
-   "typ_dd": 0.0055,
-   "typ_td": 0.0004,
-   "exp_pts": 13.0,
-   "exp_reb": 2.0,
-   "exp_ast": 3.4
-  },
-  {
    "id": 4277811,
    "name": "Collin Sexton",
    "team": "LAL",
@@ -2397,20 +2381,20 @@
    "exp_ast": 3.0
   },
   {
-   "id": 4592691,
-   "name": "Jake LaRavia",
-   "team": "LAL",
-   "opp": "SAC",
-   "game_id": "401909313",
-   "min": 25.9,
+   "id": 4277956,
+   "name": "Jordan Poole",
+   "team": "NOP",
+   "opp": "OKC",
+   "game_id": "401909310",
+   "min": 24.0,
    "status": "",
-   "p_dd": 0.0059,
-   "p_td": 0.0,
-   "typ_dd": 0.0089,
-   "typ_td": 0.0002,
-   "exp_pts": 6.4,
-   "exp_reb": 4.1,
-   "exp_ast": 2.2
+   "p_dd": 0.006,
+   "p_td": 0.0001,
+   "typ_dd": 0.0055,
+   "typ_td": 0.0004,
+   "exp_pts": 13.0,
+   "exp_reb": 2.0,
+   "exp_ast": 3.4
   },
   {
    "id": 4398207,
@@ -2427,6 +2411,22 @@
    "exp_pts": 5.8,
    "exp_reb": 3.7,
    "exp_ast": 1.8
+  },
+  {
+   "id": 4592691,
+   "name": "Jake LaRavia",
+   "team": "LAL",
+   "opp": "SAC",
+   "game_id": "401909313",
+   "min": 25.9,
+   "status": "",
+   "p_dd": 0.0058,
+   "p_td": 0.0,
+   "typ_dd": 0.0089,
+   "typ_td": 0.0002,
+   "exp_pts": 6.4,
+   "exp_reb": 4.1,
+   "exp_ast": 2.2
   },
   {
    "id": 3064440,
@@ -2489,7 +2489,7 @@
    "typ_dd": 0.0116,
    "typ_td": 0.0002,
    "exp_pts": 4.9,
-   "exp_reb": 3.7,
+   "exp_reb": 3.6,
    "exp_ast": 0.8
   },
   {
@@ -2568,7 +2568,7 @@
    "p_td": 0.0,
    "typ_dd": 0.0092,
    "typ_td": 0.0002,
-   "exp_pts": 7.4,
+   "exp_pts": 7.3,
    "exp_reb": 2.8,
    "exp_ast": 0.5
   },
@@ -2632,7 +2632,7 @@
    "p_td": 0.0001,
    "typ_dd": 0.0072,
    "typ_td": 0.0005,
-   "exp_pts": 6.2,
+   "exp_pts": 6.3,
    "exp_reb": 1.9,
    "exp_ast": 1.6
   },
@@ -2644,11 +2644,11 @@
    "game_id": "401909309",
    "min": 26.6,
    "status": "",
-   "p_dd": 0.0027,
+   "p_dd": 0.0026,
    "p_td": 0.0,
    "typ_dd": 0.0031,
    "typ_td": 0.0002,
-   "exp_pts": 9.0,
+   "exp_pts": 8.9,
    "exp_reb": 3.1,
    "exp_ast": 2.1
   },
@@ -2717,22 +2717,6 @@
    "exp_ast": 1.7
   },
   {
-   "id": 4277813,
-   "name": "Herbert Jones",
-   "team": "NOP",
-   "opp": "OKC",
-   "game_id": "401909310",
-   "min": 26.9,
-   "status": "",
-   "p_dd": 0.0022,
-   "p_td": 0.0,
-   "typ_dd": 0.0033,
-   "typ_td": 0.0002,
-   "exp_pts": 7.7,
-   "exp_reb": 3.1,
-   "exp_ast": 2.1
-  },
-  {
    "id": 4397020,
    "name": "Luguentz Dort",
    "team": "ATL",
@@ -2765,6 +2749,22 @@
    "exp_ast": 0.8
   },
   {
+   "id": 4277813,
+   "name": "Herbert Jones",
+   "team": "NOP",
+   "opp": "OKC",
+   "game_id": "401909310",
+   "min": 26.9,
+   "status": "",
+   "p_dd": 0.0021,
+   "p_td": 0.0,
+   "typ_dd": 0.0033,
+   "typ_td": 0.0002,
+   "exp_pts": 7.6,
+   "exp_reb": 3.1,
+   "exp_ast": 2.1
+  },
+  {
    "id": 2993874,
    "name": "Kyle Anderson",
    "team": "TOR",
@@ -2792,25 +2792,9 @@
    "p_td": 0.0001,
    "typ_dd": 0.004,
    "typ_td": 0.0003,
-   "exp_pts": 8.6,
+   "exp_pts": 8.5,
    "exp_reb": 2.4,
    "exp_ast": 1.8
-  },
-  {
-   "id": 5238230,
-   "name": "Tre Johnson",
-   "team": "WAS",
-   "opp": "CHI",
-   "game_id": "401909309",
-   "min": 23.2,
-   "status": "",
-   "p_dd": 0.0018,
-   "p_td": 0.0,
-   "typ_dd": 0.0033,
-   "typ_td": 0.0002,
-   "exp_pts": 10.0,
-   "exp_reb": 2.6,
-   "exp_ast": 1.5
   },
   {
    "id": 2990992,
@@ -2845,22 +2829,6 @@
    "exp_ast": 1.8
   },
   {
-   "id": 3157465,
-   "name": "Duncan Robinson",
-   "team": "DET",
-   "opp": "TOR",
-   "game_id": "401909308",
-   "min": 29.5,
-   "status": "",
-   "p_dd": 0.0017,
-   "p_td": 0.0,
-   "typ_dd": 0.0028,
-   "typ_td": 0.0002,
-   "exp_pts": 15.0,
-   "exp_reb": 2.4,
-   "exp_ast": 2.1
-  },
-  {
    "id": 4280151,
    "name": "Corey Kispert",
    "team": "ATL",
@@ -2893,22 +2861,6 @@
    "exp_ast": 1.1
   },
   {
-   "id": 4433137,
-   "name": "Ziaire Williams",
-   "team": "LAL",
-   "opp": "SAC",
-   "game_id": "401909313",
-   "min": 22.7,
-   "status": "",
-   "p_dd": 0.0017,
-   "p_td": 0.0001,
-   "typ_dd": 0.0036,
-   "typ_td": 0.0003,
-   "exp_pts": 8.8,
-   "exp_reb": 2.4,
-   "exp_ast": 1.7
-  },
-  {
    "id": 5037873,
    "name": "Drake Powell",
    "team": "BKN",
@@ -2925,6 +2877,22 @@
    "exp_ast": 1.4
   },
   {
+   "id": 5238230,
+   "name": "Tre Johnson",
+   "team": "WAS",
+   "opp": "CHI",
+   "game_id": "401909309",
+   "min": 23.2,
+   "status": "",
+   "p_dd": 0.0017,
+   "p_td": 0.0,
+   "typ_dd": 0.0033,
+   "typ_td": 0.0002,
+   "exp_pts": 9.9,
+   "exp_reb": 2.5,
+   "exp_ast": 1.5
+  },
+  {
    "id": 3133602,
    "name": "Svi Mykhailiuk",
    "team": "UTA",
@@ -2939,6 +2907,22 @@
    "exp_pts": 6.9,
    "exp_reb": 2.4,
    "exp_ast": 2.0
+  },
+  {
+   "id": 4433137,
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "opp": "SAC",
+   "game_id": "401909313",
+   "min": 22.7,
+   "status": "",
+   "p_dd": 0.0016,
+   "p_td": 0.0001,
+   "typ_dd": 0.0036,
+   "typ_td": 0.0003,
+   "exp_pts": 8.8,
+   "exp_reb": 2.4,
+   "exp_ast": 1.6
   },
   {
    "id": 5239561,
@@ -3002,7 +2986,7 @@
    "typ_td": 0.0002,
    "exp_pts": 5.2,
    "exp_reb": 1.7,
-   "exp_ast": 1.0
+   "exp_ast": 0.9
   },
   {
    "id": 4701233,
@@ -3021,22 +3005,6 @@
    "exp_ast": 2.7
   },
   {
-   "id": 4845374,
-   "name": "Bub Carrington",
-   "team": "WAS",
-   "opp": "CHI",
-   "game_id": "401909309",
-   "min": 20.1,
-   "status": "",
-   "p_dd": 0.0014,
-   "p_td": 0.0,
-   "typ_dd": 0.0024,
-   "typ_td": 0.0002,
-   "exp_pts": 6.7,
-   "exp_reb": 2.0,
-   "exp_ast": 2.9
-  },
-  {
    "id": 4431893,
    "name": "Jamison Battle",
    "team": "TOR",
@@ -3053,6 +3021,22 @@
    "exp_ast": 0.4
   },
   {
+   "id": 4845374,
+   "name": "Bub Carrington",
+   "team": "WAS",
+   "opp": "CHI",
+   "game_id": "401909309",
+   "min": 20.1,
+   "status": "",
+   "p_dd": 0.0013,
+   "p_td": 0.0,
+   "typ_dd": 0.0024,
+   "typ_td": 0.0002,
+   "exp_pts": 6.6,
+   "exp_reb": 2.0,
+   "exp_ast": 2.9
+  },
+  {
    "id": 4702384,
    "name": "Nique Clifford",
    "team": "OKC",
@@ -3064,7 +3048,7 @@
    "p_td": 0.0,
    "typ_dd": 0.0027,
    "typ_td": 0.0002,
-   "exp_pts": 6.0,
+   "exp_pts": 5.9,
    "exp_reb": 2.6,
    "exp_ast": 1.5
   },
@@ -3133,6 +3117,14 @@
    "source": "ESPN",
    "min": 29.6,
    "typ_dd": 0.0494
+  },
+  {
+   "name": "Duncan Robinson",
+   "team": "DET",
+   "opp": "TOR",
+   "source": "Underdog NBA on X",
+   "min": 29.5,
+   "typ_dd": 0.0028
   },
   {
    "name": "Caleb Wilson",
@@ -3207,14 +3199,6 @@
    "typ_dd": 0.0884
   },
   {
-   "name": "Ronald Holland II",
-   "team": "DET",
-   "opp": "TOR",
-   "source": "ESPN",
-   "min": 17.3,
-   "typ_dd": 0.0178
-  },
-  {
    "name": "Trendon Watford",
    "team": "NOP",
    "opp": "OKC",
@@ -3229,6 +3213,14 @@
    "source": "ESPN",
    "min": 16.4,
    "typ_dd": 0.0057
+  },
+  {
+   "name": "Nikola Topic",
+   "team": "OKC",
+   "opp": "NOP",
+   "source": "ESPN",
+   "min": 14.1,
+   "typ_dd": 0.1369
   }
  ],
  "parlay": {
@@ -3238,8 +3230,8 @@
     "name": "Nikola Jokic",
     "team": "DEN",
     "game_id": "401909312",
-    "p_model": 0.7965,
-    "p": 0.782,
+    "p_model": 0.7973,
+    "p": 0.781,
     "price": null,
     "book": null,
     "priced": false
@@ -3250,7 +3242,7 @@
     "team": "ATL",
     "game_id": "401909305",
     "p_model": 0.5924,
-    "p": 0.5816,
+    "p": 0.5803,
     "price": null,
     "book": null,
     "priced": false
@@ -3260,8 +3252,8 @@
     "name": "Anthony Davis",
     "team": "WAS",
     "game_id": "401909309",
-    "p_model": 0.5432,
-    "p": 0.5333,
+    "p_model": 0.5405,
+    "p": 0.5295,
     "price": null,
     "book": null,
     "priced": false
@@ -3271,8 +3263,8 @@
     "name": "Domantas Sabonis",
     "team": "SAC",
     "game_id": "401909313",
-    "p_model": 0.4861,
-    "p": 0.4773,
+    "p_model": 0.4848,
+    "p": 0.4749,
     "price": null,
     "book": null,
     "priced": false
@@ -3282,7 +3274,7 @@
     "name": "Alperen Sengun",
     "team": "HOU",
     "game_id": "401909312",
-    "p_model": 0.4482,
+    "p_model": 0.4492,
     "p": 0.44,
     "price": null,
     "book": null,
@@ -3293,18 +3285,18 @@
     "name": "Luka Doncic",
     "team": "LAL",
     "game_id": "401909313",
-    "p_model": 0.4219,
-    "p": 0.4142,
+    "p_model": 0.4209,
+    "p": 0.4123,
     "price": null,
     "book": null,
     "priced": false
    }
   ],
   "calibration": {
-   "k": 0.9818,
-   "picks": 171,
-   "hits": 87,
-   "expected": 89.09
+   "k": 0.9796,
+   "picks": 176,
+   "hits": 89,
+   "expected": 91.39
   },
   "priced_legs": 0,
   "books_with_all_6": [],
@@ -3317,8 +3309,8 @@
     "total": 30.0,
     "exp_profit": -4.05,
     "roi": -0.1351,
-    "p_profit": 0.4126,
-    "p_lose_all": 0.0695,
+    "p_profit": 0.4091,
+    "p_lose_all": 0.0707,
     "breakeven_hits": 4,
     "can_profit_at": 4,
     "payout_by_hits": {
@@ -3331,31 +3323,31 @@
       0
      ],
      "2": [
-      3.8,
-      9.49
+      3.82,
+      9.53
      ],
      "3": [
-      13.53,
-      26.48
+      13.63,
+      26.65
      ],
      "4": [
-      31.19,
-      48.47
+      31.45,
+      48.87
      ],
      "5": [
-      58.58,
-      74.22
+      58.96,
+      74.78
      ],
      "6": [
-      97.17,
-      97.17
+      97.85,
+      97.85
      ]
     },
     "score": 3.1,
     "best_price": {
      "exp_profit": -4.05,
      "roi": -0.1351,
-     "p_profit": 0.4126
+     "p_profit": 0.4091
     },
     "rating": 3
    },
@@ -3367,8 +3359,8 @@
     "total": 30.0,
     "exp_profit": -5.87,
     "roi": -0.1956,
-    "p_profit": 0.2865,
-    "p_lose_all": 0.2689,
+    "p_profit": 0.2837,
+    "p_lose_all": 0.2719,
     "breakeven_hits": 5,
     "can_profit_at": 4,
     "payout_by_hits": {
@@ -3385,27 +3377,27 @@
       0
      ],
      "3": [
-      4.97,
-      13.87
+      5.03,
+      14.0
      ],
      "4": [
-      24.74,
-      48.5
+      25.04,
+      49.1
      ],
      "5": [
-      74.18,
-      106.63
+      74.89,
+      107.85
      ],
      "6": [
-      172.83,
-      172.83
+      174.63,
+      174.63
      ]
     },
     "score": 2.0,
     "best_price": {
      "exp_profit": -5.87,
      "roi": -0.1956,
-     "p_profit": 0.2865
+     "p_profit": 0.2837
     },
     "rating": 2
    }
